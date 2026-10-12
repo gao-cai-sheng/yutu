@@ -20,9 +20,14 @@
    const data=pack.header?await readChunk(pack.header):[];
    if(pack.header)complete++;
    const rows=pack.shape==='regions'?data.regions=[]:data;
-   for(const file of pack.chunks){
-    const chunk=await readChunk(file);for(const row of chunk)rows.push(row);
-    status.textContent='正在加载地图 · '+pack.title+' '+Math.round(++complete/total*100)+'%';
+   // Bound both network concurrency and decompressed buffers; preserve source order.
+   for(let i=0;i<pack.chunks.length;i+=4){
+    const batch=await Promise.all(pack.chunks.slice(i,i+4).map(async file=>{
+     const chunk=await readChunk(file);
+     status.textContent='正在加载地图 · '+pack.title+' '+Math.round(++complete/total*100)+'%';
+     return chunk;
+    }));
+    for(const chunk of batch)for(const row of chunk)rows.push(row);
     await new Promise(resolve=>setTimeout(resolve,0));
    }
    window[pack.global]=data;
