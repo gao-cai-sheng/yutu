@@ -1,0 +1,1901 @@
+{
+  "revision": 1,
+  "countries": [
+    {
+      "iso": "TUR",
+      "name": "土耳其",
+      "count": 973,
+      "source_count": 973,
+      "source_years": [
+        "2021"
+      ],
+      "geoBounds": [
+        25.6654487,
+        35.8080486,
+        44.8176638,
+        42.104699
+      ],
+      "view": [
+        245.16315794000002,
+        467.46168094000006,
+        214.50480912,
+        85.94916211999998
+      ]
+    },
+    {
+      "iso": "IRN",
+      "name": "伊朗",
+      "count": 432,
+      "source_count": 432,
+      "source_years": [
+        "2017"
+      ],
+      "geoBounds": [
+        44.03189080002045,
+        25.059413900331265,
+        63.33327039970925,
+        39.78165020029655
+      ],
+      "view": [
+        428.73808024039124,
+        490.6026702372212,
+        216.17545151651456,
+        170.38401851927944
+      ]
+    },
+    {
+      "iso": "IRQ",
+      "name": "伊拉克",
+      "count": 101,
+      "source_count": 101,
+      "source_years": [
+        "2021"
+      ],
+      "geoBounds": [
+        38.794836202000056,
+        29.06952693900007,
+        48.62379496600005,
+        37.377264006000075
+      ],
+      "view": [
+        382.05098676160054,
+        520.3299846815992,
+        110.08433815679992,
+        94.87212118680004
+      ]
+    },
+    {
+      "iso": "SYR",
+      "name": "叙利亚",
+      "count": 61,
+      "source_count": 61,
+      "source_years": [
+        "2017"
+      ],
+      "geoBounds": [
+        35.61393928500007,
+        32.31644249000004,
+        42.385042191000025,
+        37.31913948000005
+      ],
+      "view": [
+        352.07673110640076,
+        522.7459434563996,
+        75.83635254719948,
+        58.15229338719998
+      ]
+    },
+    {
+      "iso": "LBN",
+      "name": "黎巴嫩",
+      "count": 26,
+      "source_count": 26,
+      "source_years": [
+        "2021"
+      ],
+      "geoBounds": [
+        35.11185062800007,
+        33.05592290200008,
+        36.621549240000036,
+        34.692813855000054
+      ],
+      "view": [
+        350.13637170820067,
+        552.0897268781994,
+        17.061255263599627,
+        18.33317867359974
+      ]
+    },
+    {
+      "iso": "ISR",
+      "name": "以色列",
+      "count": 15,
+      "source_count": 15,
+      "source_years": [
+        "2021"
+      ],
+      "geoBounds": [
+        34.26747022579701,
+        29.490784930750863,
+        35.89510526457332,
+        33.33429753935127
+      ],
+      "view": [
+        340.3685946928099,
+        564.3509170413271,
+        20.888565518083535,
+        43.047341216324554
+      ]
+    },
+    {
+      "iso": "PSE",
+      "name": "巴勒斯坦",
+      "count": 16,
+      "source_count": 16,
+      "source_years": [
+        "2017"
+      ],
+      "geoBounds": [
+        34.2186651850001,
+        31.2243847880001,
+        35.57312202,
+        32.552146355
+      ],
+      "view": [
+        341.373977749001,
+        573.665862349,
+        15.169916551998892,
+        14.902963871998846
+      ]
+    },
+    {
+      "iso": "JOR",
+      "name": "约旦",
+      "count": 52,
+      "source_count": 52,
+      "source_years": [
+        "2006"
+      ],
+      "geoBounds": [
+        34.9586828422768,
+        29.18443994838043,
+        39.30079406425307,
+        33.37514583792387
+      ],
+      "view": [
+        346.9815616895823,
+        563.6432748875757,
+        48.6316456861342,
+        47.1175923618059
+      ]
+    },
+    {
+      "iso": "SAU",
+      "name": "沙特阿拉伯",
+      "count": 147,
+      "source_count": 147,
+      "source_years": [
+        "2021"
+      ],
+      "geoBounds": [
+        34.4947484,
+        16.3795278,
+        55.6666851,
+        32.1543377
+      ],
+      "view": [
+        332.24432198,
+        565.75346098,
+        237.12569104000005,
+        183.15442303999998
+      ]
+    },
+    {
+      "iso": "YEM",
+      "name": "也门",
+      "count": 335,
+      "source_count": 335,
+      "source_years": [
+        "2021"
+      ],
+      "geoBounds": [
+        41.81487234900004,
+        12.106649997000034,
+        54.538199933000044,
+        19.0
+      ],
+      "view": [
+        410.51472693960045,
+        702.3660034495999,
+        142.50126894080006,
+        84.20149313079968
+      ]
+    },
+    {
+      "iso": "OMN",
+      "name": "阿曼",
+      "count": 7,
+      "source_count": 7,
+      "source_years": [
+        "2010"
+      ],
+      "geoBounds": [
+        52.0,
+        16.650436900000045,
+        59.83939010000006,
+        26.388552900000036
+      ],
+      "view": [
+        514.1571304,
+        630.2716013999997,
+        90.07964020000058,
+        109.0668991999999
+      ]
+    },
+    {
+      "iso": "ARE",
+      "name": "阿联酋",
+      "count": 7,
+      "source_count": 7,
+      "source_years": [
+        "2017"
+      ],
+      "geoBounds": [
+        51.5318174,
+        22.6316214,
+        56.3815871,
+        26.0695283
+      ],
+      "view": [
+        512.40831218,
+        636.3948551799999,
+        54.31742063999995,
+        40.19879264000001
+      ]
+    },
+    {
+      "iso": "QAT",
+      "name": "卡塔尔",
+      "count": 79,
+      "source_count": 79,
+      "source_years": [
+        "2015"
+      ],
+      "geoBounds": [
+        50.74999040000005,
+        24.470753399999957,
+        51.6620405,
+        26.1831562
+      ],
+      "view": [
+        506.4724623200005,
+        637.14099632,
+        11.175384359999573,
+        19.178911360000473
+      ]
+    },
+    {
+      "iso": "BHR",
+      "name": "巴林",
+      "count": 4,
+      "source_count": 4,
+      "source_years": [
+        "2017"
+      ],
+      "geoBounds": [
+        50.3726856,
+        25.5743416,
+        50.8228176,
+        26.3311471
+      ],
+      "view": [
+        503.27277269999996,
+        636.2344456999999,
+        5.409486600000034,
+        8.476221599999986
+      ]
+    },
+    {
+      "iso": "KWT",
+      "name": "科威特",
+      "count": 137,
+      "source_count": 137,
+      "source_years": [
+        "2011"
+      ],
+      "geoBounds": [
+        46.55892688526757,
+        28.524845335244095,
+        48.42976984360348,
+        30.106340753922723
+      ],
+      "view": [
+        464.4667630776741,
+        597.8140866857711,
+        20.95344113336223,
+        18.059965736789376
+      ]
+    },
+    {
+      "iso": "EGY",
+      "name": "埃及",
+      "count": 365,
+      "source_count": 365,
+      "source_years": [
+        "2020"
+      ],
+      "geoBounds": [
+        24.69450759500006,
+        21.999127739000073,
+        36.908707382000046,
+        31.670279953000033
+      ],
+      "view": [
+        239.61655607780062,
+        575.9686805977997,
+        136.79903761439982,
+        111.36856188439958
+      ]
+    }
+  ],
+  "view": [
+    223.7618182671751,
+    455.76975231717455,
+    432.7541434127429,
+    346.3470053956507
+  ],
+  "source_metadata": {
+    "TUR": {
+      "boundary": {
+        "boundaryID": "TUR-ADM2-54988432",
+        "boundaryISO": "TUR",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM2",
+        "boundarySource": "OpenStreetMap, OSM Boundaries",
+        "boundaryCanonical": "Districts",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//osm-boundaries.com",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "999",
+        "meanVertices": "580.0",
+        "minVertices": "12",
+        "maxVertices": "15707",
+        "meanPerimeterLengthKM": "167.41343670781376",
+        "maxPerimeterLengthKM": "603.1700740266006",
+        "minPerimeterLengthKM": "0.15797186433246937",
+        "meanAreaSqKM": "780.7761445089125",
+        "minAreaSqKM": "0.0009339661134837027",
+        "maxAreaSqKM": "4226.243367060757"
+      },
+      "adm1": {
+        "boundaryID": "TUR-ADM1-25984515",
+        "boundaryISO": "TUR",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM1",
+        "boundarySource": "Open Street Map",
+        "boundaryCanonical": "province",
+        "boundaryLicense": "Creative Commons Attribution-ShareAlike 2.0",
+        "licenseDetail": "",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//osm-boundaries.com/",
+        "sourceDataUpdateDate": "Thu Aug 31 09:55:30 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "81",
+        "meanVertices": "4539.0",
+        "minVertices": "271",
+        "maxVertices": "61363",
+        "meanPerimeterLengthKM": "785.00067097929",
+        "maxPerimeterLengthKM": "2661.6695765317972",
+        "minPerimeterLengthKM": "266.51642252706654",
+        "meanAreaSqKM": "9630.166322684514",
+        "minAreaSqKM": "787.030419144507",
+        "maxAreaSqKM": "40820.61043914075"
+      },
+      "source_count": 973,
+      "metadata_count": 999,
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/TUR/ADM2/geoBoundaries-TUR-ADM2.geojson",
+      "pinned_source_sha256": "8e7594ab12d916e3b93f920475a300c364dfb94a0e40bfa6d55f43aff0c7fd97",
+      "attribution": "geoBoundaries / William & Mary geoLab; OpenStreetMap, OSM Boundaries; Open Street Map",
+      "license_policy": "各源原许可与署名保留，分国交付。OSM源同时保留ODbL声明；档案CC BY-SA 2.0声明不删改，不将所有源统一改成CC。",
+      "license_evidence": [
+        {
+          "file": "TUR-ADM1.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/TUR/ADM1/geoBoundaries-TUR-ADM1.geojson",
+          "sha256": "01697a1722cf62db3b5f4e78ae73e7972edae52d2254ccfffa9163fc6cdbc918"
+        },
+        {
+          "file": "TUR-ADM1.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/TUR/ADM1/geoBoundaries-TUR-ADM1-metaData.json",
+          "sha256": "d83917dba5bcf4a54d7b07aa9c9c656becf6fd5bed7e58ddb19ea27df0d98a11"
+        },
+        {
+          "file": "TUR-ADM2.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/TUR/ADM2/geoBoundaries-TUR-ADM2.geojson",
+          "sha256": "8e7594ab12d916e3b93f920475a300c364dfb94a0e40bfa6d55f43aff0c7fd97"
+        },
+        {
+          "file": "TUR-ADM2.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/TUR/ADM2/geoBoundaries-TUR-ADM2-metaData.json",
+          "sha256": "ace87195676281a6b58bc822a275646b71dbdca42ca4b7445bc928730596fdc7"
+        }
+      ],
+      "coverage_note": "各国独立旧断面；现代上级只作位置关联；源计数与元数据差异如实记录。",
+      "adm1_source_count": 81,
+      "adm1_metadata_count": 81,
+      "source_admin_level": "ADM2",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.001,
+      "count_difference": -26,
+      "license_note": "档案的部分OSM层标CC BY-SA 2.0，licenseSource指向OSM版权页；OSM现数据为ODbL，保留两项声明及来源，不宣称CC声明替代OSM数据许可。"
+    },
+    "IRN": {
+      "boundary": {
+        "boundaryID": "IRN-ADM2-26516999",
+        "boundaryISO": "IRN",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM2",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "Shahrestan",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "432",
+        "meanVertices": "886.0",
+        "minVertices": "86",
+        "maxVertices": "12253",
+        "meanPerimeterLengthKM": "325.3701806601718",
+        "maxPerimeterLengthKM": "1350.837961856412",
+        "minPerimeterLengthKM": "44.382434226808606",
+        "meanAreaSqKM": "3745.6637022574887",
+        "minAreaSqKM": "54.477086848974196",
+        "maxAreaSqKM": "55179.891942179354"
+      },
+      "adm1": {
+        "boundaryID": "IRN-ADM1-17685810",
+        "boundaryISO": "IRN",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "ostānhā / provinces",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "33",
+        "meanVertices": "6688.0",
+        "minVertices": "847",
+        "maxVertices": "51587",
+        "meanPerimeterLengthKM": "1395.4639620704245",
+        "maxPerimeterLengthKM": "3900.5241255408405",
+        "minPerimeterLengthKM": "77.02673755074053",
+        "meanAreaSqKM": "49192.37213829091",
+        "minAreaSqKM": "229.69231625523784",
+        "maxAreaSqKM": "179206.6728361918"
+      },
+      "source_count": 432,
+      "metadata_count": 432,
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/IRN/ADM2/geoBoundaries-IRN-ADM2.geojson",
+      "pinned_source_sha256": "6f95cb3e108907663846f1e7479d07714fe95b5c3e0adf44ad94d27b8b42ff7a",
+      "attribution": "geoBoundaries / William & Mary geoLab; OpenStreetMap, Wambacher; OpenStreetMap, Wambacher",
+      "license_policy": "各源原许可与署名保留，分国交付。OSM源同时保留ODbL声明；档案CC BY-SA 2.0声明不删改，不将所有源统一改成CC。",
+      "license_evidence": [
+        {
+          "file": "IRN-ADM1.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/IRN/ADM1/geoBoundaries-IRN-ADM1.geojson",
+          "sha256": "564a3eeff1e12ec0b3bfc55d027b0a2b05cefab521ee0b2e487446db12dec70d"
+        },
+        {
+          "file": "IRN-ADM1.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/IRN/ADM1/geoBoundaries-IRN-ADM1-metaData.json",
+          "sha256": "133c6c8632a368acfa2825b49798f11df496bdc7d501756fa5f97999c9161190"
+        },
+        {
+          "file": "IRN-ADM2.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/IRN/ADM2/geoBoundaries-IRN-ADM2.geojson",
+          "sha256": "6f95cb3e108907663846f1e7479d07714fe95b5c3e0adf44ad94d27b8b42ff7a"
+        },
+        {
+          "file": "IRN-ADM2.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/IRN/ADM2/geoBoundaries-IRN-ADM2-metaData.json",
+          "sha256": "02f1671f06a4a1e62834fb45105622008d6aa3127189ad7440774d00d6602301"
+        }
+      ],
+      "coverage_note": "各国独立旧断面；现代上级只作位置关联；源计数与元数据差异如实记录。",
+      "adm1_source_count": 32,
+      "adm1_metadata_count": 33,
+      "source_admin_level": "ADM2",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.001,
+      "count_difference": 0
+    },
+    "IRQ": {
+      "boundary": {
+        "boundaryID": "IRQ-ADM2-34846034",
+        "boundaryISO": "IRQ",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM2",
+        "boundarySource": "Iraq Central Statistics Office, OCHA Iraq",
+        "boundaryCanonical": "Districts",
+        "boundaryLicense": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "licenseDetail": "",
+        "licenseSource": "https//data.humdata.org/dataset/iraq-admin-level-1-boundaries",
+        "boundarySourceURL": "https//data.humdata.org/dataset/iraq-admin-level-1-boundaries",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "101",
+        "meanVertices": "207.0",
+        "minVertices": "63",
+        "maxVertices": "486",
+        "meanPerimeterLengthKM": "315.2980473503102",
+        "maxPerimeterLengthKM": "1369.827157555401",
+        "minPerimeterLengthKM": "49.151230029767866",
+        "meanAreaSqKM": "4319.5019996918045",
+        "minAreaSqKM": "78.62260253987807",
+        "maxAreaSqKM": "80044.61238698974"
+      },
+      "adm1": {
+        "boundaryID": "IRQ-ADM1-90741666",
+        "boundaryISO": "IRQ",
+        "boundaryYear": "2022",
+        "boundaryType": "ADM1",
+        "boundarySource": "geoBoundaries, Wikimedia Commons",
+        "boundaryCanonical": "Governorates (muḥāfaẓāt)",
+        "boundaryLicense": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "licenseDetail": "",
+        "licenseSource": "https//creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "boundarySourceURL": "https//commons.wikimedia.org/wiki/File",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "18",
+        "meanVertices": "227.0",
+        "minVertices": "28",
+        "maxVertices": "453",
+        "meanPerimeterLengthKM": "807.4366717400816",
+        "maxPerimeterLengthKM": "1987.841436878155",
+        "minPerimeterLengthKM": "135.072410675823",
+        "meanAreaSqKM": "24436.881824923606",
+        "minAreaSqKM": "912.9223150167821",
+        "maxAreaSqKM": "137663.05217826166"
+      },
+      "source_count": 101,
+      "metadata_count": 101,
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/IRQ/ADM2/geoBoundaries-IRQ-ADM2.geojson",
+      "pinned_source_sha256": "757287a87829806eaf2247a76aee870804a6304006ac4b52cb39729be00c5cae",
+      "attribution": "geoBoundaries / William & Mary geoLab; Iraq Central Statistics Office, OCHA Iraq; geoBoundaries, Wikimedia Commons",
+      "license_policy": "各源原许可与署名保留，分国交付。OSM源同时保留ODbL声明；档案CC BY-SA 2.0声明不删改，不将所有源统一改成CC。",
+      "license_evidence": [
+        {
+          "file": "IRQ-ADM1.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/IRQ/ADM1/geoBoundaries-IRQ-ADM1.geojson",
+          "sha256": "2c2adabbc814727b8bdd669feed6efab3b9a27bdc76cea35e036532084eb41d8"
+        },
+        {
+          "file": "IRQ-ADM1.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/IRQ/ADM1/geoBoundaries-IRQ-ADM1-metaData.json",
+          "sha256": "3dbb61bcd4a3ec6154948275bd5ef6d00501f33de837fbc5ee92268dd07ff829"
+        },
+        {
+          "file": "IRQ-ADM2.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/IRQ/ADM2/geoBoundaries-IRQ-ADM2.geojson",
+          "sha256": "757287a87829806eaf2247a76aee870804a6304006ac4b52cb39729be00c5cae"
+        },
+        {
+          "file": "IRQ-ADM2.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/IRQ/ADM2/geoBoundaries-IRQ-ADM2-metaData.json",
+          "sha256": "2d40ef7a016873aa478a09e84171c1e4659862d343b88248e828fa535defaaa9"
+        }
+      ],
+      "coverage_note": "各国独立旧断面；现代上级只作位置关联；源计数与元数据差异如实记录。",
+      "adm1_source_count": 18,
+      "adm1_metadata_count": 18,
+      "source_admin_level": "ADM2",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.001,
+      "count_difference": 0
+    },
+    "SYR": {
+      "boundary": {
+        "boundaryID": "SYR-ADM2-27442178",
+        "boundaryISO": "SYR",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM2",
+        "boundarySource": "United Nations Cartographic Section (UNCS) and United Nations Office for the Coordination of Humanitarian Affairs (UNOCHA), OCHA ROSC",
+        "boundaryCanonical": "District",
+        "boundaryLicense": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "licenseDetail": "",
+        "licenseSource": "https//data.humdata.org/dataset/syrian-arab-republic-administrative-boundaries-populated-places",
+        "boundarySourceURL": "https//data.humdata.org/dataset/syrian-arab-republic-administrative-boundaries-populated-places",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "61",
+        "meanVertices": "1250.0",
+        "minVertices": "134",
+        "maxVertices": "16255",
+        "meanPerimeterLengthKM": "290.5675375015254",
+        "maxPerimeterLengthKM": "852.7164412571682",
+        "minPerimeterLengthKM": "67.70247402665785",
+        "meanAreaSqKM": "3084.236370015973",
+        "minAreaSqKM": "96.26741958991886",
+        "maxAreaSqKM": "30827.95434296573"
+      },
+      "adm1": {
+        "boundaryID": "SYR-ADM1-8384693",
+        "boundaryISO": "SYR",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "United Nations Cartographic Section (UNCS) and United Nations Office for the Coordination of Humanitarian Affairs (UNOCHA), OCHA ROSC",
+        "boundaryCanonical": "Governorate",
+        "boundaryLicense": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "licenseDetail": "",
+        "licenseSource": "https//data.humdata.org/dataset/syrian-arab-republic-administrative-boundaries-populated-places",
+        "boundarySourceURL": "https//data.humdata.org/dataset/syrian-arab-republic-administrative-boundaries-populated-places",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "14",
+        "meanVertices": "1975.0",
+        "minVertices": "297",
+        "maxVertices": "5104",
+        "meanPerimeterLengthKM": "636.6786982932056",
+        "maxPerimeterLengthKM": "1318.4017534434142",
+        "minPerimeterLengthKM": "67.70247402665763",
+        "meanAreaSqKM": "13438.458469355726",
+        "minAreaSqKM": "116.67842798312755",
+        "maxAreaSqKM": "43231.35501893992"
+      },
+      "source_count": 61,
+      "metadata_count": 61,
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/SYR/ADM2/geoBoundaries-SYR-ADM2.geojson",
+      "pinned_source_sha256": "74358b107af7368c206aca32beeb70051433a66fc0fe14d6499bfe810e061b09",
+      "attribution": "geoBoundaries / William & Mary geoLab; United Nations Cartographic Section (UNCS) and United Nations Office for the Coordination of Humanitarian Affairs (UNOCHA), OCHA ROSC; United Nations Cartographic Section (UNCS) and United Nations Office for the Coordination of Humanitarian Affairs (UNOCHA), OCHA ROSC",
+      "license_policy": "各源原许可与署名保留，分国交付。OSM源同时保留ODbL声明；档案CC BY-SA 2.0声明不删改，不将所有源统一改成CC。",
+      "license_evidence": [
+        {
+          "file": "SYR-ADM1.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/SYR/ADM1/geoBoundaries-SYR-ADM1.geojson",
+          "sha256": "9f781624caaf3bb3256585deee69c2b985b1144b19909cf0386f663ddb41d527"
+        },
+        {
+          "file": "SYR-ADM1.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/SYR/ADM1/geoBoundaries-SYR-ADM1-metaData.json",
+          "sha256": "ea9c70752c9e24e7e22bb422aa0de6da17cc42f30c06c5992611abddd7e4841d"
+        },
+        {
+          "file": "SYR-ADM2.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/SYR/ADM2/geoBoundaries-SYR-ADM2.geojson",
+          "sha256": "74358b107af7368c206aca32beeb70051433a66fc0fe14d6499bfe810e061b09"
+        },
+        {
+          "file": "SYR-ADM2.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/SYR/ADM2/geoBoundaries-SYR-ADM2-metaData.json",
+          "sha256": "be142b81d689b979e15329682bb6d52c31d7ba9a0c306b83d5dad51d1dd2ffb9"
+        }
+      ],
+      "coverage_note": "各国独立旧断面；现代上级只作位置关联；源计数与元数据差异如实记录。",
+      "adm1_source_count": 14,
+      "adm1_metadata_count": 14,
+      "source_admin_level": "ADM2",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.001,
+      "count_difference": 0
+    },
+    "LBN": {
+      "boundary": {
+        "boundaryID": "LBN-ADM2-6925839",
+        "boundaryISO": "LBN",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM2",
+        "boundarySource": "geoBoundaries, Wikipedia",
+        "boundaryCanonical": "Districts (Aqdya)",
+        "boundaryLicense": "Public Domain",
+        "licenseDetail": "We also attribute credit to Wikimedia Commons user Rarelibra",
+        "licenseSource": "https//commons.wikimedia.org/wiki/File",
+        "boundarySourceURL": "https//commons.wikimedia.org/wiki/File",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "26",
+        "meanVertices": "290.0",
+        "minVertices": "68",
+        "maxVertices": "705",
+        "meanPerimeterLengthKM": "125.71325463843655",
+        "maxPerimeterLengthKM": "323.220373301918",
+        "minPerimeterLengthKM": "24.528183396023355",
+        "meanAreaSqKM": "393.7965947247131",
+        "minAreaSqKM": "19.486289229456766",
+        "maxAreaSqKM": "2316.128586195049"
+      },
+      "adm1": {
+        "boundaryID": "LBN-ADM1-68408151",
+        "boundaryISO": "LBN",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "geoBoundaries, Wikimedia Commons",
+        "boundaryCanonical": "Governorates / Muhafazah",
+        "boundaryLicense": "Public Domain",
+        "licenseDetail": "",
+        "licenseSource": "https//commons.wikimedia.org/wiki/File",
+        "boundarySourceURL": "https//upload.wikimedia.org/wikipedia/commons/c/c9/North_Governorate1.png",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "9",
+        "meanVertices": "683.0",
+        "minVertices": "78",
+        "maxVertices": "1044",
+        "meanPerimeterLengthKM": "220.4813209717551",
+        "maxPerimeterLengthKM": "326.7230055808172",
+        "minPerimeterLengthKM": "21.6135966049639",
+        "meanAreaSqKM": "1130.6689323412038",
+        "minAreaSqKM": "21.54096595604418",
+        "maxAreaSqKM": "2784.772045353371"
+      },
+      "source_count": 26,
+      "metadata_count": 26,
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/LBN/ADM2/geoBoundaries-LBN-ADM2.geojson",
+      "pinned_source_sha256": "753df893a95986961f53f0759468fa415eafd6efbcb02c113727fb0e98508aa5",
+      "attribution": "geoBoundaries / William & Mary geoLab; geoBoundaries, Wikipedia; geoBoundaries, Wikimedia Commons",
+      "license_policy": "各源原许可与署名保留，分国交付。OSM源同时保留ODbL声明；档案CC BY-SA 2.0声明不删改，不将所有源统一改成CC。",
+      "license_evidence": [
+        {
+          "file": "LBN-ADM1.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/LBN/ADM1/geoBoundaries-LBN-ADM1.geojson",
+          "sha256": "a96e1ddee1b8599b715ae2db7b973bc29896412bf331e38a696ab86d6d1bf6d0"
+        },
+        {
+          "file": "LBN-ADM1.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/LBN/ADM1/geoBoundaries-LBN-ADM1-metaData.json",
+          "sha256": "9619821532e16e497eeec238b51f0ff823c24ceb80d00ad3c14d1ed85ca1b98e"
+        },
+        {
+          "file": "LBN-ADM2.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/LBN/ADM2/geoBoundaries-LBN-ADM2.geojson",
+          "sha256": "753df893a95986961f53f0759468fa415eafd6efbcb02c113727fb0e98508aa5"
+        },
+        {
+          "file": "LBN-ADM2.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/LBN/ADM2/geoBoundaries-LBN-ADM2-metaData.json",
+          "sha256": "2c2c22db60c1f39f738ebba105e840506bd5350c491a1f2fba0ae880da87355a"
+        }
+      ],
+      "coverage_note": "各国独立旧断面；现代上级只作位置关联；源计数与元数据差异如实记录。",
+      "adm1_source_count": 9,
+      "adm1_metadata_count": 9,
+      "source_admin_level": "ADM2",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.001,
+      "count_difference": 0
+    },
+    "ISR": {
+      "boundary": {
+        "boundaryID": "ISR-ADM2-584046",
+        "boundaryISO": "ISR",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM2",
+        "boundarySource": "geoBoundaries, Wikimedia Commons",
+        "boundaryCanonical": "Subdistrict",
+        "boundaryLicense": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+        "licenseDetail": "",
+        "licenseSource": "https//creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "boundarySourceURL": "https//commons.wikimedia.org/wiki/File",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "15",
+        "meanVertices": "485.0",
+        "minVertices": "155",
+        "maxVertices": "1316",
+        "meanPerimeterLengthKM": "192.08430074598365",
+        "maxPerimeterLengthKM": "674.2849745442458",
+        "minPerimeterLengthKM": "73.09261312090574",
+        "meanAreaSqKM": "1474.3497403040835",
+        "minAreaSqKM": "176.64148783572955",
+        "maxAreaSqKM": "13213.689217872683"
+      },
+      "adm1": {
+        "boundaryID": "ISR-ADM1-19161824",
+        "boundaryISO": "ISR",
+        "boundaryYear": "2006",
+        "boundaryType": "ADM1",
+        "boundarySource": "geoBoundaries, Wikimedia",
+        "boundaryCanonical": "Districts",
+        "boundaryLicense": "Public Domain",
+        "licenseDetail": "",
+        "licenseSource": "https//commons.wikimedia.org/wiki/File",
+        "boundarySourceURL": "https//en.wikipedia.org/wiki/Wikipedia",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "6",
+        "meanVertices": "417.0",
+        "minVertices": "86",
+        "maxVertices": "744",
+        "meanPerimeterLengthKM": "297.0707596743802",
+        "maxPerimeterLengthKM": "755.0936829548136",
+        "minPerimeterLengthKM": "69.50470088826111",
+        "meanAreaSqKM": "3484.4022022260856",
+        "minAreaSqKM": "174.97051114539423",
+        "maxAreaSqKM": "14532.902856753104"
+      },
+      "source_count": 15,
+      "metadata_count": 15,
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/ISR/ADM2/geoBoundaries-ISR-ADM2.geojson",
+      "pinned_source_sha256": "32079c9747279aa5f7a060b4cce241814ea46c45ae4081f3b713c0ddf7b05100",
+      "attribution": "geoBoundaries / William & Mary geoLab; geoBoundaries, Wikimedia Commons; geoBoundaries, Wikimedia",
+      "license_policy": "各源原许可与署名保留，分国交付。OSM源同时保留ODbL声明；档案CC BY-SA 2.0声明不删改，不将所有源统一改成CC。",
+      "license_evidence": [
+        {
+          "file": "ISR-ADM1.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/ISR/ADM1/geoBoundaries-ISR-ADM1.geojson",
+          "sha256": "1ddf8523ef2074d658fd4a696fbb7ff82b73b77a0d69e620ed564f9a1b8c85d3"
+        },
+        {
+          "file": "ISR-ADM1.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/ISR/ADM1/geoBoundaries-ISR-ADM1-metaData.json",
+          "sha256": "5d7eec767dcf8a47379576b9d8641469cf8cc9607080438d1ffce9f666ce42d1"
+        },
+        {
+          "file": "ISR-ADM2.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/ISR/ADM2/geoBoundaries-ISR-ADM2.geojson",
+          "sha256": "32079c9747279aa5f7a060b4cce241814ea46c45ae4081f3b713c0ddf7b05100"
+        },
+        {
+          "file": "ISR-ADM2.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/ISR/ADM2/geoBoundaries-ISR-ADM2-metaData.json",
+          "sha256": "76a4e1cd54ef67f78d5b1e85f4f14aef638d4feb0a065f000f7ed556b76b2b97"
+        }
+      ],
+      "coverage_note": "各国独立旧断面；现代上级只作位置关联；源计数与元数据差异如实记录。",
+      "adm1_source_count": 6,
+      "adm1_metadata_count": 6,
+      "source_admin_level": "ADM2",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.001,
+      "count_difference": 0
+    },
+    "PSE": {
+      "boundary": {
+        "boundaryID": "PSE-ADM2-87354302",
+        "boundaryISO": "PSE",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM2",
+        "boundarySource": "Open Data Watch",
+        "boundaryCanonical": "governorate",
+        "boundaryLicense": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//opendatawatch.com/publications/open-data-to-support-sustainable-development-goals/",
+        "boundarySourceURL": "https//opendatawatch.com/about/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "16",
+        "meanVertices": "4407.0",
+        "minVertices": "1476",
+        "maxVertices": "8360",
+        "meanPerimeterLengthKM": "132.54071672944116",
+        "maxPerimeterLengthKM": "245.5103772562213",
+        "minPerimeterLengthKM": "37.37304481394388",
+        "meanAreaSqKM": "375.4243483788333",
+        "minAreaSqKM": "56.702038263388296",
+        "maxAreaSqKM": "1000.0600667098403"
+      },
+      "adm1": {
+        "boundaryID": "PSE-ADM1-83478781",
+        "boundaryISO": "PSE",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM1",
+        "boundarySource": "geoBoundaries, Open Data Watch",
+        "boundaryCanonical": "territory",
+        "boundaryLicense": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//opendatawatch.com/publications/open-data-to-support-sustainable-development-goals/",
+        "boundarySourceURL": "https//opendatawatch.com/about/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "2",
+        "meanVertices": "10208.0",
+        "minVertices": "2137",
+        "maxVertices": "18280",
+        "meanPerimeterLengthKM": "341.1637169988532",
+        "maxPerimeterLengthKM": "561.535799292143",
+        "minPerimeterLengthKM": "120.79163470556345",
+        "meanAreaSqKM": "3003.394786725958",
+        "minAreaSqKM": "364.91225821946443",
+        "maxAreaSqKM": "5641.877315232452"
+      },
+      "source_count": 16,
+      "metadata_count": 16,
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/PSE/ADM2/geoBoundaries-PSE-ADM2.geojson",
+      "pinned_source_sha256": "69bf9a3baddaa5c102d9bea6681c586f8cb3a24f1bb78783f8ec68daabc798c0",
+      "attribution": "geoBoundaries / William & Mary geoLab; Open Data Watch; geoBoundaries, Open Data Watch",
+      "license_policy": "各源原许可与署名保留，分国交付。OSM源同时保留ODbL声明；档案CC BY-SA 2.0声明不删改，不将所有源统一改成CC。",
+      "license_evidence": [
+        {
+          "file": "PSE-ADM1.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/PSE/ADM1/geoBoundaries-PSE-ADM1.geojson",
+          "sha256": "ac658278bbdec81eade7875ae260565ce881d1076376ee9a60e3b12c648b9f59"
+        },
+        {
+          "file": "PSE-ADM1.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/PSE/ADM1/geoBoundaries-PSE-ADM1-metaData.json",
+          "sha256": "194c68283a55537f7917fc3c140d555d2dc73fd1ff7b3556400bb29182cafe15"
+        },
+        {
+          "file": "PSE-ADM2.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/PSE/ADM2/geoBoundaries-PSE-ADM2.geojson",
+          "sha256": "69bf9a3baddaa5c102d9bea6681c586f8cb3a24f1bb78783f8ec68daabc798c0"
+        },
+        {
+          "file": "PSE-ADM2.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/PSE/ADM2/geoBoundaries-PSE-ADM2-metaData.json",
+          "sha256": "c074038fbc17cfd958050477faa6524cb37679ae0db993dc7325e0941e276981"
+        }
+      ],
+      "coverage_note": "各国独立旧断面；现代上级只作位置关联；源计数与元数据差异如实记录。",
+      "adm1_source_count": 2,
+      "adm1_metadata_count": 2,
+      "source_admin_level": "ADM2",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.001,
+      "count_difference": 0
+    },
+    "JOR": {
+      "boundary": {
+        "boundaryID": "JOR-ADM2-86222999",
+        "boundaryISO": "JOR",
+        "boundaryYear": "2006",
+        "boundaryType": "ADM2",
+        "boundarySource": "geoBoundaries, Wikimedia Commons",
+        "boundaryCanonical": "Nahias",
+        "boundaryLicense": "Public Domain",
+        "licenseDetail": "",
+        "licenseSource": "https//commons.wikimedia.org/wiki/File",
+        "boundarySourceURL": "https//commons.wikimedia.org/wiki/File",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "52",
+        "meanVertices": "551.0",
+        "minVertices": "34",
+        "maxVertices": "2348",
+        "meanPerimeterLengthKM": "148.83376077498014",
+        "maxPerimeterLengthKM": "864.251431588584",
+        "minPerimeterLengthKM": "17.827418840094488",
+        "meanAreaSqKM": "1714.478190307438",
+        "minAreaSqKM": "9.791300382779632",
+        "maxAreaSqKM": "30809.42620316186"
+      },
+      "adm1": {
+        "boundaryID": "JOR-ADM1-50493656",
+        "boundaryISO": "JOR",
+        "boundaryYear": "2006",
+        "boundaryType": "ADM1",
+        "boundarySource": "geoBoundaries, Wikimedia",
+        "boundaryCanonical": "Governorate",
+        "boundaryLicense": "Creative Commons Attribution 2.5 Generic",
+        "licenseDetail": "",
+        "licenseSource": "https//commons.wikimedia.org/wiki/File",
+        "boundarySourceURL": "https//commons.wikimedia.org/wiki/File",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "12",
+        "meanVertices": "155.0",
+        "minVertices": "91",
+        "maxVertices": "217",
+        "meanPerimeterLengthKM": "390.64313938309715",
+        "maxPerimeterLengthKM": "970.6684264447324",
+        "minPerimeterLengthKM": "96.50992238432329",
+        "meanAreaSqKM": "7450.94799387426",
+        "minAreaSqKM": "372.1770325282105",
+        "maxAreaSqKM": "33587.79101695538"
+      },
+      "source_count": 52,
+      "metadata_count": 52,
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/JOR/ADM2/geoBoundaries-JOR-ADM2.geojson",
+      "pinned_source_sha256": "d575a50ed8382a67aee5b716c9ca45b35447d857dadb2cf4af74ad936db8dc34",
+      "attribution": "geoBoundaries / William & Mary geoLab; geoBoundaries, Wikimedia Commons; geoBoundaries, Wikimedia",
+      "license_policy": "各源原许可与署名保留，分国交付。OSM源同时保留ODbL声明；档案CC BY-SA 2.0声明不删改，不将所有源统一改成CC。",
+      "license_evidence": [
+        {
+          "file": "JOR-ADM1.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/JOR/ADM1/geoBoundaries-JOR-ADM1.geojson",
+          "sha256": "7dd7cd7701a0b218d15752fc4339bb1a14834fd2376f9774997a1e50c6785777"
+        },
+        {
+          "file": "JOR-ADM1.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/JOR/ADM1/geoBoundaries-JOR-ADM1-metaData.json",
+          "sha256": "ca5df66cd9e5de0babc1b8e008be9aff1e6169ae32c4788d68d62acd7613c040"
+        },
+        {
+          "file": "JOR-ADM2.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/JOR/ADM2/geoBoundaries-JOR-ADM2.geojson",
+          "sha256": "d575a50ed8382a67aee5b716c9ca45b35447d857dadb2cf4af74ad936db8dc34"
+        },
+        {
+          "file": "JOR-ADM2.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/JOR/ADM2/geoBoundaries-JOR-ADM2-metaData.json",
+          "sha256": "9e77bad84276c5c28a8d2c83c98acbec084c1e8199b0fe74f1aeb6d07436fd6c"
+        }
+      ],
+      "coverage_note": "各国独立旧断面；现代上级只作位置关联；源计数与元数据差异如实记录。",
+      "adm1_source_count": 12,
+      "adm1_metadata_count": 12,
+      "source_admin_level": "ADM2",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.001,
+      "count_difference": 0
+    },
+    "SAU": {
+      "boundary": {
+        "boundaryID": "SAU-ADM2-3984122",
+        "boundaryISO": "SAU",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM2",
+        "boundarySource": "geoBoundaries, OpenStreetMap",
+        "boundaryCanonical": "Governorate",
+        "boundaryLicense": "Creative Commons Attribution-ShareAlike 2.0",
+        "licenseDetail": "",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//www.openstreetmap.org/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "147",
+        "meanVertices": "1854.0",
+        "minVertices": "93",
+        "maxVertices": "14459",
+        "meanPerimeterLengthKM": "608.5906572296565",
+        "maxPerimeterLengthKM": "2894.1483992893045",
+        "minPerimeterLengthKM": "52.84729848552832",
+        "meanAreaSqKM": "13081.749077547645",
+        "minAreaSqKM": "128.7548820013272",
+        "maxAreaSqKM": "241186.05907332106"
+      },
+      "adm1": {
+        "boundaryID": "SAU-ADM1-25081817",
+        "boundaryISO": "SAU",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "13",
+        "meanVertices": "6724.0",
+        "minVertices": "158",
+        "maxVertices": "23760",
+        "meanPerimeterLengthKM": "2452.6805309035694",
+        "maxPerimeterLengthKM": "5973.579623354248",
+        "minPerimeterLengthKM": "510.49720686363884",
+        "meanAreaSqKM": "148083.89198584243",
+        "minAreaSqKM": "10316.04593769633",
+        "maxAreaSqKM": "558142.3071342683"
+      },
+      "source_count": 147,
+      "metadata_count": 147,
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/SAU/ADM2/geoBoundaries-SAU-ADM2.geojson",
+      "pinned_source_sha256": "5c550ddf9954756cfdf7972a70bbbed04db0242f515255bc061b29321dea2436",
+      "attribution": "geoBoundaries / William & Mary geoLab; geoBoundaries, OpenStreetMap; OpenStreetMap, Wambacher",
+      "license_policy": "各源原许可与署名保留，分国交付。OSM源同时保留ODbL声明；档案CC BY-SA 2.0声明不删改，不将所有源统一改成CC。",
+      "license_evidence": [
+        {
+          "file": "SAU-ADM1.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/SAU/ADM1/geoBoundaries-SAU-ADM1.geojson",
+          "sha256": "75abcfd5a61790e5e505974f04cbd1d869e58d81b6faba039b000987e659e840"
+        },
+        {
+          "file": "SAU-ADM1.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/SAU/ADM1/geoBoundaries-SAU-ADM1-metaData.json",
+          "sha256": "ff65fcd37ce3bbed8eaac41e5a5cd1c1e7b14738c4cd6b448a0c29ffff192c4b"
+        },
+        {
+          "file": "SAU-ADM2.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/SAU/ADM2/geoBoundaries-SAU-ADM2.geojson",
+          "sha256": "5c550ddf9954756cfdf7972a70bbbed04db0242f515255bc061b29321dea2436"
+        },
+        {
+          "file": "SAU-ADM2.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/SAU/ADM2/geoBoundaries-SAU-ADM2-metaData.json",
+          "sha256": "a65ba9310b56ea35678204cc395ec394fdad377880c06743ff6adb906b343261"
+        }
+      ],
+      "coverage_note": "各国独立旧断面；现代上级只作位置关联；源计数与元数据差异如实记录。",
+      "adm1_source_count": 13,
+      "adm1_metadata_count": 13,
+      "source_admin_level": "ADM2",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.001,
+      "count_difference": 0,
+      "license_note": "档案的部分OSM层标CC BY-SA 2.0，licenseSource指向OSM版权页；OSM现数据为ODbL，保留两项声明及来源，不宣称CC声明替代OSM数据许可。"
+    },
+    "YEM": {
+      "boundary": {
+        "boundaryID": "YEM-ADM2-15242507",
+        "boundaryISO": "YEM",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM2",
+        "boundarySource": "Central Statistical Organization (CSO), OCHA Yemen",
+        "boundaryCanonical": "Districts",
+        "boundaryLicense": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "licenseDetail": "",
+        "licenseSource": "https//data.humdata.org/dataset/yemen-admin-boundaries",
+        "boundarySourceURL": "https//data.humdata.org/dataset/yemen-admin-boundaries",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "335",
+        "meanVertices": "437.0",
+        "minVertices": "9",
+        "maxVertices": "5678",
+        "meanPerimeterLengthKM": "146.15336504628826",
+        "maxPerimeterLengthKM": "810.8514947510513",
+        "minPerimeterLengthKM": "5.8071929502788615",
+        "meanAreaSqKM": "1352.432738743299",
+        "minAreaSqKM": "1.794194793058404",
+        "maxAreaSqKM": "31701.50655894746"
+      },
+      "adm1": {
+        "boundaryID": "YEM-ADM1-18629408",
+        "boundaryISO": "YEM",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "22",
+        "meanVertices": "2632.0",
+        "minVertices": "108",
+        "maxVertices": "16479",
+        "meanPerimeterLengthKM": "738.7686748022808",
+        "maxPerimeterLengthKM": "2211.1277620021892",
+        "minPerimeterLengthKM": "141.65450056509903",
+        "meanAreaSqKM": "20584.80648697942",
+        "minAreaSqKM": "534.3203810235635",
+        "maxAreaSqKM": "162555.47298131074"
+      },
+      "source_count": 335,
+      "metadata_count": 335,
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/YEM/ADM2/geoBoundaries-YEM-ADM2.geojson",
+      "pinned_source_sha256": "155b5ecb10001167337c0d5ae773767f567aae635c5f740d144018216c04c8f0",
+      "attribution": "geoBoundaries / William & Mary geoLab; Central Statistical Organization (CSO), OCHA Yemen; OpenStreetMap, Wambacher",
+      "license_policy": "各源原许可与署名保留，分国交付。OSM源同时保留ODbL声明；档案CC BY-SA 2.0声明不删改，不将所有源统一改成CC。",
+      "license_evidence": [
+        {
+          "file": "YEM-ADM1.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/YEM/ADM1/geoBoundaries-YEM-ADM1.geojson",
+          "sha256": "c8f37864007dd5a75dcd069d7b54823db7876dd42ad217bf48420f05304944b5"
+        },
+        {
+          "file": "YEM-ADM1.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/YEM/ADM1/geoBoundaries-YEM-ADM1-metaData.json",
+          "sha256": "001bb48d87a8719e82d5d1128219a7f63cd1986dfef70ae12dda42426d246575"
+        },
+        {
+          "file": "YEM-ADM2.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/YEM/ADM2/geoBoundaries-YEM-ADM2.geojson",
+          "sha256": "155b5ecb10001167337c0d5ae773767f567aae635c5f740d144018216c04c8f0"
+        },
+        {
+          "file": "YEM-ADM2.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/YEM/ADM2/geoBoundaries-YEM-ADM2-metaData.json",
+          "sha256": "3665d6a4a06e228b73e6b7a4e3c3334e91ff961088b2268c97e054249023514d"
+        }
+      ],
+      "coverage_note": "各国独立旧断面；现代上级只作位置关联；源计数与元数据差异如实记录。",
+      "adm1_source_count": 22,
+      "adm1_metadata_count": 22,
+      "source_admin_level": "ADM2",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.001,
+      "count_difference": 0
+    },
+    "OMN": {
+      "boundary": {
+        "boundaryID": "OMN-ADM1-34121849",
+        "boundaryISO": "OMN",
+        "boundaryYear": "2010",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "7",
+        "meanVertices": "11229.0",
+        "minVertices": "61",
+        "maxVertices": "51076",
+        "meanPerimeterLengthKM": "1255.187113184981",
+        "maxPerimeterLengthKM": "2493.847712944767",
+        "minPerimeterLengthKM": "496.5694727088376",
+        "meanAreaSqKM": "44022.608228036515",
+        "minAreaSqKM": "4051.516608767826",
+        "maxAreaSqKM": "99169.85606521051"
+      },
+      "adm1": {
+        "boundaryID": "OMN-ADM1-34121849",
+        "boundaryISO": "OMN",
+        "boundaryYear": "2010",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "7",
+        "meanVertices": "11229.0",
+        "minVertices": "61",
+        "maxVertices": "51076",
+        "meanPerimeterLengthKM": "1255.187113184981",
+        "maxPerimeterLengthKM": "2493.847712944767",
+        "minPerimeterLengthKM": "496.5694727088376",
+        "meanAreaSqKM": "44022.608228036515",
+        "minAreaSqKM": "4051.516608767826",
+        "maxAreaSqKM": "99169.85606521051"
+      },
+      "source_count": 7,
+      "metadata_count": 7,
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/OMN/ADM1/geoBoundaries-OMN-ADM1.geojson",
+      "pinned_source_sha256": "4bfecd716958823c767d9e996e403f1f42bfee345774f5f31d7d9e1aa12b68f6",
+      "attribution": "geoBoundaries / William & Mary geoLab; OpenStreetMap, Wambacher; OpenStreetMap, Wambacher",
+      "license_policy": "各源原许可与署名保留，分国交付。OSM源同时保留ODbL声明；档案CC BY-SA 2.0声明不删改，不将所有源统一改成CC。",
+      "license_evidence": [
+        {
+          "file": "OMN-ADM1.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/OMN/ADM1/geoBoundaries-OMN-ADM1.geojson",
+          "sha256": "4bfecd716958823c767d9e996e403f1f42bfee345774f5f31d7d9e1aa12b68f6"
+        },
+        {
+          "file": "OMN-ADM1.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/OMN/ADM1/geoBoundaries-OMN-ADM1-metaData.json",
+          "sha256": "f2f0ab2e0e0598808dbd5e907b9e72e7796ecf7f21665c01cb6f908dca217aa9"
+        },
+        {
+          "file": "OMN-ADM2.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/OMN/ADM2/geoBoundaries-OMN-ADM2-metaData.json",
+          "sha256": "316ea64e6bbf9628dadde9d0277269239eb76bd4557788e8d4838b5cfa5a16bb"
+        }
+      ],
+      "coverage_note": "各国独立旧断面；现代上级只作位置关联；源计数与元数据差异如实记录。",
+      "adm1_source_count": 7,
+      "adm1_metadata_count": 7,
+      "source_admin_level": "ADM1",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.001,
+      "count_difference": 0,
+      "level_note": "无可用明确开放ADM2时采用ADM1；阿曼2010年7行政区旧断面，不声称现行省数。"
+    },
+    "ARE": {
+      "boundary": {
+        "boundaryID": "ARE-ADM1-86790563",
+        "boundaryISO": "ARE",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "7",
+        "meanVertices": "11566.0",
+        "minVertices": "504",
+        "maxVertices": "54039",
+        "meanPerimeterLengthKM": "988.5369674300107",
+        "maxPerimeterLengthKM": "4035.7079994431524",
+        "minPerimeterLengthKM": "123.84556473108516",
+        "meanAreaSqKM": "10144.520714014763",
+        "minAreaSqKM": "247.16621145183439",
+        "maxAreaSqKM": "59448.66645420476"
+      },
+      "adm1": {
+        "boundaryID": "ARE-ADM1-86790563",
+        "boundaryISO": "ARE",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "7",
+        "meanVertices": "11566.0",
+        "minVertices": "504",
+        "maxVertices": "54039",
+        "meanPerimeterLengthKM": "988.5369674300107",
+        "maxPerimeterLengthKM": "4035.7079994431524",
+        "minPerimeterLengthKM": "123.84556473108516",
+        "meanAreaSqKM": "10144.520714014763",
+        "minAreaSqKM": "247.16621145183439",
+        "maxAreaSqKM": "59448.66645420476"
+      },
+      "source_count": 7,
+      "metadata_count": 7,
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/ARE/ADM1/geoBoundaries-ARE-ADM1.geojson",
+      "pinned_source_sha256": "f6f0097b183518b7ddedd48c60b7e864e222156d2f0227bd345f271c2dd3d873",
+      "attribution": "geoBoundaries / William & Mary geoLab; OpenStreetMap, Wambacher; OpenStreetMap, Wambacher",
+      "license_policy": "各源原许可与署名保留，分国交付。OSM源同时保留ODbL声明；档案CC BY-SA 2.0声明不删改，不将所有源统一改成CC。",
+      "license_evidence": [
+        {
+          "file": "ARE-ADM1.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/ARE/ADM1/geoBoundaries-ARE-ADM1.geojson",
+          "sha256": "f6f0097b183518b7ddedd48c60b7e864e222156d2f0227bd345f271c2dd3d873"
+        },
+        {
+          "file": "ARE-ADM1.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/ARE/ADM1/geoBoundaries-ARE-ADM1-metaData.json",
+          "sha256": "6f43e2d7dded5e88f238dc0eccadc1d2356d92f5fd2b89050d2bf4fc6c1aa0ac"
+        }
+      ],
+      "coverage_note": "各国独立旧断面；现代上级只作位置关联；源计数与元数据差异如实记录。",
+      "adm1_source_count": 7,
+      "adm1_metadata_count": 7,
+      "source_admin_level": "ADM1",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.001,
+      "count_difference": 0,
+      "level_note": "无可用明确开放ADM2时采用ADM1；阿曼2010年7行政区旧断面，不声称现行省数。"
+    },
+    "QAT": {
+      "boundary": {
+        "boundaryID": "QAT-ADM2-91078587",
+        "boundaryISO": "QAT",
+        "boundaryYear": "2015",
+        "boundaryType": "ADM2",
+        "boundarySource": "geoBoundaries, Qatar Open Data Portal",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//www.data.gov.qa/pages/license/annexes",
+        "boundarySourceURL": "https//www.data.gov.qa/explore/dataset/gis-statistics/export/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "79",
+        "meanVertices": "199.0",
+        "minVertices": "5",
+        "maxVertices": "1803",
+        "meanPerimeterLengthKM": "50.60397699671838",
+        "maxPerimeterLengthKM": "259.70005814216955",
+        "minPerimeterLengthKM": "2.1803367296911436",
+        "meanAreaSqKM": "146.26031092011178",
+        "minAreaSqKM": "0.23337715203190806",
+        "maxAreaSqKM": "898.8649473013777"
+      },
+      "adm1": {
+        "boundaryID": "QAT-ADM1-59647477",
+        "boundaryISO": "QAT",
+        "boundaryYear": "2015",
+        "boundaryType": "ADM1",
+        "boundarySource": "geoBoundaries, Qatar Open Data Portal",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//www.data.gov.qa/pages/license/annexes",
+        "boundarySourceURL": "https//www.data.gov.qa/explore/dataset/gis-statistics/export/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "8",
+        "meanVertices": "1837.0",
+        "minVertices": "38",
+        "maxVertices": "3875",
+        "meanPerimeterLengthKM": "303.6053604835016",
+        "maxPerimeterLengthKM": "494.80060734449034",
+        "minPerimeterLengthKM": "94.26292838718639",
+        "meanAreaSqKM": "1444.3203289535475",
+        "minAreaSqKM": "169.34207235534345",
+        "maxAreaSqKM": "3322.242716476389"
+      },
+      "source_count": 79,
+      "metadata_count": 79,
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/QAT/ADM2/geoBoundaries-QAT-ADM2.geojson",
+      "pinned_source_sha256": "459507660f073e811b6b03c18915e419be553dbecf89d561bc561863c30200a8",
+      "attribution": "geoBoundaries / William & Mary geoLab; geoBoundaries, Qatar Open Data Portal; geoBoundaries, Qatar Open Data Portal",
+      "license_policy": "各源原许可与署名保留，分国交付。OSM源同时保留ODbL声明；档案CC BY-SA 2.0声明不删改，不将所有源统一改成CC。",
+      "license_evidence": [
+        {
+          "file": "QAT-ADM1.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/QAT/ADM1/geoBoundaries-QAT-ADM1.geojson",
+          "sha256": "e57eca0e409bd5475f5fb9f8cc125adcb06c5e2a7f64f117db2b6836d61bc8ad"
+        },
+        {
+          "file": "QAT-ADM1.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/QAT/ADM1/geoBoundaries-QAT-ADM1-metaData.json",
+          "sha256": "59c0e6db24b1de64980c0039ed5de230f745230922b3ff2161b5fdd660567591"
+        },
+        {
+          "file": "QAT-ADM2.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/QAT/ADM2/geoBoundaries-QAT-ADM2.geojson",
+          "sha256": "459507660f073e811b6b03c18915e419be553dbecf89d561bc561863c30200a8"
+        },
+        {
+          "file": "QAT-ADM2.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/QAT/ADM2/geoBoundaries-QAT-ADM2-metaData.json",
+          "sha256": "a056d6a57f06c3e68f379b4f01e29211155dd0c6f4829896f8d41dfc10172827"
+        }
+      ],
+      "coverage_note": "各国独立旧断面；现代上级只作位置关联；源计数与元数据差异如实记录。",
+      "adm1_source_count": 8,
+      "adm1_metadata_count": 8,
+      "source_admin_level": "ADM2",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.001,
+      "count_difference": 0
+    },
+    "BHR": {
+      "boundary": {
+        "boundaryID": "BHR-ADM1-46075475",
+        "boundaryISO": "BHR",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "4",
+        "meanVertices": "2777.0",
+        "minVertices": "2249",
+        "maxVertices": "3975",
+        "meanPerimeterLengthKM": "205.46072964651916",
+        "maxPerimeterLengthKM": "328.839456057424",
+        "minPerimeterLengthKM": "134.60198578300248",
+        "meanAreaSqKM": "190.35510169348936",
+        "minAreaSqKM": "60.14947326025475",
+        "maxAreaSqKM": "483.6719646350157"
+      },
+      "adm1": {
+        "boundaryID": "BHR-ADM1-46075475",
+        "boundaryISO": "BHR",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "4",
+        "meanVertices": "2777.0",
+        "minVertices": "2249",
+        "maxVertices": "3975",
+        "meanPerimeterLengthKM": "205.46072964651916",
+        "maxPerimeterLengthKM": "328.839456057424",
+        "minPerimeterLengthKM": "134.60198578300248",
+        "meanAreaSqKM": "190.35510169348936",
+        "minAreaSqKM": "60.14947326025475",
+        "maxAreaSqKM": "483.6719646350157"
+      },
+      "source_count": 4,
+      "metadata_count": 4,
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/BHR/ADM1/geoBoundaries-BHR-ADM1.geojson",
+      "pinned_source_sha256": "87f7915985d992e2b66628e50a78f8c3a728bf95aa9eb01852f4b867586a32ff",
+      "attribution": "geoBoundaries / William & Mary geoLab; OpenStreetMap, Wambacher; OpenStreetMap, Wambacher",
+      "license_policy": "各源原许可与署名保留，分国交付。OSM源同时保留ODbL声明；档案CC BY-SA 2.0声明不删改，不将所有源统一改成CC。",
+      "license_evidence": [
+        {
+          "file": "BHR-ADM1.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/BHR/ADM1/geoBoundaries-BHR-ADM1.geojson",
+          "sha256": "87f7915985d992e2b66628e50a78f8c3a728bf95aa9eb01852f4b867586a32ff"
+        },
+        {
+          "file": "BHR-ADM1.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/BHR/ADM1/geoBoundaries-BHR-ADM1-metaData.json",
+          "sha256": "cae7e4098e4fdede10775ead7c9d97df54cd8aab0e743364baff0087efa34149"
+        }
+      ],
+      "coverage_note": "各国独立旧断面；现代上级只作位置关联；源计数与元数据差异如实记录。",
+      "adm1_source_count": 4,
+      "adm1_metadata_count": 4,
+      "source_admin_level": "ADM1",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.001,
+      "count_difference": 0,
+      "level_note": "无可用明确开放ADM2时采用ADM1；阿曼2010年7行政区旧断面，不声称现行省数。"
+    },
+    "KWT": {
+      "boundary": {
+        "boundaryID": "KWT-ADM2-36326507",
+        "boundaryISO": "KWT",
+        "boundaryYear": "2011",
+        "boundaryType": "ADM2",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "Areas",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/relation/305099#map=9/29.3171/47.7787",
+        "boundarySourceURL": "https//www.openstreetmap.org/relation/305099#map=9/29.3171/47.7787",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "138",
+        "meanVertices": "26.0",
+        "minVertices": "5",
+        "maxVertices": "197",
+        "meanPerimeterLengthKM": "25.583472241852505",
+        "maxPerimeterLengthKM": "555.7625121084451",
+        "minPerimeterLengthKM": "3.6666005701373248",
+        "meanAreaSqKM": "118.16852153665981",
+        "minAreaSqKM": "0.6365835635158938",
+        "maxAreaSqKM": "6739.427029112768"
+      },
+      "adm1": {
+        "boundaryID": "KWT-ADM1-60633882",
+        "boundaryISO": "KWT",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "6",
+        "meanVertices": "1711.0",
+        "minVertices": "35",
+        "maxVertices": "5375",
+        "meanPerimeterLengthKM": "307.1716148202744",
+        "maxPerimeterLengthKM": "1105.0701676135823",
+        "minPerimeterLengthKM": "56.61974910769303",
+        "meanAreaSqKM": "2869.07790413018",
+        "minAreaSqKM": "83.4739348521946",
+        "maxAreaSqKM": "12231.46261603975"
+      },
+      "source_count": 137,
+      "metadata_count": 138,
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/KWT/ADM2/geoBoundaries-KWT-ADM2.geojson",
+      "pinned_source_sha256": "407be520dfd756ec4d281b92ca4ca9f11ae43ff1bc22babe0037ed5491595f76",
+      "attribution": "geoBoundaries / William & Mary geoLab; OpenStreetMap, Wambacher; OpenStreetMap, Wambacher",
+      "license_policy": "各源原许可与署名保留，分国交付。OSM源同时保留ODbL声明；档案CC BY-SA 2.0声明不删改，不将所有源统一改成CC。",
+      "license_evidence": [
+        {
+          "file": "KWT-ADM1.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/KWT/ADM1/geoBoundaries-KWT-ADM1.geojson",
+          "sha256": "82a7335b62c7eac5db5ac19d8f7d1cff77dca114bcc71aec93b9febb92267aa2"
+        },
+        {
+          "file": "KWT-ADM1.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/KWT/ADM1/geoBoundaries-KWT-ADM1-metaData.json",
+          "sha256": "cc97d05faa29338ee25021bef3bddad28a033ddd9682775bc14295126264a7af"
+        },
+        {
+          "file": "KWT-ADM2.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/KWT/ADM2/geoBoundaries-KWT-ADM2.geojson",
+          "sha256": "407be520dfd756ec4d281b92ca4ca9f11ae43ff1bc22babe0037ed5491595f76"
+        },
+        {
+          "file": "KWT-ADM2.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/KWT/ADM2/geoBoundaries-KWT-ADM2-metaData.json",
+          "sha256": "8e8cc043b8587c71249e92f2f007c28f25fd7e28f48aa145dbc52c94cd4d25eb"
+        }
+      ],
+      "coverage_note": "各国独立旧断面；现代上级只作位置关联；源计数与元数据差异如实记录。",
+      "adm1_source_count": 6,
+      "adm1_metadata_count": 6,
+      "source_admin_level": "ADM2",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.001,
+      "count_difference": -1
+    },
+    "EGY": {
+      "boundary": {
+        "boundaryID": "EGY-ADM2-37247803",
+        "boundaryISO": "EGY",
+        "boundaryYear": "2020",
+        "boundaryType": "ADM2",
+        "boundarySource": "OCHA ROMENA/HDX, Central Agency for Public Mobilization and Statistics (CAPMAS)",
+        "boundaryCanonical": "marakiz and aqsam",
+        "boundaryLicense": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "licenseDetail": "",
+        "licenseSource": "https//data.humdata.org/dataset/egypt-administrative-boundaries-levels-0-3",
+        "boundarySourceURL": "https//data.humdata.org/dataset/egypt-administrative-boundaries-levels-0-3",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "365",
+        "meanVertices": "557.0",
+        "minVertices": "5",
+        "maxVertices": "19304",
+        "meanPerimeterLengthKM": "154.39788702419943",
+        "maxPerimeterLengthKM": "4515.779028481988",
+        "minPerimeterLengthKM": "4.038872391241563",
+        "meanAreaSqKM": "2724.803990823988",
+        "minAreaSqKM": "0.630214967905556",
+        "maxAreaSqKM": "267979.0370235587"
+      },
+      "adm1": {
+        "boundaryID": "EGY-ADM1-46179711",
+        "boundaryISO": "EGY",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "27",
+        "meanVertices": "1621.0",
+        "minVertices": "13",
+        "maxVertices": "13431",
+        "meanPerimeterLengthKM": "816.2628265559923",
+        "maxPerimeterLengthKM": "3180.148779742613",
+        "minPerimeterLengthKM": "175.30702523283765",
+        "meanAreaSqKM": "37037.23779259684",
+        "minAreaSqKM": "1016.4718765562747",
+        "maxAreaSqKM": "439086.4258935523"
+      },
+      "source_count": 365,
+      "metadata_count": 365,
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/EGY/ADM2/geoBoundaries-EGY-ADM2.geojson",
+      "pinned_source_sha256": "d5a319adf69ea1179d7ba5462600c72ea9c54f46b762ffcf984a03c692b913a9",
+      "attribution": "geoBoundaries / William & Mary geoLab; OCHA ROMENA/HDX, Central Agency for Public Mobilization and Statistics (CAPMAS); OpenStreetMap, Wambacher",
+      "license_policy": "各源原许可与署名保留，分国交付。OSM源同时保留ODbL声明；档案CC BY-SA 2.0声明不删改，不将所有源统一改成CC。",
+      "license_evidence": [
+        {
+          "file": "EGY-ADM1.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/EGY/ADM1/geoBoundaries-EGY-ADM1.geojson",
+          "sha256": "c8b4bb9dc215cf302d030f3e93c0f249ed97e50951f058323346d510ec48886f"
+        },
+        {
+          "file": "EGY-ADM1.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/EGY/ADM1/geoBoundaries-EGY-ADM1-metaData.json",
+          "sha256": "9d17d61a415ea4506a0ff2dad81140de902cc2a62b053ef8bf7c864630c4e574"
+        },
+        {
+          "file": "EGY-ADM2.geojson",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/EGY/ADM2/geoBoundaries-EGY-ADM2.geojson",
+          "sha256": "d5a319adf69ea1179d7ba5462600c72ea9c54f46b762ffcf984a03c692b913a9"
+        },
+        {
+          "file": "EGY-ADM2.metadata.json",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/EGY/ADM2/geoBoundaries-EGY-ADM2-metaData.json",
+          "sha256": "dc1f2eeb46ae33cba5bae299bf074599a893ccc093531bd98a54af1cb383423d"
+        }
+      ],
+      "coverage_note": "各国独立旧断面；现代上级只作位置关联；源计数与元数据差异如实记录。",
+      "adm1_source_count": 27,
+      "adm1_metadata_count": 27,
+      "source_admin_level": "ADM2",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.001,
+      "count_difference": 0
+    }
+  },
+  "sources": [
+    "data/middleeast-blocks.sources.json"
+  ],
+  "database_license": "混合开放来源：ODbL 1.0、CC BY 3.0 IGO、CC BY 4.0、CC BY 2.5、CC BY-SA 2.0及Public Domain/CC0，分别保留原许可；分国开放GeoJSON交付。",
+  "database_license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "geoBoundaries / William & Mary geoLab; © OpenStreetMap contributors / Wambacher / OSM Boundaries; UNCS / UNOCHA / OCHA ROSC / OCHA Iraq / OCHA Yemen / OCHA ROMENA / CAPMAS / CSO; Wikimedia / Open Data Watch / Qatar Open Data Portal.",
+  "editing_count": 2757,
+  "source_count": 2757,
+  "cross_source_overlaps": [
+    {
+      "countries": [
+        "TUR",
+        "IRN"
+      ],
+      "area_square_degrees": 0.00038991080126496083
+    },
+    {
+      "countries": [
+        "TUR",
+        "IRQ"
+      ],
+      "area_square_degrees": 0.00889648160775929
+    },
+    {
+      "countries": [
+        "TUR",
+        "SYR"
+      ],
+      "area_square_degrees": 0.009136255701076087
+    },
+    {
+      "countries": [
+        "IRN",
+        "IRQ"
+      ],
+      "area_square_degrees": 0.048997246148048956
+    },
+    {
+      "countries": [
+        "IRQ",
+        "SYR"
+      ],
+      "area_square_degrees": 0.015463804460856224
+    },
+    {
+      "countries": [
+        "IRQ",
+        "JOR"
+      ],
+      "area_square_degrees": 0.002912902933212839
+    },
+    {
+      "countries": [
+        "IRQ",
+        "SAU"
+      ],
+      "area_square_degrees": 0.00039429334466946483
+    },
+    {
+      "countries": [
+        "IRQ",
+        "KWT"
+      ],
+      "area_square_degrees": 0.0032924543666735017
+    },
+    {
+      "countries": [
+        "SYR",
+        "LBN"
+      ],
+      "area_square_degrees": 0.009510007239034293
+    },
+    {
+      "countries": [
+        "SYR",
+        "ISR"
+      ],
+      "area_square_degrees": 0.11125530164451977
+    },
+    {
+      "countries": [
+        "SYR",
+        "JOR"
+      ],
+      "area_square_degrees": 0.00032651414404015553
+    },
+    {
+      "countries": [
+        "LBN",
+        "ISR"
+      ],
+      "area_square_degrees": 0.005300802078395763
+    },
+    {
+      "countries": [
+        "ISR",
+        "PSE"
+      ],
+      "area_square_degrees": 0.012378392460427793
+    },
+    {
+      "countries": [
+        "ISR",
+        "JOR"
+      ],
+      "area_square_degrees": 0.0020030671629211166
+    },
+    {
+      "countries": [
+        "ISR",
+        "EGY"
+      ],
+      "area_square_degrees": 0.0049562520798019545
+    },
+    {
+      "countries": [
+        "PSE",
+        "JOR"
+      ],
+      "area_square_degrees": 0.0005241657080069695
+    },
+    {
+      "countries": [
+        "PSE",
+        "EGY"
+      ],
+      "area_square_degrees": 0.00035481168691627393
+    },
+    {
+      "countries": [
+        "JOR",
+        "SAU"
+      ],
+      "area_square_degrees": 0.004254401805161636
+    },
+    {
+      "countries": [
+        "SAU",
+        "YEM"
+      ],
+      "area_square_degrees": 0.005851968029099474
+    },
+    {
+      "countries": [
+        "SAU",
+        "OMN"
+      ],
+      "area_square_degrees": 0.00010437075184792335
+    },
+    {
+      "countries": [
+        "SAU",
+        "ARE"
+      ],
+      "area_square_degrees": 8.767090915032805e-06
+    },
+    {
+      "countries": [
+        "SAU",
+        "QAT"
+      ],
+      "area_square_degrees": 5.175318555970301e-07
+    },
+    {
+      "countries": [
+        "SAU",
+        "KWT"
+      ],
+      "area_square_degrees": 1.3201078350547416e-05
+    },
+    {
+      "countries": [
+        "SAU",
+        "EGY"
+      ],
+      "area_square_degrees": 0.007159986810028919
+    },
+    {
+      "countries": [
+        "YEM",
+        "OMN"
+      ],
+      "area_square_degrees": 0.0006175982510548624
+    },
+    {
+      "countries": [
+        "OMN",
+        "ARE"
+      ],
+      "area_square_degrees": 7.361655289006969e-07
+    }
+  ],
+  "input_sha256": {
+    "TUR-ADM2.geojson": "8e7594ab12d916e3b93f920475a300c364dfb94a0e40bfa6d55f43aff0c7fd97",
+    "IRN-ADM2.geojson": "6f95cb3e108907663846f1e7479d07714fe95b5c3e0adf44ad94d27b8b42ff7a",
+    "IRQ-ADM2.geojson": "757287a87829806eaf2247a76aee870804a6304006ac4b52cb39729be00c5cae",
+    "SYR-ADM2.geojson": "74358b107af7368c206aca32beeb70051433a66fc0fe14d6499bfe810e061b09",
+    "LBN-ADM2.geojson": "753df893a95986961f53f0759468fa415eafd6efbcb02c113727fb0e98508aa5",
+    "ISR-ADM2.geojson": "32079c9747279aa5f7a060b4cce241814ea46c45ae4081f3b713c0ddf7b05100",
+    "PSE-ADM2.geojson": "69bf9a3baddaa5c102d9bea6681c586f8cb3a24f1bb78783f8ec68daabc798c0",
+    "JOR-ADM2.geojson": "d575a50ed8382a67aee5b716c9ca45b35447d857dadb2cf4af74ad936db8dc34",
+    "SAU-ADM2.geojson": "5c550ddf9954756cfdf7972a70bbbed04db0242f515255bc061b29321dea2436",
+    "YEM-ADM2.geojson": "155b5ecb10001167337c0d5ae773767f567aae635c5f740d144018216c04c8f0",
+    "OMN-ADM1.geojson": "4bfecd716958823c767d9e996e403f1f42bfee345774f5f31d7d9e1aa12b68f6",
+    "ARE-ADM1.geojson": "f6f0097b183518b7ddedd48c60b7e864e222156d2f0227bd345f271c2dd3d873",
+    "QAT-ADM2.geojson": "459507660f073e811b6b03c18915e419be553dbecf89d561bc561863c30200a8",
+    "BHR-ADM1.geojson": "87f7915985d992e2b66628e50a78f8c3a728bf95aa9eb01852f4b867586a32ff",
+    "KWT-ADM2.geojson": "407be520dfd756ec4d281b92ca4ca9f11ae43ff1bc22babe0037ed5491595f76",
+    "EGY-ADM2.geojson": "d5a319adf69ea1179d7ba5462600c72ea9c54f46b762ffcf984a03c692b913a9"
+  },
+  "geometry_policy": "源覆盖有效时统一简化共享边界，容差0.001度；覆盖无效时保留源几何。组件和孔洞数量不减少，不据现代面裁切历史面。",
+  "historical_policy": "历史名及名称依据空，归属与实控unknown，parent_id空。"
+}

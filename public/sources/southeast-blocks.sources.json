@@ -1,0 +1,2294 @@
+{
+  "revision": 1,
+  "countries": [
+    {
+      "iso": "MMR",
+      "name": "缅甸",
+      "count": 87,
+      "source_count": 74,
+      "source_years": [
+        "2019"
+      ],
+      "geoBounds": [
+        92.172747,
+        9.671252,
+        101.169892,
+        28.545539
+      ],
+      "view": [
+        910.402898,
+        603.220038,
+        112.620594,
+        211.392014
+      ]
+    },
+    {
+      "iso": "THA",
+      "name": "泰国",
+      "count": 966,
+      "source_count": 928,
+      "source_years": [
+        "2019"
+      ],
+      "geoBounds": [
+        97.343478,
+        5.613038,
+        105.636965,
+        20.465029
+      ],
+      "view": [
+        964.523585,
+        686.438515,
+        100.757259,
+        166.342299
+      ]
+    },
+    {
+      "iso": "LAO",
+      "name": "老挝",
+      "count": 148,
+      "source_count": 148,
+      "source_years": [
+        "2019"
+      ],
+      "geoBounds": [
+        100.083131,
+        13.90985,
+        107.635068,
+        22.509207
+      ],
+      "view": [
+        995.671696,
+        669.748316,
+        85.838598,
+        96.312798
+      ]
+    },
+    {
+      "iso": "KHM",
+      "name": "柬埔寨",
+      "count": 202,
+      "source_count": 197,
+      "source_years": [
+        "2014"
+      ],
+      "geoBounds": [
+        102.333828,
+        10.35406,
+        107.627679,
+        14.690082
+      ],
+      "view": [
+        1020.161969,
+        749.922869,
+        59.291131,
+        49.712841
+      ]
+    },
+    {
+      "iso": "VNM",
+      "name": "越南",
+      "count": 738,
+      "source_count": 708,
+      "source_years": [
+        "2020"
+      ],
+      "geoBounds": [
+        102.144078,
+        7.180931,
+        117.835457,
+        23.391995
+      ],
+      "view": [
+        1011.714142,
+        656.353412,
+        176.367067,
+        181.563917
+      ]
+    },
+    {
+      "iso": "MYS",
+      "name": "马来西亚",
+      "count": 183,
+      "source_count": 160,
+      "source_years": [
+        "2022"
+      ],
+      "geoBounds": [
+        99.6409,
+        0.85539,
+        119.26899,
+        7.36098
+      ],
+      "view": [
+        984.632146,
+        814.613346,
+        219.834608,
+        88.609608
+      ]
+    },
+    {
+      "iso": "SGP",
+      "name": "新加坡",
+      "count": 56,
+      "source_count": 55,
+      "source_years": [
+        "2016"
+      ],
+      "geoBounds": [
+        103.60570070513403,
+        1.158698700635259,
+        104.08848306516335,
+        1.470774832084762
+      ],
+      "view": [
+        1035.767338,
+        885.002582,
+        5.407162,
+        3.7001
+      ]
+    },
+    {
+      "iso": "BRN",
+      "name": "文莱",
+      "count": 43,
+      "source_count": 43,
+      "source_years": [
+        "2006",
+        "2011"
+      ],
+      "geoBounds": [
+        114.08054525900002,
+        4.001830178000034,
+        115.37654890100009,
+        5.045516037000027
+      ],
+      "view": [
+        1140.02785,
+        848.767237,
+        14.515241,
+        11.992063
+      ]
+    },
+    {
+      "iso": "IDN",
+      "name": "印度尼西亚",
+      "count": 675,
+      "source_count": 519,
+      "source_years": [
+        "2020"
+      ],
+      "geoBounds": [
+        95.01079860000004,
+        -11.007241199999953,
+        141.0194,
+        6.076883200000054
+      ],
+      "view": [
+        922.502825,
+        811.626007,
+        515.296336,
+        226.051566
+      ]
+    },
+    {
+      "iso": "PHL",
+      "name": "菲律宾",
+      "count": 1767,
+      "source_count": 1647,
+      "source_years": [
+        "2020"
+      ],
+      "geoBounds": [
+        114.27790168600006,
+        4.587965888000042,
+        126.60495742800003,
+        21.120943150000073
+      ],
+      "view": [
+        1132.859231,
+        678.870782,
+        143.11013,
+        185.169345
+      ]
+    },
+    {
+      "iso": "TLS",
+      "name": "东帝汶",
+      "count": 66,
+      "source_count": 65,
+      "source_years": [
+        "2020"
+      ],
+      "geoBounds": [
+        124.04493713400007,
+        -9.504650115999937,
+        127.34187316900011,
+        -8.127030372999968
+      ],
+      "view": [
+        1238.47121,
+        979.292142,
+        36.925684,
+        17.732521
+      ]
+    }
+  ],
+  "source_count": 4544,
+  "editing_count": 4931,
+  "sources": [
+    "data/sea-mainland-blocks.sources.json",
+    "data/sea-peninsula-blocks.sources.json",
+    "data/sea-islands-blocks.sources.json"
+  ],
+  "input_sha256": {
+    "sea-mainland-blocks.geojson": "9e6a3c91dca60760644b0cf296be774a0e46e586a0054b2d99f1a74c92cab1a6",
+    "sea-peninsula-blocks.geojson": "8f2823db241ed249488563ef475756851ccb9fd14fabf19706bedc74d7dcc0bf",
+    "sea-islands-blocks.geojson": "848f140b6a471a6b3d09e527073e1c57a00d1a75e25ec881e7fd7128201642b6"
+  },
+  "frozen_base_sha256": "40c934e39d94f9376c53d6d827161dc6259289fb63ce44111a5ff21d3bea0082",
+  "component_splits": [
+    {
+      "source_id": "foreign-khm-14789045B13599773349639",
+      "editing_id": "foreign-khm-14789045B13599773349639-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-khm-14789045B14640150427480",
+      "editing_id": "foreign-khm-14789045B14640150427480-sea-cambodia",
+      "parent_id": "sea-cambodia"
+    },
+    {
+      "source_id": "foreign-khm-14789045B37370397224280",
+      "editing_id": "foreign-khm-14789045B37370397224280-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-khm-14789045B88399484092706",
+      "editing_id": "foreign-khm-14789045B88399484092706-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-khm-14789045B91136996845349",
+      "editing_id": "foreign-khm-14789045B91136996845349-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mmr-60261553B1263911264167",
+      "editing_id": "foreign-mmr-60261553B1263911264167-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mmr-60261553B3473904040713",
+      "editing_id": "foreign-mmr-60261553B3473904040713-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mmr-60261553B36201163114452",
+      "editing_id": "foreign-mmr-60261553B36201163114452-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mmr-60261553B36650423786052",
+      "editing_id": "foreign-mmr-60261553B36650423786052-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mmr-60261553B46892654123535",
+      "editing_id": "foreign-mmr-60261553B46892654123535-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mmr-60261553B68016490563167",
+      "editing_id": "foreign-mmr-60261553B68016490563167-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mmr-60261553B72281625520368",
+      "editing_id": "foreign-mmr-60261553B72281625520368-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mmr-60261553B78069071602625",
+      "editing_id": "foreign-mmr-60261553B78069071602625-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mmr-60261553B82376991609151",
+      "editing_id": "foreign-mmr-60261553B82376991609151-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mmr-60261553B83294236469928",
+      "editing_id": "foreign-mmr-60261553B83294236469928-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mmr-60261553B96709228149477",
+      "editing_id": "foreign-mmr-60261553B96709228149477-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mmr-60261553B98033082841224",
+      "editing_id": "foreign-mmr-60261553B98033082841224-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mmr-60261553B98033082841224",
+      "editing_id": "foreign-mmr-60261553B98033082841224-sea-ayutthaya",
+      "parent_id": "sea-ayutthaya"
+    },
+    {
+      "source_id": "foreign-tha-78962969B11995131192654",
+      "editing_id": "foreign-tha-78962969B11995131192654-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B12315134210543",
+      "editing_id": "foreign-tha-78962969B12315134210543-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B124127950109",
+      "editing_id": "foreign-tha-78962969B124127950109-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B14471868666252",
+      "editing_id": "foreign-tha-78962969B14471868666252-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B1514020296761",
+      "editing_id": "foreign-tha-78962969B1514020296761-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B16427813486063",
+      "editing_id": "foreign-tha-78962969B16427813486063-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B19426862373274",
+      "editing_id": "foreign-tha-78962969B19426862373274-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B20525991474584",
+      "editing_id": "foreign-tha-78962969B20525991474584-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B29743694445242",
+      "editing_id": "foreign-tha-78962969B29743694445242-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B3300924250293",
+      "editing_id": "foreign-tha-78962969B3300924250293-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B35489784077256",
+      "editing_id": "foreign-tha-78962969B35489784077256-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B3750900919123",
+      "editing_id": "foreign-tha-78962969B3750900919123-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B39979274143767",
+      "editing_id": "foreign-tha-78962969B39979274143767-sea-ayutthaya",
+      "parent_id": "sea-ayutthaya"
+    },
+    {
+      "source_id": "foreign-tha-78962969B40888142267385",
+      "editing_id": "foreign-tha-78962969B40888142267385-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B42401089458559",
+      "editing_id": "foreign-tha-78962969B42401089458559-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B45333129363776",
+      "editing_id": "foreign-tha-78962969B45333129363776-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B48901516523989",
+      "editing_id": "foreign-tha-78962969B48901516523989-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B4904051654531",
+      "editing_id": "foreign-tha-78962969B4904051654531-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B49973516992329",
+      "editing_id": "foreign-tha-78962969B49973516992329-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B53971782347722",
+      "editing_id": "foreign-tha-78962969B53971782347722-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B55330970869967",
+      "editing_id": "foreign-tha-78962969B55330970869967-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B56019548429008",
+      "editing_id": "foreign-tha-78962969B56019548429008-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B56778840281183",
+      "editing_id": "foreign-tha-78962969B56778840281183-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B56840813019063",
+      "editing_id": "foreign-tha-78962969B56840813019063-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B58097970477976",
+      "editing_id": "foreign-tha-78962969B58097970477976-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B58781089685129",
+      "editing_id": "foreign-tha-78962969B58781089685129-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B66600196547968",
+      "editing_id": "foreign-tha-78962969B66600196547968-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B69039752575534",
+      "editing_id": "foreign-tha-78962969B69039752575534-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B74412362981694",
+      "editing_id": "foreign-tha-78962969B74412362981694-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B77889758580625",
+      "editing_id": "foreign-tha-78962969B77889758580625-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B78626078629427",
+      "editing_id": "foreign-tha-78962969B78626078629427-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B83331029808127",
+      "editing_id": "foreign-tha-78962969B83331029808127-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B83869415857059",
+      "editing_id": "foreign-tha-78962969B83869415857059-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B85849913295543",
+      "editing_id": "foreign-tha-78962969B85849913295543-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B86019353442573",
+      "editing_id": "foreign-tha-78962969B86019353442573-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B89746829348507",
+      "editing_id": "foreign-tha-78962969B89746829348507-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B98513792826345",
+      "editing_id": "foreign-tha-78962969B98513792826345-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tha-78962969B98614322504757",
+      "editing_id": "foreign-tha-78962969B98614322504757-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B12468750690576",
+      "editing_id": "foreign-vnm-81297802B12468750690576-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B15274858883665",
+      "editing_id": "foreign-vnm-81297802B15274858883665-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B22159011638398",
+      "editing_id": "foreign-vnm-81297802B22159011638398-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B23156291808671",
+      "editing_id": "foreign-vnm-81297802B23156291808671-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B34321495303848",
+      "editing_id": "foreign-vnm-81297802B34321495303848-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B34920687321908",
+      "editing_id": "foreign-vnm-81297802B34920687321908-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B41363610148385",
+      "editing_id": "foreign-vnm-81297802B41363610148385-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B45644811289425",
+      "editing_id": "foreign-vnm-81297802B45644811289425-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B47177978604160",
+      "editing_id": "foreign-vnm-81297802B47177978604160-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B51561347842325",
+      "editing_id": "foreign-vnm-81297802B51561347842325-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B53592665760601",
+      "editing_id": "foreign-vnm-81297802B53592665760601-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B56109009945364",
+      "editing_id": "foreign-vnm-81297802B56109009945364-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B5756602808944",
+      "editing_id": "foreign-vnm-81297802B5756602808944-sea-vietnam",
+      "parent_id": "sea-vietnam"
+    },
+    {
+      "source_id": "foreign-vnm-81297802B58839501230111",
+      "editing_id": "foreign-vnm-81297802B58839501230111-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B61067118889021",
+      "editing_id": "foreign-vnm-81297802B61067118889021-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B6190272756602",
+      "editing_id": "foreign-vnm-81297802B6190272756602-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B61927033163821",
+      "editing_id": "foreign-vnm-81297802B61927033163821-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B62948768430814",
+      "editing_id": "foreign-vnm-81297802B62948768430814-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B65581648571900",
+      "editing_id": "foreign-vnm-81297802B65581648571900-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B69562638547328",
+      "editing_id": "foreign-vnm-81297802B69562638547328-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B73162737965460",
+      "editing_id": "foreign-vnm-81297802B73162737965460-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B75835306112543",
+      "editing_id": "foreign-vnm-81297802B75835306112543-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B76244887601508",
+      "editing_id": "foreign-vnm-81297802B76244887601508-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B85161602276488",
+      "editing_id": "foreign-vnm-81297802B85161602276488-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B85934029741785",
+      "editing_id": "foreign-vnm-81297802B85934029741785-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B88990967828920",
+      "editing_id": "foreign-vnm-81297802B88990967828920-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B92253150972948",
+      "editing_id": "foreign-vnm-81297802B92253150972948-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B95607767906649",
+      "editing_id": "foreign-vnm-81297802B95607767906649-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B97652803071493",
+      "editing_id": "foreign-vnm-81297802B97652803071493-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-vnm-81297802B99684516055458",
+      "editing_id": "foreign-vnm-81297802B99684516055458-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-1_5",
+      "editing_id": "foreign-mys-dosm-1_5-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-1_7",
+      "editing_id": "foreign-mys-dosm-1_7-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-2_10",
+      "editing_id": "foreign-mys-dosm-2_10-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-4_1",
+      "editing_id": "foreign-mys-dosm-4_1-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-4_3",
+      "editing_id": "foreign-mys-dosm-4_3-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-6_9",
+      "editing_id": "foreign-mys-dosm-6_9-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-7_3",
+      "editing_id": "foreign-mys-dosm-7_3-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-8_2",
+      "editing_id": "foreign-mys-dosm-8_2-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-10_2",
+      "editing_id": "foreign-mys-dosm-10_2-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-11_1",
+      "editing_id": "foreign-mys-dosm-11_1-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-11_5",
+      "editing_id": "foreign-mys-dosm-11_5-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-11_8",
+      "editing_id": "foreign-mys-dosm-11_8-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-12_2",
+      "editing_id": "foreign-mys-dosm-12_2-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-12_3",
+      "editing_id": "foreign-mys-dosm-12_3-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-12_4",
+      "editing_id": "foreign-mys-dosm-12_4-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-12_6",
+      "editing_id": "foreign-mys-dosm-12_6-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-12_7",
+      "editing_id": "foreign-mys-dosm-12_7-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-12_9",
+      "editing_id": "foreign-mys-dosm-12_9-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-12_12",
+      "editing_id": "foreign-mys-dosm-12_12-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-12_13",
+      "editing_id": "foreign-mys-dosm-12_13-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-12_17",
+      "editing_id": "foreign-mys-dosm-12_17-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-12_27",
+      "editing_id": "foreign-mys-dosm-12_27-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-mys-dosm-13_3",
+      "editing_id": "foreign-mys-dosm-13_3-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-sgp-91842731B32884228755734",
+      "editing_id": "foreign-sgp-91842731B32884228755734-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B90547447297479",
+      "editing_id": "foreign-idn-22746128B90547447297479-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B21424895456858",
+      "editing_id": "foreign-idn-22746128B21424895456858-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B12428400263117",
+      "editing_id": "foreign-idn-22746128B12428400263117-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B17710719872214",
+      "editing_id": "foreign-idn-22746128B17710719872214-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B57620394058931",
+      "editing_id": "foreign-idn-22746128B57620394058931-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B89220130199878",
+      "editing_id": "foreign-idn-22746128B89220130199878-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B26461090721788",
+      "editing_id": "foreign-idn-22746128B26461090721788-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B62198228854475",
+      "editing_id": "foreign-idn-22746128B62198228854475-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B76986430159502",
+      "editing_id": "foreign-idn-22746128B76986430159502-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B48169474795911",
+      "editing_id": "foreign-idn-22746128B48169474795911-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B27585215741432",
+      "editing_id": "foreign-idn-22746128B27585215741432-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B19321376976921",
+      "editing_id": "foreign-idn-22746128B19321376976921-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B66707258567489",
+      "editing_id": "foreign-idn-22746128B66707258567489-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B51270543903443",
+      "editing_id": "foreign-idn-22746128B51270543903443-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B81694843903641",
+      "editing_id": "foreign-idn-22746128B81694843903641-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B80009106787015",
+      "editing_id": "foreign-idn-22746128B80009106787015-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B98690900191937",
+      "editing_id": "foreign-idn-22746128B98690900191937-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B45456061674897",
+      "editing_id": "foreign-idn-22746128B45456061674897-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B96004883426087",
+      "editing_id": "foreign-idn-22746128B96004883426087-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B39887218554518",
+      "editing_id": "foreign-idn-22746128B39887218554518-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B34069275840087",
+      "editing_id": "foreign-idn-22746128B34069275840087-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B14082340634491",
+      "editing_id": "foreign-idn-22746128B14082340634491-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B45235083091424",
+      "editing_id": "foreign-idn-22746128B45235083091424-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B1718153682633",
+      "editing_id": "foreign-idn-22746128B1718153682633-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B14720240696101",
+      "editing_id": "foreign-idn-22746128B14720240696101-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B26195600949416",
+      "editing_id": "foreign-idn-22746128B26195600949416-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B96389329417801",
+      "editing_id": "foreign-idn-22746128B96389329417801-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B28760414544557",
+      "editing_id": "foreign-idn-22746128B28760414544557-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B25468135680533",
+      "editing_id": "foreign-idn-22746128B25468135680533-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B19337828575841",
+      "editing_id": "foreign-idn-22746128B19337828575841-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B72639885395673",
+      "editing_id": "foreign-idn-22746128B72639885395673-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B10941975158621",
+      "editing_id": "foreign-idn-22746128B10941975158621-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B60636029206407",
+      "editing_id": "foreign-idn-22746128B60636029206407-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B90083339512512",
+      "editing_id": "foreign-idn-22746128B90083339512512-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B86741169633217",
+      "editing_id": "foreign-idn-22746128B86741169633217-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B94245100908076",
+      "editing_id": "foreign-idn-22746128B94245100908076-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B6718763508294",
+      "editing_id": "foreign-idn-22746128B6718763508294-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B51044624823813",
+      "editing_id": "foreign-idn-22746128B51044624823813-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B37209370352000",
+      "editing_id": "foreign-idn-22746128B37209370352000-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B31420255543838",
+      "editing_id": "foreign-idn-22746128B31420255543838-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B11403753934380",
+      "editing_id": "foreign-idn-22746128B11403753934380-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B46201528673681",
+      "editing_id": "foreign-idn-22746128B46201528673681-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B79106566109504",
+      "editing_id": "foreign-idn-22746128B79106566109504-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B68993103553012",
+      "editing_id": "foreign-idn-22746128B68993103553012-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B78667545948550",
+      "editing_id": "foreign-idn-22746128B78667545948550-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B57887954309635",
+      "editing_id": "foreign-idn-22746128B57887954309635-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B46933486274006",
+      "editing_id": "foreign-idn-22746128B46933486274006-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B54859500646728",
+      "editing_id": "foreign-idn-22746128B54859500646728-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B52341022582766",
+      "editing_id": "foreign-idn-22746128B52341022582766-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B2838702785556",
+      "editing_id": "foreign-idn-22746128B2838702785556-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B46636453933041",
+      "editing_id": "foreign-idn-22746128B46636453933041-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B70343351071090",
+      "editing_id": "foreign-idn-22746128B70343351071090-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B41252486574655",
+      "editing_id": "foreign-idn-22746128B41252486574655-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B36468792556341",
+      "editing_id": "foreign-idn-22746128B36468792556341-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B71103770185906",
+      "editing_id": "foreign-idn-22746128B71103770185906-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B56085237319005",
+      "editing_id": "foreign-idn-22746128B56085237319005-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B85592790675198",
+      "editing_id": "foreign-idn-22746128B85592790675198-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B64050318598962",
+      "editing_id": "foreign-idn-22746128B64050318598962-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B68650893607060",
+      "editing_id": "foreign-idn-22746128B68650893607060-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B93097528927367",
+      "editing_id": "foreign-idn-22746128B93097528927367-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B60715781377305",
+      "editing_id": "foreign-idn-22746128B60715781377305-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B40819362853427",
+      "editing_id": "foreign-idn-22746128B40819362853427-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B56151469580770",
+      "editing_id": "foreign-idn-22746128B56151469580770-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B17511076551422",
+      "editing_id": "foreign-idn-22746128B17511076551422-sea-archipelago",
+      "parent_id": "sea-archipelago"
+    },
+    {
+      "source_id": "foreign-idn-22746128B86355072671334",
+      "editing_id": "foreign-idn-22746128B86355072671334-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B32802105420608",
+      "editing_id": "foreign-idn-22746128B32802105420608-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B63742079715926",
+      "editing_id": "foreign-idn-22746128B63742079715926-sea-archipelago",
+      "parent_id": "sea-archipelago"
+    },
+    {
+      "source_id": "foreign-idn-22746128B81791072961966",
+      "editing_id": "foreign-idn-22746128B81791072961966-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B96094928872069",
+      "editing_id": "foreign-idn-22746128B96094928872069-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B56277764926455",
+      "editing_id": "foreign-idn-22746128B56277764926455-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B73073409478343",
+      "editing_id": "foreign-idn-22746128B73073409478343-sea-archipelago",
+      "parent_id": "sea-archipelago"
+    },
+    {
+      "source_id": "foreign-idn-22746128B69202393010200",
+      "editing_id": "foreign-idn-22746128B69202393010200-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B78249855862414",
+      "editing_id": "foreign-idn-22746128B78249855862414-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B90195550492320",
+      "editing_id": "foreign-idn-22746128B90195550492320-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B68991025063444",
+      "editing_id": "foreign-idn-22746128B68991025063444-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B85816588264471",
+      "editing_id": "foreign-idn-22746128B85816588264471-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B66779214231616",
+      "editing_id": "foreign-idn-22746128B66779214231616-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B20507278995893",
+      "editing_id": "foreign-idn-22746128B20507278995893-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B2679722836886",
+      "editing_id": "foreign-idn-22746128B2679722836886-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B73854317646589",
+      "editing_id": "foreign-idn-22746128B73854317646589-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B51925287869213",
+      "editing_id": "foreign-idn-22746128B51925287869213-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B94413576870843",
+      "editing_id": "foreign-idn-22746128B94413576870843-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B38845978082923",
+      "editing_id": "foreign-idn-22746128B38845978082923-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B11366688050704",
+      "editing_id": "foreign-idn-22746128B11366688050704-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B24002479708791",
+      "editing_id": "foreign-idn-22746128B24002479708791-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B69090577702614",
+      "editing_id": "foreign-idn-22746128B69090577702614-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B27765258797580",
+      "editing_id": "foreign-idn-22746128B27765258797580-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B55621143702768",
+      "editing_id": "foreign-idn-22746128B55621143702768-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B75924443266043",
+      "editing_id": "foreign-idn-22746128B75924443266043-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B62762388436916",
+      "editing_id": "foreign-idn-22746128B62762388436916-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B4401734887211",
+      "editing_id": "foreign-idn-22746128B4401734887211-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B49036162018248",
+      "editing_id": "foreign-idn-22746128B49036162018248-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B38668827904245",
+      "editing_id": "foreign-idn-22746128B38668827904245-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B98880758851169",
+      "editing_id": "foreign-idn-22746128B98880758851169-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B55307338459902",
+      "editing_id": "foreign-idn-22746128B55307338459902-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B90862663975631",
+      "editing_id": "foreign-idn-22746128B90862663975631-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B8866265958554",
+      "editing_id": "foreign-idn-22746128B8866265958554-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B88480653802061",
+      "editing_id": "foreign-idn-22746128B88480653802061-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B41463091507887",
+      "editing_id": "foreign-idn-22746128B41463091507887-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B6545713511337",
+      "editing_id": "foreign-idn-22746128B6545713511337-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B78864950196660",
+      "editing_id": "foreign-idn-22746128B78864950196660-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B39960960221771",
+      "editing_id": "foreign-idn-22746128B39960960221771-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B65468173429736",
+      "editing_id": "foreign-idn-22746128B65468173429736-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B80893459197040",
+      "editing_id": "foreign-idn-22746128B80893459197040-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B41361424069199",
+      "editing_id": "foreign-idn-22746128B41361424069199-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B27819456459641",
+      "editing_id": "foreign-idn-22746128B27819456459641-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B58641314112332",
+      "editing_id": "foreign-idn-22746128B58641314112332-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B63262525003276",
+      "editing_id": "foreign-idn-22746128B63262525003276-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B13218426778114",
+      "editing_id": "foreign-idn-22746128B13218426778114-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B65756496772256",
+      "editing_id": "foreign-idn-22746128B65756496772256-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B99426029309213",
+      "editing_id": "foreign-idn-22746128B99426029309213-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B38105670760260",
+      "editing_id": "foreign-idn-22746128B38105670760260-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B90516172699691",
+      "editing_id": "foreign-idn-22746128B90516172699691-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B26432903559283",
+      "editing_id": "foreign-idn-22746128B26432903559283-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B70372019871554",
+      "editing_id": "foreign-idn-22746128B70372019871554-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B23924471266348",
+      "editing_id": "foreign-idn-22746128B23924471266348-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B29146649309875",
+      "editing_id": "foreign-idn-22746128B29146649309875-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B24707766174966",
+      "editing_id": "foreign-idn-22746128B24707766174966-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B6554957987252",
+      "editing_id": "foreign-idn-22746128B6554957987252-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B46377021687256",
+      "editing_id": "foreign-idn-22746128B46377021687256-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B79755996911998",
+      "editing_id": "foreign-idn-22746128B79755996911998-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B84288456023840",
+      "editing_id": "foreign-idn-22746128B84288456023840-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B5854376167403",
+      "editing_id": "foreign-idn-22746128B5854376167403-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B95220206981522",
+      "editing_id": "foreign-idn-22746128B95220206981522-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B17746000623405",
+      "editing_id": "foreign-idn-22746128B17746000623405-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B44055596539945",
+      "editing_id": "foreign-idn-22746128B44055596539945-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B94381737455512",
+      "editing_id": "foreign-idn-22746128B94381737455512-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B35993392452682",
+      "editing_id": "foreign-idn-22746128B35993392452682-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B36723886609479",
+      "editing_id": "foreign-idn-22746128B36723886609479-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B98781354669228",
+      "editing_id": "foreign-idn-22746128B98781354669228-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B90221566890304",
+      "editing_id": "foreign-idn-22746128B90221566890304-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B94981829239468",
+      "editing_id": "foreign-idn-22746128B94981829239468-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B71759944188311",
+      "editing_id": "foreign-idn-22746128B71759944188311-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B2542813239591",
+      "editing_id": "foreign-idn-22746128B2542813239591-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B27261093121909",
+      "editing_id": "foreign-idn-22746128B27261093121909-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B92585048181027",
+      "editing_id": "foreign-idn-22746128B92585048181027-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B38603798591380",
+      "editing_id": "foreign-idn-22746128B38603798591380-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B3242616561013",
+      "editing_id": "foreign-idn-22746128B3242616561013-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B25889265457696",
+      "editing_id": "foreign-idn-22746128B25889265457696-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B62270956264702",
+      "editing_id": "foreign-idn-22746128B62270956264702-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B25112391877259",
+      "editing_id": "foreign-idn-22746128B25112391877259-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B15873256673931",
+      "editing_id": "foreign-idn-22746128B15873256673931-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B848155691224",
+      "editing_id": "foreign-idn-22746128B848155691224-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B46307112426649",
+      "editing_id": "foreign-idn-22746128B46307112426649-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B33549586615312",
+      "editing_id": "foreign-idn-22746128B33549586615312-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B22343651246279",
+      "editing_id": "foreign-idn-22746128B22343651246279-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B5843223707622",
+      "editing_id": "foreign-idn-22746128B5843223707622-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B69666188283297",
+      "editing_id": "foreign-idn-22746128B69666188283297-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B13468366985120",
+      "editing_id": "foreign-idn-22746128B13468366985120-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B86210793324026",
+      "editing_id": "foreign-idn-22746128B86210793324026-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B47515282892276",
+      "editing_id": "foreign-idn-22746128B47515282892276-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B20933115656615",
+      "editing_id": "foreign-idn-22746128B20933115656615-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B86630799177927",
+      "editing_id": "foreign-idn-22746128B86630799177927-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B86316028646138",
+      "editing_id": "foreign-idn-22746128B86316028646138-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B2754392863745",
+      "editing_id": "foreign-idn-22746128B2754392863745-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-idn-22746128B12986554349068",
+      "editing_id": "foreign-idn-22746128B12986554349068-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B88743888905923",
+      "editing_id": "foreign-phl-30758251B88743888905923-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B13636492235142",
+      "editing_id": "foreign-phl-30758251B13636492235142-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B8675136777312",
+      "editing_id": "foreign-phl-30758251B8675136777312-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B13612495439826",
+      "editing_id": "foreign-phl-30758251B13612495439826-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B87752241622108",
+      "editing_id": "foreign-phl-30758251B87752241622108-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B91787985073572",
+      "editing_id": "foreign-phl-30758251B91787985073572-sea-philippines",
+      "parent_id": "sea-philippines"
+    },
+    {
+      "source_id": "foreign-phl-30758251B40565049686432",
+      "editing_id": "foreign-phl-30758251B40565049686432-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B78925795959528",
+      "editing_id": "foreign-phl-30758251B78925795959528-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B1830089700268",
+      "editing_id": "foreign-phl-30758251B1830089700268-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B42170064226471",
+      "editing_id": "foreign-phl-30758251B42170064226471-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B18056750213925",
+      "editing_id": "foreign-phl-30758251B18056750213925-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B66999319885742",
+      "editing_id": "foreign-phl-30758251B66999319885742-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B35504106282542",
+      "editing_id": "foreign-phl-30758251B35504106282542-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B74690587258532",
+      "editing_id": "foreign-phl-30758251B74690587258532-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B50032412655137",
+      "editing_id": "foreign-phl-30758251B50032412655137-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B96713528080733",
+      "editing_id": "foreign-phl-30758251B96713528080733-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B94372236669127",
+      "editing_id": "foreign-phl-30758251B94372236669127-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B31180548871789",
+      "editing_id": "foreign-phl-30758251B31180548871789-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B97792298471435",
+      "editing_id": "foreign-phl-30758251B97792298471435-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B5919424631688",
+      "editing_id": "foreign-phl-30758251B5919424631688-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B87187135187970",
+      "editing_id": "foreign-phl-30758251B87187135187970-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B43565133772096",
+      "editing_id": "foreign-phl-30758251B43565133772096-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B13765165414384",
+      "editing_id": "foreign-phl-30758251B13765165414384-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B52497406200368",
+      "editing_id": "foreign-phl-30758251B52497406200368-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B44889135236977",
+      "editing_id": "foreign-phl-30758251B44889135236977-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B86620041002858",
+      "editing_id": "foreign-phl-30758251B86620041002858-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B77350797414463",
+      "editing_id": "foreign-phl-30758251B77350797414463-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B23519074715722",
+      "editing_id": "foreign-phl-30758251B23519074715722-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B93268177737855",
+      "editing_id": "foreign-phl-30758251B93268177737855-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B12017853165312",
+      "editing_id": "foreign-phl-30758251B12017853165312-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B73043571821095",
+      "editing_id": "foreign-phl-30758251B73043571821095-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B34795599217863",
+      "editing_id": "foreign-phl-30758251B34795599217863-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B46545701299727",
+      "editing_id": "foreign-phl-30758251B46545701299727-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B61510423680067",
+      "editing_id": "foreign-phl-30758251B61510423680067-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B92813581823724",
+      "editing_id": "foreign-phl-30758251B92813581823724-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B84060605893793",
+      "editing_id": "foreign-phl-30758251B84060605893793-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B49459583428194",
+      "editing_id": "foreign-phl-30758251B49459583428194-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B21762929298212",
+      "editing_id": "foreign-phl-30758251B21762929298212-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B66355344776231",
+      "editing_id": "foreign-phl-30758251B66355344776231-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B50259762505671",
+      "editing_id": "foreign-phl-30758251B50259762505671-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B594167211487",
+      "editing_id": "foreign-phl-30758251B594167211487-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B81826872650546",
+      "editing_id": "foreign-phl-30758251B81826872650546-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B31835397276325",
+      "editing_id": "foreign-phl-30758251B31835397276325-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B96628789522948",
+      "editing_id": "foreign-phl-30758251B96628789522948-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B47638576486503",
+      "editing_id": "foreign-phl-30758251B47638576486503-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B43460627000886",
+      "editing_id": "foreign-phl-30758251B43460627000886-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B40937413002129",
+      "editing_id": "foreign-phl-30758251B40937413002129-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B80195971051308",
+      "editing_id": "foreign-phl-30758251B80195971051308-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B47161920235614",
+      "editing_id": "foreign-phl-30758251B47161920235614-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B90502148254132",
+      "editing_id": "foreign-phl-30758251B90502148254132-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B62062623216979",
+      "editing_id": "foreign-phl-30758251B62062623216979-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B63604482475035",
+      "editing_id": "foreign-phl-30758251B63604482475035-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B53725271357077",
+      "editing_id": "foreign-phl-30758251B53725271357077-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B31746504022332",
+      "editing_id": "foreign-phl-30758251B31746504022332-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B8290253651105",
+      "editing_id": "foreign-phl-30758251B8290253651105-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B60102557901251",
+      "editing_id": "foreign-phl-30758251B60102557901251-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B78542245138850",
+      "editing_id": "foreign-phl-30758251B78542245138850-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B80497082899051",
+      "editing_id": "foreign-phl-30758251B80497082899051-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B19799872361278",
+      "editing_id": "foreign-phl-30758251B19799872361278-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B51979524476088",
+      "editing_id": "foreign-phl-30758251B51979524476088-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B40609813959698",
+      "editing_id": "foreign-phl-30758251B40609813959698-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B40560232053392",
+      "editing_id": "foreign-phl-30758251B40560232053392-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B3392253893476",
+      "editing_id": "foreign-phl-30758251B3392253893476-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B50466921981235",
+      "editing_id": "foreign-phl-30758251B50466921981235-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B43842848901261",
+      "editing_id": "foreign-phl-30758251B43842848901261-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B91233781588772",
+      "editing_id": "foreign-phl-30758251B91233781588772-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B25438008820372",
+      "editing_id": "foreign-phl-30758251B25438008820372-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B69132938674269",
+      "editing_id": "foreign-phl-30758251B69132938674269-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B57634921708927",
+      "editing_id": "foreign-phl-30758251B57634921708927-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B72391607373552",
+      "editing_id": "foreign-phl-30758251B72391607373552-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B8927375136038",
+      "editing_id": "foreign-phl-30758251B8927375136038-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B73486212842201",
+      "editing_id": "foreign-phl-30758251B73486212842201-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B16145813320152",
+      "editing_id": "foreign-phl-30758251B16145813320152-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B1579745133837",
+      "editing_id": "foreign-phl-30758251B1579745133837-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B40857898925214",
+      "editing_id": "foreign-phl-30758251B40857898925214-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B42816846115964",
+      "editing_id": "foreign-phl-30758251B42816846115964-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B29582311429620",
+      "editing_id": "foreign-phl-30758251B29582311429620-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B57141645891791",
+      "editing_id": "foreign-phl-30758251B57141645891791-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B83383146399280",
+      "editing_id": "foreign-phl-30758251B83383146399280-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B75235300602273",
+      "editing_id": "foreign-phl-30758251B75235300602273-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B54354569772122",
+      "editing_id": "foreign-phl-30758251B54354569772122-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B86160385363219",
+      "editing_id": "foreign-phl-30758251B86160385363219-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B13738867600145",
+      "editing_id": "foreign-phl-30758251B13738867600145-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B35943258709305",
+      "editing_id": "foreign-phl-30758251B35943258709305-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B64178272348738",
+      "editing_id": "foreign-phl-30758251B64178272348738-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B7894567948973",
+      "editing_id": "foreign-phl-30758251B7894567948973-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B60423971043465",
+      "editing_id": "foreign-phl-30758251B60423971043465-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B23999947934104",
+      "editing_id": "foreign-phl-30758251B23999947934104-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B10061841294265",
+      "editing_id": "foreign-phl-30758251B10061841294265-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B49897164941378",
+      "editing_id": "foreign-phl-30758251B49897164941378-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B34022252316389",
+      "editing_id": "foreign-phl-30758251B34022252316389-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B74171926345191",
+      "editing_id": "foreign-phl-30758251B74171926345191-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B82046002128409",
+      "editing_id": "foreign-phl-30758251B82046002128409-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B69966193362953",
+      "editing_id": "foreign-phl-30758251B69966193362953-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B44301326667503",
+      "editing_id": "foreign-phl-30758251B44301326667503-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B8075335495854",
+      "editing_id": "foreign-phl-30758251B8075335495854-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B41670751061492",
+      "editing_id": "foreign-phl-30758251B41670751061492-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B10201134015189",
+      "editing_id": "foreign-phl-30758251B10201134015189-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B22872212000715",
+      "editing_id": "foreign-phl-30758251B22872212000715-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B29730451964766",
+      "editing_id": "foreign-phl-30758251B29730451964766-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B55565039957049",
+      "editing_id": "foreign-phl-30758251B55565039957049-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B39221878947402",
+      "editing_id": "foreign-phl-30758251B39221878947402-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B71123600878116",
+      "editing_id": "foreign-phl-30758251B71123600878116-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B2806913705882",
+      "editing_id": "foreign-phl-30758251B2806913705882-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B81450613900201",
+      "editing_id": "foreign-phl-30758251B81450613900201-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B90426187241900",
+      "editing_id": "foreign-phl-30758251B90426187241900-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B19142113970746",
+      "editing_id": "foreign-phl-30758251B19142113970746-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B10817239039383",
+      "editing_id": "foreign-phl-30758251B10817239039383-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B38539874694447",
+      "editing_id": "foreign-phl-30758251B38539874694447-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B22367435141107",
+      "editing_id": "foreign-phl-30758251B22367435141107-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B91438906819435",
+      "editing_id": "foreign-phl-30758251B91438906819435-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B66910701596266",
+      "editing_id": "foreign-phl-30758251B66910701596266-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B73510515147847",
+      "editing_id": "foreign-phl-30758251B73510515147847-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B72316190206283",
+      "editing_id": "foreign-phl-30758251B72316190206283-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B92987425451541",
+      "editing_id": "foreign-phl-30758251B92987425451541-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B38953781960130",
+      "editing_id": "foreign-phl-30758251B38953781960130-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B91209377340247",
+      "editing_id": "foreign-phl-30758251B91209377340247-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B46461553875736",
+      "editing_id": "foreign-phl-30758251B46461553875736-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B3136042153209",
+      "editing_id": "foreign-phl-30758251B3136042153209-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-phl-30758251B72533691013640",
+      "editing_id": "foreign-phl-30758251B72533691013640-remote",
+      "parent_id": ""
+    },
+    {
+      "source_id": "foreign-tls-22284137B6793847155334",
+      "editing_id": "foreign-tls-22284137B6793847155334-remote",
+      "parent_id": ""
+    }
+  ],
+  "spatial_reference_assignments": {
+    "sea-cambodia": 318,
+    "sea-lanxang": 174,
+    "(no reference)": 864,
+    "sea-ayutthaya": 832,
+    "sea-vietnam": 515,
+    "sea-shan": 15,
+    "sea-toungoo": 51,
+    "sea-arakan": 7,
+    "sea-lanna": 121,
+    "sea-malay": 89,
+    "sea-archipelago": 640,
+    "sea-philippines": 1305
+  },
+  "cross_source_overlaps": [
+    {
+      "countries": [
+        "MMR",
+        "THA"
+      ],
+      "area_square_degrees": 0.023990570716560845
+    },
+    {
+      "countries": [
+        "MMR",
+        "LAO"
+      ],
+      "area_square_degrees": 0.001948296537844913
+    },
+    {
+      "countries": [
+        "THA",
+        "LAO"
+      ],
+      "area_square_degrees": 0.016866817362091346
+    },
+    {
+      "countries": [
+        "THA",
+        "KHM"
+      ],
+      "area_square_degrees": 0.0064034853034069285
+    },
+    {
+      "countries": [
+        "THA",
+        "MYS"
+      ],
+      "area_square_degrees": 0.004018138481259284
+    },
+    {
+      "countries": [
+        "LAO",
+        "KHM"
+      ],
+      "area_square_degrees": 0.04846589159805945
+    },
+    {
+      "countries": [
+        "LAO",
+        "VNM"
+      ],
+      "area_square_degrees": 0.01454040008006703
+    },
+    {
+      "countries": [
+        "KHM",
+        "VNM"
+      ],
+      "area_square_degrees": 0.008331313966436694
+    },
+    {
+      "countries": [
+        "MYS",
+        "SGP"
+      ],
+      "area_square_degrees": 1.9437426638546207e-07
+    },
+    {
+      "countries": [
+        "MYS",
+        "BRN"
+      ],
+      "area_square_degrees": 0.019831159388007356
+    },
+    {
+      "countries": [
+        "MYS",
+        "IDN"
+      ],
+      "area_square_degrees": 0.022695960475883906
+    },
+    {
+      "countries": [
+        "IDN",
+        "TLS"
+      ],
+      "area_square_degrees": 0.0009947185325091003
+    }
+  ],
+  "editing_id_policy": "所有对象ID=固定源ID+固定空间参考parent后缀（无参考时remote），source_parent_block始终保存源ID；不以组件面积排名决定对象身份。",
+  "historical_policy": "现代国家只作定位。新增分块历史名称、历史名称证据均留空，名义归属与实际控制unknown；旧政权参考面与殖民据点独立保留。parent_id是面组件的概略空间关联，未经1640疆界核验；用户此前修改父参考面归属时，新块继承该人工修改。",
+  "geometry_policy": "保留各国源对象、岛屿组件与现代源边界；不同年代/源的跨国接缝可有微小重叠，不裁决国界，不强行将其合成无缝历史分区。省名关联派生层许可证逐来源记录，不统一声称CC许可。",
+  "database_license": "ODbL 1.0：含现代ADM1派生关联的数据库编排；原始几何内容分别保留其来源许可",
+  "database_license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "geoBoundaries / William & Mary geoLab；DOSM；URA；BPS；NAMRIA；PSA；WFP；OCHA及各国原始机构见来源表；现代上级OSM关联：© OpenStreetMap contributors / Wambacher，ODbL 1.0。",
+  "licenses": "ADM2/ADM3几何、现代上级名称派生关联、DOSM、Singapore及Brunei许可分别见sources清单。ODbL派生关联随开放GeoJSON交付，并保留OSM署名。"
+}

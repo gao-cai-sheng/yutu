@@ -1,0 +1,826 @@
+{
+  "revision": 1,
+  "dataset": "sea-islands-modern-county-reference",
+  "reference_only": true,
+  "historical_control_assignment": "unknown for every feature",
+  "derived_database_license": "ODbL 1.0 for the resulting reference database containing OSM-derived ADM1 associations; independent county boundary/name contents retain their CC BY 3.0 IGO license.",
+  "countries": {
+    "IDN": {
+      "modern_country": "印度尼西亚",
+      "editing_level": "ADM2",
+      "source_count": 519,
+      "editing_count": 519,
+      "source": "Badan Pusat Statistik (BPS - Statistics Indonesia), World Food Programme, OCHA ROAP",
+      "source_url": "data.humdata.org/dataset/indonesia-administrative-boundary-polygons-lines-and-places-levels-0-4b",
+      "source_year": "2020",
+      "license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)（县市几何/县市名）；Open Data Commons Open Database License 1.0（ADM1现代上级名称及空间关联）",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/igo/",
+      "county_geometry_and_name_license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+      "modern_parent_source": "geoBoundaries gbOpen https://www.geoboundaries.org/ / OpenStreetMap, Wambacher；固定版：https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IDN/ADM1/geoBoundaries-IDN-ADM1.geojson；© OpenStreetMap contributors https://www.openstreetmap.org/copyright",
+      "modern_parent_source_license": "Open Data Commons Open Database License 1.0",
+      "modern_parent_source_license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "license_legalcode_url": "https://creativecommons.org/licenses/by/3.0/igo/legalcode.en",
+      "attribution": "geoBoundaries gbOpen https://www.geoboundaries.org/ / Badan Pusat Statistik (BPS - Statistics Indonesia), World Food Programme, OCHA ROAP；原典：data.humdata.org/dataset/indonesia-administrative-boundary-polygons-lines-and-places-levels-0-4b；固定版：https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IDN/ADM2/geoBoundaries-IDN-ADM2.geojson；现代上级：geoBoundaries gbOpen https://www.geoboundaries.org/ / OpenStreetMap, Wambacher；固定版：https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IDN/ADM1/geoBoundaries-IDN-ADM1.geojson；© OpenStreetMap contributors https://www.openstreetmap.org/copyright；加工：历史地图编辑器，共享边/岸线简化、几何修复与现代上级空间匹配。",
+      "full_precision_source": {
+        "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IDN/ADM2/geoBoundaries-IDN-ADM2.geojson",
+        "resolved_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/IDN/ADM2/geoBoundaries-IDN-ADM2.geojson",
+        "fixed_commit": "9469f09",
+        "sha256_raw": "947cedc058888c0c2b2628071d289956c85fe279adb369dcf1327ce2236a5602",
+        "bytes_raw": 158892831,
+        "sha256_cache": "18731c5ca5514cac53a03742e639ac541e6e047e7a9ea95d71b01952d56cdd9b",
+        "bytes_cache": 39807584,
+        "cache_path": "data/foreign-cache/sea-islands/IDN-ADM2.geojson.gz",
+        "metadata_path": "data/foreign-cache/sea-islands/IDN-ADM2.metadata.json",
+        "metadata_sha256": "7e7226e9b224bc18ae5b1a2522dc4659fd3188f3abb5a59a3441b7bc3095dbe5",
+        "fixed_release_metadata_path": "data/foreign-cache/sea-islands/IDN-ADM2-metaData.json",
+        "fixed_release_metadata_sha256": "31ce4dd1ffbab6549d64a9bd56b9555d5a666c508136a12da4c06d4f17059a34",
+        "fixed_release_citation_path": "data/foreign-cache/sea-islands/IDN-ADM2-metaData.txt",
+        "fixed_release_citation_sha256": "b0f583e2c72d67a21752d3bb0d56441c073f172bd71addd9bfbe7c120bed5690",
+        "reference_year": "2020",
+        "boundaryID": "IDN-ADM2-22746128",
+        "boundary_canonical": "regency, city",
+        "source": "Badan Pusat Statistik (BPS - Statistics Indonesia), World Food Programme, OCHA ROAP",
+        "source_url": "data.humdata.org/dataset/indonesia-administrative-boundary-polygons-lines-and-places-levels-0-4b",
+        "license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "license_source": "data.humdata.org/dataset/indonesia-administrative-boundary-polygons-lines-and-places-levels-0-4b",
+        "count": 519,
+        "vertices": 3799575,
+        "polygon_components": 8580,
+        "invalid_source_repairs": []
+      },
+      "full_precision_adm1": {
+        "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/IDN/ADM1/geoBoundaries-IDN-ADM1.geojson",
+        "resolved_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/IDN/ADM1/geoBoundaries-IDN-ADM1.geojson",
+        "fixed_commit": "9469f09",
+        "sha256_raw": "9a2c93ed5c956d7b9afeab4882e9aab9c3fceb8be4cafaae6e198223c2cbb3af",
+        "bytes_raw": 15316278,
+        "sha256_cache": "2591f0dcded6e2aeb107532af3796859e490db21135acf73e96ab7e9a8da012d",
+        "bytes_cache": 4290283,
+        "cache_path": "data/foreign-cache/sea-islands/IDN-ADM1.geojson.gz",
+        "metadata_path": "data/foreign-cache/sea-islands/IDN-ADM1.metadata.json",
+        "metadata_sha256": "a3243c0196ed486046f3288586fcc90af2b695ddcbb7bfe9c1f8e81a43b28994",
+        "fixed_release_metadata_path": "data/foreign-cache/sea-islands/IDN-ADM1-metaData.json",
+        "fixed_release_metadata_sha256": "9f76d8a71eee4b66c5738d7a5841a4af7519c9a9976d504c2a5229eae9a7edff",
+        "fixed_release_citation_path": "data/foreign-cache/sea-islands/IDN-ADM1-metaData.txt",
+        "fixed_release_citation_sha256": "a803217289278bc4962f24869405068b261c9259f1db1438f956c03d0872d19f",
+        "reference_year": "2017",
+        "boundaryID": "IDN-ADM1-65028918",
+        "boundary_canonical": "Unknown",
+        "source": "OpenStreetMap, Wambacher",
+        "source_url": "wambachers-osm.website/boundaries/",
+        "license": "Open Data Commons Open Database License 1.0",
+        "license_source": "www.openstreetmap.org/copyright",
+        "count": 34,
+        "vertices": 532130,
+        "polygon_components": 1334,
+        "invalid_source_repairs": []
+      },
+      "simplification": {
+        "algorithm": "GEOS coverage_simplify / Visvalingam-Whyatt",
+        "tolerance_degrees": 0.002,
+        "simplify_boundary": true,
+        "source_coverage_valid": true,
+        "editing_coverage_valid": true,
+        "source_polygon_components": 8580,
+        "editing_polygon_components": 8580,
+        "source_vertices": 3799575,
+        "editing_vertices": 249004,
+        "sum_area_source_square_degrees": 153.99613404834452,
+        "sum_area_editing_square_degrees": 153.98082302058359,
+        "boundary_comparison": "Components and shared edges are retained; coastline vertices are simplified. Areas use angular coordinates and are diagnostic, not square kilometres."
+      },
+      "adm1_simplification": {
+        "algorithm": "GEOS coverage_simplify / Visvalingam-Whyatt",
+        "tolerance_degrees": 0.002,
+        "simplify_boundary": true,
+        "source_coverage_valid": true,
+        "editing_coverage_valid": true,
+        "source_polygon_components": 1334,
+        "editing_polygon_components": 1334,
+        "source_vertices": 532130,
+        "editing_vertices": 103622,
+        "sum_area_source_square_degrees": 153.91886570693774,
+        "sum_area_editing_square_degrees": 153.9183618107678,
+        "boundary_comparison": "Components and shared edges are retained; coastline vertices are simplified. Areas use angular coordinates and are diagnostic, not square kilometres."
+      },
+      "missing_modern_names": [],
+      "adm1_assignment_counts": {
+        "Aceh": 23,
+        "West Sumatra": 19,
+        "East Nusa Tenggara": 22,
+        "North Sumatra": 34,
+        "Papua": 29,
+        "Bali": 9,
+        "South Kalimantan": 13,
+        "West Java": 28,
+        "Central Sulawesi": 13,
+        "Bangka-Belitung Islands": 7,
+        "East Java": 38,
+        "Central Java": 37,
+        "South Sulawesi": 24,
+        "Special Region of Yogyakarta": 5,
+        "South Sumatra": 18,
+        "Central Kalimantan": 14,
+        "Jambi": 11,
+        "Riau": 12,
+        "West Kalimantan": 14,
+        "Bengkulu": 10,
+        "East Kalimantan": 10,
+        "West Nusa Tenggara": 10,
+        "Riau Islands": 7,
+        "Gorontalo": 6,
+        "North Sulawesi": 15,
+        "Southeast Sulawesi": 17,
+        "North Kalimantan": 5,
+        "Maluku": 11,
+        "West Papua": 13,
+        "North Maluku": 10,
+        "Banten": 9,
+        "Lampung": 15,
+        "Jakarta Special Capital Region": 5,
+        "West Sulawesi": 6
+      },
+      "adm1_spatial_fallbacks": [
+        {
+          "shapeID": "22746128B63742079715926",
+          "method": "nearest-reference",
+          "parent": "Banten"
+        }
+      ],
+      "coverage": {
+        "metadata_count_matches": true,
+        "dropped_features": 0,
+        "dropped_polygon_components": 0,
+        "bbox_wgs84": [
+          95.01079860000004,
+          -11.007241199999953,
+          141.0194,
+          6.076883200000054
+        ],
+        "adm1_reference_coverage_percent": 99.62994277865411,
+        "adm1_not_in_counties_square_degrees": 0.5695860128580335,
+        "counties_outside_adm1_square_degrees": 0.6320472226738685,
+        "source_area_square_degrees": 153.99613404834452,
+        "editing_union_area_square_degrees": 153.98082302058341,
+        "editing_sum_minus_union_square_degrees": 1.7053025658242404e-13,
+        "comparison_note": "ADM1 and county layers can differ in source year/shoreline; angular area comparison does not license deletion or political reassignment.",
+        "place_probes": [
+          {
+            "place": "Maimun Saleh Airport / Sabang, Pulau Weh",
+            "coordinates": [
+              95.340287,
+              5.875884
+            ],
+            "hits": [
+              {
+                "shapeID": "22746128B78398648082643",
+                "modern_name": "Kota Sabang"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Kota Sabang",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          },
+          {
+            "place": "Jakarta / Java",
+            "coordinates": [
+              106.827,
+              -6.175
+            ],
+            "hits": [
+              {
+                "shapeID": "22746128B21128962092426",
+                "modern_name": "Kota Jakarta Pusat"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Kota Jakarta Pusat",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          },
+          {
+            "place": "Denpasar / Bali",
+            "coordinates": [
+              115.216,
+              -8.668
+            ],
+            "hits": [
+              {
+                "shapeID": "22746128B89164850776530",
+                "modern_name": "Kota Denpasar"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Kota Denpasar",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          },
+          {
+            "place": "Pontianak / Borneo",
+            "coordinates": [
+              109.333,
+              -0.028
+            ],
+            "hits": [
+              {
+                "shapeID": "22746128B68403360613456",
+                "modern_name": "Kota Pontianak"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Kota Pontianak",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          },
+          {
+            "place": "Makassar / Sulawesi",
+            "coordinates": [
+              119.432,
+              -5.148
+            ],
+            "hits": [
+              {
+                "shapeID": "22746128B73854317646589",
+                "modern_name": "Kota Makassar"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Kota Makassar",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          },
+          {
+            "place": "Ternate / Moluccas",
+            "coordinates": [
+              127.388,
+              0.79
+            ],
+            "hits": [
+              {
+                "shapeID": "22746128B36781349389855",
+                "modern_name": "Kota Ternate"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Kota Ternate",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          },
+          {
+            "place": "Jayapura / western New Guinea",
+            "coordinates": [
+              140.716,
+              -2.533
+            ],
+            "hits": [
+              {
+                "shapeID": "22746128B85346986276333",
+                "modern_name": "Kota Jayapura"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Kota Jayapura",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          },
+          {
+            "place": "Merauke / western New Guinea",
+            "coordinates": [
+              140.405,
+              -8.493
+            ],
+            "hits": [
+              {
+                "shapeID": "22746128B65756496772256",
+                "modern_name": "Merauke"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Merauke",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          }
+        ]
+      },
+      "limitations": "按完整固定版源数量导入，未声称与2026最新行政变更同步。源海岸线精度和省县不一致需查来源；1640历史名称、界线与政权/部族实控均未复原。菲律宾用ADM3市县；印尼源含西新几内亚；东帝汶含欧库西和阿陶罗。"
+    },
+    "PHL": {
+      "modern_country": "菲律宾",
+      "editing_level": "ADM3",
+      "source_count": 1647,
+      "editing_count": 1647,
+      "source": "National Mapping and Resource Information Authority (NAMRIA), Philippines Statistics Authority (PSA), OCHA Philippines",
+      "source_url": "data.humdata.org/dataset/philippines-administrative-levels-0-to-3",
+      "source_year": "2020",
+      "license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)（县市几何/县市名）；Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)（ADM1现代上级名称及空间关联）",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/igo/",
+      "county_geometry_and_name_license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+      "modern_parent_source": "geoBoundaries gbOpen https://www.geoboundaries.org/ / National Mapping and Resource Information Authority (NAMRIA), Philippines Statistics Authority (PSA), OCHA Philippines；固定版：https://github.com/wmgeolab/geoBoundaries/raw/41af8f1/releaseData/gbOpen/PHL/ADM1/geoBoundaries-PHL-ADM1.geojson",
+      "modern_parent_source_license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+      "modern_parent_source_license_url": "https://creativecommons.org/licenses/by/3.0/igo/",
+      "license_legalcode_url": "https://creativecommons.org/licenses/by/3.0/igo/legalcode.en",
+      "attribution": "geoBoundaries gbOpen https://www.geoboundaries.org/ / National Mapping and Resource Information Authority (NAMRIA), Philippines Statistics Authority (PSA), OCHA Philippines；原典：data.humdata.org/dataset/philippines-administrative-levels-0-to-3；固定版：https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PHL/ADM3/geoBoundaries-PHL-ADM3.geojson；现代上级：geoBoundaries gbOpen https://www.geoboundaries.org/ / National Mapping and Resource Information Authority (NAMRIA), Philippines Statistics Authority (PSA), OCHA Philippines；固定版：https://github.com/wmgeolab/geoBoundaries/raw/41af8f1/releaseData/gbOpen/PHL/ADM1/geoBoundaries-PHL-ADM1.geojson；加工：历史地图编辑器，共享边/岸线简化、几何修复与现代上级空间匹配。",
+      "full_precision_source": {
+        "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PHL/ADM3/geoBoundaries-PHL-ADM3.geojson",
+        "resolved_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/PHL/ADM3/geoBoundaries-PHL-ADM3.geojson",
+        "fixed_commit": "9469f09",
+        "sha256_raw": "0a125b1716b584ac6728ca0249beb49f29636966b6ecb8974bc0c36db01d4624",
+        "bytes_raw": 532129402,
+        "sha256_cache": "583438337b46004cdeaebd0bc9672140faddd9b3113339ffb8157155f46c104b",
+        "bytes_cache": 148024918,
+        "cache_path": "data/foreign-cache/sea-islands/PHL-ADM3.geojson.gz",
+        "metadata_path": "data/foreign-cache/sea-islands/PHL-ADM3.metadata.json",
+        "metadata_sha256": "9563cef2d6c640a462be67ab2acfd8c2391714e91da1f014557a2433b3e4c1a5",
+        "fixed_release_metadata_path": "data/foreign-cache/sea-islands/PHL-ADM3-metaData.json",
+        "fixed_release_metadata_sha256": "3153bc4f00baec271abf7908362eb7061d9b43ab7f7ffbbf3373304f8ad8dbab",
+        "fixed_release_citation_path": "data/foreign-cache/sea-islands/PHL-ADM3-metaData.txt",
+        "fixed_release_citation_sha256": "4346efd30caf75ef19ead8caff4bdb51de829807dfa655d1f89902813f3d8fce",
+        "reference_year": "2020",
+        "boundaryID": "PHL-ADM3-30758251",
+        "boundary_canonical": "Municipalities",
+        "source": "National Mapping and Resource Information Authority (NAMRIA), Philippines Statistics Authority (PSA), OCHA Philippines",
+        "source_url": "data.humdata.org/dataset/philippines-administrative-levels-0-to-3",
+        "license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "license_source": "data.humdata.org/dataset/philippines-administrative-levels-0-to-3",
+        "count": 1647,
+        "vertices": 12030386,
+        "polygon_components": 5482,
+        "invalid_source_repairs": []
+      },
+      "full_precision_adm1": {
+        "url": "https://github.com/wmgeolab/geoBoundaries/raw/41af8f1/releaseData/gbOpen/PHL/ADM1/geoBoundaries-PHL-ADM1.geojson",
+        "resolved_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/41af8f1/releaseData/gbOpen/PHL/ADM1/geoBoundaries-PHL-ADM1.geojson",
+        "fixed_commit": "41af8f1",
+        "sha256_raw": "25840f4c7705b541cb98fee3135e6bd47f5aca0c21edc70305f75293a59da961",
+        "bytes_raw": 440897026,
+        "sha256_cache": "fee2aed5f2f2fba6b0baf09febee570326874ddefdf8f9ff8e205a6b5929b558",
+        "bytes_cache": 127088834,
+        "cache_path": "data/foreign-cache/sea-islands/PHL-ADM1.geojson.gz",
+        "metadata_path": "data/foreign-cache/sea-islands/PHL-ADM1.metadata.json",
+        "metadata_sha256": "ef623abe0e9928f029638df92ce51d40dab713c7c8ec2ebbf857d2a2411caa03",
+        "fixed_release_metadata_path": "data/foreign-cache/sea-islands/PHL-ADM1-metaData.json",
+        "fixed_release_metadata_sha256": "77a20a4aefa0d0480dec40fcea6b463fde470d87d608cf4ebff6ed276aff7d7d",
+        "fixed_release_citation_path": "data/foreign-cache/sea-islands/PHL-ADM1-metaData.txt",
+        "fixed_release_citation_sha256": "a60e067023b1acd521e4356f3648053eb66556c0af21a4e31ebf19afb0875c97",
+        "reference_year": "2020",
+        "boundaryID": "PHL-ADM1-36201628",
+        "boundary_canonical": "Regions",
+        "source": "National Mapping and Resource Information Authority (NAMRIA), Philippines Statistics Authority (PSA), OCHA Philippines",
+        "source_url": "data.humdata.org/dataset/philippines-administrative-levels-0-to-3",
+        "license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "license_source": "data.humdata.org/dataset/philippines-administrative-levels-0-to-3",
+        "count": 17,
+        "vertices": 11262158,
+        "polygon_components": 3755,
+        "invalid_source_repairs": []
+      },
+      "simplification": {
+        "algorithm": "GEOS coverage_simplify / Visvalingam-Whyatt",
+        "tolerance_degrees": 0.002,
+        "simplify_boundary": true,
+        "source_coverage_valid": true,
+        "editing_coverage_valid": true,
+        "source_polygon_components": 5482,
+        "editing_polygon_components": 5482,
+        "source_vertices": 12030386,
+        "editing_vertices": 131502,
+        "sum_area_source_square_degrees": 24.390670376480898,
+        "sum_area_editing_square_degrees": 24.386595099479592,
+        "boundary_comparison": "Components and shared edges are retained; coastline vertices are simplified. Areas use angular coordinates and are diagnostic, not square kilometres."
+      },
+      "adm1_simplification": {
+        "algorithm": "GEOS coverage_simplify / Visvalingam-Whyatt",
+        "tolerance_degrees": 0.002,
+        "simplify_boundary": true,
+        "source_coverage_valid": true,
+        "editing_coverage_valid": true,
+        "source_polygon_components": 3755,
+        "editing_polygon_components": 3755,
+        "source_vertices": 11262158,
+        "editing_vertices": 58288,
+        "sum_area_source_square_degrees": 24.46594060507016,
+        "sum_area_editing_square_degrees": 24.461674435526486,
+        "boundary_comparison": "Components and shared edges are retained; coastline vertices are simplified. Areas use angular coordinates and are diagnostic, not square kilometres."
+      },
+      "missing_modern_names": [],
+      "adm1_assignment_counts": {
+        "Mimaropa": 73,
+        "Central Luzon": 130,
+        "Cagayan Valley": 93,
+        "Eastern Visayas": 143,
+        "Ilocos Region": 125,
+        "Calabarzon": 142,
+        "CAR": 77,
+        "Western Visayas": 133,
+        "ARMM": 118,
+        "Soccsksargen": 50,
+        "Central Visayas": 132,
+        "Caraga": 73,
+        "Zamboanga Peninsula": 72,
+        "Northern Mindanao": 93,
+        "Bicol Region": 114,
+        "Davao Region": 49,
+        "NCR": 30
+      },
+      "adm1_spatial_fallbacks": [],
+      "coverage": {
+        "metadata_count_matches": true,
+        "dropped_features": 0,
+        "dropped_polygon_components": 0,
+        "bbox_wgs84": [
+          114.27790168600006,
+          4.587965888000042,
+          126.60495742800003,
+          21.120943150000073
+        ],
+        "adm1_reference_coverage_percent": 99.68301489886714,
+        "adm1_not_in_counties_square_degrees": 0.07753986344824443,
+        "counties_outside_adm1_square_degrees": 0.00246052740135512,
+        "source_area_square_degrees": 24.390670376480898,
+        "editing_union_area_square_degrees": 24.38659509947963,
+        "editing_sum_minus_union_square_degrees": -3.907985046680551e-14,
+        "comparison_note": "ADM1 and county layers can differ in source year/shoreline; angular area comparison does not license deletion or political reassignment.",
+        "place_probes": [
+          {
+            "place": "Manila / Luzon",
+            "coordinates": [
+              120.984,
+              14.599
+            ],
+            "hits": [
+              {
+                "shapeID": "30758251B84669397306109",
+                "modern_name": "Quiapo"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Quiapo",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          },
+          {
+            "place": "Basco / Batanes",
+            "coordinates": [
+              121.971,
+              20.45
+            ],
+            "hits": [
+              {
+                "shapeID": "30758251B45522051354426",
+                "modern_name": "Basco"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Basco",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          },
+          {
+            "place": "Puerto Princesa / Palawan",
+            "coordinates": [
+              118.738,
+              9.74
+            ],
+            "hits": [
+              {
+                "shapeID": "30758251B64178272348738",
+                "modern_name": "Puerto Princesa City"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Puerto Princesa City",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          },
+          {
+            "place": "Cebu City / Cebu",
+            "coordinates": [
+              123.891,
+              10.311
+            ],
+            "hits": [
+              {
+                "shapeID": "30758251B44889135236977",
+                "modern_name": "Cebu City"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Cebu City",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          },
+          {
+            "place": "Iloilo / Panay",
+            "coordinates": [
+              122.563,
+              10.72
+            ],
+            "hits": [
+              {
+                "shapeID": "30758251B78795121530407",
+                "modern_name": "Iloilo City"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Iloilo City",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          },
+          {
+            "place": "Tacloban / Leyte",
+            "coordinates": [
+              125.0,
+              11.242
+            ],
+            "hits": [
+              {
+                "shapeID": "30758251B91438906819435",
+                "modern_name": "Tacloban City"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Tacloban City",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          },
+          {
+            "place": "Davao / Mindanao",
+            "coordinates": [
+              125.612,
+              7.074
+            ],
+            "hits": [
+              {
+                "shapeID": "30758251B91191595931392",
+                "modern_name": "Davao City"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Davao City",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          },
+          {
+            "place": "Bongao / Tawi-Tawi",
+            "coordinates": [
+              119.774,
+              5.028
+            ],
+            "hits": [
+              {
+                "shapeID": "30758251B34033535774447",
+                "modern_name": "Bongao"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Bongao",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          },
+          {
+            "place": "Jolo / Sulu",
+            "coordinates": [
+              121.001,
+              6.051
+            ],
+            "hits": [
+              {
+                "shapeID": "30758251B6152572202720",
+                "modern_name": "Jolo"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Jolo",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          }
+        ]
+      },
+      "limitations": "按完整固定版源数量导入，未声称与2026最新行政变更同步。源海岸线精度和省县不一致需查来源；1640历史名称、界线与政权/部族实控均未复原。菲律宾用ADM3市县；印尼源含西新几内亚；东帝汶含欧库西和阿陶罗。"
+    },
+    "TLS": {
+      "modern_country": "东帝汶",
+      "editing_level": "ADM2",
+      "source_count": 65,
+      "editing_count": 65,
+      "source": "WHO, OCHA ROAP",
+      "source_url": "data.humdata.org/dataset/timor-leste-administrative-boundaries-levels-0-3",
+      "source_year": "2020",
+      "license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)（县市几何/县市名）；Open Data Commons Open Database License 1.0（ADM1现代上级名称及空间关联）",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/igo/",
+      "county_geometry_and_name_license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+      "modern_parent_source": "geoBoundaries gbOpen https://www.geoboundaries.org/ / OpenStreetMap, Wambacher；固定版：https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/TLS/ADM1/geoBoundaries-TLS-ADM1.geojson；© OpenStreetMap contributors https://www.openstreetmap.org/copyright",
+      "modern_parent_source_license": "Open Data Commons Open Database License 1.0",
+      "modern_parent_source_license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "license_legalcode_url": "https://creativecommons.org/licenses/by/3.0/igo/legalcode.en",
+      "attribution": "geoBoundaries gbOpen https://www.geoboundaries.org/ / WHO, OCHA ROAP；原典：data.humdata.org/dataset/timor-leste-administrative-boundaries-levels-0-3；固定版：https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/TLS/ADM2/geoBoundaries-TLS-ADM2.geojson；现代上级：geoBoundaries gbOpen https://www.geoboundaries.org/ / OpenStreetMap, Wambacher；固定版：https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/TLS/ADM1/geoBoundaries-TLS-ADM1.geojson；© OpenStreetMap contributors https://www.openstreetmap.org/copyright；加工：历史地图编辑器，共享边/岸线简化、几何修复与现代上级空间匹配。",
+      "full_precision_source": {
+        "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/TLS/ADM2/geoBoundaries-TLS-ADM2.geojson",
+        "resolved_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/TLS/ADM2/geoBoundaries-TLS-ADM2.geojson",
+        "fixed_commit": "9469f09",
+        "sha256_raw": "a437e47041dcc708e55a76ede2b5db3beec31da3521fbd2a847bf372e1662911",
+        "bytes_raw": 5303288,
+        "sha256_cache": "449a7c8b1f12ca5918fe2de7c35081b06d1da7bad0c64c3822ddd7cfb7369bad",
+        "bytes_cache": 1413120,
+        "cache_path": "data/foreign-cache/sea-islands/TLS-ADM2.geojson.gz",
+        "metadata_path": "data/foreign-cache/sea-islands/TLS-ADM2.metadata.json",
+        "metadata_sha256": "9aa5fbe0db2d8689aa66b71cf6d998fa9fd216dbe477f50e4d9333e8ccc30654",
+        "fixed_release_metadata_path": "data/foreign-cache/sea-islands/TLS-ADM2-metaData.json",
+        "fixed_release_metadata_sha256": "fb8fa64988e99f1446cf3c26342941e73db5d25e1273f16c73d17e2a176bad30",
+        "fixed_release_citation_path": "data/foreign-cache/sea-islands/TLS-ADM2-metaData.txt",
+        "fixed_release_citation_sha256": "5fa58482782804d7d559c151c2037ddc8f6caefb0c07a6d6bc85f3ae212f55f5",
+        "reference_year": "2020",
+        "boundaryID": "TLS-ADM2-22284137",
+        "boundary_canonical": "Administrative Posts",
+        "source": "WHO, OCHA ROAP",
+        "source_url": "data.humdata.org/dataset/timor-leste-administrative-boundaries-levels-0-3",
+        "license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "license_source": "data.humdata.org/dataset/timor-leste-administrative-boundaries-levels-0-3",
+        "count": 65,
+        "vertices": 118591,
+        "polygon_components": 69,
+        "invalid_source_repairs": []
+      },
+      "full_precision_adm1": {
+        "url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/TLS/ADM1/geoBoundaries-TLS-ADM1.geojson",
+        "resolved_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/TLS/ADM1/geoBoundaries-TLS-ADM1.geojson",
+        "fixed_commit": "9469f09",
+        "sha256_raw": "93f5059719b17c0d7ea475f79b53e2c6d7c6883726cb0e4464c656c3bdf31b95",
+        "bytes_raw": 452378,
+        "sha256_cache": "8c54d2420a31bc0bd42f647d06f41c5e8619f8c851cd261ca9b83d5b23e7d0ec",
+        "bytes_cache": 123238,
+        "cache_path": "data/foreign-cache/sea-islands/TLS-ADM1.geojson.gz",
+        "metadata_path": "data/foreign-cache/sea-islands/TLS-ADM1.metadata.json",
+        "metadata_sha256": "134a95b833eaa733377bece74c7523a3939e4de5871a0fdd5323d741297a3b0e",
+        "fixed_release_metadata_path": "data/foreign-cache/sea-islands/TLS-ADM1-metaData.json",
+        "fixed_release_metadata_sha256": "17d61e5cb4c4baa447c40729f508c42f3697ba6e0806818f559985b2584ac364",
+        "fixed_release_citation_path": "data/foreign-cache/sea-islands/TLS-ADM1-metaData.txt",
+        "fixed_release_citation_sha256": "a10f1bc9f096afdd2aeefbe9a06e84edba47d07878ec45a4a90cc47ce4f3154c",
+        "reference_year": "2017",
+        "boundaryID": "TLS-ADM1-58719522",
+        "boundary_canonical": "Municipalities",
+        "source": "OpenStreetMap, Wambacher",
+        "source_url": "wambachers-osm.website/boundaries/",
+        "license": "Open Data Commons Open Database License 1.0",
+        "license_source": "www.openstreetmap.org/copyright",
+        "count": 13,
+        "vertices": 15671,
+        "polygon_components": 15,
+        "invalid_source_repairs": []
+      },
+      "simplification": {
+        "algorithm": "GEOS coverage_simplify / Visvalingam-Whyatt",
+        "tolerance_degrees": 0.002,
+        "simplify_boundary": true,
+        "source_coverage_valid": true,
+        "editing_coverage_valid": true,
+        "source_polygon_components": 69,
+        "editing_polygon_components": 69,
+        "source_vertices": 118591,
+        "editing_vertices": 6645,
+        "sum_area_source_square_degrees": 1.2239728794534968,
+        "sum_area_editing_square_degrees": 1.224013081399598,
+        "boundary_comparison": "Components and shared edges are retained; coastline vertices are simplified. Areas use angular coordinates and are diagnostic, not square kilometres."
+      },
+      "adm1_simplification": {
+        "algorithm": "GEOS coverage_simplify / Visvalingam-Whyatt",
+        "tolerance_degrees": 0.002,
+        "simplify_boundary": true,
+        "source_coverage_valid": true,
+        "editing_coverage_valid": true,
+        "source_polygon_components": 15,
+        "editing_polygon_components": 15,
+        "source_vertices": 15671,
+        "editing_vertices": 1670,
+        "sum_area_source_square_degrees": 1.22371767362598,
+        "sum_area_editing_square_degrees": 1.2238035284184157,
+        "boundary_comparison": "Components and shared edges are retained; coastline vertices are simplified. Areas use angular coordinates and are diagnostic, not square kilometres."
+      },
+      "missing_modern_names": [],
+      "adm1_assignment_counts": {
+        "Aileu": 4,
+        "Ainaro": 6,
+        "Manufahi": 4,
+        "Bobonaro": 6,
+        "Dili": 6,
+        "Ermera": 5,
+        "Baucau": 6,
+        "Manatuto": 6,
+        "Liquiçá": 3,
+        "Cova Lima": 5,
+        "Lautém": 5,
+        "Viqueque": 5,
+        "Oecusse": 4
+      },
+      "adm1_spatial_fallbacks": [],
+      "coverage": {
+        "metadata_count_matches": true,
+        "dropped_features": 0,
+        "dropped_polygon_components": 0,
+        "bbox_wgs84": [
+          124.04493713400007,
+          -9.504650115999937,
+          127.34187316900011,
+          -8.127030372999968
+        ],
+        "adm1_reference_coverage_percent": 99.84397462588146,
+        "adm1_not_in_counties_square_degrees": 0.0019094440336906648,
+        "counties_outside_adm1_square_degrees": 0.002118997014873063,
+        "source_area_square_degrees": 1.2239728794534968,
+        "editing_union_area_square_degrees": 1.2240130813995982,
+        "editing_sum_minus_union_square_degrees": -2.220446049250313e-16,
+        "comparison_note": "ADM1 and county layers can differ in source year/shoreline; angular area comparison does not license deletion or political reassignment.",
+        "place_probes": [
+          {
+            "place": "Dili / eastern Timor",
+            "coordinates": [
+              125.579,
+              -8.558
+            ],
+            "hits": [
+              {
+                "shapeID": "22284137B41604792993839",
+                "modern_name": "Vera Cruz"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Vera Cruz",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          },
+          {
+            "place": "Pante Macassar / Oecusse exclave",
+            "coordinates": [
+              124.389,
+              -9.198
+            ],
+            "hits": [
+              {
+                "shapeID": "22284137B41915999739632",
+                "modern_name": "Pante Macassar"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Pante Macassar",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          },
+          {
+            "place": "Atauro island interior",
+            "coordinates": [
+              125.58,
+              -8.245
+            ],
+            "hits": [
+              {
+                "shapeID": "22284137B11289182458696",
+                "modern_name": "Atauro"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Atauro",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          },
+          {
+            "place": "Jaco island / Tutuala",
+            "coordinates": [
+              127.333,
+              -8.434
+            ],
+            "hits": [
+              {
+                "shapeID": "22284137B2107732035789",
+                "modern_name": "Tutuala"
+              }
+            ],
+            "nearest_distance_degrees": 0.0,
+            "nearest_modern_name": "Tutuala",
+            "coordinate_note": "Approximate modern locality/island spot-check point, independent of the administrative feature centre; no historical control is inferred."
+          }
+        ]
+      },
+      "limitations": "按完整固定版源数量导入，未声称与2026最新行政变更同步。源海岸线精度和省县不一致需查来源；1640历史名称、界线与政权/部族实控均未复原。菲律宾用ADM3市县；印尼源含西新几内亚；东帝汶含欧库西和阿陶罗。"
+    }
+  },
+  "editing_count": 2231,
+  "output_geojson": "data/sea-islands-blocks.geojson",
+  "output_sha256": "848f140b6a471a6b3d09e527073e1c57a00d1a75e25ec881e7fd7128201642b6",
+  "output_bytes": 21599855,
+  "license_verification": {
+    "gbOpen_fixed_release_metadata": "Each level has cached -metaData.json/-metaData.txt with source/license declarations.",
+    "original_dataset_urls": [
+      "data.humdata.org/dataset/indonesia-administrative-boundary-polygons-lines-and-places-levels-0-4b",
+      "data.humdata.org/dataset/philippines-administrative-levels-0-to-3",
+      "data.humdata.org/dataset/timor-leste-administrative-boundaries-levels-0-3"
+    ],
+    "legalcode_url": "https://creativecommons.org/licenses/by/3.0/igo/legalcode.en",
+    "legalcode_download": {
+      "url": "https://creativecommons.org/licenses/by/3.0/igo/legalcode",
+      "resolved_url": "https://creativecommons.org/licenses/by/3.0/igo/legalcode"
+    },
+    "legalcode_cache": "data/foreign-cache/sea-islands/CC-BY-3.0-IGO-legalcode.html",
+    "legalcode_sha256": "93ddf7e4b9e665bedbb185db6f888126ceadb1f4661917ee8f868aef8e48786a",
+    "permissions": "CC BY 3.0 IGO permits redistribution and adaptation including commercial use, with attribution, license link and notice of derivative changes.",
+    "geoboundaries_citation": "Runfola, D. et al. (2020). geoBoundaries: A global database of political administrative boundaries. PLoS ONE 15(4): e0231866. https://doi.org/10.1371/journal.pone.0231866; Administrative boundaries courtesy of https://www.geoboundaries.org/",
+    "odbl_adm1_sources": [
+      "IDN/ADM1",
+      "TLS/ADM1"
+    ],
+    "odbl_legalcode_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "odbl_legalcode_cache": "data/foreign-cache/sea-islands/ODbL-1.0-legalcode.html",
+    "odbl_legalcode_sha256": "1879937103eecd9837a86d1a52132b8b2f42855e90d89409bee54103ffc5d5b6",
+    "osm_copyright_url": "https://www.openstreetmap.org/copyright",
+    "osm_copyright_cache": "data/foreign-cache/sea-islands/OSM-copyright.html",
+    "osm_copyright_sha256": "6de7d2463f2f734a37e1e93a6f88edabf72958a621cae832626885dddd5d89af",
+    "odbl_attribution": "© OpenStreetMap contributors, https://www.openstreetmap.org/copyright; Open Database License 1.0, https://opendatacommons.org/licenses/odbl/1-0/. Modern-parent associations derive from OSM/Wambacher via fixed geoBoundaries ADM1 data. Publicly used derivative databases require ODbL share-alike and machine-readable access to the derivative database or its changes, under ODbL 4.4/4.6.",
+    "hdx_access_note": "HDX public dataset web pages returned 403 and package_show API URLs returned 404 in this audit; fixed gbOpen original source/license declarations and the Creative Commons original legal code are cached."
+  },
+  "reproduce": "/Users/gao/.pyenv/versions/3.11.9/bin/python3 tools/build_sea_islands.py --verify-raw",
+  "build_dependencies": {
+    "python": "3.11",
+    "shapely": "2.2.0",
+    "numpy": "2.4.6"
+  }
+}

@@ -1,0 +1,561 @@
+{
+  "version": 1,
+  "encoding": "gzip-json",
+  "packs": [
+    {
+      "global": "BASEMAP",
+      "title": "地理底图",
+      "chunks": [
+        {
+          "path": "data/maps/basemap-000.json.gz",
+          "bytes": 87644,
+          "sha256": "f47ac01c0212c43fd90ec8fde708f5d733278ea889c0eda10c07f437646a1532"
+        }
+      ],
+      "shape": "array",
+      "count": 179
+    },
+    {
+      "global": "ATLAS_SAMPLES",
+      "title": "历史参考样本",
+      "chunks": [
+        {
+          "path": "data/maps/samples-000.json.gz",
+          "bytes": 1627025,
+          "sha256": "54eed7f6d0b910f9853dec5a3239a5381ff00bb0084bd86fde5d92183942e45e"
+        }
+      ],
+      "shape": "array",
+      "count": 2
+    },
+    {
+      "global": "COUNTY_SAMPLE",
+      "title": "中国县块",
+      "chunks": [
+        {
+          "path": "data/maps/county-sample-000.json.gz",
+          "bytes": 2219608,
+          "sha256": "0068584bbbc1022794cc8d4df704aa7f4a48351f9d6b9eb1ef1a3efd78da8ffd"
+        },
+        {
+          "path": "data/maps/county-sample-001.json.gz",
+          "bytes": 2221665,
+          "sha256": "307af6234e68428ffa52f7c4ae470517c478dbcaf55f33d83a330fb8df69163a"
+        },
+        {
+          "path": "data/maps/county-sample-002.json.gz",
+          "bytes": 1518281,
+          "sha256": "e50eb0b71b5732779dd13a6aed20e63207e7ccbbc8e85a301b3cebf63e5997a6"
+        }
+      ],
+      "shape": "regions",
+      "header": {
+        "path": "data/maps/county-sample-header.json.gz",
+        "bytes": 369,
+        "sha256": "e940a64b9a85d965bc27414ad1d5bad8f3ba1b3d3aeeee67822ed0687ad989b0"
+      },
+      "count": 2840
+    },
+    {
+      "global": "EASTASIA1640",
+      "title": "1640工作稿",
+      "chunks": [
+        {
+          "path": "data/maps/eastasia1640-000.json.gz",
+          "bytes": 2280961,
+          "sha256": "19c3f0a7a890be3d3056aa571d39ea717032749b30b1027959916c63a700fcaf"
+        },
+        {
+          "path": "data/maps/eastasia1640-001.json.gz",
+          "bytes": 2194860,
+          "sha256": "b941e47e4f5cebd120117082ebcfc41ea2a00a0f05cb9431013ff0b163d852a2"
+        },
+        {
+          "path": "data/maps/eastasia1640-002.json.gz",
+          "bytes": 1388730,
+          "sha256": "f04a8fa9a61640f37a2f5839ce918c869701d4c5ea0d79a326009eac2d2c7c37"
+        }
+      ],
+      "shape": "regions",
+      "header": {
+        "path": "data/maps/eastasia1640-header.json.gz",
+        "bytes": 275321,
+        "sha256": "ca474a110405c9f8b33249fe0cc01d3518bf7dc1fc009e5047307417c97d651b"
+      },
+      "count": 2681
+    },
+    {
+      "global": "EASTASIA_SUBDIVISIONS",
+      "title": "朝鲜、日本与台湾",
+      "chunks": [
+        {
+          "path": "data/maps/foreign-blocks-000.json.gz",
+          "bytes": 3195638,
+          "sha256": "db64098d03c40e55efdb9cb0569df8468f0af7161fb72a9d9e1345f935fee622"
+        },
+        {
+          "path": "data/maps/foreign-blocks-001.json.gz",
+          "bytes": 1401717,
+          "sha256": "a4cc5aef32dc4d2b6894c0fc4ca1ff2ad3167127f0902942a3c6e93ecc26295c"
+        }
+      ],
+      "shape": "regions",
+      "header": {
+        "path": "data/maps/foreign-blocks-header.json.gz",
+        "bytes": 99,
+        "sha256": "59bb02aa6ad09c24694c1b967f78a3f94a1d2118a8196ff858ecd749b702b432"
+      },
+      "count": 2772
+    },
+    {
+      "global": "SOUTHEAST_SUBDIVISIONS",
+      "title": "东南亚",
+      "chunks": [
+        {
+          "path": "data/maps/southeast-blocks-000.json.gz",
+          "bytes": 3926932,
+          "sha256": "43bed2820475520269800497c54ee2d394dd92c4ff91f85ec60cce5171112d15"
+        },
+        {
+          "path": "data/maps/southeast-blocks-001.json.gz",
+          "bytes": 3570988,
+          "sha256": "17376c80dbc552f6a0c402d364e84b509640a49ccffc6a914686bcc2c9cc42a7"
+        },
+        {
+          "path": "data/maps/southeast-blocks-002.json.gz",
+          "bytes": 3833018,
+          "sha256": "ea0e51d81dcc0a67cbccb5f3efb79fc5969ed9f4639527ca055e2110884da888"
+        },
+        {
+          "path": "data/maps/southeast-blocks-003.json.gz",
+          "bytes": 2698912,
+          "sha256": "cabfaf203ce7987b6d6e9fec388fe1e626dceac9041f7b9e7bc708122c0896af"
+        },
+        {
+          "path": "data/maps/southeast-blocks-004.json.gz",
+          "bytes": 915112,
+          "sha256": "056af49d63eb2679d3a5dafc7e7beb54434681671aeb62391cfb4847da5137cb"
+        }
+      ],
+      "shape": "regions",
+      "header": {
+        "path": "data/maps/southeast-blocks-header.json.gz",
+        "bytes": 25894,
+        "sha256": "dc6356a877aec7ee3a0a91d11e9bcc06a44078a08f190036e14a7d18cc4d168a"
+      },
+      "count": 4931
+    },
+    {
+      "global": "MONGOL_SUBDIVISIONS",
+      "title": "蒙古与女真",
+      "chunks": [
+        {
+          "path": "data/maps/mongol-blocks-000.json.gz",
+          "bytes": 3330731,
+          "sha256": "b00fb1e97b7769179801b10bdfc12cb9f5c43c833d1dd0520735b059383ba33e"
+        }
+      ],
+      "shape": "regions",
+      "header": {
+        "path": "data/maps/mongol-blocks-header.json.gz",
+        "bytes": 3905,
+        "sha256": "dc6fbb7fdf989997d1944438ec613f8f2001c9376d445922e7159f2cdd1d1d85"
+      },
+      "count": 543
+    },
+    {
+      "global": "SOUTHASIA_SUBDIVISIONS",
+      "title": "南亚",
+      "chunks": [
+        {
+          "path": "data/maps/southasia-blocks-000.json.gz",
+          "bytes": 4137332,
+          "sha256": "0673aeeddfbc1785dc7cce9a44420dd69d00b42cf82faf53b6f6a5236848499d"
+        },
+        {
+          "path": "data/maps/southasia-blocks-001.json.gz",
+          "bytes": 1744347,
+          "sha256": "ca3046b236251e302fc92b4b4f6ced441f5b1aa0501d01c3079d7d624a5054cd"
+        }
+      ],
+      "shape": "regions",
+      "header": {
+        "path": "data/maps/southasia-blocks-header.json.gz",
+        "bytes": 14921,
+        "sha256": "a65453f302232055cbe506732128b2532709672bbdc5ae0a454eda1b8273187f"
+      },
+      "count": 1285
+    },
+    {
+      "global": "CENTRALASIA_SUBDIVISIONS",
+      "title": "中亚",
+      "chunks": [
+        {
+          "path": "data/maps/centralasia-blocks-000.json.gz",
+          "bytes": 1376929,
+          "sha256": "522f2d0e043d9be832d8f3367cf35ff70974fdf62231a712f41e67f27ed0d25a"
+        }
+      ],
+      "shape": "regions",
+      "header": {
+        "path": "data/maps/centralasia-blocks-header.json.gz",
+        "bytes": 5980,
+        "sha256": "a800687d2d005c3693d464a206f96178588fe39e39062a51932cb5f4e4374a10"
+      },
+      "count": 531
+    },
+    {
+      "global": "RUSSIA_SUBDIVISIONS",
+      "title": "俄罗斯",
+      "chunks": [
+        {
+          "path": "data/maps/russia-blocks-000.json.gz",
+          "bytes": 5051297,
+          "sha256": "bb44d6aaaeeb3810a8620af20d21cd4e37254a54996cc0d2accafcd50c542fa2"
+        },
+        {
+          "path": "data/maps/russia-blocks-001.json.gz",
+          "bytes": 4699624,
+          "sha256": "a946b5daa8297c155837690b5e34d5022be18cd29c1cfaecd2e7438f36e43bf6"
+        },
+        {
+          "path": "data/maps/russia-blocks-002.json.gz",
+          "bytes": 2981720,
+          "sha256": "f6b600bbdb90a51b21d2e194a17f88e3b685287ed7a7ac9b8dc1fcdde51a51ca"
+        }
+      ],
+      "shape": "regions",
+      "header": {
+        "path": "data/maps/russia-blocks-header.json.gz",
+        "bytes": 6033,
+        "sha256": "00c8b26645766d3e54ccc250488dc02ff944913b75724216af6634879944568f"
+      },
+      "count": 2327
+    },
+    {
+      "global": "MIDDLEEAST_SUBDIVISIONS",
+      "title": "中东",
+      "chunks": [
+        {
+          "path": "data/maps/middleeast-blocks-000.json.gz",
+          "bytes": 4223829,
+          "sha256": "f7388bf06d407af99227d30a6a9a2d5cea554339d9c76e47779c78a242e3336e"
+        },
+        {
+          "path": "data/maps/middleeast-blocks-001.json.gz",
+          "bytes": 4175201,
+          "sha256": "de007e882479ba2e3de5dfb5160fd31e5fc93251553eee4ce81adb74c3b81ede"
+        },
+        {
+          "path": "data/maps/middleeast-blocks-002.json.gz",
+          "bytes": 784691,
+          "sha256": "34f6cb59734401a99ae7a680c3882bafc95f1d0944be35726551d46272b0b90e"
+        }
+      ],
+      "shape": "regions",
+      "header": {
+        "path": "data/maps/middleeast-blocks-header.json.gz",
+        "bytes": 11463,
+        "sha256": "954c9b2e0df6038efcec7e1e8686995abb4fa156795ccd898f2ad4b7472bf539"
+      },
+      "count": 2757
+    },
+    {
+      "global": "EUROPE_SUBDIVISIONS",
+      "title": "欧洲",
+      "chunks": [
+        {
+          "path": "data/maps/europe-blocks-000.json.gz",
+          "bytes": 4311378,
+          "sha256": "92c33aaaabcada9b1095f189ec2fca8a5b63f97e26aa5b5d35b40506dc0c09aa"
+        },
+        {
+          "path": "data/maps/europe-blocks-001.json.gz",
+          "bytes": 4569181,
+          "sha256": "ec165ee4c3ba794028b621f882bf75906843f8872f2e659ce4a397f69a44fb83"
+        },
+        {
+          "path": "data/maps/europe-blocks-002.json.gz",
+          "bytes": 5137477,
+          "sha256": "b2ea1379e1a3b4b823b7da26bfaec887bb26a68322b1bc507be58aaa01a66e25"
+        },
+        {
+          "path": "data/maps/europe-blocks-003.json.gz",
+          "bytes": 5518259,
+          "sha256": "3a0567442fbdd5cedd0dc5a8d78d04fb2cbf024517d4f6281a798c118e8afd43"
+        },
+        {
+          "path": "data/maps/europe-blocks-004.json.gz",
+          "bytes": 4046516,
+          "sha256": "47702a15dcf0c4e6e56d110fd5cf01482c8cbc5c389547a273a44475bf446152"
+        },
+        {
+          "path": "data/maps/europe-blocks-005.json.gz",
+          "bytes": 5192814,
+          "sha256": "c1c4082742a6938a9662f453af6a81e6f6e77c25a338fa23daec8b539704c9cd"
+        },
+        {
+          "path": "data/maps/europe-blocks-006.json.gz",
+          "bytes": 4716172,
+          "sha256": "8d3b38210f6072978a53ab02e5108d2308ba7ddca378f20814f38230cb5a437e"
+        },
+        {
+          "path": "data/maps/europe-blocks-007.json.gz",
+          "bytes": 4696910,
+          "sha256": "51ccf4d046a02e52c407679cb7abf03b5ac09f842a8691382a21b3b606233570"
+        },
+        {
+          "path": "data/maps/europe-blocks-008.json.gz",
+          "bytes": 5294740,
+          "sha256": "5b56b783b4457067ea537dc35d27f61afaadfb82c992da5e1e996b9ebaae8922"
+        },
+        {
+          "path": "data/maps/europe-blocks-009.json.gz",
+          "bytes": 4976451,
+          "sha256": "d03ea958407237ea92bf5f77c2d0643d2e451e53c374d79bfbc4c5a4bdad009d"
+        },
+        {
+          "path": "data/maps/europe-blocks-010.json.gz",
+          "bytes": 3933980,
+          "sha256": "ffd8897569f9258fb37e6f5eedb024f27f772255d1d5217d813a5046d3501ca1"
+        },
+        {
+          "path": "data/maps/europe-blocks-011.json.gz",
+          "bytes": 4064212,
+          "sha256": "2d81dade95afdd48e29bc7aefd38fe125422737edeeea1ce57f363b02d037a8d"
+        },
+        {
+          "path": "data/maps/europe-blocks-012.json.gz",
+          "bytes": 4209700,
+          "sha256": "f09bbf9466477093e29157ec618117bc657686c0882177d3ea723543c484c99f"
+        },
+        {
+          "path": "data/maps/europe-blocks-013.json.gz",
+          "bytes": 1843702,
+          "sha256": "c1c32105549e23a383c6c02b2c905821eb374d2ab168aa9c253ea1ed68749796"
+        }
+      ],
+      "shape": "regions",
+      "header": {
+        "path": "data/maps/europe-blocks-header.json.gz",
+        "bytes": 41877,
+        "sha256": "f226d47ec8c08a8cc6e8d91971bbc000699964f7834f80f42f5b118dc30b7a5f"
+      },
+      "count": 11282
+    },
+    {
+      "global": "AFRICA_SUBDIVISIONS",
+      "title": "非洲",
+      "chunks": [
+        {
+          "path": "data/maps/africa-blocks-000.json.gz",
+          "bytes": 4781591,
+          "sha256": "c6cc60f96cb64196b8d00ce143211d5b023df31dad7ab6c4cb0c28ccc3da03cc"
+        },
+        {
+          "path": "data/maps/africa-blocks-001.json.gz",
+          "bytes": 4895574,
+          "sha256": "7a62610b55a792cea53167f9abe6169175c7c7149badc97570b7aa501d1af389"
+        },
+        {
+          "path": "data/maps/africa-blocks-002.json.gz",
+          "bytes": 4681938,
+          "sha256": "e48537b4aaf631b0fb5f71882f2f32ca19c7b5ec4b5524dc27889ffd352f47a4"
+        },
+        {
+          "path": "data/maps/africa-blocks-003.json.gz",
+          "bytes": 5310944,
+          "sha256": "b781c0d233b7dc5345dac30c2ae2f31b43c7a9a798e0dde7c8ae6cc057ff0b5c"
+        },
+        {
+          "path": "data/maps/africa-blocks-004.json.gz",
+          "bytes": 4194111,
+          "sha256": "147f053f95aa99683e0defd0f97249ea70737f8a3e477ef6169a61d97abadcd4"
+        },
+        {
+          "path": "data/maps/africa-blocks-005.json.gz",
+          "bytes": 4453587,
+          "sha256": "e5fd78781eb373993843f0a75265fd45a232b090c35bf8f0c195d6fb216206ae"
+        },
+        {
+          "path": "data/maps/africa-blocks-006.json.gz",
+          "bytes": 5284235,
+          "sha256": "be1fb9e0dc73d2409b5e8ef1f50c81ce9a284fce8f7a0e0e18c28bba2e5dc1b9"
+        },
+        {
+          "path": "data/maps/africa-blocks-007.json.gz",
+          "bytes": 1496252,
+          "sha256": "de10e194eee588dc8d58d2fb5ed9af7c2eb47c7c0b450bab44a968766244b78e"
+        }
+      ],
+      "shape": "regions",
+      "header": {
+        "path": "data/maps/africa-blocks-header.json.gz",
+        "bytes": 45647,
+        "sha256": "5137fd56cf0d319bd274714e27f36cbed3d45070fa261d232e08590527eae8d1"
+      },
+      "count": 4994
+    },
+    {
+      "global": "AMERICAS_SUBDIVISIONS",
+      "title": "美洲",
+      "chunks": [
+        {
+          "path": "data/maps/americas-blocks-000.json.gz",
+          "bytes": 4159706,
+          "sha256": "9cebe32f0b69704b583fc133269484208f19713185205ab94a1de4f40ccb6761"
+        },
+        {
+          "path": "data/maps/americas-blocks-001.json.gz",
+          "bytes": 4915088,
+          "sha256": "11d2c3e4a5e3ac4bb15b5bfbaaa1d344d31882216b5116662b387017a4d695d6"
+        },
+        {
+          "path": "data/maps/americas-blocks-002.json.gz",
+          "bytes": 2859745,
+          "sha256": "15b3c2160f167b9adcec11b588d4ba3215db0c2b256168cd258b2c5e93ad9dac"
+        },
+        {
+          "path": "data/maps/americas-blocks-003.json.gz",
+          "bytes": 4724827,
+          "sha256": "9d22c7368ab42681b0bcb3f2ca5bace5419fb0e9a6eca9f3bf212ba71e023310"
+        },
+        {
+          "path": "data/maps/americas-blocks-004.json.gz",
+          "bytes": 4370732,
+          "sha256": "980e916b29e31ec88a92472a68b5bf3e0cf0f4b1b5bbec3a56fe51548ec743c7"
+        },
+        {
+          "path": "data/maps/americas-blocks-005.json.gz",
+          "bytes": 4666311,
+          "sha256": "b8c2bdb0a1425304f095983c3c66ef8fd4d4f4a41d86ee587542082d01075b90"
+        },
+        {
+          "path": "data/maps/americas-blocks-006.json.gz",
+          "bytes": 4079890,
+          "sha256": "4dc47fed402a495a7f799f89b67424c3bb891d214372866ea348b3e152682f17"
+        },
+        {
+          "path": "data/maps/americas-blocks-007.json.gz",
+          "bytes": 4169847,
+          "sha256": "cc37746ac3ee8251a2950e7142621eea3392d5cfee5bd5a7a4eb68317b0797a2"
+        },
+        {
+          "path": "data/maps/americas-blocks-008.json.gz",
+          "bytes": 3956356,
+          "sha256": "9021a2a1bbab8d375bdac6117b1c9498a10a6fd7f76f413026042675a80bc36f"
+        },
+        {
+          "path": "data/maps/americas-blocks-009.json.gz",
+          "bytes": 5224505,
+          "sha256": "5717f33c0b04efdfe4591b1eba23ad16c0802c455e083a342d8e6f78c988ecef"
+        },
+        {
+          "path": "data/maps/americas-blocks-010.json.gz",
+          "bytes": 3221079,
+          "sha256": "2c6d15d66cfa72f77e94c0a46aa14e4c65f15a7cd127b5f4047162c6271a1c1a"
+        },
+        {
+          "path": "data/maps/americas-blocks-011.json.gz",
+          "bytes": 2235779,
+          "sha256": "b1e579cff3b670a85cda39d61cc120a68a8ffd560a6fe2076c457f8233cab6c5"
+        },
+        {
+          "path": "data/maps/americas-blocks-012.json.gz",
+          "bytes": 2511327,
+          "sha256": "2f3d01595908e193cfc5e6c057ad0e85aae7841641344719d8be228aa05399c7"
+        },
+        {
+          "path": "data/maps/americas-blocks-013.json.gz",
+          "bytes": 2337717,
+          "sha256": "ddeaea6b58cb41b687596d807cf11900f1200084be5e12f352cf2e53b9a6fcf9"
+        },
+        {
+          "path": "data/maps/americas-blocks-014.json.gz",
+          "bytes": 2446366,
+          "sha256": "d635e9d5792f0d113ff4868b7fd160300974528c34351a2dd966d3016fce434d"
+        },
+        {
+          "path": "data/maps/americas-blocks-015.json.gz",
+          "bytes": 3425154,
+          "sha256": "6974714a4d9cdaa959d86344214b272a0f1923218664c34f737ce45be871ccaf"
+        },
+        {
+          "path": "data/maps/americas-blocks-016.json.gz",
+          "bytes": 5313836,
+          "sha256": "47afc10c7c22246fe6cb54abee7cf36f375ac18a70f25b029266a905466f0033"
+        },
+        {
+          "path": "data/maps/americas-blocks-017.json.gz",
+          "bytes": 4900904,
+          "sha256": "e9e851843158dc1ecd39c29934211f4a01ff583df9466257132f70ef2ea9e3cc"
+        },
+        {
+          "path": "data/maps/americas-blocks-018.json.gz",
+          "bytes": 5274261,
+          "sha256": "131fcc335d2ad52edb94c3fa32328d298178f38c01801659052e946b85e313d6"
+        },
+        {
+          "path": "data/maps/americas-blocks-019.json.gz",
+          "bytes": 5177123,
+          "sha256": "deaa16f1d82b4aba6dc7804dfeac61a08f44fcec51588a97103af270c28d56b8"
+        },
+        {
+          "path": "data/maps/americas-blocks-020.json.gz",
+          "bytes": 5250485,
+          "sha256": "68d664273f6c4c61bed01e05e36c2934e63caaec0fa0935783b7925ad6b47086"
+        },
+        {
+          "path": "data/maps/americas-blocks-021.json.gz",
+          "bytes": 4909768,
+          "sha256": "9331f91a70fcdff96f56e5f6bf2e06dfe7f6b64e55b6e951d990c159a1bbda28"
+        },
+        {
+          "path": "data/maps/americas-blocks-022.json.gz",
+          "bytes": 1582969,
+          "sha256": "f7f92848af1107e8e79159b0222cfdf0ea72be4b4da6261b2f34d37bda5d6881"
+        }
+      ],
+      "shape": "regions",
+      "header": {
+        "path": "data/maps/americas-blocks-header.json.gz",
+        "bytes": 36780,
+        "sha256": "1aeb8cfe9dff20f305856bdc94750897cb28103e2df1d0f4312dc9083daea2b5"
+      },
+      "count": 17467
+    },
+    {
+      "global": "OCEANIA_SUBDIVISIONS",
+      "title": "大洋洲与岛屿",
+      "chunks": [
+        {
+          "path": "data/maps/oceania-blocks-000.json.gz",
+          "bytes": 5292688,
+          "sha256": "6f19040d494a8264c1d65d2a2ee4bdde90003238c6e1c8eff4b9ca8730eace37"
+        },
+        {
+          "path": "data/maps/oceania-blocks-001.json.gz",
+          "bytes": 5159562,
+          "sha256": "ab004b36467336db06deab2bc11c2cfd04f91a27eb9103ed37fcbc8e77eba84f"
+        },
+        {
+          "path": "data/maps/oceania-blocks-002.json.gz",
+          "bytes": 4609640,
+          "sha256": "40c6aa63d1794a4dbaa805704637511e4ad8f094b116ad69928a8cdc209142ac"
+        },
+        {
+          "path": "data/maps/oceania-blocks-003.json.gz",
+          "bytes": 1615845,
+          "sha256": "152a4f668c9c8ce37237e06978eef2cce8c13b088f7345db936001e2c0407c1f"
+        }
+      ],
+      "shape": "regions",
+      "header": {
+        "path": "data/maps/oceania-blocks-header.json.gz",
+        "bytes": 19854,
+        "sha256": "f8cab620929e115086c469d4ac3e4968913ed896e4f16536851b36e80f977d50"
+      },
+      "count": 1229
+    }
+  ]
+}

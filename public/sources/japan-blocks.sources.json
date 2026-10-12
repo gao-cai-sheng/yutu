@@ -1,0 +1,85 @@
+{
+  "title": "日本现代市区町村参考分块（2021 N03；非1640复原）",
+  "source_year": 2021,
+  "source_date": "2021-01-01",
+  "geometry_source": "https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_0.html",
+  "processed_by": "SmartNews Media Research Institute; historical atlas builder",
+  "repository": "https://github.com/smartnews-smri/japan-topography",
+  "source_commit": "b403e71eb97f1fdf32f63d16bd485129f703855e",
+  "download_url": "https://raw.githubusercontent.com/smartnews-smri/japan-topography/b403e71eb97f1fdf32f63d16bd485129f703855e/data/municipality/geojson/s0010/N03-21_210101.json",
+  "readme_url": "https://raw.githubusercontent.com/smartnews-smri/japan-topography/b403e71eb97f1fdf32f63d16bd485129f703855e/README.md",
+  "readme_sha256": "4198410a2e910df977b78ac95d0860aecee5a8cedf92ab22c76f8dc83e5c270e",
+  "input_file": "data/foreign-cache/japan/N03-21_210101.smartnews.s0010.geojson",
+  "input_sha256": "cd4b4084f76401e98a9704ca7d75f77e5841029928ab360061e77f87d8bab502",
+  "source_manifest": "data/japan-blocks.sources.json",
+  "license": "MLIT open data terms (current PDL1.0); SmartNews permits free commercial/non-commercial use, MLIT attribution required",
+  "license_url": "https://nlftp.mlit.go.jp/ksj/other/agreement.html",
+  "license_note": "原典N03の利用条件と国土地理院の個別利用規則も参照。SmartNewsの加工は商用・非商用とも無料。",
+  "attribution": "国土数値情報（行政区域データ・2021年1月1日）（国土交通省）をもとにスマートニュース メディア研究所が簡素化し、歴史地图编辑器がWGS84化・共有境界簡素化・属性編集した。",
+  "modifications": "固定2021入力をWGS84化、共有辺のみcoverage_simplify(0.002度)、1e-6度精度化、現代参考属性を付与。",
+  "coordinate_reference": "WGS84 / EPSG:4326 (RFC7946 longitude,latitude)",
+  "input_coordinate_reference": "N03 source: JGD2011 geographic / EPSG:6668",
+  "transform": "axis order change (2D) + JGD2011 to WGS 84 (1) + axis order change (2D)",
+  "transform_accuracy_metres": 1.0,
+  "simplification": {
+    "source_retained_percent": 1,
+    "shared_edge_tolerance_degrees": 0.002,
+    "simplify_coastline_again": false,
+    "precision_degrees": 1e-06
+  },
+  "feature_count": 1906,
+  "modern_prefecture_count": 47,
+  "unassigned_land_ids": [
+    "foreign-jpn-unassigned-5478db35b584",
+    "foreign-jpn-unassigned-2d4d609726a4",
+    "foreign-jpn-unassigned-d6bfa99c1c61",
+    "foreign-jpn-unassigned-f1d2c5ffddee"
+  ],
+  "coverage_limits": [
+    "2021行政区、政令市的区、飞地和离岛，仅作地理编辑材料；不声称1640历史郡县或藩界。",
+    "包含N03现代行政引用的北方岛屿与远海岛屿；均unknown，不转化为1640日本主权或实控断言。",
+    "所有历史名留空、所有owner/controller为unknown，必须由1640场景按来源分别分配。",
+    "源图已做1%简化，不能替代高精度岸线；现代填海、自治体合并和争议界线不作历史证据。"
+  ],
+  "historical_candidates_reviewed": [
+    {
+      "url": "https://geoshape.ex.nii.ac.jp/kg/",
+      "date": "幕末/明治",
+      "license": "CC BY-NC",
+      "decision": "非1640且有非商业限制，未作为本编辑底板"
+    },
+    {
+      "url": "https://github.com/geoiao/edo-domains",
+      "date": "circa 1862",
+      "license": "CC0",
+      "decision": "年代晚于1640，未把1862藩界套作1640"
+    },
+    {
+      "url": "https://chgis.fas.harvard.edu/data/japan/",
+      "date": "1828 provinces; 1664 domains",
+      "decision": "网页提供邻近断面，但没有直接把其作为1640复原"
+    }
+  ],
+  "other_modern_candidate_reviewed": {
+    "url": "https://www.geoboundaries.org/api/current/gbOpen/JPN/ADM2/",
+    "source_year": 2017,
+    "license": "Creative Commons Attribution-ShareAlike 2.0 (geoBoundaries metadata)",
+    "actual_simplified_feature_count": 1742,
+    "blank_modern_names": 24,
+    "decision": "采用官方N03衍生的日文名与行政代码；geoBoundaries仅用于核验可用现代参考来源，未混用其几何。"
+  },
+  "validation": {
+    "all_geometries_valid": true,
+    "edge_matched_coverage_valid": true,
+    "empty_geometries": 0,
+    "unique_ids": 1906,
+    "input_coordinate_count": 216372,
+    "output_coordinate_count": 212163,
+    "input_polygon_components": 2608,
+    "output_polygon_components": 2607,
+    "precision_note": "1e-6度精度化省略大紀町原图一个2.53e-13平方度的亚平方米碎片；主要岛屿和所有市町村块完整保留。",
+    "max_area_relative_difference": 0.009897798665873632
+  },
+  "output_sha256": "98a91776bca31b288c8a61cd8976ac0609361b0ff8179fe275281b351c0a7397",
+  "output_bytes": 7257684
+}

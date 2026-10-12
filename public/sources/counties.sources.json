@@ -1,0 +1,187 @@
+{
+  "retrieved": "2026-10-11",
+  "url": "https://geo.datav.aliyun.com/areas_v3/bound/",
+  "coordinates": "Source assumed GCJ-02 (DataV/Amap); iterative inverse conversion to WGS84",
+  "county_count": 2840,
+  "failures": [
+    {
+      "province": "台湾省",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "province": "",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "济源市",
+      "code": 419001,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "神农架林区",
+      "code": 429021,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "仙桃市",
+      "code": 429004,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "天门市",
+      "code": 429006,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "潜江市",
+      "code": 429005,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "中山市",
+      "code": 442000,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "东莞市",
+      "code": 441900,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "五指山市",
+      "code": 469001,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "文昌市",
+      "code": 469005,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "东方市",
+      "code": 469007,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "万宁市",
+      "code": 469006,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "儋州市",
+      "code": 460400,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "屯昌县",
+      "code": 469022,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "琼海市",
+      "code": 469002,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "定安县",
+      "code": 469021,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "澄迈县",
+      "code": 469023,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "临高县",
+      "code": 469024,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "昌江黎族自治县",
+      "code": 469026,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "乐东黎族自治县",
+      "code": 469027,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "白沙黎族自治县",
+      "code": 469025,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "琼中黎族苗族自治县",
+      "code": 469030,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "陵水黎族自治县",
+      "code": 469028,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "保亭黎族苗族自治县",
+      "code": 469029,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "五家渠市",
+      "code": 659004,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "石河子市",
+      "code": 659001,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "昆玉市",
+      "code": 659009,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "图木舒克市",
+      "code": 659003,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "铁门关市",
+      "code": 659006,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "北屯市",
+      "code": 659005,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "阿拉尔市",
+      "code": 659002,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "可克达拉市",
+      "code": 659008,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "胡杨河市",
+      "code": 659010,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "双河市",
+      "code": 659007,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "city": "嘉峪关市",
+      "code": 620200,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ],
+  "historical_boundaries": false
+}

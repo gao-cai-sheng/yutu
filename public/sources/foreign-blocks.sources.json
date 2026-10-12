@@ -1,0 +1,161 @@
+{
+  "revision": 1,
+  "source_counts": {
+    "korea": 408,
+    "japan": 1906,
+    "taiwan": 368
+  },
+  "editing_counts": {
+    "korea": 408,
+    "japan": 1994,
+    "taiwan": 370
+  },
+  "owners": {
+    "joseon": 408,
+    "unknown": 777,
+    "japan": 1561,
+    "ryukyu": 26
+  },
+  "component_splits": 90,
+  "seam_and_china_reference_clips": [
+    {
+      "id": "foreign-kor-91817680B14253606839965",
+      "removed_area_square_degrees": 0.0009189737384177193
+    },
+    {
+      "id": "foreign-kor-91817680B23922363914919",
+      "removed_area_square_degrees": 0.0018620433775413808
+    },
+    {
+      "id": "foreign-kor-91817680B50485812736392",
+      "removed_area_square_degrees": 0.0012888521130246938
+    },
+    {
+      "id": "foreign-kor-91817680B61474779558203",
+      "removed_area_square_degrees": 0.00018575741980275673
+    },
+    {
+      "id": "foreign-kor-91817680B73346878676901",
+      "removed_area_square_degrees": 0.0005981082202184684
+    },
+    {
+      "id": "foreign-kor-91817680B86395324328742",
+      "removed_area_square_degrees": 0.0007419956489023299
+    },
+    {
+      "id": "foreign-kor-91817680B98224083425041",
+      "removed_area_square_degrees": 0.018970953228699447
+    },
+    {
+      "id": "foreign-prk-82179303B10108678790042",
+      "removed_area_square_degrees": 0.0007558516380349878
+    },
+    {
+      "id": "foreign-prk-82179303B10804861284408",
+      "removed_area_square_degrees": 0.0004900354777165536
+    },
+    {
+      "id": "foreign-prk-82179303B19451054742324",
+      "removed_area_square_degrees": 0.028178763649699255
+    },
+    {
+      "id": "foreign-prk-82179303B2030756807209",
+      "removed_area_square_degrees": 0.0021941242027468597
+    },
+    {
+      "id": "foreign-prk-82179303B23816821783286",
+      "removed_area_square_degrees": 0.008499523621070343
+    },
+    {
+      "id": "foreign-prk-82179303B23970649452661",
+      "removed_area_square_degrees": 0.0006331762888648201
+    },
+    {
+      "id": "foreign-prk-82179303B2981535202544",
+      "removed_area_square_degrees": 3.1578364277726895e-07
+    },
+    {
+      "id": "foreign-prk-82179303B33326321250637",
+      "removed_area_square_degrees": 0.00011028526203218925
+    },
+    {
+      "id": "foreign-prk-82179303B38572973441712",
+      "removed_area_square_degrees": 0.00010847558146215297
+    },
+    {
+      "id": "foreign-prk-82179303B48679015064508",
+      "removed_area_square_degrees": 0.0023539674811042105
+    },
+    {
+      "id": "foreign-prk-82179303B57298285068990",
+      "removed_area_square_degrees": 0.0028560167029425543
+    },
+    {
+      "id": "foreign-prk-82179303B62276356715792",
+      "removed_area_square_degrees": 0.006768883829956995
+    },
+    {
+      "id": "foreign-prk-82179303B65076017972610",
+      "removed_area_square_degrees": 0.0018622548279542041
+    },
+    {
+      "id": "foreign-prk-82179303B68159150924260",
+      "removed_area_square_degrees": 0.0027348430512007943
+    },
+    {
+      "id": "foreign-prk-82179303B70197071761439",
+      "removed_area_square_degrees": 0.017270520827979773
+    },
+    {
+      "id": "foreign-prk-82179303B78642437827574",
+      "removed_area_square_degrees": 0.008470080566709504
+    },
+    {
+      "id": "foreign-prk-82179303B80718033581165",
+      "removed_area_square_degrees": 0.003826055991589139
+    }
+  ],
+  "removed_empty_source_ids": [],
+  "reference_source_overlaps": {
+    "existing_county_and_taiwan_sources": [
+      {
+        "id": "county-350112-ming",
+        "modern_name": "长乐区",
+        "area_square_degrees": 0.0004083331236659394
+      },
+      {
+        "id": "county-350122-ming",
+        "modern_name": "连江县",
+        "area_square_degrees": 0.0021516639752536385
+      },
+      {
+        "id": "county-350305-ming",
+        "modern_name": "秀屿区",
+        "area_square_degrees": 0.00010016988021206149
+      },
+      {
+        "id": "county-350527-ming",
+        "modern_name": "金门县",
+        "area_square_degrees": 0.014267297929147748
+      },
+      {
+        "id": "county-350681-ming",
+        "modern_name": "龙海区",
+        "area_square_degrees": 4.262034175101273e-06
+      },
+      {
+        "id": "county-441502-ming",
+        "modern_name": "城区",
+        "area_square_degrees": 0.00010215398540591446
+      }
+    ],
+    "japan_taiwan_remote_sources_area_square_degrees": 0.0004538087171451822,
+    "handling": "金马、东沙及远岛等现代源引用允许空间重叠，保留源对象和代码；新增台湾/远岛政治属性unknown，不据现代源行政引用推定历史主权或实控；非全局无缝分区"
+  },
+  "reference_assignment": {
+    "korea": "统一朝鲜王国概略归属；现代南北接缝消重，并减去既有中国岸参考交叠，不把现代分界视为1640国界",
+    "japan": "各面组件以与既有日本/琉球/奄美参考面的最大面积交集归类；现代北海道仅作阿伊努空间关联，归属与控制均unknown；其余无交集组件留空parent且unknown",
+    "taiwan": "各面组件代表点在[120,21.7,122.25,25.7]内只关联台湾空间参考面，所有政治归属unknown；外岛组件无parent且unknown"
+  },
+  "limitations": "现代空间材料；历史名称、县界、诸藩和部族控制范围未复原。现代源接缝消重只是编辑转换。"
+}

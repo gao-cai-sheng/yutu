@@ -1,0 +1,22 @@
+{
+  "retrieved": "2026-10-11",
+  "collection": "ChinaXmap 8.0 Ming",
+  "webmap": "https://www.arcgis.com/home/item.html?id=71827987d2db4e20ab2f2b866ea1a1b7",
+  "provenance": "Public ArcGIS features, coordinates requested in EPSG:4326; source records preserved. Not tracing of Huang Ming zhi fang di tu.",
+  "license": "Copyright/license field of queried layer metadata empty; do not infer commercial permission.",
+  "layers": [
+    {
+      "file": "political1626.geojson",
+      "feature_count": 2
+    },
+    {
+      "file": "garrisons.geojson",
+      "feature_count": 375
+    },
+    {
+      "file": "provinces1391.geojson",
+      "feature_count": 26,
+      "year": 1391
+    }
+  ]
+}

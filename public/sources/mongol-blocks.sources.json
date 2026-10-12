@@ -1,0 +1,48 @@
+{
+  "mongolia": {
+    "metadata": {
+      "boundaryID": "MNG-ADM2-93677404",
+      "boundaryName": "Mongolia",
+      "boundaryISO": "MNG",
+      "boundaryYearRepresented": "2021",
+      "boundaryType": "ADM2",
+      "boundaryCanonical": "soum, düüregs",
+      "boundarySource": "National Statistical Office of Mongolia, OCHA ROAP",
+      "boundaryLicense": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+      "licenseDetail": "nan",
+      "licenseSource": "data.humdata.org/dataset/mongolia-administrative-boundaries-polygon-polyline",
+      "boundarySourceURL": "data.humdata.org/dataset/mongolia-administrative-boundaries-polygon-polyline",
+      "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+      "buildDate": "Dec 12, 2023",
+      "Continent": "Asia",
+      "UNSDG-region": "Eastern and South-Eastern Asia",
+      "UNSDG-subregion": "Eastern Asia",
+      "worldBankIncomeGroup": "Lower-middle-income Countries",
+      "admUnitCount": "339",
+      "meanVertices": "577.0",
+      "minVertices": "11",
+      "maxVertices": "6289",
+      "meanPerimeterLengthKM": "388.8156303874837",
+      "minPerimeterLengthKM": "20.020633593418864",
+      "maxPerimeterLengthKM": "1177.5570624637592",
+      "meanAreaSqKM": "4616.155502934506",
+      "minAreaSqKM": "19.34708820248096",
+      "maxAreaSqKM": "28012.58055640852",
+      "staticDownloadLink": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/MNG/ADM2/geoBoundaries-MNG-ADM2-all.zip",
+      "gjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/MNG/ADM2/geoBoundaries-MNG-ADM2.geojson",
+      "tjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/MNG/ADM2/geoBoundaries-MNG-ADM2.topojson",
+      "imagePreview": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/MNG/ADM2/geoBoundaries-MNG-ADM2-PREVIEW.png",
+      "simplifiedGeometryGeoJSON": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/MNG/ADM2/geoBoundaries-MNG-ADM2_simplified.geojson"
+    },
+    "sha256": "dc4ffaa394bfd6a5d278bea15d8c302cbce38d8650b8b4859862bacb1f63a91f",
+    "count": 339
+  },
+  "china_remainders": 203,
+  "historical_sources": [
+    "https://doi.org/10.18573/alt.38",
+    "https://www.neac.gov.cn/seac/ztzl/201806/1066616.shtml",
+    "https://www.nmgqq.com.cn/quqinggailan/nemenggudashiji/ming/2017-2-16/9795.html",
+    "https://www.hljszw.org.cn/home/book/info/get_id/102155.html"
+  ],
+  "policy": "现代块默认待定；历史诸部使用概略注记；黑龙江补白清联系暂列、控制待定。"
+}

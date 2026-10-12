@@ -1,0 +1,97 @@
+{
+  "retrieved": "2026-10-12",
+  "dataset": "Taiwan modern township/city/district editing blocks",
+  "historical_year": 1640,
+  "historical_boundaries": false,
+  "count": 368,
+  "county_city_count": 22,
+  "county_city_counts": {
+    "南投縣": 13,
+    "嘉義市": 2,
+    "嘉義縣": 18,
+    "基隆市": 7,
+    "宜蘭縣": 12,
+    "屏東縣": 33,
+    "彰化縣": 26,
+    "新北市": 29,
+    "新竹市": 3,
+    "新竹縣": 13,
+    "桃園市": 13,
+    "澎湖縣": 6,
+    "臺中市": 29,
+    "臺北市": 12,
+    "臺南市": 37,
+    "臺東縣": 16,
+    "花蓮縣": 13,
+    "苗栗縣": 18,
+    "連江縣": 4,
+    "金門縣": 6,
+    "雲林縣": 20,
+    "高雄市": 38
+  },
+  "source": {
+    "provider": "內政部國土測繪中心",
+    "dataset_url": "https://data.gov.tw/dataset/7441",
+    "source_year": 2025,
+    "source_date": "2025-03-18",
+    "original_crs": "TWD97 longitude/latitude (EPSG:3824)",
+    "mirror_crs": "EPSG:4326, as declared by mirror catalog",
+    "mirror_catalog": "https://geo.maderaojen.me/",
+    "mirror_release": "2026-07-04.1",
+    "download_url": "https://geo.maderaojen.me/datasets/tw-townships/releases/v1/2026-07-04.1/data.geojson",
+    "cache": "data/foreign-cache/taiwan/nlsc-townships-1140318-wgs84.geojson",
+    "sha256": "4ab5da8297a75c3e3fd2cb272642693a91f04299a739897dffc8d7ae029d5196",
+    "license": "政府資料開放授權條款－第1版 / Open Government Data License 1.0",
+    "license_url": "https://data.gov.tw/license",
+    "attribution": "內政部國土測繪中心 2025 鄉鎮市區界線（1140318）；此開放資料依政府資料開放授權條款－第1版進行公眾釋出。",
+    "official_download_status": "TGOS original ZIP returned HTTP 403; pinned public WGS84 mirror used"
+  },
+  "transformations": [
+    "Sort by NLSC TOWNCODE; derive foreign-twn-TOWNCODE stable IDs",
+    "Compact JSON and round coordinates to 6 decimal places; retain every source vertex and polygon component",
+    "No additional geometric simplification, no coastline clipping, no inferred historical boundaries",
+    "Create modern name search aliases; leave every historical_name empty",
+    "Leave every owner/controller unknown; parent_id is a suggested spatial editing reference only"
+  ],
+  "validation": {
+    "unique_ids": 368,
+    "valid_nonempty_geometries": 368,
+    "source_polygon_components": 1034,
+    "output_polygon_components": 1034,
+    "source_vertices": 49609,
+    "output_vertices": 49609,
+    "bbox": [
+      114.35929,
+      10.371348,
+      124.561154,
+      26.385275
+    ],
+    "source_overlap_area_square_degrees": 0.0013238974856082386,
+    "output_overlap_area_square_degrees": 0.0013237945171300503,
+    "rounding_symmetric_difference_area_square_degrees": 9.949038902397262e-06,
+    "output_bytes": 1771020
+  },
+  "historical_research": [
+    {
+      "url": "https://gis.rchss.sinica.edu.tw/thcts/",
+      "finding": "THCTS documents Dutch/Spanish-period historical maps and thematic information; no reusable openly licensed 1640 whole-island tribal polygon coverage was verified."
+    },
+    {
+      "url": "https://thcts.sinica.edu.tw/themes/ra06.php",
+      "finding": "Dutch-period eastern Taiwan gold exploration route/settlement study is a useful historical reference, not a verified closed tribal boundary dataset."
+    },
+    {
+      "url": "https://www.geoboundaries.org/api/current/gbOpen/TWN/ADM2/",
+      "finding": "Alternative gbOpen ADM2 represents 2017 OSM/Wambacher Townships, reports 369 units and CC BY-SA 2.0; not selected over the 368-unit government-origin source."
+    }
+  ],
+  "limitations": [
+    "This is the complete 368-unit modern source, not a reconstruction of 1640 indigenous communities, territorial control, or administrative boundaries.",
+    "The mirror has existing minor overlaps and imperfectly matching neighboring edges; they are documented and retained, not presented as a topology-perfect historical survey.",
+    "Modern coastlines may include reclamation and differ from 1640. No coarse Taiwan polygon is used to discard coastal material.",
+    "Kinmen, Matsu, Penghu and source-associated remote island components remain available but have no inferred 1640 owner or historical parent.",
+    "Toucheng and Cijin each contain a mixed multipart geometry with remote islands; their parent_id stays empty for component-aware integration.",
+    "Source territorial association of remote islands is retained as modern reference metadata only; no inference of sovereignty or actual control is made.",
+    "All historical_name values are intentionally empty; modern Taiwanese place names do not become 1640 names."
+  ]
+}

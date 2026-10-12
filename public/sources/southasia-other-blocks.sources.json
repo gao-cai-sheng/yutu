@@ -1,0 +1,727 @@
+{
+  "schema_version": 1,
+  "description": "阿富汗、尼泊尔、不丹、斯里兰卡、马尔代夫现代可编辑空间参考；非1640历史疆域",
+  "feature_count": 360,
+  "counts_by_country": {
+    "AFG": 34,
+    "NPL": 75,
+    "BTN": 205,
+    "LKA": 25,
+    "MDV": 21
+  },
+  "coordinate_reference": "WGS84 / EPSG:4326; longitude, latitude in decimal degrees",
+  "sources": [
+    {
+      "source_region_code": "AFG",
+      "level": "ADM1",
+      "usage": "现代可编辑行政块空间参考；非历史行政界",
+      "pinned_git_sha": "9469f09592ced973a3448cf66b6100b741b64c0d",
+      "pinned_geojson_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/AFG/ADM1/geoBoundaries-AFG-ADM1.geojson",
+      "geometry_cache": "data/foreign-cache/southasia-other/AFG-ADM1.geojson",
+      "metadata_cache": "data/foreign-cache/southasia-other/AFG-ADM1.metadata.json",
+      "source_sha256": "9c044ab9a0852fba5c89a1b922f5ed244969439f9a2673b9f6763c255e7a46fe",
+      "metadata": {
+        "boundaryID": "AFG-ADM1-12653393",
+        "boundaryName": "Afghanistan",
+        "boundaryISO": "AFG",
+        "boundaryYearRepresented": "2007",
+        "boundaryType": "ADM1",
+        "boundaryCanonical": "Wilayat",
+        "boundarySource": "Wikimedia, geoBoundaries",
+        "boundaryLicense": "Public Domain",
+        "licenseDetail": "nan",
+        "licenseSource": "commons.wikimedia.org/wiki/File",
+        "boundarySourceURL": "en.wikipedia.org/wiki/Provinces_of_Afghanistan",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "Continent": "Asia",
+        "UNSDG-region": "Central and Southern Asia",
+        "UNSDG-subregion": "Southern Asia",
+        "worldBankIncomeGroup": "Low-income Countries",
+        "admUnitCount": "34",
+        "meanVertices": "120.0",
+        "minVertices": "47",
+        "maxVertices": "252",
+        "meanPerimeterLengthKM": "753.497179240414",
+        "minPerimeterLengthKM": "242.63699168745265",
+        "maxPerimeterLengthKM": "1863.826397275971",
+        "meanAreaSqKM": "18951.3840016042",
+        "minAreaSqKM": "2263.463281797879",
+        "maxAreaSqKM": "59942.64204500234",
+        "staticDownloadLink": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/AFG/ADM1/geoBoundaries-AFG-ADM1-all.zip",
+        "gjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/AFG/ADM1/geoBoundaries-AFG-ADM1.geojson",
+        "tjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/AFG/ADM1/geoBoundaries-AFG-ADM1.topojson",
+        "imagePreview": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/AFG/ADM1/geoBoundaries-AFG-ADM1-PREVIEW.png",
+        "simplifiedGeometryGeoJSON": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/AFG/ADM1/geoBoundaries-AFG-ADM1_simplified.geojson"
+      },
+      "attribution": "geoBoundaries; Joshbaumgartner (2007); Public Domain; adapted administrative geometry."
+    },
+    {
+      "source_region_code": "NPL",
+      "level": "ADM2",
+      "usage": "现代可编辑行政块空间参考；非历史行政界",
+      "pinned_git_sha": "9469f09592ced973a3448cf66b6100b741b64c0d",
+      "pinned_geojson_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/NPL/ADM2/geoBoundaries-NPL-ADM2.geojson",
+      "geometry_cache": "data/foreign-cache/southasia-other/NPL-ADM2.geojson",
+      "metadata_cache": "data/foreign-cache/southasia-other/NPL-ADM2.metadata.json",
+      "source_sha256": "83e197db0b729f67c27deb3a09841fa048efe8bfffff73a0d448eaf296214da2",
+      "metadata": {
+        "boundaryID": "NPL-ADM2-79688334",
+        "boundaryName": "Nepal",
+        "boundaryISO": "NPL",
+        "boundaryYearRepresented": "2006",
+        "boundaryType": "ADM2",
+        "boundaryCanonical": "Districts",
+        "boundarySource": "geoBoundaries, Wikimedia Commons",
+        "boundaryLicense": "Public Domain",
+        "licenseDetail": "nan",
+        "licenseSource": "commons.wikimedia.org/wiki/File",
+        "boundarySourceURL": "commons.wikimedia.org/wiki/File",
+        "sourceDataUpdateDate": "Sat Apr 22 12:50:50 2023",
+        "buildDate": "Dec 12, 2023",
+        "Continent": "Asia",
+        "UNSDG-region": "Central and Southern Asia",
+        "UNSDG-subregion": "Southern Asia",
+        "worldBankIncomeGroup": "Low-income Countries",
+        "admUnitCount": "75",
+        "meanVertices": "50.0",
+        "minVertices": "11",
+        "maxVertices": "119",
+        "meanPerimeterLengthKM": "231.11222003369136",
+        "minPerimeterLengthKM": "43.06174282894405",
+        "maxPerimeterLengthKM": "451.79177526130906",
+        "meanAreaSqKM": "1966.362770426933",
+        "minAreaSqKM": "97.60217099199502",
+        "maxAreaSqKM": "8109.827432086035",
+        "staticDownloadLink": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/NPL/ADM2/geoBoundaries-NPL-ADM2-all.zip",
+        "gjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/NPL/ADM2/geoBoundaries-NPL-ADM2.geojson",
+        "tjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/NPL/ADM2/geoBoundaries-NPL-ADM2.topojson",
+        "imagePreview": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/NPL/ADM2/geoBoundaries-NPL-ADM2-PREVIEW.png",
+        "simplifiedGeometryGeoJSON": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/NPL/ADM2/geoBoundaries-NPL-ADM2_simplified.geojson"
+      },
+      "attribution": "geoBoundaries; Rarelibra (2006); Public Domain; adapted administrative geometry."
+    },
+    {
+      "source_region_code": "BTN",
+      "level": "ADM1",
+      "usage": "现代上级位置关联；不修改ADM2源几何",
+      "pinned_git_sha": "9469f09592ced973a3448cf66b6100b741b64c0d",
+      "pinned_geojson_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/BTN/ADM1/geoBoundaries-BTN-ADM1.geojson",
+      "geometry_cache": "data/foreign-cache/southasia-other/BTN-ADM1.geojson",
+      "metadata_cache": "data/foreign-cache/southasia-other/BTN-ADM1.metadata.json",
+      "source_sha256": "93cdf50d9b03f43e6fd967c24e2362147ac2c24015f452e19181412f09af9f5a",
+      "metadata": {
+        "boundaryID": "BTN-ADM1-66845921",
+        "boundaryName": "Bhutan",
+        "boundaryISO": "BTN",
+        "boundaryYearRepresented": "2010",
+        "boundaryType": "ADM1",
+        "boundaryCanonical": "Dzongdeys",
+        "boundarySource": "geoBoundaries, Wikimedia Commons; credit to author 'Babbage'",
+        "boundaryLicense": "Creative Commons Attribution 3.0 License",
+        "licenseDetail": "nan",
+        "licenseSource": "commons.wikimedia.org/wiki/File",
+        "boundarySourceURL": "commons.wikimedia.org/wiki/File",
+        "sourceDataUpdateDate": "Wed May 3 23:23:22 2023",
+        "buildDate": "Dec 12, 2023",
+        "Continent": "Asia",
+        "UNSDG-region": "Central and Southern Asia",
+        "UNSDG-subregion": "Southern Asia",
+        "worldBankIncomeGroup": "Lower-middle-income Countries",
+        "admUnitCount": "20",
+        "meanVertices": "140.0",
+        "minVertices": "59",
+        "maxVertices": "269",
+        "meanPerimeterLengthKM": "254.97600949948804",
+        "minPerimeterLengthKM": "123.2351589118658",
+        "maxPerimeterLengthKM": "413.70562281718526",
+        "meanAreaSqKM": "1997.2474927588223",
+        "minAreaSqKM": "538.3065625552792",
+        "maxAreaSqKM": "4614.591051090209",
+        "staticDownloadLink": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/BTN/ADM1/geoBoundaries-BTN-ADM1-all.zip",
+        "gjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/BTN/ADM1/geoBoundaries-BTN-ADM1.geojson",
+        "tjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/BTN/ADM1/geoBoundaries-BTN-ADM1.topojson",
+        "imagePreview": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/BTN/ADM1/geoBoundaries-BTN-ADM1-PREVIEW.png",
+        "simplifiedGeometryGeoJSON": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/BTN/ADM1/geoBoundaries-BTN-ADM1_simplified.geojson"
+      },
+      "attribution": "geoBoundaries; OCHA ROAP (2020), CC BY 3.0 IGO https://creativecommons.org/licenses/by/3.0/igo/; Babbage (2010), CC BY 3.0 https://creativecommons.org/licenses/by/3.0/; geometry adapted."
+    },
+    {
+      "source_region_code": "BTN",
+      "level": "ADM2",
+      "usage": "现代可编辑行政块空间参考；非历史行政界",
+      "pinned_git_sha": "9469f09592ced973a3448cf66b6100b741b64c0d",
+      "pinned_geojson_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/BTN/ADM2/geoBoundaries-BTN-ADM2.geojson",
+      "geometry_cache": "data/foreign-cache/southasia-other/BTN-ADM2.geojson",
+      "metadata_cache": "data/foreign-cache/southasia-other/BTN-ADM2.metadata.json",
+      "source_sha256": "a17ecb7a8fbb47d75d0d1eba55567bc41fac94ebcefa49b11e3da09368df46c6",
+      "metadata": {
+        "boundaryID": "BTN-ADM2-84629894",
+        "boundaryName": "Bhutan",
+        "boundaryISO": "BTN",
+        "boundaryYearRepresented": "2020",
+        "boundaryType": "ADM2",
+        "boundaryCanonical": "Gewog",
+        "boundarySource": "OCHA ROAP",
+        "boundaryLicense": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "licenseDetail": "nan",
+        "licenseSource": "data.humdata.org/dataset/bhutan-administrative-boundaries-levels-0-2",
+        "boundarySourceURL": "data.humdata.org/dataset/bhutan-administrative-boundaries-levels-0-2",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "Continent": "Asia",
+        "UNSDG-region": "Central and Southern Asia",
+        "UNSDG-subregion": "Southern Asia",
+        "worldBankIncomeGroup": "Lower-middle-income Countries",
+        "admUnitCount": "205",
+        "meanVertices": "575.0",
+        "minVertices": "150",
+        "maxVertices": "2391",
+        "meanPerimeterLengthKM": "69.69277486959314",
+        "minPerimeterLengthKM": "16.591520261784442",
+        "maxPerimeterLengthKM": "291.1710167233457",
+        "meanAreaSqKM": "189.08790030867343",
+        "minAreaSqKM": "10.23823250710271",
+        "maxAreaSqKM": "1731.2431323722274",
+        "staticDownloadLink": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/BTN/ADM2/geoBoundaries-BTN-ADM2-all.zip",
+        "gjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/BTN/ADM2/geoBoundaries-BTN-ADM2.geojson",
+        "tjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/BTN/ADM2/geoBoundaries-BTN-ADM2.topojson",
+        "imagePreview": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/BTN/ADM2/geoBoundaries-BTN-ADM2-PREVIEW.png",
+        "simplifiedGeometryGeoJSON": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/BTN/ADM2/geoBoundaries-BTN-ADM2_simplified.geojson"
+      },
+      "attribution": "geoBoundaries; OCHA ROAP (2020), CC BY 3.0 IGO https://creativecommons.org/licenses/by/3.0/igo/; Babbage (2010), CC BY 3.0 https://creativecommons.org/licenses/by/3.0/; geometry adapted."
+    },
+    {
+      "source_region_code": "LKA",
+      "level": "ADM1",
+      "usage": "现代上级位置关联；不修改ADM2源几何",
+      "pinned_git_sha": "9469f09592ced973a3448cf66b6100b741b64c0d",
+      "pinned_geojson_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/LKA/ADM1/geoBoundaries-LKA-ADM1.geojson",
+      "geometry_cache": "data/foreign-cache/southasia-other/LKA-ADM1.geojson",
+      "metadata_cache": "data/foreign-cache/southasia-other/LKA-ADM1.metadata.json",
+      "source_sha256": "29905000ac7860781735a34f556be278e023a4e7188dd53f7a9717457f1716a3",
+      "metadata": {
+        "boundaryID": "LKA-ADM1-99731895",
+        "boundaryName": "Sri Lanka",
+        "boundaryISO": "LKA",
+        "boundaryYearRepresented": "2017",
+        "boundaryType": "ADM1",
+        "boundaryCanonical": "Unknown",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "www.openstreetmap.org/copyright",
+        "boundarySourceURL": "wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "Continent": "Asia",
+        "UNSDG-region": "Central and Southern Asia",
+        "UNSDG-subregion": "Southern Asia",
+        "worldBankIncomeGroup": "Lower-middle-income Countries",
+        "admUnitCount": "9",
+        "meanVertices": "4081.0",
+        "minVertices": "2695",
+        "maxVertices": "6244",
+        "meanPerimeterLengthKM": "708.4977533038359",
+        "minPerimeterLengthKM": "447.2402802162403",
+        "maxPerimeterLengthKM": "1136.7062812483814",
+        "meanAreaSqKM": "7340.989240936138",
+        "minAreaSqKM": "3712.965058663033",
+        "maxAreaSqKM": "10642.237141987567",
+        "staticDownloadLink": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/LKA/ADM1/geoBoundaries-LKA-ADM1-all.zip",
+        "gjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/LKA/ADM1/geoBoundaries-LKA-ADM1.geojson",
+        "tjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/LKA/ADM1/geoBoundaries-LKA-ADM1.topojson",
+        "imagePreview": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/LKA/ADM1/geoBoundaries-LKA-ADM1-PREVIEW.png",
+        "simplifiedGeometryGeoJSON": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/LKA/ADM1/geoBoundaries-LKA-ADM1_simplified.geojson"
+      },
+      "attribution": "geoBoundaries; © OpenStreetMap contributors; Wambacher (2017), adapted administrative geometry under ODbL 1.0 https://opendatacommons.org/licenses/odbl/1-0/."
+    },
+    {
+      "source_region_code": "LKA",
+      "level": "ADM2",
+      "usage": "现代可编辑行政块空间参考；非历史行政界",
+      "pinned_git_sha": "9469f09592ced973a3448cf66b6100b741b64c0d",
+      "pinned_geojson_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/LKA/ADM2/geoBoundaries-LKA-ADM2.geojson",
+      "geometry_cache": "data/foreign-cache/southasia-other/LKA-ADM2.geojson",
+      "metadata_cache": "data/foreign-cache/southasia-other/LKA-ADM2.metadata.json",
+      "source_sha256": "47b5ae26225e62052686b6a7ab1dadcaab96d7b968f618b752151f4dc8943a4d",
+      "metadata": {
+        "boundaryID": "LKA-ADM2-46371173",
+        "boundaryName": "Sri Lanka",
+        "boundaryISO": "LKA",
+        "boundaryYearRepresented": "2017",
+        "boundaryType": "ADM2",
+        "boundaryCanonical": "Unknown",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "www.openstreetmap.org/copyright",
+        "boundarySourceURL": "wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "Continent": "Asia",
+        "UNSDG-region": "Central and Southern Asia",
+        "UNSDG-subregion": "Southern Asia",
+        "worldBankIncomeGroup": "Lower-middle-income Countries",
+        "admUnitCount": "25",
+        "meanVertices": "2050.0",
+        "minVertices": "1133",
+        "maxVertices": "3262",
+        "meanPerimeterLengthKM": "363.8314385794992",
+        "minPerimeterLengthKM": "202.6016428978234",
+        "maxPerimeterLengthKM": "608.5451549459242",
+        "meanAreaSqKM": "2642.7561269285243",
+        "minAreaSqKM": "683.3785382327816",
+        "maxAreaSqKM": "7202.982372416755",
+        "staticDownloadLink": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/LKA/ADM2/geoBoundaries-LKA-ADM2-all.zip",
+        "gjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/LKA/ADM2/geoBoundaries-LKA-ADM2.geojson",
+        "tjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/LKA/ADM2/geoBoundaries-LKA-ADM2.topojson",
+        "imagePreview": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/LKA/ADM2/geoBoundaries-LKA-ADM2-PREVIEW.png",
+        "simplifiedGeometryGeoJSON": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/LKA/ADM2/geoBoundaries-LKA-ADM2_simplified.geojson"
+      },
+      "attribution": "geoBoundaries; © OpenStreetMap contributors; Wambacher (2017), adapted administrative geometry under ODbL 1.0 https://opendatacommons.org/licenses/odbl/1-0/."
+    },
+    {
+      "source_region_code": "MDV",
+      "level": "ADM2",
+      "usage": "现代可编辑行政块空间参考；非历史行政界",
+      "pinned_git_sha": "9469f09592ced973a3448cf66b6100b741b64c0d",
+      "pinned_geojson_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/MDV/ADM2/geoBoundaries-MDV-ADM2.geojson",
+      "geometry_cache": "data/foreign-cache/southasia-other/MDV-ADM2.geojson",
+      "metadata_cache": "data/foreign-cache/southasia-other/MDV-ADM2.metadata.json",
+      "source_sha256": "8b0896c882f9c2c15fd00e802d4613477d4efe211c5d0c35b51c22a4369f6e9c",
+      "metadata": {
+        "boundaryID": "MDV-ADM2-70690204",
+        "boundaryName": "Maldives",
+        "boundaryISO": "MDV",
+        "boundaryYearRepresented": "2017",
+        "boundaryType": "ADM2",
+        "boundaryCanonical": "Administrative Atolls",
+        "boundarySource": "Government of the Republic of Maldives, OCHA ROAP",
+        "boundaryLicense": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "licenseDetail": "nan",
+        "licenseSource": "data.humdata.org/dataset/maldives-administrative-boundaries-polygon-polyline",
+        "boundarySourceURL": "data.humdata.org/dataset/maldives-administrative-boundaries-polygon-polyline",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "Continent": "Asia",
+        "UNSDG-region": "Central and Southern Asia",
+        "UNSDG-subregion": "Southern Asia",
+        "worldBankIncomeGroup": "Upper-middle-income Countries",
+        "admUnitCount": "21",
+        "meanVertices": "267.0",
+        "minVertices": "38",
+        "maxVertices": "716",
+        "meanPerimeterLengthKM": "149.16184638869794",
+        "minPerimeterLengthKM": "5.688172147773051",
+        "maxPerimeterLengthKM": "314.50527362133124",
+        "meanAreaSqKM": "1080.644093784959",
+        "minAreaSqKM": "1.8633910627741312",
+        "maxAreaSqKM": "2300.782472008292",
+        "staticDownloadLink": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/MDV/ADM2/geoBoundaries-MDV-ADM2-all.zip",
+        "gjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/MDV/ADM2/geoBoundaries-MDV-ADM2.geojson",
+        "tjDownloadURL": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/MDV/ADM2/geoBoundaries-MDV-ADM2.topojson",
+        "imagePreview": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/MDV/ADM2/geoBoundaries-MDV-ADM2-PREVIEW.png",
+        "simplifiedGeometryGeoJSON": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/MDV/ADM2/geoBoundaries-MDV-ADM2_simplified.geojson"
+      },
+      "attribution": "geoBoundaries; Government of the Republic of Maldives; OCHA ROAP (2017), CC BY 3.0 IGO https://creativecommons.org/licenses/by/3.0/igo/; administrative atoll geometry adapted, largely water."
+    }
+  ],
+  "validation": {
+    "AFG": {
+      "source_feature_count": 34,
+      "actual_feature_count": 34,
+      "source_valid_count": 34,
+      "output_valid_count": 34,
+      "source_coverage_valid": true,
+      "output_coverage_valid": true,
+      "source_coordinate_count": 4132,
+      "output_coordinate_count": 4096,
+      "source_polygon_component_count": 34,
+      "output_polygon_component_count": 34,
+      "coast_symmetric_difference_square_degrees": 0.0,
+      "output_bounds": [
+        60.56760532571145,
+        29.35127766248662,
+        74.89178199433196,
+        38.497534370114366
+      ],
+      "internal_centers_verified": true,
+      "missing_modern_province_names": 0
+    },
+    "NPL": {
+      "source_feature_count": 75,
+      "actual_feature_count": 75,
+      "source_valid_count": 75,
+      "output_valid_count": 75,
+      "source_coverage_valid": true,
+      "output_coverage_valid": true,
+      "source_coordinate_count": 3834,
+      "output_coordinate_count": 3548,
+      "source_polygon_component_count": 77,
+      "output_polygon_component_count": 77,
+      "coast_symmetric_difference_square_degrees": 0.0,
+      "output_bounds": [
+        80.07078425278996,
+        26.366735910949842,
+        88.16375153895143,
+        30.447886693079568
+      ],
+      "internal_centers_verified": true,
+      "missing_modern_province_names": 75
+    },
+    "BTN": {
+      "source_feature_count": 205,
+      "actual_feature_count": 205,
+      "source_valid_count": 205,
+      "output_valid_count": 205,
+      "source_coverage_valid": true,
+      "output_coverage_valid": true,
+      "source_coordinate_count": 117874,
+      "output_coordinate_count": 50068,
+      "source_polygon_component_count": 205,
+      "output_polygon_component_count": 205,
+      "coast_symmetric_difference_square_degrees": 0.0,
+      "output_bounds": [
+        88.74604141400005,
+        26.700655537000046,
+        92.12475435900006,
+        28.247679301000062
+      ],
+      "internal_centers_verified": true,
+      "missing_modern_province_names": 90
+    },
+    "LKA": {
+      "source_feature_count": 25,
+      "actual_feature_count": 25,
+      "source_valid_count": 25,
+      "output_valid_count": 25,
+      "source_coverage_valid": true,
+      "output_coverage_valid": true,
+      "source_coordinate_count": 51256,
+      "output_coordinate_count": 34698,
+      "source_polygon_component_count": 42,
+      "output_polygon_component_count": 42,
+      "coast_symmetric_difference_square_degrees": 0.0,
+      "output_bounds": [
+        79.6506409,
+        5.9189254,
+        81.8789817,
+        9.8357907
+      ],
+      "internal_centers_verified": true,
+      "missing_modern_province_names": 0
+    },
+    "MDV": {
+      "source_feature_count": 21,
+      "actual_feature_count": 21,
+      "source_valid_count": 21,
+      "output_valid_count": 21,
+      "source_coverage_valid": true,
+      "output_coverage_valid": true,
+      "source_coordinate_count": 5618,
+      "output_coordinate_count": 5584,
+      "source_polygon_component_count": 32,
+      "output_polygon_component_count": 32,
+      "coast_symmetric_difference_square_degrees": 0.0,
+      "output_bounds": [
+        72.543579,
+        -0.709681,
+        73.772628,
+        7.114926
+      ],
+      "internal_centers_verified": true,
+      "missing_modern_province_names": 21
+    }
+  },
+  "simplification": {
+    "method": "Shapely coverage_simplify",
+    "tolerance_degrees": 0.0005,
+    "simplify_boundary": false,
+    "coastline_and_island_components_retained": true
+  },
+  "license_checks": {
+    "access_date": "2026-10-12",
+    "AFG": {
+      "included_source": "geoBoundaries; Joshbaumgartner, Afghanistan provinces numbered gray (2007)",
+      "license": "Public Domain",
+      "primary_license_url": "https://commons.wikimedia.org/wiki/File:Afghanistan_provinces_numbered_gray.PNG",
+      "upstream_license_screenshot": "AFG_ADM1.license.PNG",
+      "checked_terms": "Author explicitly releases the map into the public domain worldwide and permits use for any purpose. ADM1 fallback used instead of uncertain ADM2 licence.",
+      "attribution": "geoBoundaries; Joshbaumgartner (2007); Public Domain; adapted administrative geometry."
+    },
+    "AFG_ADM2_rejected": {
+      "boundaryID": "AFG-ADM2-17698898",
+      "declared_license": "Public Domain",
+      "primary_terms_url": "https://www.arcgis.com/sharing/rest/content/items/2b63527870ef416bacf83bcaf388685f?f=json",
+      "primary_terms_cache": "AFG-arcgis-item.json",
+      "upstream_license_screenshot": "AFG_ADM2.license.PNG",
+      "reason": "ArcGIS item licenseInfo is only Open. geoBoundaries licenseDetail says the collector chose Public Domain without explicit reuse terms. ADM2 geometry and archive excluded from output and distributed cache.",
+      "rejected_geometry_sha256": "240d1f05cdd7b27a4ce9f90f6e6ddb03a1ec159309c6ef25283273cb8b9cba69",
+      "pinned_rejected_geometry_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/AFG/ADM2/geoBoundaries-AFG-ADM2.geojson"
+    },
+    "NPL": {
+      "included_source": "geoBoundaries; Rarelibra, Nepal districts (2006)",
+      "license": "Public Domain",
+      "primary_license_url": "https://commons.wikimedia.org/wiki/File:Nepal_districts.png",
+      "upstream_license_screenshot": "NPL_ADM2.License.PNG",
+      "checked_terms": "Author release into public domain and permission for any purpose verified. This is the explicitly outdated 75-district 2006 snapshot. No 2020 province overlay is used.",
+      "attribution": "geoBoundaries; Rarelibra (2006); Public Domain; adapted administrative geometry."
+    },
+    "BTN": {
+      "included_source": "geoBoundaries; OCHA ROAP ADM2 (2020), Babbage ADM1 (2010)",
+      "license": "CC BY 3.0 IGO (ADM2); CC BY 3.0 (ADM1 names overlay)",
+      "primary_adm2_license_url": "https://data.humdata.org/dataset/bhutan-administrative-boundaries-levels-0-2",
+      "primary_adm1_license_url": "https://commons.wikimedia.org/wiki/File:Bhutan-divisions.svg",
+      "upstream_license_screenshots": [
+        "BTN_ADM2.license.jpg",
+        "BTN_ADM1.license.png"
+      ],
+      "checked_terms": "Cached upstream HDX metadata screenshot identifies OCHA ROAP and CC Attribution for Intergovernmental Organisations; current old HDX URL returned 404 on this access. Babbage file page explicitly permits copying and adaptation under CC BY 3.0.",
+      "attribution": "geoBoundaries; OCHA ROAP (2020), CC BY 3.0 IGO https://creativecommons.org/licenses/by/3.0/igo/; Babbage (2010), CC BY 3.0 https://creativecommons.org/licenses/by/3.0/; geometry adapted."
+    },
+    "LKA": {
+      "included_source": "geoBoundaries; OpenStreetMap contributors, Wambacher (2017)",
+      "license": "Open Data Commons Open Database License 1.0",
+      "primary_license_url": "https://www.openstreetmap.org/copyright",
+      "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "checked_terms": "OSM primary copyright page permits copying and adaptation with attribution, and requires adapted databases to retain ODbL. Original ODbL preserved in feature and source records.",
+      "attribution": "geoBoundaries; © OpenStreetMap contributors; Wambacher (2017), adapted administrative geometry under ODbL 1.0 https://opendatacommons.org/licenses/odbl/1-0/."
+    },
+    "MDV": {
+      "included_source": "geoBoundaries; Government of the Republic of Maldives, OCHA ROAP (2017)",
+      "license": "CC BY 3.0 IGO",
+      "primary_license_url": "https://data.humdata.org/dataset/maldives-administrative-boundaries-polygon-polyline",
+      "upstream_license_screenshot": "MDV_ADM2.license.jpg",
+      "checked_terms": "Cached upstream HDX metadata screenshot identifies Maldives government / OCHA ROAP and CC Attribution for Intergovernmental Organisations. Current old HDX URL returned 404 on access. Original caveat says administrative atoll polygons are largely water.",
+      "attribution": "geoBoundaries; Government of the Republic of Maldives; OCHA ROAP (2017), CC BY 3.0 IGO https://creativecommons.org/licenses/by/3.0/igo/; administrative atoll geometry adapted, largely water."
+    }
+  },
+  "pinned_files": {
+    "gb_git_sha": "9469f09592ced973a3448cf66b6100b741b64c0d",
+    "files": [
+      {
+        "file": "AFG-ADM1.geojson",
+        "sha256": "9c044ab9a0852fba5c89a1b922f5ed244969439f9a2673b9f6763c255e7a46fe",
+        "bytes": 188727,
+        "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/AFG/ADM1/geoBoundaries-AFG-ADM1.geojson"
+      },
+      {
+        "file": "AFG-ADM1.metadata.json",
+        "sha256": "633274a3fe23c34edffc61553e6596f0828d1d14972f307f5a07c8631860adab",
+        "bytes": 1670,
+        "url": "https://www.geoboundaries.org/api/current/gbOpen/AFG/ADM1/"
+      },
+      {
+        "file": "AFG-ADM2.metadata.json",
+        "sha256": "d5dea10c785f9094cc74ba8ad1039a46ae4df3bfd082ae99734f45f07807065f",
+        "bytes": 2030,
+        "url": "https://www.geoboundaries.org/api/current/gbOpen/AFG/ADM2/"
+      },
+      {
+        "file": "AFG-arcgis-item.json",
+        "sha256": "ce0de5345f6db68984b61e0959765cfd1e63427b838afd955711ac8d8b358824",
+        "bytes": 2489
+      },
+      {
+        "file": "AFG_ADM1.license.PNG",
+        "sha256": "e8ae4cb0f2a1176c451cd6e5d9306cedb0600b2415f7c8fc1368159f269599fe",
+        "bytes": 77086
+      },
+      {
+        "file": "AFG_ADM1.meta.txt",
+        "sha256": "3bcab2480d8b819e745dad7597c5fb096c68ec4824454dc6d0c9bbaa756dc044",
+        "bytes": 422
+      },
+      {
+        "file": "AFG_ADM1.source.zip",
+        "sha256": "c97c48064b660e41a05fe4c67f6d867d1ce909bb03de74c34d6579c531a24851",
+        "bytes": 110775,
+        "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/sourceData/gbOpen/AFG_ADM1.zip"
+      },
+      {
+        "file": "AFG_ADM2.license.PNG",
+        "sha256": "e6407d97683767ba2a061738bbb17e67fd12aca6b773daaa440246f02d17b419",
+        "bytes": 143243
+      },
+      {
+        "file": "AFG_ADM2.meta.txt",
+        "sha256": "d0fe5f80147263289fb3e8fba3b6ba5c1710d9d7f571cef092ca11d28bf8c01b",
+        "bytes": 1176
+      },
+      {
+        "file": "BTN-ADM1.geojson",
+        "sha256": "93cdf50d9b03f43e6fd967c24e2362147ac2c24015f452e19181412f09af9f5a",
+        "bytes": 128083,
+        "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/BTN/ADM1/geoBoundaries-BTN-ADM1.geojson"
+      },
+      {
+        "file": "BTN-ADM1.metadata.json",
+        "sha256": "c5fdd6c1d4e4a4ad4be7102373fb4c9af02fd63b983e0eb472774a1892ae579b",
+        "bytes": 1727,
+        "url": "https://www.geoboundaries.org/api/current/gbOpen/BTN/ADM1/"
+      },
+      {
+        "file": "BTN-ADM2.geojson",
+        "sha256": "a17ecb7a8fbb47d75d0d1eba55567bc41fac94ebcefa49b11e3da09368df46c6",
+        "bytes": 5207987,
+        "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/BTN/ADM2/geoBoundaries-BTN-ADM2.geojson"
+      },
+      {
+        "file": "BTN-ADM2.metadata.json",
+        "sha256": "fcb9b19b3fb409290c7bec938f3380944e4e71d67db4f0d124c3892a227df759",
+        "bytes": 1790,
+        "url": "https://www.geoboundaries.org/api/current/gbOpen/BTN/ADM2/"
+      },
+      {
+        "file": "BTN_ADM1.license.png",
+        "sha256": "96a19ff031310eff3dfdc9f049f2becf9c3f8e6a59c4572c49977c4e984a9758",
+        "bytes": 69821
+      },
+      {
+        "file": "BTN_ADM1.meta.txt",
+        "sha256": "5e38d4099dd76e5d9f1aeae15d5f5620c5f77961940351dafb993f9df0465523",
+        "bytes": 477
+      },
+      {
+        "file": "BTN_ADM1.source.zip",
+        "sha256": "2b4a5bfd013e431f935a1461bec9f2023c4ae555981d0b3d483f7ee80344a5e1",
+        "bytes": 100863,
+        "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/sourceData/gbOpen/BTN_ADM1.zip"
+      },
+      {
+        "file": "BTN_ADM2.license.jpg",
+        "sha256": "d37abd4020a1f9db0b5d5e8cdaeb0d7adc9af9bd7e2da4988973eed97c0ae291",
+        "bytes": 179882
+      },
+      {
+        "file": "BTN_ADM2.meta.txt",
+        "sha256": "4883da7c16f72b07ef2e5a5e978a610284232ef5773636d66074a849ef85be69",
+        "bytes": 495
+      },
+      {
+        "file": "BTN_ADM2.source.zip",
+        "sha256": "c57a54cafdc867242401e105f4c48e8527be8dc0b4c22adc865162e9d68e2986",
+        "bytes": 1588560,
+        "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/sourceData/gbOpen/BTN_ADM2.zip"
+      },
+      {
+        "file": "LKA-ADM1.geojson",
+        "sha256": "29905000ac7860781735a34f556be278e023a4e7188dd53f7a9717457f1716a3",
+        "bytes": 955104,
+        "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/LKA/ADM1/geoBoundaries-LKA-ADM1.geojson"
+      },
+      {
+        "file": "LKA-ADM1.metadata.json",
+        "sha256": "a8380984044fefab18859751d819d2c5e40dc1bac23063d572529ad1a1ff2542",
+        "bytes": 1741,
+        "url": "https://www.geoboundaries.org/api/current/gbOpen/LKA/ADM1/"
+      },
+      {
+        "file": "LKA-ADM2.geojson",
+        "sha256": "47b5ae26225e62052686b6a7ab1dadcaab96d7b968f618b752151f4dc8943a4d",
+        "bytes": 1327104,
+        "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/LKA/ADM2/geoBoundaries-LKA-ADM2.geojson"
+      },
+      {
+        "file": "LKA-ADM2.metadata.json",
+        "sha256": "d5e4ea2abd3071d18d0cf0c8fc8cd9b32feaaa3477432eb63ecde7d76188eb9d",
+        "bytes": 1741,
+        "url": "https://www.geoboundaries.org/api/current/gbOpen/LKA/ADM2/"
+      },
+      {
+        "file": "LKA_ADM1.meta.txt",
+        "sha256": "32111fc15bcba4238c63c4d15a3863852b1364a23061caaef7bde8276e5eb1a3",
+        "bytes": 427
+      },
+      {
+        "file": "LKA_ADM1.source.zip",
+        "sha256": "bdb13b1ec64f095306c5e8766e5d09144e24cc7c174b8ba7c7e070d5b37d41b7",
+        "bytes": 439950,
+        "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/sourceData/gbOpen/LKA_ADM1.zip"
+      },
+      {
+        "file": "LKA_ADM2.meta.txt",
+        "sha256": "c5a23598ceeea955bc3a311e49667cb45d2cb86b55a36e0d1fab87b5a3054026",
+        "bytes": 427
+      },
+      {
+        "file": "LKA_ADM2.source.zip",
+        "sha256": "c90a4fa667e82f18d2d60830ef25180c06f861edcbfac24477a1e99cb0d05265",
+        "bytes": 608171,
+        "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/sourceData/gbOpen/LKA_ADM2.zip"
+      },
+      {
+        "file": "MDV-ADM2.geojson",
+        "sha256": "8b0896c882f9c2c15fd00e802d4613477d4efe211c5d0c35b51c22a4369f6e9c",
+        "bytes": 144396,
+        "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/MDV/ADM2/geoBoundaries-MDV-ADM2.geojson"
+      },
+      {
+        "file": "MDV-ADM2.metadata.json",
+        "sha256": "dba25977a0baddd7c685a2489de809543a48f6bad2480765edcf45fb540bc3a9",
+        "bytes": 1861,
+        "url": "https://www.geoboundaries.org/api/current/gbOpen/MDV/ADM2/"
+      },
+      {
+        "file": "MDV_ADM2.license.jpg",
+        "sha256": "69ec2eec9939f63dbf48e0ab8e2b810302ddc3a423465670d1ba38d48e8a05ae",
+        "bytes": 182088
+      },
+      {
+        "file": "MDV_ADM2.meta.txt",
+        "sha256": "8a062e91ad128500cd650d5a374922aaa6710e780eccf56247cd88c839b882d7",
+        "bytes": 563
+      },
+      {
+        "file": "MDV_ADM2.source.zip",
+        "sha256": "05ee7149a58c4578fa47ae177422fb27a32c09c8aa629d6e1f471fd2303cff9c",
+        "bytes": 200059,
+        "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/sourceData/gbOpen/MDV_ADM2.zip"
+      },
+      {
+        "file": "NPL-ADM2.geojson",
+        "sha256": "83e197db0b729f67c27deb3a09841fa048efe8bfffff73a0d448eaf296214da2",
+        "bytes": 184415,
+        "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/NPL/ADM2/geoBoundaries-NPL-ADM2.geojson"
+      },
+      {
+        "file": "NPL-ADM2.metadata.json",
+        "sha256": "823b80dca789f50bc1a7fa355df192345d406d2b7a2170a86711f4a21b0c4ab2",
+        "bytes": 1661,
+        "url": "https://www.geoboundaries.org/api/current/gbOpen/NPL/ADM2/"
+      },
+      {
+        "file": "NPL_ADM2.License.PNG",
+        "sha256": "aed7c64dc7644abb7a78b12f741bcc07692f108cdd56792215af589385d0b959",
+        "bytes": 112233
+      },
+      {
+        "file": "NPL_ADM2.meta.txt",
+        "sha256": "78926900f27c776d8a3d86e3a6bf76a054d90e4fcb040f0e3e28a971ffbaa5f5",
+        "bytes": 421
+      },
+      {
+        "file": "NPL_ADM2.source.zip",
+        "sha256": "490fa6eb791a07bc132c3b1d67d48ab97f22f1b3ef437beec8be3098fc86588e",
+        "bytes": 147189,
+        "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/sourceData/gbOpen/NPL_ADM2.zip"
+      },
+      {
+        "file": "license-checks.json",
+        "sha256": "f0109d9d8cdec8ae19239c54d1853618122901595648cb85e472aa2161445f04",
+        "bytes": 4520
+      }
+    ]
+  },
+  "offline_build": "python3 历史地图编辑器/tools/build_southasia_other.py (Python 3; Shapely 2.1+)",
+  "known_gaps": [
+    "AFG ADM2仅标Open，公有领域解释未获主源明确条款支持；回退2007年34省，不声称现行县级完整。",
+    "NPL为明确过时的2006年75县快照；不是现行77县，也不赋予后来建立的省级归属。",
+    "BTN的2020年205 gewog以2010年ADM1作位置参考；相交比例不足95%时上级名称留空。",
+    "BTN、MDV的旧HDX地址当前返回404；保留geoBoundaries源档内主源许可截图和声明，不称此次下载为最新HDX数据。",
+    "LKA来自2017年OpenStreetMap/Wambacher；原ODbL许可与署名须随改编数据库保留。",
+    "MDV的21现代行政环礁多边形主要含水域；绝不能直接当作陆地岛屿轮廓或历史海域控制。",
+    "国家之间源版本不同，外部边界可能有重叠或空隙；未据现代参考块改变历史政权面。"
+  ]
+}

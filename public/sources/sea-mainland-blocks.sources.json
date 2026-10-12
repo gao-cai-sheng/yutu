@@ -1,0 +1,1111 @@
+{
+  "retrieved": "2026-10-12",
+  "dataset": "sea-mainland-modern-adm2-editing-blocks",
+  "historical_year": 1640,
+  "historical_boundaries": false,
+  "source_commit": "9469f09",
+  "count": 2055,
+  "country_counts": {
+    "KHM": 197,
+    "LAO": 148,
+    "MMR": 74,
+    "THA": 928,
+    "VNM": 708
+  },
+  "database_license": "Open Data Commons Open Database License 1.0",
+  "database_license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "database_license_scope": "含OSM衍生现代ADM1名称关联的数据库编排；每国原始ADM2几何的CC许可与署名另按feature.source_license保留",
+  "attribution": "geoBoundaries gbOpen (William & Mary geoLab); Myanmar Analytics Project / USAID Burma; Royal Thai Survey Department / OCHA ROAP; Lao National Geographic Department / OCHA ROAP; Open Development Cambodia / Open Development Mekong; Government of Viet Nam / OCHA ROAP. Official THA/LAO county-province tables: OCHA HDX / original government providers (CC BY-IGO). Modern ADM1 association for KHM and coarse spatial comparisons for THA/LAO: OpenStreetMap contributors / Wambacher (ODbL 1.0); geoBoundaries / Wikipedia public-domain reference for VNM; Myanmar Analytics Project for MMR. Modified by coverage simplification and modern name association; historical names and affiliations unassigned.",
+  "source_sha256": "9e6a3c91dca60760644b0cf296be774a0e46e586a0054b2d99f1a74c92cab1a6",
+  "output_bytes": 17393687,
+  "sources": [
+    {
+      "source_region_code": "MMR",
+      "level": "ADM1",
+      "usage": "现代上级名称空间关联；非历史隶属",
+      "source_commit": "9469f09",
+      "source_year": 2019,
+      "pinned_geojson_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/MMR/ADM1/geoBoundaries-MMR-ADM1.geojson",
+      "pinned_metadata_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/MMR/ADM1/geoBoundaries-MMR-ADM1-metaData.json",
+      "source_provider": "Myanmar Analytics Project, geoBoundaries",
+      "source_license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "original_source_url": "https://data.mmanalytics.org/dataset/border-shapefiles/resource/b641b45f-898d-483b-986d-f9763af4f6c6",
+      "license_reference": "https://data.mmanalytics.org/dataset/border-shapefiles",
+      "geometry_cache": "data/foreign-cache/sea-mainland/MMR-ADM1.geojson.gz",
+      "metadata_cache": "data/foreign-cache/sea-mainland/MMR-ADM1.release-metadata.json",
+      "api_snapshot_cache": "data/foreign-cache/sea-mainland/MMR-ADM1.metadata.json",
+      "source_sha256": "e0a1220303e260f0d9cace9daa7ab783e685e46b9d3cfb42e9a52a8b710e60d1",
+      "cache_sha256": "beabdab5dd3e5e15010e09a9d6c18a9ca7220dfc091d61d6d9c1230678eb9f95",
+      "cache_format": "lossless gzip",
+      "metadata_sha256": "d3ec625802a29ace8104182db3ad8d4b1340f32ebf83629dc53fb22804751e7a",
+      "metadata": {
+        "boundaryID": "MMR-ADM1-20573499",
+        "boundaryISO": "MMR",
+        "boundaryYear": "2019",
+        "boundaryType": "ADM1",
+        "boundarySource": "Myanmar Analytics Project, geoBoundaries",
+        "boundaryCanonical": "State",
+        "boundaryLicense": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//data.mmanalytics.org/dataset/border-shapefiles",
+        "boundarySourceURL": "https//data.mmanalytics.org/dataset/border-shapefiles/resource/b641b45f-898d-483b-986d-f9763af4f6c6",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "14",
+        "meanVertices": "4938.0",
+        "minVertices": "1467",
+        "maxVertices": "14765",
+        "meanPerimeterLengthKM": "2509.957232813768",
+        "maxPerimeterLengthKM": "6773.141618922327",
+        "minPerimeterLengthKM": "654.961652845381",
+        "meanAreaSqKM": "47753.96098710685",
+        "minAreaSqKM": "9788.12537428324",
+        "maxAreaSqKM": "155718.5920445803"
+      }
+    },
+    {
+      "source_region_code": "MMR",
+      "level": "ADM2",
+      "usage": "现代县／区级可编辑空间参考",
+      "source_commit": "9469f09",
+      "source_year": 2019,
+      "pinned_geojson_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/MMR/ADM2/geoBoundaries-MMR-ADM2.geojson",
+      "pinned_metadata_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/MMR/ADM2/geoBoundaries-MMR-ADM2-metaData.json",
+      "source_provider": "Myanmar Analytics Project, USAID/Burma",
+      "source_license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "original_source_url": "https://data.mmanalytics.org/dataset/border-shapefiles/resource/b641b45f-898d-483b-986d-f9763af4f6c6",
+      "license_reference": "https://data.mmanalytics.org/dataset/border-shapefiles",
+      "geometry_cache": "data/foreign-cache/sea-mainland/MMR-ADM2.geojson.gz",
+      "metadata_cache": "data/foreign-cache/sea-mainland/MMR-ADM2.release-metadata.json",
+      "api_snapshot_cache": "data/foreign-cache/sea-mainland/MMR-ADM2.metadata.json",
+      "source_sha256": "b8aefb6cd0e63937932b946d921bf68b932c5070a1ddd4c199ffaa0ab4d474ab",
+      "cache_sha256": "97ba56e7241f314c1352803045e9dcf1c794419ea08b308afdf2251d29d98c2d",
+      "cache_format": "lossless gzip",
+      "metadata_sha256": "eef952d18f30e08a3d5bedcd326a31d13f8bad26d9da16f2dabab296d1007e61",
+      "metadata": {
+        "boundaryID": "MMR-ADM2-60261553",
+        "boundaryISO": "MMR",
+        "boundaryYear": "2019",
+        "boundaryType": "ADM2",
+        "boundarySource": "Myanmar Analytics Project, USAID/Burma",
+        "boundaryCanonical": "District",
+        "boundaryLicense": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//data.mmanalytics.org/dataset/border-shapefiles",
+        "boundarySourceURL": "https//data.mmanalytics.org/dataset/border-shapefiles/resource/b641b45f-898d-483b-986d-f9763af4f6c6",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "74",
+        "meanVertices": "1605.0",
+        "minVertices": "273",
+        "maxVertices": "7366",
+        "meanPerimeterLengthKM": "776.5117067694054",
+        "maxPerimeterLengthKM": "3728.3913235943073",
+        "minPerimeterLengthKM": "64.38169622283164",
+        "meanAreaSqKM": "9034.533159750825",
+        "minAreaSqKM": "71.57984423753628",
+        "maxAreaSqKM": "35019.46205396511"
+      }
+    },
+    {
+      "source_region_code": "THA",
+      "level": "ADM1/ADM2 modern administrative name table",
+      "usage": "官方现代县—省名称关系；不改变gbOpen县区几何或历史隶属",
+      "source_provider": "OCHA HDX / Royal Thai Survey Department, OCHA ROAP",
+      "source_license": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "source_year": 2022,
+      "source_url": "https://data.humdata.org/dataset/d24bdc45-eb4c-4e3d-8b16-44db02667c27/resource/a925b917-01ae-48c4-9279-7efe680a6b11/download/tha_admin_boundaries.xlsx",
+      "source_cache": "data/foreign-cache/sea-mainland/THA-HDX-modern-admin-names.xlsx",
+      "parsed_cache": "data/foreign-cache/sea-mainland/THA-HDX-modern-admin-names.json",
+      "source_sha256": "7d23fca9aaebc2c8de5ab70464691d64c890be3761aebe5f8a8594a8fce529f0",
+      "parsed_sha256": "911648bae8d58c0618ed3bf912f2916455e1e459be4905e1b8cd07759bc12452",
+      "dataset_date": "[2022-01-22T00:00:00 TO 2025-10-30T23:59:59]",
+      "resource_last_modified": "2026-01-26T16:23:47.682305",
+      "actual_county_rows": 928
+    },
+    {
+      "source_region_code": "THA",
+      "level": "ADM1",
+      "usage": "现代上级名称空间关联；非历史隶属",
+      "source_commit": "9469f09",
+      "source_year": 2017,
+      "pinned_geojson_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/THA/ADM1/geoBoundaries-THA-ADM1.geojson",
+      "pinned_metadata_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/THA/ADM1/geoBoundaries-THA-ADM1-metaData.json",
+      "source_provider": "OpenStreetMap, Wambacher",
+      "source_license": "Open Data Commons Open Database License 1.0",
+      "original_source_url": "https://wambachers-osm.website/boundaries/",
+      "license_reference": "https://www.openstreetmap.org/copyright",
+      "geometry_cache": "data/foreign-cache/sea-mainland/THA-ADM1.geojson.gz",
+      "metadata_cache": "data/foreign-cache/sea-mainland/THA-ADM1.release-metadata.json",
+      "api_snapshot_cache": "data/foreign-cache/sea-mainland/THA-ADM1.metadata.json",
+      "source_sha256": "145beb11e52785a42e16997c92a65426b3df8d009941db6b012ec8e411f3e33c",
+      "cache_sha256": "49ba6ff8c4dc742883f901ac4fdee29799ef69963d74657290db2b9337a9ba9d",
+      "cache_format": "lossless gzip",
+      "metadata_sha256": "2d8f8057f0301309224b482f87c2d6fceec23e72a777ca2e275fbb85e66e894f",
+      "metadata": {
+        "boundaryID": "THA-ADM1-36821470",
+        "boundaryISO": "THA",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "77",
+        "meanVertices": "1894.0",
+        "minVertices": "169",
+        "maxVertices": "7440",
+        "meanPerimeterLengthKM": "522.5524698686045",
+        "maxPerimeterLengthKM": "1293.5187305893078",
+        "minPerimeterLengthKM": "100.23381871536978",
+        "meanAreaSqKM": "6687.471304675163",
+        "minAreaSqKM": "415.80265111721826",
+        "maxAreaSqKM": "22682.08410666522"
+      }
+    },
+    {
+      "source_region_code": "THA",
+      "level": "ADM2",
+      "usage": "现代县／区级可编辑空间参考",
+      "source_commit": "9469f09",
+      "source_year": 2019,
+      "pinned_geojson_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/THA/ADM2/geoBoundaries-THA-ADM2.geojson",
+      "pinned_metadata_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/THA/ADM2/geoBoundaries-THA-ADM2-metaData.json",
+      "source_provider": "Royal Thai Survey Department, OCHA ROAP",
+      "source_license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+      "original_source_url": "https://data.humdata.org/dataset/thailand-administrative-boundaries",
+      "license_reference": "https://data.humdata.org/dataset/thailand-administrative-boundaries",
+      "geometry_cache": "data/foreign-cache/sea-mainland/THA-ADM2.geojson.gz",
+      "metadata_cache": "data/foreign-cache/sea-mainland/THA-ADM2.release-metadata.json",
+      "api_snapshot_cache": "data/foreign-cache/sea-mainland/THA-ADM2.metadata.json",
+      "source_sha256": "d3496a7a342e6b895afaa7c2b6710afac243cd45359d3ecb0adec487e4bd3d59",
+      "cache_sha256": "1b68fd4a8e1dbc86c9e604bf89c9567888a2b65077cdd8418a59aa551c1a0177",
+      "cache_format": "lossless gzip",
+      "metadata_sha256": "b6b69b16d539f269770e863ebaf110de0151889288ed2bca8afb9cd566d5748d",
+      "metadata": {
+        "boundaryID": "THA-ADM2-78962969",
+        "boundaryISO": "THA",
+        "boundaryYear": "2019",
+        "boundaryType": "ADM2",
+        "boundarySource": "Royal Thai Survey Department, OCHA ROAP",
+        "boundaryCanonical": "districts",
+        "boundaryLicense": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "licenseDetail": "",
+        "licenseSource": "https//data.humdata.org/dataset/thailand-administrative-boundaries",
+        "boundarySourceURL": "https//data.humdata.org/dataset/thailand-administrative-boundaries",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "928",
+        "meanVertices": "6931.0",
+        "minVertices": "113",
+        "maxVertices": "58454",
+        "meanPerimeterLengthKM": "146.42529268218402",
+        "maxPerimeterLengthKM": "483.13487287520695",
+        "minPerimeterLengthKM": "5.703353702083364",
+        "meanAreaSqKM": "555.4047292056011",
+        "minAreaSqKM": "1.4087992374309997",
+        "maxAreaSqKM": "4831.436427505538"
+      }
+    },
+    {
+      "source_region_code": "LAO",
+      "level": "ADM1/ADM2 modern administrative name table",
+      "usage": "官方现代县—省名称关系；不改变gbOpen县区几何或历史隶属",
+      "source_provider": "OCHA HDX / National Geographic Department, OCHA ROAP",
+      "source_license": "Creative Commons Attribution for Intergovernmental Organisations (CC BY-IGO)",
+      "source_year": 2019,
+      "source_url": "https://data.humdata.org/dataset/9eb6aff1-9e3f-43d3-99a6-f415fe4b4dff/resource/b85c0a5f-d9c3-4243-8336-46159e7b4557/download/lao_admin_boundaries.xlsx",
+      "source_cache": "data/foreign-cache/sea-mainland/LAO-HDX-modern-admin-names.xlsx",
+      "parsed_cache": "data/foreign-cache/sea-mainland/LAO-HDX-modern-admin-names.json",
+      "source_sha256": "4b657ffd647d607d96895b19a92d4cef42ac5e8153b5c22b2a4a6175fcef6ded",
+      "parsed_sha256": "0ea1f013ffa5e34e743a11a901f87f6161527c5bb530930d5adfdb998f2f2f85",
+      "dataset_date": "[2019-11-12T00:00:00 TO 2025-10-30T23:59:59]",
+      "resource_last_modified": "2026-08-14T07:16:14.061354",
+      "actual_county_rows": 148
+    },
+    {
+      "source_region_code": "LAO",
+      "level": "ADM1",
+      "usage": "现代上级名称空间关联；非历史隶属",
+      "source_commit": "9469f09",
+      "source_year": 2017,
+      "pinned_geojson_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/LAO/ADM1/geoBoundaries-LAO-ADM1.geojson",
+      "pinned_metadata_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/LAO/ADM1/geoBoundaries-LAO-ADM1-metaData.json",
+      "source_provider": "OpenStreetMap, Wambacher",
+      "source_license": "Open Data Commons Open Database License 1.0",
+      "original_source_url": "https://wambachers-osm.website/boundaries/",
+      "license_reference": "https://www.openstreetmap.org/copyright",
+      "geometry_cache": "data/foreign-cache/sea-mainland/LAO-ADM1.geojson.gz",
+      "metadata_cache": "data/foreign-cache/sea-mainland/LAO-ADM1.release-metadata.json",
+      "api_snapshot_cache": "data/foreign-cache/sea-mainland/LAO-ADM1.metadata.json",
+      "source_sha256": "2764a9e7e26cc5bced842686623ccf50aa081c529c693f3a68e2a7b63b585769",
+      "cache_sha256": "5726b0fc79a231028f6c80c9faa32ae9709f8e8295caadb9e734a204913d6955",
+      "cache_format": "lossless gzip",
+      "metadata_sha256": "3346995a91a35da8f5e4c3e1c7ff3bc65f0970970500efb7baee10c30eceb066",
+      "metadata": {
+        "boundaryID": "LAO-ADM1-31783359",
+        "boundaryISO": "LAO",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "18",
+        "meanVertices": "3477.0",
+        "minVertices": "1301",
+        "maxVertices": "6690",
+        "meanPerimeterLengthKM": "795.3102770082646",
+        "maxPerimeterLengthKM": "1149.1287618283027",
+        "minPerimeterLengthKM": "423.26071146647627",
+        "meanAreaSqKM": "12762.938126797599",
+        "minAreaSqKM": "3562.439730169815",
+        "maxAreaSqKM": "21367.07085678718"
+      }
+    },
+    {
+      "source_region_code": "LAO",
+      "level": "ADM2",
+      "usage": "现代县／区级可编辑空间参考",
+      "source_commit": "9469f09",
+      "source_year": 2019,
+      "pinned_geojson_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/LAO/ADM2/geoBoundaries-LAO-ADM2.geojson",
+      "pinned_metadata_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/LAO/ADM2/geoBoundaries-LAO-ADM2-metaData.json",
+      "source_provider": "National Geographic Department, OCHA ROAP",
+      "source_license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+      "original_source_url": "https://data.humdata.org/dataset/lao-admin-boundaries",
+      "license_reference": "https://data.humdata.org/dataset/lao-admin-boundaries",
+      "geometry_cache": "data/foreign-cache/sea-mainland/LAO-ADM2.geojson.gz",
+      "metadata_cache": "data/foreign-cache/sea-mainland/LAO-ADM2.release-metadata.json",
+      "api_snapshot_cache": "data/foreign-cache/sea-mainland/LAO-ADM2.metadata.json",
+      "source_sha256": "ff1eb94f1bd134e01a8180b8ef81477075388359c0d27c0cac04645cef453dcc",
+      "cache_sha256": "07c5e05c6d6e07d2e7a707c0fcfc04087dd3fac49dd00a5274d01fdaf224d54b",
+      "cache_format": "lossless gzip",
+      "metadata_sha256": "9aa7fc0f4ba360033e67bb264d465951194afa5907900d3067d38112f6300ea1",
+      "metadata": {
+        "boundaryID": "LAO-ADM2-54806243",
+        "boundaryISO": "LAO",
+        "boundaryYear": "2019",
+        "boundaryType": "ADM2",
+        "boundarySource": "National Geographic Department, OCHA ROAP",
+        "boundaryCanonical": "Districts",
+        "boundaryLicense": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "licenseDetail": "",
+        "licenseSource": "https//data.humdata.org/dataset/lao-admin-boundaries",
+        "boundarySourceURL": "https//data.humdata.org/dataset/lao-admin-boundaries",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "148",
+        "meanVertices": "1344.0",
+        "minVertices": "106",
+        "maxVertices": "6253",
+        "meanPerimeterLengthKM": "220.45057090723705",
+        "maxPerimeterLengthKM": "442.4010405107899",
+        "minPerimeterLengthKM": "29.04286634388337",
+        "meanAreaSqKM": "1556.791334140282",
+        "minAreaSqKM": "25.968117995865217",
+        "maxAreaSqKM": "4407.758261061421"
+      }
+    },
+    {
+      "source_region_code": "KHM",
+      "level": "ADM1",
+      "usage": "现代上级名称空间关联；非历史隶属",
+      "source_commit": "9469f09",
+      "source_year": 2017,
+      "pinned_geojson_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/KHM/ADM1/geoBoundaries-KHM-ADM1.geojson",
+      "pinned_metadata_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/KHM/ADM1/geoBoundaries-KHM-ADM1-metaData.json",
+      "source_provider": "OpenStreetMap, Wambacher",
+      "source_license": "Open Data Commons Open Database License 1.0",
+      "original_source_url": "https://wambachers-osm.website/boundaries/",
+      "license_reference": "https://www.openstreetmap.org/copyright",
+      "geometry_cache": "data/foreign-cache/sea-mainland/KHM-ADM1.geojson.gz",
+      "metadata_cache": "data/foreign-cache/sea-mainland/KHM-ADM1.release-metadata.json",
+      "api_snapshot_cache": "data/foreign-cache/sea-mainland/KHM-ADM1.metadata.json",
+      "source_sha256": "e057f5378e3e01e55b8ff6c91c97d665d7636de1b903cce4ba7d318f1e653b28",
+      "cache_sha256": "643110573f670752fb13de3a427151f2e69c2144e7f38e63e89b6f061fdc2e69",
+      "cache_format": "lossless gzip",
+      "metadata_sha256": "9aa04958ecf99778ad3ab8bc3b4c6d3019a4838a671dfd559cb1feceeb7f872b",
+      "metadata": {
+        "boundaryID": "KHM-ADM1-37992800",
+        "boundaryISO": "KHM",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "25",
+        "meanVertices": "3191.0",
+        "minVertices": "638",
+        "maxVertices": "5228",
+        "meanPerimeterLengthKM": "525.9080848828345",
+        "maxPerimeterLengthKM": "798.4153503273504",
+        "minPerimeterLengthKM": "82.97386923107517",
+        "meanAreaSqKM": "7268.049912463861",
+        "minAreaSqKM": "151.952393209931",
+        "maxAreaSqKM": "14042.697005418346"
+      }
+    },
+    {
+      "source_region_code": "KHM",
+      "level": "ADM2",
+      "usage": "现代县／区级可编辑空间参考",
+      "source_commit": "9469f09",
+      "source_year": 2014,
+      "pinned_geojson_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/KHM/ADM2/geoBoundaries-KHM-ADM2.geojson",
+      "pinned_metadata_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/KHM/ADM2/geoBoundaries-KHM-ADM2-metaData.json",
+      "source_provider": "Open Development Mekong, Open Development Cambodia",
+      "source_license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "original_source_url": "https://opendevelopmentcambodia.net/dataset/?id=administrative-boundaries-of-cambodia-2014",
+      "license_reference": "https://opendevelopmentcambodia.net/dataset/?id=administrative-boundaries-of-cambodia-2014",
+      "geometry_cache": "data/foreign-cache/sea-mainland/KHM-ADM2.geojson.gz",
+      "metadata_cache": "data/foreign-cache/sea-mainland/KHM-ADM2.release-metadata.json",
+      "api_snapshot_cache": "data/foreign-cache/sea-mainland/KHM-ADM2.metadata.json",
+      "source_sha256": "95c80fba22cf70b65c9fae9a1bdf4af0e587aaf4835c6c1ce037da90ef56c187",
+      "cache_sha256": "e3963f46f39ede911fe4414ced5470e8488a70250914e2182373882572c71035",
+      "cache_format": "lossless gzip",
+      "metadata_sha256": "f3a3029511ccabdda02f323e52ce4ee1311a1f1abc9ae25af74c224211187bff",
+      "metadata": {
+        "boundaryID": "KHM-ADM2-14789045",
+        "boundaryISO": "KHM",
+        "boundaryYear": "2014",
+        "boundaryType": "ADM2",
+        "boundarySource": "Open Development Mekong, Open Development Cambodia",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "Creative Commons",
+        "licenseSource": "https//opendevelopmentcambodia.net/dataset/?id=administrative-boundaries-of-cambodia-2014",
+        "boundarySourceURL": "https//opendevelopmentcambodia.net/dataset/?id=administrative-boundaries-of-cambodia-2014",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "197",
+        "meanVertices": "868.0",
+        "minVertices": "22",
+        "maxVertices": "3539",
+        "meanPerimeterLengthKM": "157.59798578210876",
+        "maxPerimeterLengthKM": "461.87143369490536",
+        "minPerimeterLengthKM": "6.010884657000767",
+        "meanAreaSqKM": "909.320729443739",
+        "minAreaSqKM": "2.2012299873220056",
+        "maxAreaSqKM": "5371.647220728754"
+      }
+    },
+    {
+      "source_region_code": "VNM",
+      "level": "ADM1",
+      "usage": "现代上级名称空间关联；非历史隶属",
+      "source_commit": "9469f09",
+      "source_year": 2008,
+      "pinned_geojson_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/VNM/ADM1/geoBoundaries-VNM-ADM1.geojson",
+      "pinned_metadata_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/VNM/ADM1/geoBoundaries-VNM-ADM1-metaData.json",
+      "source_provider": "geoBoundaries, Wikipedia",
+      "source_license": "Public Domain",
+      "original_source_url": "https://commons.wikimedia.org/wiki/Category",
+      "license_reference": "https://commons.wikimedia.org/wiki/File",
+      "geometry_cache": "data/foreign-cache/sea-mainland/VNM-ADM1.geojson.gz",
+      "metadata_cache": "data/foreign-cache/sea-mainland/VNM-ADM1.release-metadata.json",
+      "api_snapshot_cache": "data/foreign-cache/sea-mainland/VNM-ADM1.metadata.json",
+      "source_sha256": "25dbc2fec9862016710118fc98042d3e803830c72361c91c4e864ae668fa9541",
+      "cache_sha256": "bf9b17c06c6bd8287e6010439ea4b12181d6c3d8a375968da2e55e9226188085",
+      "cache_format": "lossless gzip",
+      "metadata_sha256": "512461627266095bc1866eec083ebb96b1235fe1f500407384403b29b0c73adf",
+      "metadata": {
+        "boundaryID": "VNM-ADM1-63759600",
+        "boundaryISO": "VNM",
+        "boundaryYear": "2008",
+        "boundaryType": "ADM1",
+        "boundarySource": "geoBoundaries, Wikipedia",
+        "boundaryCanonical": "Municipalities and Provinces",
+        "boundaryLicense": "Public Domain",
+        "licenseDetail": "N/A",
+        "licenseSource": "https//commons.wikimedia.org/wiki/File",
+        "boundarySourceURL": "https//commons.wikimedia.org/wiki/Category",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "64",
+        "meanVertices": "246.0",
+        "minVertices": "39",
+        "maxVertices": "585",
+        "meanPerimeterLengthKM": "394.9020176230524",
+        "maxPerimeterLengthKM": "879.3486690822558",
+        "minPerimeterLengthKM": "68.15915801579729",
+        "meanAreaSqKM": "5157.947089775418",
+        "minAreaSqKM": "102.39775527943603",
+        "maxAreaSqKM": "16546.94377392751"
+      }
+    },
+    {
+      "source_region_code": "VNM",
+      "level": "ADM2",
+      "usage": "现代县／区级可编辑空间参考",
+      "source_commit": "9469f09",
+      "source_year": 2020,
+      "pinned_geojson_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/VNM/ADM2/geoBoundaries-VNM-ADM2.geojson",
+      "pinned_metadata_url": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/VNM/ADM2/geoBoundaries-VNM-ADM2-metaData.json",
+      "source_provider": "OCHA ROAP, Government of Viet Nam",
+      "source_license": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+      "original_source_url": "https://data.humdata.org/dataset/viet-nam-administrative-boundaries-polygon-polyline",
+      "license_reference": "https://data.humdata.org/dataset/viet-nam-administrative-boundaries-polygon-polyline",
+      "geometry_cache": "data/foreign-cache/sea-mainland/VNM-ADM2.geojson.gz",
+      "metadata_cache": "data/foreign-cache/sea-mainland/VNM-ADM2.release-metadata.json",
+      "api_snapshot_cache": "data/foreign-cache/sea-mainland/VNM-ADM2.metadata.json",
+      "source_sha256": "17db305257c1794fb5f3f4ff3c4f747a07cc5525774b8edb395d53f65219fc33",
+      "cache_sha256": "29ece96c75cf33f4c7e985933d199e47e8c22b959093283b39c56be08d1e4338",
+      "cache_format": "lossless gzip",
+      "metadata_sha256": "36ed49efec3a8a553bbb0e62b1e8aa05235262a3286b86dceb7aedd8928e1181",
+      "metadata": {
+        "boundaryID": "VNM-ADM2-81297802",
+        "boundaryISO": "VNM",
+        "boundaryYear": "2020",
+        "boundaryType": "ADM2",
+        "boundarySource": "OCHA ROAP, Government of Viet Nam",
+        "boundaryCanonical": "District",
+        "boundaryLicense": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "licenseDetail": "",
+        "licenseSource": "https//data.humdata.org/dataset/viet-nam-administrative-boundaries-polygon-polyline",
+        "boundarySourceURL": "https//data.humdata.org/dataset/viet-nam-administrative-boundaries-polygon-polyline",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "708",
+        "meanVertices": "1385.0",
+        "minVertices": "60",
+        "maxVertices": "43238",
+        "meanPerimeterLengthKM": "133.0545855988554",
+        "maxPerimeterLengthKM": "2804.5191891633062",
+        "minPerimeterLengthKM": "5.881832884704935",
+        "meanAreaSqKM": "472.5408582406968",
+        "minAreaSqKM": "2.163623106229997",
+        "maxAreaSqKM": "4074.2759977374794"
+      }
+    }
+  ],
+  "validation": {
+    "MMR": {
+      "actual_feature_count": 74,
+      "metadata_admUnitCount": 74,
+      "source_year": 2019,
+      "adm1_source_year": 2019,
+      "source_valid_nonempty": 74,
+      "output_valid_nonempty": 74,
+      "source_coverage_valid": true,
+      "output_coverage_valid": true,
+      "source_coordinate_count": 118655,
+      "output_coordinate_count": 72895,
+      "source_polygon_components": 456,
+      "output_polygon_components": 456,
+      "source_holes": 0,
+      "output_holes": 0,
+      "source_names_missing": 0,
+      "modern_province_names_missing": 0,
+      "province_associations_below_90_percent": 0,
+      "official_county_table_associations": 0,
+      "source_union_area_square_degrees": 58.23852278652825,
+      "output_union_area_square_degrees": 58.23821629050774,
+      "source_overlap_area_square_degrees": -7.105427357601002e-14,
+      "output_overlap_area_square_degrees": -2.4158453015843406e-13,
+      "coast_symmetric_difference_square_degrees": 0.006765876451663426,
+      "output_bounds": [
+        92.172747,
+        9.671252,
+        101.169892,
+        28.545539
+      ],
+      "point_checks": [
+        {
+          "label": "Yangon",
+          "point": [
+            96.1561,
+            16.8661
+          ],
+          "source_hits": [
+            "60261553B21361013305345"
+          ],
+          "output_hits": [
+            "60261553B21361013305345"
+          ],
+          "modern_county": "Yangon (West)",
+          "passed": true
+        },
+        {
+          "label": "Mandalay",
+          "point": [
+            96.09,
+            21.97
+          ],
+          "source_hits": [
+            "60261553B2723221956862"
+          ],
+          "output_hits": [
+            "60261553B2723221956862"
+          ],
+          "modern_county": "Mandalay",
+          "passed": true
+        },
+        {
+          "label": "Naypyitaw",
+          "point": [
+            96.12,
+            19.76
+          ],
+          "source_hits": [
+            "60261553B61671453611956"
+          ],
+          "output_hits": [
+            "60261553B61671453611956"
+          ],
+          "modern_county": "Det Khi Na",
+          "passed": true
+        },
+        {
+          "label": "Dawei",
+          "point": [
+            98.61,
+            14.08
+          ],
+          "source_hits": [
+            "60261553B72281625520368"
+          ],
+          "output_hits": [
+            "60261553B72281625520368"
+          ],
+          "modern_county": "Dawei",
+          "passed": true
+        }
+      ],
+      "serialized_coverage_valid": true,
+      "all_centers_inside": true
+    },
+    "THA": {
+      "actual_feature_count": 928,
+      "metadata_admUnitCount": 928,
+      "source_year": 2019,
+      "adm1_source_year": 2017,
+      "source_valid_nonempty": 928,
+      "output_valid_nonempty": 928,
+      "source_coverage_valid": true,
+      "output_coverage_valid": true,
+      "source_coordinate_count": 5979722,
+      "output_coordinate_count": 210718,
+      "source_polygon_components": 1648,
+      "output_polygon_components": 1648,
+      "source_holes": 0,
+      "output_holes": 0,
+      "source_names_missing": 0,
+      "modern_province_names_missing": 0,
+      "province_associations_below_90_percent": 0,
+      "official_county_table_associations": 928,
+      "source_union_area_square_degrees": 43.403507473110146,
+      "output_union_area_square_degrees": 43.40237049916213,
+      "source_overlap_area_square_degrees": 1.0373923942097463e-12,
+      "output_overlap_area_square_degrees": -1.0658141036401503e-13,
+      "coast_symmetric_difference_square_degrees": 0.016703071602275205,
+      "output_bounds": [
+        97.343478,
+        5.613038,
+        105.636965,
+        20.465029
+      ],
+      "point_checks": [
+        {
+          "label": "Bangkok",
+          "point": [
+            100.5018,
+            13.7563
+          ],
+          "source_hits": [
+            "78962969B48360013024769"
+          ],
+          "output_hits": [
+            "78962969B48360013024769"
+          ],
+          "modern_county": "Phra Nakhon",
+          "passed": true
+        },
+        {
+          "label": "Chiang Mai",
+          "point": [
+            98.98,
+            18.79
+          ],
+          "source_hits": [
+            "78962969B21056677706601"
+          ],
+          "output_hits": [
+            "78962969B21056677706601"
+          ],
+          "modern_county": "Mueang Chiang Mai",
+          "passed": true
+        },
+        {
+          "label": "Phuket",
+          "point": [
+            98.34,
+            7.89
+          ],
+          "source_hits": [
+            "78962969B91269894651951"
+          ],
+          "output_hits": [
+            "78962969B91269894651951"
+          ],
+          "modern_county": "Kathu",
+          "passed": true
+        },
+        {
+          "label": "Ko Samui",
+          "point": [
+            99.99,
+            9.51
+          ],
+          "source_hits": [
+            "78962969B93430934816346"
+          ],
+          "output_hits": [
+            "78962969B93430934816346"
+          ],
+          "modern_county": "Ko Samui",
+          "passed": true
+        }
+      ],
+      "official_province_changed_from_coarse_spatial_reference": 15,
+      "serialized_coverage_valid": true,
+      "all_centers_inside": true
+    },
+    "LAO": {
+      "actual_feature_count": 148,
+      "metadata_admUnitCount": 148,
+      "source_year": 2019,
+      "adm1_source_year": 2017,
+      "source_valid_nonempty": 148,
+      "output_valid_nonempty": 148,
+      "source_coverage_valid": true,
+      "output_coverage_valid": true,
+      "source_coordinate_count": 195807,
+      "output_coordinate_count": 39295,
+      "source_polygon_components": 148,
+      "output_polygon_components": 148,
+      "source_holes": 0,
+      "output_holes": 0,
+      "source_names_missing": 0,
+      "modern_province_names_missing": 0,
+      "province_associations_below_90_percent": 0,
+      "official_county_table_associations": 148,
+      "source_union_area_square_degrees": 19.723240020540125,
+      "output_union_area_square_degrees": 19.723242483966573,
+      "source_overlap_area_square_degrees": 9.947598300641403e-14,
+      "output_overlap_area_square_degrees": -7.105427357601002e-14,
+      "coast_symmetric_difference_square_degrees": 0.00692322270189595,
+      "output_bounds": [
+        100.083131,
+        13.90985,
+        107.635068,
+        22.509207
+      ],
+      "point_checks": [
+        {
+          "label": "Vientiane",
+          "point": [
+            102.63,
+            17.97
+          ],
+          "source_hits": [
+            "54806243B76096525034044"
+          ],
+          "output_hits": [
+            "54806243B76096525034044"
+          ],
+          "modern_county": "Xaysetha",
+          "passed": true
+        },
+        {
+          "label": "Luang Prabang",
+          "point": [
+            102.14,
+            19.88
+          ],
+          "source_hits": [
+            "54806243B7800047317547"
+          ],
+          "output_hits": [
+            "54806243B7800047317547"
+          ],
+          "modern_county": "Luangprabang",
+          "passed": true
+        },
+        {
+          "label": "Pakse",
+          "point": [
+            105.8,
+            15.12
+          ],
+          "source_hits": [
+            "54806243B60589909949594"
+          ],
+          "output_hits": [
+            "54806243B60589909949594"
+          ],
+          "modern_county": "Pakse",
+          "passed": true
+        }
+      ],
+      "official_province_changed_from_coarse_spatial_reference": 78,
+      "serialized_coverage_valid": true,
+      "all_centers_inside": true
+    },
+    "KHM": {
+      "actual_feature_count": 197,
+      "metadata_admUnitCount": 197,
+      "source_year": 2014,
+      "adm1_source_year": 2017,
+      "source_valid_nonempty": 197,
+      "output_valid_nonempty": 197,
+      "source_coverage_valid": true,
+      "output_coverage_valid": true,
+      "source_coordinate_count": 171712,
+      "output_coordinate_count": 39099,
+      "source_polygon_components": 266,
+      "output_polygon_components": 266,
+      "source_holes": 3,
+      "output_holes": 3,
+      "source_names_missing": 0,
+      "modern_province_names_missing": 0,
+      "province_associations_below_90_percent": 0,
+      "official_county_table_associations": 0,
+      "source_union_area_square_degrees": 14.91118541425203,
+      "output_union_area_square_degrees": 14.911016428458025,
+      "source_overlap_area_square_degrees": -9.592326932761353e-14,
+      "output_overlap_area_square_degrees": -1.7763568394002505e-14,
+      "coast_symmetric_difference_square_degrees": 0.005197523568802031,
+      "output_bounds": [
+        102.333828,
+        10.35406,
+        107.627679,
+        14.690082
+      ],
+      "point_checks": [
+        {
+          "label": "Phnom Penh",
+          "point": [
+            104.93,
+            11.56
+          ],
+          "source_hits": [
+            "14789045B63307875451806"
+          ],
+          "output_hits": [
+            "14789045B63307875451806"
+          ],
+          "modern_county": "Doun Penh",
+          "passed": true
+        },
+        {
+          "label": "Siem Reap",
+          "point": [
+            103.86,
+            13.36
+          ],
+          "source_hits": [
+            "14789045B16739970374251"
+          ],
+          "output_hits": [
+            "14789045B16739970374251"
+          ],
+          "modern_county": "Siem Reap",
+          "passed": true
+        },
+        {
+          "label": "Sihanoukville",
+          "point": [
+            103.53,
+            10.61
+          ],
+          "source_hits": [
+            "14789045B14640150427480"
+          ],
+          "output_hits": [
+            "14789045B14640150427480"
+          ],
+          "modern_county": "Preah Sihanouk",
+          "passed": true
+        },
+        {
+          "label": "Koh Rong",
+          "point": [
+            103.25,
+            10.71
+          ],
+          "source_hits": [
+            "14789045B14640150427480"
+          ],
+          "output_hits": [
+            "14789045B14640150427480"
+          ],
+          "modern_county": "Preah Sihanouk",
+          "passed": true
+        }
+      ],
+      "serialized_coverage_valid": true,
+      "all_centers_inside": true
+    },
+    "VNM": {
+      "actual_feature_count": 708,
+      "metadata_admUnitCount": 708,
+      "source_year": 2020,
+      "adm1_source_year": 2008,
+      "source_valid_nonempty": 708,
+      "output_valid_nonempty": 708,
+      "source_coverage_valid": true,
+      "output_coverage_valid": true,
+      "source_coordinate_count": 979338,
+      "output_coordinate_count": 143460,
+      "source_polygon_components": 2942,
+      "output_polygon_components": 2942,
+      "source_holes": 2,
+      "output_holes": 2,
+      "source_names_missing": 0,
+      "modern_province_names_missing": 5,
+      "province_associations_below_90_percent": 163,
+      "official_county_table_associations": 0,
+      "source_union_area_square_degrees": 28.417017952411232,
+      "output_union_area_square_degrees": 28.414606946667927,
+      "source_overlap_area_square_degrees": -2.4868995751603507e-14,
+      "output_overlap_area_square_degrees": 6.394884621840902e-14,
+      "coast_symmetric_difference_square_degrees": 0.017507635852618553,
+      "output_bounds": [
+        102.144078,
+        7.180931,
+        117.835457,
+        23.391995
+      ],
+      "point_checks": [
+        {
+          "label": "Hanoi",
+          "point": [
+            105.8342,
+            21.0278
+          ],
+          "source_hits": [
+            "81297802B63935781650096"
+          ],
+          "output_hits": [
+            "81297802B63935781650096"
+          ],
+          "modern_county": "Dong Da",
+          "passed": true
+        },
+        {
+          "label": "Hue",
+          "point": [
+            107.59,
+            16.46
+          ],
+          "source_hits": [
+            "81297802B88130440660417"
+          ],
+          "output_hits": [
+            "81297802B88130440660417"
+          ],
+          "modern_county": "Hue",
+          "passed": true
+        },
+        {
+          "label": "Ho Chi Minh City",
+          "point": [
+            106.66,
+            10.78
+          ],
+          "source_hits": [
+            "81297802B93335721036450"
+          ],
+          "output_hits": [
+            "81297802B93335721036450"
+          ],
+          "modern_county": "Quan 10",
+          "passed": true
+        },
+        {
+          "label": "Phu Quoc",
+          "point": [
+            103.96,
+            10.21
+          ],
+          "source_hits": [
+            "81297802B871478188231"
+          ],
+          "output_hits": [
+            "81297802B871478188231"
+          ],
+          "modern_county": "Phu Quoc",
+          "passed": true
+        },
+        {
+          "label": "Con Dao",
+          "point": [
+            106.605,
+            8.69
+          ],
+          "source_hits": [
+            "81297802B83873736556753"
+          ],
+          "output_hits": [
+            "81297802B83873736556753"
+          ],
+          "modern_county": "Con Dao",
+          "passed": true
+        }
+      ],
+      "serialized_coverage_valid": true,
+      "all_centers_inside": true
+    }
+  },
+  "country_seams": [
+    {
+      "countries": [
+        "MMR",
+        "THA"
+      ],
+      "overlap_area_square_degrees": 0.023990570716560845,
+      "note": "不同现代源的国家边界未统一裁切；相邻国家可能有源边缝或重叠，不能作为1640国界"
+    },
+    {
+      "countries": [
+        "MMR",
+        "LAO"
+      ],
+      "overlap_area_square_degrees": 0.001948296537844913,
+      "note": "不同现代源的国家边界未统一裁切；相邻国家可能有源边缝或重叠，不能作为1640国界"
+    },
+    {
+      "countries": [
+        "MMR",
+        "KHM"
+      ],
+      "overlap_area_square_degrees": 0.0,
+      "note": "不同现代源的国家边界未统一裁切；相邻国家可能有源边缝或重叠，不能作为1640国界"
+    },
+    {
+      "countries": [
+        "MMR",
+        "VNM"
+      ],
+      "overlap_area_square_degrees": 0.0,
+      "note": "不同现代源的国家边界未统一裁切；相邻国家可能有源边缝或重叠，不能作为1640国界"
+    },
+    {
+      "countries": [
+        "THA",
+        "LAO"
+      ],
+      "overlap_area_square_degrees": 0.016866817362091346,
+      "note": "不同现代源的国家边界未统一裁切；相邻国家可能有源边缝或重叠，不能作为1640国界"
+    },
+    {
+      "countries": [
+        "THA",
+        "KHM"
+      ],
+      "overlap_area_square_degrees": 0.0064034853034069285,
+      "note": "不同现代源的国家边界未统一裁切；相邻国家可能有源边缝或重叠，不能作为1640国界"
+    },
+    {
+      "countries": [
+        "THA",
+        "VNM"
+      ],
+      "overlap_area_square_degrees": 0.0,
+      "note": "不同现代源的国家边界未统一裁切；相邻国家可能有源边缝或重叠，不能作为1640国界"
+    },
+    {
+      "countries": [
+        "LAO",
+        "KHM"
+      ],
+      "overlap_area_square_degrees": 0.04846589159805945,
+      "note": "不同现代源的国家边界未统一裁切；相邻国家可能有源边缝或重叠，不能作为1640国界"
+    },
+    {
+      "countries": [
+        "LAO",
+        "VNM"
+      ],
+      "overlap_area_square_degrees": 0.01454040008006703,
+      "note": "不同现代源的国家边界未统一裁切；相邻国家可能有源边缝或重叠，不能作为1640国界"
+    },
+    {
+      "countries": [
+        "KHM",
+        "VNM"
+      ],
+      "overlap_area_square_degrees": 0.008331313966436694,
+      "note": "不同现代源的国家边界未统一裁切；相邻国家可能有源边缝或重叠，不能作为1640国界"
+    }
+  ],
+  "software": {
+    "shapely": "2.2.0",
+    "geos": "3.14.1"
+  },
+  "transformations": [
+    "Shapely coverage_simplify whole-country shared-edge coverage at 0.0015 degrees; no independent polygon simplification",
+    "Preserve every source ADM2, every polygon component and every hole; fail the build on loss",
+    "Round geometry to 6 decimal places after shared-edge simplification; validate every polygon and entire country coverage again",
+    "No country clipping, island deletion, coastline patching or historical boundary inference",
+    "THA/LAO provinces use official HDX county tables with same-name counties disambiguated by official center points; remaining modern ADM1 names use original ADM2 maximum intersection; retain source years and licenses separately",
+    "Sort stable foreign-ISO-shapeID IDs; preserve source modern names and leave historical names/name_source/parents empty",
+    "Leave owner/controller unknown; representative interior point for every county"
+  ],
+  "license_evidence": {
+    "gbOpen_policy": "https://www.geoboundaries.org/api.html",
+    "cc_by_4": "https://creativecommons.org/licenses/by/4.0/",
+    "cc_by_3_igo": "https://creativecommons.org/licenses/by/3.0/igo/",
+    "osm_attribution_and_odbl": "https://www.openstreetmap.org/copyright",
+    "KHM_original_dataset": "https://data.opendevelopmentcambodia.net/dataset/administrative-boundaries-of-cambodia-2014",
+    "KHM_original_check": "Original ODC dataset page explicitly states HDX source material is CC BY 4.0; source dated 2014-10-14, provincial/district/commune layers; base 2008 government data unofficially updated in 2014.",
+    "HDX_original_api_check": {
+      "THA": {
+        "metadata_cache": "data/foreign-cache/sea-mainland/THA-HDX-original-license.json",
+        "license_id": "cc-by-igo",
+        "sha256": "8049a2b168e69bf698a7822586e7aea2a3e23f667067004681541ee3df3d0171"
+      },
+      "LAO": {
+        "metadata_cache": "data/foreign-cache/sea-mainland/LAO-HDX-original-license.json",
+        "license_id": "cc-by-igo",
+        "sha256": "e45439710fd66f6f6f7b39d3705c444046df07e021e520e749123bc2083320a3"
+      },
+      "VNM": {
+        "metadata_cache": "data/foreign-cache/sea-mainland/VNM-HDX-original-license.json",
+        "license_id": "cc-by-igo",
+        "sha256": "9db28a7a72410a53466c7a32d99ee81187c8131f6b69288fa7a8b3af88117fa5"
+      }
+    },
+    "MMR_original_site_check": "Original site timed out in 2026; fixed 9469f09 sourceData MMR_ADM2.zip contains an archived original USAID/Myanmar Analytics resource-page screenshot explicitly displaying Creative Commons Attribution, and meta.txt specifies CC BY 4.0. Both are cached and were visually inspected.",
+    "MMR_original_license_evidence": [
+      "data/foreign-cache/sea-mainland/MMR-ADM2-source-license.PNG",
+      "data/foreign-cache/sea-mainland/MMR-ADM2-source-meta.txt"
+    ],
+    "other_license_archives": "Other fixed ADM2 source ZIP license attachments and meta.txt files are cached as ISO-ADM2-source-* where supplied; KHM has meta.txt plus the separately verified original ODC license page. Use the source-license-evidence.json inventories for exact names."
+  },
+  "limitations": [
+    "2055 complete fixed-source modern ADM2 units; completeness is for the recorded source versions, not 2026 or 1640.",
+    "MMR uses 74 modern District units (ADM2), coarser than township ADM3. It does not purport to reconstruct premodern Burmese jurisdictions.",
+    "THA official county-name association table is valid 2022-01-22; LAO table is valid 2019-11-12. No VNM 2025 name table is used: its post-reform 34 ADM1 units no longer describe the 708 district polygons of 2020.",
+    "KHM ADM1 name association and THA/LAO coarse spatial-reference comparisons are 2017 OSM/Wambacher (ODbL 1.0); attribution, derivative database license and association provenance must travel with exports.",
+    "VNM ADM1 is a coarse 64-feature 2008 public-domain reference and unusually treats Côn Đảo as a separate ADM1; parent province associations are reference metadata pending review, not a current legal administrative register.",
+    "Different country sources are not a seamless composite: border gaps/overlaps and territorial interpretations are retained and quantified rather than silently recut.",
+    "All source offshore components are retained with no inferred sovereignty or actual control. Source coastlines may differ from 1640.",
+    "coverage_is_valid verifies nonoverlapping matching shared edges within each country; it does not prove every real-world land area is present or resolve wider source omissions.",
+    "Original names may use romanization or older administrative labels; modern_name and modern_province are distinct from unfilled historical names."
+  ]
+}

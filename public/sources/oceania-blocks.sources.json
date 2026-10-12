@@ -1,0 +1,3356 @@
+{
+  "revision": 1,
+  "countries": [
+    {
+      "iso": "AUS",
+      "name": "澳大利亚",
+      "count": 545,
+      "source_count": 545,
+      "source_admin_level": "ADM2",
+      "geoBounds": [
+        112.92112451600008,
+        -43.74046858199995,
+        167.9980392430001,
+        -9.142162521999978
+      ],
+      "view": [
+        1096.1650963238008,
+        958.3754763837998,
+        616.8614449424003,
+        412.07535827239974
+      ]
+    },
+    {
+      "iso": "NZL",
+      "name": "新西兰",
+      "count": 88,
+      "source_count": 88,
+      "source_admin_level": "ADM2",
+      "geoBounds": [
+        -176.89308429026005,
+        -47.289992512823325,
+        178.57717391813225,
+        -34.129724949400504
+      ],
+      "view": [
+        -1982.212997827636,
+        1028.0150945689697,
+        3981.266891933994,
+        558.166985484299
+      ]
+    },
+    {
+      "iso": "PNG",
+      "name": "巴布亚新几内亚",
+      "count": 87,
+      "source_count": 87,
+      "source_admin_level": "ADM2",
+      "geoBounds": [
+        140.84064108000007,
+        -11.656155959999978,
+        159.48179316000005,
+        -0.757595969999954
+      ],
+      "view": [
+        1397.2217195520009,
+        896.3912684519995,
+        208.78090329599982,
+        131.35498239600022
+      ]
+    },
+    {
+      "iso": "FJI",
+      "name": "斐济",
+      "count": 15,
+      "source_count": 15,
+      "source_admin_level": "ADM2",
+      "geoBounds": [
+        -180.0,
+        -20.67230736399995,
+        180.0,
+        -12.479529538999941
+      ],
+      "view": [
+        -2016.0,
+        808.7952953899994,
+        4032.0,
+        513.9277782500001
+      ]
+    },
+    {
+      "iso": "SLB",
+      "name": "所罗门群岛",
+      "count": 50,
+      "source_count": 50,
+      "source_admin_level": "ADM2",
+      "geoBounds": [
+        155.51227512026202,
+        -12.307935920807424,
+        169.85255291999175,
+        -5.092125963759868
+      ],
+      "view": [
+        1546.5185845227825,
+        942.3170929577608,
+        160.61111135697303,
+        89.36643293015123
+      ]
+    },
+    {
+      "iso": "VUT",
+      "name": "瓦努阿图",
+      "count": 65,
+      "source_count": 65,
+      "source_admin_level": "ADM2",
+      "geoBounds": [
+        166.54156380000006,
+        -20.254372342999943,
+        170.23828392000007,
+        -13.245004268999935
+      ],
+      "view": [
+        1661.2100171556006,
+        1028.2444218455994,
+        45.3784428888001,
+        78.5049224288001
+      ]
+    },
+    {
+      "iso": "WSM",
+      "name": "萨摩亚",
+      "count": 43,
+      "source_count": 43,
+      "source_admin_level": "ADM2",
+      "geoBounds": [
+        -172.8030174177903,
+        -14.048690682412886,
+        -171.42399554663706,
+        -13.439781506301113
+      ],
+      "view": [
+        -1728.857587300595,
+        1033.5704019403192,
+        15.445044956916307,
+        7.743918006501619
+      ]
+    },
+    {
+      "iso": "TON",
+      "name": "汤加",
+      "count": 23,
+      "source_count": 23,
+      "source_admin_level": "ADM2",
+      "geoBounds": [
+        -175.64186900645672,
+        -21.45742281343553,
+        -173.7369133886353,
+        -15.568680073839346
+      ],
+      "view": [
+        -1759.951935708325,
+        1052.1535550946357,
+        26.116047465729714,
+        65.95391868347728
+      ]
+    },
+    {
+      "iso": "TUV",
+      "name": "图瓦卢",
+      "count": 34,
+      "source_count": 34,
+      "source_admin_level": "ADM2",
+      "geoBounds": [
+        176.0592351729784,
+        -10.791290913247593,
+        179.81160910431396,
+        -5.642574645370162
+      ],
+      "view": [
+        1757.5031219690575,
+        953.3365166929751,
+        43.702198834808605,
+        57.66562220022722
+      ]
+    },
+    {
+      "iso": "KIR",
+      "name": "基里巴斯",
+      "count": 24,
+      "source_count": 24,
+      "source_admin_level": "ADM2",
+      "geoBounds": [
+        -171.7234122,
+        -2.8707411,
+        176.8476102,
+        4.6993439
+      ],
+      "view": [
+        -1926.3767354400002,
+        643.86394756,
+        3903.99545088,
+        493.98607688
+      ]
+    },
+    {
+      "iso": "NRU",
+      "name": "瑙鲁",
+      "count": 14,
+      "source_count": 14,
+      "source_admin_level": "ADM1",
+      "geoBounds": [
+        166.90920293896454,
+        -0.554508132943909,
+        166.9589087598315,
+        -0.503397715831852
+      ],
+      "view": [
+        1668.9420293896455,
+        904.8839771583185,
+        0.7970582086696141,
+        0.81110417112057
+      ]
+    },
+    {
+      "iso": "PLW",
+      "name": "帕劳",
+      "count": 77,
+      "source_count": 77,
+      "source_admin_level": "ADM2",
+      "geoBounds": [
+        131.12012695353246,
+        2.970333117861514,
+        134.721123567448,
+        8.093998995940126
+      ],
+      "view": [
+        1308.1270700084774,
+        815.9858105137516,
+        42.1583651928496,
+        57.38505783448045
+      ]
+    },
+    {
+      "iso": "FSM",
+      "name": "密克罗尼西亚联邦",
+      "count": 75,
+      "source_count": 75,
+      "source_admin_level": "ADM2",
+      "geoBounds": [
+        137.48591808,
+        1.026214047836762,
+        163.03543956,
+        10.0903346353726
+      ],
+      "view": [
+        1359.5294679120002,
+        783.766940758274,
+        286.1546405759998,
+        121.30063165135836
+      ]
+    },
+    {
+      "iso": "MHL",
+      "name": "马绍尔群岛",
+      "count": 24,
+      "source_count": 24,
+      "source_admin_level": "ADM1",
+      "geoBounds": [
+        160.946976,
+        4.5730408,
+        172.1727201,
+        14.632439
+      ],
+      "view": [
+        1602.73431354,
+        746.94016354,
+        125.72833391999984,
+        114.06487491999998
+      ]
+    },
+    {
+      "iso": "NCL",
+      "name": "新喀里多尼亚",
+      "count": 1,
+      "source_count": 1,
+      "source_admin_level": "ADM0",
+      "geoBounds": [
+        158.236164168767,
+        -22.881507027047405,
+        172.08974505814354,
+        -18.027306473709302
+      ],
+      "view": [
+        1574.0494931540443,
+        1071.9609162034671,
+        155.16010596101717,
+        65.16630260063286
+      ]
+    },
+    {
+      "iso": "PYF",
+      "name": "法属波利尼西亚",
+      "count": 1,
+      "source_count": 1,
+      "source_admin_level": "ADM0",
+      "geoBounds": [
+        -154.7225138242179,
+        -27.899186291461945,
+        -134.4525175845202,
+        -7.896094899274033
+      ],
+      "view": [
+        -1559.3871359859977,
+        966.7989512489216,
+        227.02395788461445,
+        224.35490940951638
+      ]
+    },
+    {
+      "iso": "GUM",
+      "name": "关岛",
+      "count": 19,
+      "source_count": 19,
+      "source_admin_level": "ADM2",
+      "geoBounds": [
+        144.618068,
+        13.234189,
+        144.956712,
+        13.654383
+      ],
+      "view": [
+        1445.9285636,
+        763.2040536,
+        3.8906728000001625,
+        4.706172799999985
+      ]
+    },
+    {
+      "iso": "MNP",
+      "name": "北马里亚纳群岛",
+      "count": 4,
+      "source_count": 4,
+      "source_admin_level": "ADM2",
+      "geoBounds": [
+        144.886331,
+        14.110472,
+        146.064525,
+        20.553802
+      ],
+      "view": [
+        1444.9973120000002,
+        690.595982,
+        19.51393599999991,
+        72.16529600000001
+      ]
+    },
+    {
+      "iso": "ASM",
+      "name": "美属萨摩亚",
+      "count": 1,
+      "source_count": 1,
+      "source_admin_level": "ADM0",
+      "geoBounds": [
+        -170.84548849359908,
+        -14.373074514577127,
+        -169.41901060275708,
+        -14.15539385614153
+      ],
+      "view": [
+        -1709.310771670496,
+        1040.6980518269102,
+        15.976552377430336,
+        3.8885800533663657
+      ]
+    },
+    {
+      "iso": "COK",
+      "name": "库克群岛",
+      "count": 1,
+      "source_count": 1,
+      "source_admin_level": "ADM0",
+      "geoBounds": [
+        -159.83761952499998,
+        -21.95907696699993,
+        -157.32161740799998,
+        -8.91672086899996
+      ],
+      "view": [
+        -1606.2016089088,
+        981.3417950311996,
+        40.81084848759996,
+        146.07438829759968
+      ]
+    },
+    {
+      "iso": "NIU",
+      "name": "纽埃",
+      "count": 14,
+      "source_count": 14,
+      "source_admin_level": "ADM1",
+      "geoBounds": [
+        -169.94976854230515,
+        -19.155501989603408,
+        -169.77368188985278,
+        -18.952480474438005
+      ],
+      "view": [
+        -1699.6476854230514,
+        1089.37480474438,
+        2.060866524523692,
+        2.3302151516540333
+      ]
+    },
+    {
+      "iso": "TKL",
+      "name": "托克劳",
+      "count": 1,
+      "source_count": 1,
+      "source_admin_level": "ADM0",
+      "geoBounds": [
+        -172.52034693313198,
+        -9.443468719401267,
+        -171.1819471457981,
+        -8.532680981187411
+      ],
+      "view": [
+        -1726.00650920372,
+        984.5237699394738,
+        14.990077618139503,
+        10.713957126939215
+      ]
+    },
+    {
+      "iso": "WLF",
+      "name": "瓦利斯和富图纳",
+      "count": 1,
+      "source_count": 1,
+      "source_admin_level": "ADM0",
+      "geoBounds": [
+        -178.18163334989916,
+        -14.361888647143303,
+        -176.1246257250971,
+        -13.183797368453725
+      ],
+      "view": [
+        -1783.0505380738728,
+        1030.603769109656,
+        23.038485397783006,
+        14.249321936658248
+      ]
+    },
+    {
+      "iso": "NFK",
+      "name": "诺福克岛",
+      "count": 1,
+      "source_count": 1,
+      "source_admin_level": "MAP_UNIT",
+      "geoBounds": [
+        167.91212,
+        -29.080011,
+        167.996349,
+        -28.997491
+      ],
+      "view": [
+        1678.9712,
+        1189.82491,
+        1.1422900000002187,
+        1.1251999999999882
+      ]
+    },
+    {
+      "iso": "PCN",
+      "name": "皮特凯恩群岛",
+      "count": 1,
+      "source_count": 1,
+      "source_admin_level": "ADM0",
+      "geoBounds": [
+        -128.356716264444,
+        -24.42280959558633,
+        -128.29167567619146,
+        -24.331074024546524
+      ],
+      "view": [
+        -1283.71716264444,
+        1143.1607402454651,
+        0.9504058825254333,
+        1.2173557103980557
+      ]
+    },
+    {
+      "iso": "CXR",
+      "name": "圣诞岛",
+      "count": 1,
+      "source_count": 1,
+      "source_admin_level": "ADM2",
+      "geoBounds": [
+        105.53328668600005,
+        -10.570470304999958,
+        105.71260668400004,
+        -10.412343309999926
+      ],
+      "view": [
+        1055.1828668600006,
+        1003.9734330999993,
+        2.0931999799998264,
+        1.8812699500003192
+      ]
+    },
+    {
+      "iso": "CCK",
+      "name": "科科斯群岛",
+      "count": 1,
+      "source_count": 1,
+      "source_admin_level": "ADM2",
+      "geoBounds": [
+        96.81695841900006,
+        -12.208700134999958,
+        96.92949957000008,
+        -11.814608613999951
+      ],
+      "view": [
+        967.9331292774007,
+        1017.9096312273995,
+        1.5983213352001713,
+        4.413825035200079
+      ]
+    },
+    {
+      "iso": "CSI",
+      "name": "珊瑚海群岛",
+      "count": 1,
+      "source_count": 1,
+      "source_admin_level": "MAP_UNIT",
+      "geoBounds": [
+        154.38852,
+        -21.030043,
+        154.391287,
+        -21.028741
+      ],
+      "view": [
+        1543.7352,
+        1110.13741,
+        0.32767000000005736,
+        0.31301999999999025
+      ]
+    },
+    {
+      "iso": "ATC",
+      "name": "阿什莫尔和卡捷群岛",
+      "count": 1,
+      "source_count": 1,
+      "source_admin_level": "MAP_UNIT",
+      "geoBounds": [
+        123.575043,
+        -12.438572,
+        123.597748,
+        -12.426609
+      ],
+      "view": [
+        1235.60043,
+        1024.11609,
+        0.5270500000000198,
+        0.419630000000015
+      ]
+    },
+    {
+      "iso": "UMI",
+      "name": "美国本土外小岛屿",
+      "count": 9,
+      "source_count": 9,
+      "source_admin_level": "MAP_UNIT",
+      "geoBounds": [
+        -177.389597,
+        -0.388767,
+        166.652354,
+        28.215318
+      ],
+      "view": [
+        -1980.3211406000003,
+        411.4216494,
+        3853.2698512,
+        698.8911912000001
+      ]
+    },
+    {
+      "iso": "CLP",
+      "name": "克利珀顿岛",
+      "count": 1,
+      "source_count": 1,
+      "source_admin_level": "MAP_UNIT",
+      "geoBounds": [
+        -109.234242,
+        10.281562,
+        -109.210357,
+        10.311021
+      ],
+      "view": [
+        -1092.49242,
+        796.73979,
+        0.5388499999999283,
+        0.5945900000000102
+      ]
+    },
+    {
+      "iso": "ATA",
+      "name": "南极洲",
+      "count": 1,
+      "source_count": 1,
+      "source_admin_level": "MAP_UNIT",
+      "geoBounds": [
+        -180.0,
+        -90.0,
+        180.0,
+        -60.516209
+      ],
+      "view": [
+        -2016.0,
+        1289.16209,
+        4032.0,
+        726.8379099999999
+      ]
+    },
+    {
+      "iso": "SGS",
+      "name": "南乔治亚和南桑威奇群岛",
+      "count": 1,
+      "source_count": 1,
+      "source_admin_level": "MAP_UNIT",
+      "geoBounds": [
+        -38.087026,
+        -59.472752,
+        -26.239329,
+        -53.972426
+      ],
+      "view": [
+        -387.9788782,
+        1432.6156418,
+        132.69420639999998,
+        69.2204964
+      ]
+    },
+    {
+      "iso": "ATF",
+      "name": "法属南部领地参考",
+      "count": 1,
+      "source_count": 1,
+      "source_admin_level": "MAP_UNIT",
+      "geoBounds": [
+        39.728282,
+        -49.721612,
+        77.585216,
+        -11.550632
+      ],
+      "view": [
+        374.38023200000003,
+        992.603732,
+        424.374516,
+        427.514976
+      ]
+    },
+    {
+      "iso": "HMD",
+      "name": "赫德岛和麦克唐纳群岛",
+      "count": 1,
+      "source_count": 1,
+      "source_admin_level": "MAP_UNIT",
+      "geoBounds": [
+        73.236013,
+        -53.19256,
+        73.812185,
+        -52.961602
+      ],
+      "view": [
+        732.0144268,
+        1429.2703168,
+        6.453126399999997,
+        3.000986400000011
+      ]
+    },
+    {
+      "iso": "BVT",
+      "name": "布韦岛",
+      "count": 1,
+      "source_count": 1,
+      "source_admin_level": "MAP_UNIT",
+      "geoBounds": [
+        3.345551,
+        -54.462498,
+        3.486664,
+        -54.380141
+      ],
+      "view": [
+        33.30551,
+        1443.65141,
+        1.7111300000000027,
+        1.123569999999947
+      ]
+    },
+    {
+      "iso": "IOT",
+      "name": "查戈斯群岛地理参考",
+      "count": 1,
+      "source_count": 1,
+      "source_admin_level": "MAP_UNIT",
+      "geoBounds": [
+        71.260997,
+        -7.432224,
+        72.49464,
+        -5.226983
+      ],
+      "view": [
+        711.2868254,
+        950.9466854,
+        14.982719200000007,
+        24.6986992
+      ]
+    }
+  ],
+  "view": [
+    1052.0,
+    552.0,
+    796.0,
+    896.0
+  ],
+  "source_metadata": {
+    "AUS": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 547,
+      "excluded_source_ids": [
+        "25037944B52215188187413",
+        "25037944B17338277063313"
+      ],
+      "boundary": {
+        "boundaryID": "AUS-ADM2-25037944",
+        "boundaryISO": "AUS",
+        "boundaryYear": "2022",
+        "boundaryType": "ADM2",
+        "boundarySource": "Australian Bureau of Statistics",
+        "boundaryCanonical": "Local Government Areas",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//www.abs.gov.au/website-privacy-copyright-and-disclaimer#copyright-and-creative-commons",
+        "boundarySourceURL": "https//www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files/LGA_2022_AUST_GDA94_SHP.zip",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "547",
+        "meanVertices": "6269.0",
+        "minVertices": "17",
+        "maxVertices": "101163",
+        "meanPerimeterLengthKM": "591.5836333611597",
+        "maxPerimeterLengthKM": "8378.607221804292",
+        "minPerimeterLengthKM": "4.393080567464444",
+        "meanAreaSqKM": "14055.018375903514",
+        "minAreaSqKM": "0.7447997236174267",
+        "maxAreaSqKM": "619430.4072286466"
+      },
+      "adm1": {
+        "boundaryID": "AUS-ADM1-82085004",
+        "boundaryISO": "AUS",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM1",
+        "boundarySource": "Australian Bureau of Statistics",
+        "boundaryCanonical": "States and Territories",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//www.abs.gov.au/website-privacy-copyright-and-disclaimer#copyright-and-creative-commons",
+        "boundarySourceURL": "https//www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files/STE_2021_AUST_SHP_GDA2020.zip",
+        "sourceDataUpdateDate": "Mon Apr 3 09:47:39 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "9",
+        "meanVertices": "204080.0",
+        "minVertices": "2575",
+        "maxVertices": "625504",
+        "meanPerimeterLengthKM": "9791.50046124941",
+        "maxPerimeterLengthKM": "24858.425527625583",
+        "minPerimeterLengthKM": "337.5355027146445",
+        "meanAreaSqKM": "854232.7835134714",
+        "minAreaSqKM": "255.7422304500232",
+        "maxAreaSqKM": "2526632.5024742796"
+      },
+      "source_count": 545,
+      "metadata_count": 547,
+      "count_difference": -2,
+      "adm1_source_count": 9,
+      "adm1_metadata_count": 9,
+      "source_admin_level": "ADM2",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/AUS/ADM2/geoBoundaries-AUS-ADM2.geojson",
+      "pinned_source_sha256": "fdb00a189b49500ed8f8c3656071fd2cd9abeccd7183351295f337497e312eea",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; Australian Bureau of Statistics",
+      "license_evidence": [
+        {
+          "file": "AUS-ADM0.metadata.json",
+          "sha256": "386ec54580d6f4a2a53157b354f9424ca79149fefe21d9d7f4dc39f61ec279b9"
+        },
+        {
+          "file": "AUS-ADM1.geojson.gz",
+          "sha256": "37088f87e23cc4d3a65aedc49eec0e8f8aee9bf7f0df76158ece46ff5494e851",
+          "content_sha256": "86acc9079ddd84bde1a2fce8f4d8778433cb62c29665644e31d3c23792606c5d",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/AUS/ADM1/geoBoundaries-AUS-ADM1.geojson"
+        },
+        {
+          "file": "AUS-ADM1.metadata.json",
+          "sha256": "266de2e73a2ac84809d2ba3dd6a81bec6732aac7c7df0b394b664a514e9ca0a6"
+        },
+        {
+          "file": "AUS-ADM2.geojson.gz",
+          "sha256": "fdb00a189b49500ed8f8c3656071fd2cd9abeccd7183351295f337497e312eea",
+          "content_sha256": "b70870c890477b75abab7fdad3c643d93d10d02d6928407f9eee88bd97ea963f",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/AUS/ADM2/geoBoundaries-AUS-ADM2.geojson"
+        },
+        {
+          "file": "AUS-ADM2.metadata.json",
+          "sha256": "56b182630aac11e96b934a8bb6cfdc5065f0fa89bd087ff0490158a77f80aa24"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。"
+    },
+    "NZL": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 88,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "NZL-ADM2-76426892",
+        "boundaryISO": "NZL",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM2",
+        "boundarySource": "Stats NZ",
+        "boundaryCanonical": "Territorial Authorities",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//datafinder.stats.govt.nz/layer/105153-territorial-authority-2021-generalised/",
+        "boundarySourceURL": "https//datafinder.stats.govt.nz/layer/105153-territorial-authority-2021-generalised/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "88",
+        "meanVertices": "12218.0",
+        "minVertices": "294",
+        "maxVertices": "115025",
+        "meanPerimeterLengthKM": "508.39106391409405",
+        "maxPerimeterLengthKM": "4338.061087729423",
+        "minPerimeterLengthKM": "25.706495441948125",
+        "meanAreaSqKM": "3044.474806572327",
+        "minAreaSqKM": "18.721838253676097",
+        "maxAreaSqKM": "30103.272132393977"
+      },
+      "adm1": {
+        "boundaryID": "NZL-ADM1-40311993",
+        "boundaryISO": "NZL",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "NZ Stats",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "Creative Commons Attribution 4.0",
+        "licenseSource": "http//www.stats.govt.nz/about_us/about-this-site/copyright-terms-of-use.aspx",
+        "boundarySourceURL": "http//www.stats.govt.nz/browse_for_stats/Maps_and_geography/Geographic-areas/digital-boundary-files.aspx",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "17",
+        "meanVertices": "190743.0",
+        "minVertices": "16824",
+        "maxVertices": "690006",
+        "meanPerimeterLengthKM": "1807.374978485527",
+        "maxPerimeterLengthKM": "4469.1300103560325",
+        "minPerimeterLengthKM": "198.812240497636",
+        "meanAreaSqKM": "15758.707111575306",
+        "minAreaSqKM": "424.7397143648343",
+        "maxAreaSqKM": "45220.48879807705"
+      },
+      "source_count": 88,
+      "metadata_count": 88,
+      "count_difference": 0,
+      "adm1_source_count": 17,
+      "adm1_metadata_count": 17,
+      "source_admin_level": "ADM2",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/NZL/ADM2/geoBoundaries-NZL-ADM2.geojson",
+      "pinned_source_sha256": "70e4014720729bf8534e36391598e0e45efd134aa2a898c2fb648117a483e320",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; Stats NZ",
+      "license_evidence": [
+        {
+          "file": "NZL-ADM0.metadata.json",
+          "sha256": "97a325f03f414160cc5b9c4c0f1eddca220d97210fdf6cecb40d6901af53d256"
+        },
+        {
+          "file": "NZL-ADM1.geojson.gz",
+          "sha256": "d7630701f441e560d9c1a4d8a7457f891c6c5bf6a466e678385d43d31cc34299",
+          "content_sha256": "d4b300de059031767759bf99958b9fddbb0c20d96b1af8a34039f8b7849f04d0",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/NZL/ADM1/geoBoundaries-NZL-ADM1.geojson"
+        },
+        {
+          "file": "NZL-ADM1.metadata.json",
+          "sha256": "d5a525eb657221f57acc5911ab931d43956bea2ea9faadfca804c2d2782e9850"
+        },
+        {
+          "file": "NZL-ADM2.geojson.gz",
+          "sha256": "70e4014720729bf8534e36391598e0e45efd134aa2a898c2fb648117a483e320",
+          "content_sha256": "276c768d2b22e5299e9c0854ad3d16be0051faa1d10a67889094f72390bae7cc",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/NZL/ADM2/geoBoundaries-NZL-ADM2.geojson"
+        },
+        {
+          "file": "NZL-ADM2.metadata.json",
+          "sha256": "f9e5b90c489aa019d0e73c85106908671074b451c023c51430320515bae2aac4"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。"
+    },
+    "PNG": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 87,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "PNG-ADM2-67681753",
+        "boundaryISO": "PNG",
+        "boundaryYear": "2019",
+        "boundaryType": "ADM2",
+        "boundarySource": "OCHA ROAP, Papua New Guinea National Statistics Office",
+        "boundaryCanonical": "District",
+        "boundaryLicense": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "licenseDetail": "",
+        "licenseSource": "https//data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries",
+        "boundarySourceURL": "https//data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "87",
+        "meanVertices": "1160.0",
+        "minVertices": "19",
+        "maxVertices": "9663",
+        "meanPerimeterLengthKM": "532.5759605888378",
+        "maxPerimeterLengthKM": "3866.74669703919",
+        "minPerimeterLengthKM": "52.974585785366145",
+        "meanAreaSqKM": "5309.622042748792",
+        "minAreaSqKM": "103.27076644261405",
+        "maxAreaSqKM": "51568.30904550783"
+      },
+      "adm1": {
+        "boundaryID": "PNG-ADM1-602756",
+        "boundaryISO": "PNG",
+        "boundaryYear": "2019",
+        "boundaryType": "ADM1",
+        "boundarySource": "Papua New Guinea National Statistics Office, OCHA ROAP",
+        "boundaryCanonical": "Provinces",
+        "boundaryLicense": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "licenseDetail": "",
+        "licenseSource": "https//data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries",
+        "boundarySourceURL": "https//data.humdata.org/dataset/papua-new-guinea-admin-level-0-international-boundaries",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "22",
+        "meanVertices": "4074.0",
+        "minVertices": "364",
+        "maxVertices": "18411",
+        "meanPerimeterLengthKM": "1504.1633927662929",
+        "maxPerimeterLengthKM": "4466.3705653750085",
+        "minPerimeterLengthKM": "149.8544596958472",
+        "meanAreaSqKM": "20997.141714506553",
+        "minAreaSqKM": "266.47296803686993",
+        "maxAreaSqKM": "98135.88771348834"
+      },
+      "source_count": 87,
+      "metadata_count": 87,
+      "count_difference": 0,
+      "adm1_source_count": 22,
+      "adm1_metadata_count": 22,
+      "source_admin_level": "ADM2",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/PNG/ADM2/geoBoundaries-PNG-ADM2.geojson",
+      "pinned_source_sha256": "a6c802deadd1e50c03a7bf0e89a18d244d85f5653f14dd8f56a9c1d7d75794bd",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; OCHA ROAP, Papua New Guinea National Statistics Office",
+      "license_evidence": [
+        {
+          "file": "PNG-ADM0.metadata.json",
+          "sha256": "80dc0e1676f5f071e5a5b9d471eea17e1e53cdb42e3019517c171ba8c12f298b"
+        },
+        {
+          "file": "PNG-ADM1.geojson.gz",
+          "sha256": "7922fc9235253ec757f59f42de874155cd0cf1d9f95d0ee760433769d9aaa908",
+          "content_sha256": "0d5734b56840de4007697442da11445bcd90239d016d13cfa47ba93d4acdc97b",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/PNG/ADM1/geoBoundaries-PNG-ADM1.geojson"
+        },
+        {
+          "file": "PNG-ADM1.metadata.json",
+          "sha256": "68a8e71ce9bfe739058bcc2078f9b3915df2bcf9564b77c933f430116b0741f0"
+        },
+        {
+          "file": "PNG-ADM2.geojson.gz",
+          "sha256": "a6c802deadd1e50c03a7bf0e89a18d244d85f5653f14dd8f56a9c1d7d75794bd",
+          "content_sha256": "a47a2ea563b43909f2cc28d9a5211043c864e3ee89bfce93a49e9b62333ad6c2",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/PNG/ADM2/geoBoundaries-PNG-ADM2.geojson"
+        },
+        {
+          "file": "PNG-ADM2.metadata.json",
+          "sha256": "e4d7b0589bb2428509d4a9a815509bb696f7da7aea86c8eddcaba3b49f1e5670"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。"
+    },
+    "FJI": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 15,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "FJI-ADM2-14151628",
+        "boundaryISO": "FJI",
+        "boundaryYear": "2020",
+        "boundaryType": "ADM2",
+        "boundarySource": "pacificdata.org",
+        "boundaryCanonical": "Provinces",
+        "boundaryLicense": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//pacificdata.org/data/geographic_data/2007_fji_phc_admin_boundaries/resource/5880cadb-2287-4eac-9f3d-8b321730e6cd",
+        "boundarySourceURL": "https//pacificdata.org/data/geographic_data/2007_fji_phc_admin_boundaries/resource/5880cadb-2287-4eac-9f3d-8b321730e6cd",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "15",
+        "meanVertices": "1971.0",
+        "minVertices": "375",
+        "maxVertices": "5887",
+        "meanPerimeterLengthKM": "410.39028459476435",
+        "maxPerimeterLengthKM": "983.9349529934293",
+        "minPerimeterLengthKM": "43.83707305043186",
+        "meanAreaSqKM": "1393.2117828297419",
+        "minAreaSqKM": "44.18628144370604",
+        "maxAreaSqKM": "3246.9738069460127"
+      },
+      "adm1": {
+        "boundaryID": "FJI-ADM1-53030831",
+        "boundaryISO": "FJI",
+        "boundaryYear": "2006",
+        "boundaryType": "ADM1",
+        "boundarySource": "geoBoundaries, Wikimedia Commons",
+        "boundaryCanonical": "Divisions",
+        "boundaryLicense": "Creative Commons Attribution 2.5 Generic",
+        "licenseDetail": "",
+        "licenseSource": "https//en.wikipedia.org/wiki/File",
+        "boundarySourceURL": "https//en.wikipedia.org/wiki/File",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "4",
+        "meanVertices": "216.0",
+        "minVertices": "119",
+        "maxVertices": "285",
+        "meanPerimeterLengthKM": "660.2069025659722",
+        "maxPerimeterLengthKM": "908.5709051552507",
+        "minPerimeterLengthKM": "411.35890873100954",
+        "meanAreaSqKM": "4843.911409017412",
+        "minAreaSqKM": "1612.9982914398847",
+        "maxAreaSqKM": "6623.276380160096"
+      },
+      "source_count": 15,
+      "metadata_count": 15,
+      "count_difference": 0,
+      "adm1_source_count": 4,
+      "adm1_metadata_count": 4,
+      "source_admin_level": "ADM2",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/FJI/ADM2/geoBoundaries-FJI-ADM2.geojson",
+      "pinned_source_sha256": "25259a369f8327cd931deee230f4a6fe752e05a64dfab5eee017c1fd116e45a1",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; pacificdata.org",
+      "license_evidence": [
+        {
+          "file": "FJI-ADM0.metadata.json",
+          "sha256": "d0161d4ee506d0712560a4f8ad43d0158456f44eb62111eb4a271d0597cb35a7"
+        },
+        {
+          "file": "FJI-ADM1.geojson.gz",
+          "sha256": "7406a37213ef415a2af3c32a9d07dfc473f89a7ed667dd63f251e376dec75fe0",
+          "content_sha256": "61b6f3d135dd1de37bc55b78936bf0758fea96ffbcf4337f0c153a30bb564433",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/FJI/ADM1/geoBoundaries-FJI-ADM1.geojson"
+        },
+        {
+          "file": "FJI-ADM1.metadata.json",
+          "sha256": "93c300179eb49b37cb9f3e66db458627f30b6cef77d65e21b9176c60ae42de37"
+        },
+        {
+          "file": "FJI-ADM2.geojson.gz",
+          "sha256": "25259a369f8327cd931deee230f4a6fe752e05a64dfab5eee017c1fd116e45a1",
+          "content_sha256": "a9cd94789cb5eb66cfbcbaf32a21bcbceba16b9a76adacba9ac675b950ca1ccd",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/FJI/ADM2/geoBoundaries-FJI-ADM2.geojson"
+        },
+        {
+          "file": "FJI-ADM2.metadata.json",
+          "sha256": "2a518d79ff779e3dddd3cfabd0357885c078e7226fdeceb0ddc3e10d47d31925"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。"
+    },
+    "SLB": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 50,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "SLB-ADM2-97153195",
+        "boundaryISO": "SLB",
+        "boundaryYear": "2018",
+        "boundaryType": "ADM2",
+        "boundarySource": "Solomon Islands National Statistics Office (SINSO), OCHA ROAP",
+        "boundaryCanonical": "Constituency",
+        "boundaryLicense": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "licenseDetail": "",
+        "licenseSource": "https//data.humdata.org/dataset/solomon-islands-administrative-level-0-1-2-and-3-boundary-polygons",
+        "boundarySourceURL": "https//data.humdata.org/dataset/solomon-islands-administrative-level-0-1-2-and-3-boundary-polygons",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "50",
+        "meanVertices": "4083.0",
+        "minVertices": "118",
+        "maxVertices": "30354",
+        "meanPerimeterLengthKM": "274.2001559585263",
+        "maxPerimeterLengthKM": "1658.7848913439245",
+        "minPerimeterLengthKM": "10.989311905429146",
+        "meanAreaSqKM": "562.1419947829684",
+        "minAreaSqKM": "5.821306818404138",
+        "maxAreaSqKM": "2710.8403108561915"
+      },
+      "adm1": {
+        "boundaryID": "SLB-ADM1-17018030",
+        "boundaryISO": "SLB",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM1",
+        "boundarySource": "Natural Earth",
+        "boundaryCanonical": "Province",
+        "boundaryLicense": "Public Domain",
+        "licenseDetail": "",
+        "licenseSource": "https//www.naturalearthdata.com/about/terms-of-use/",
+        "boundarySourceURL": "https//www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-details/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "10",
+        "meanVertices": "219.0",
+        "minVertices": "14",
+        "maxVertices": "613",
+        "meanPerimeterLengthKM": "456.8937537183048",
+        "maxPerimeterLengthKM": "1219.4470883174224",
+        "minPerimeterLengthKM": "28.055766320092903",
+        "meanAreaSqKM": "2719.8825103342124",
+        "minAreaSqKM": "30.301411353243473",
+        "maxAreaSqKM": "5316.590404722419"
+      },
+      "source_count": 50,
+      "metadata_count": 50,
+      "count_difference": 0,
+      "adm1_source_count": 10,
+      "adm1_metadata_count": 10,
+      "source_admin_level": "ADM2",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/SLB/ADM2/geoBoundaries-SLB-ADM2.geojson",
+      "pinned_source_sha256": "80d9e0395b06eed5b783c2c902250004bf38fdcfa567be6d06c93448d3e53c69",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; Solomon Islands National Statistics Office (SINSO), OCHA ROAP",
+      "license_evidence": [
+        {
+          "file": "SLB-ADM0.metadata.json",
+          "sha256": "eda33ab4e9e9095902cf59d4e31a6fe037b118c65d73ff7d51fe05825eaef505"
+        },
+        {
+          "file": "SLB-ADM1.geojson.gz",
+          "sha256": "4e6e5d9e6b086fd6f6398baf1a057f32a8fea8fda946b65fc9fc9d4b129c9478",
+          "content_sha256": "bd22f4cdce1c19066950b8c384c4d484a21a0dcaee5f207e363179f68c58c69d",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/SLB/ADM1/geoBoundaries-SLB-ADM1.geojson"
+        },
+        {
+          "file": "SLB-ADM1.metadata.json",
+          "sha256": "4c8714484f09e7498591138c6261a2a4fa874d4fd19990da0eba1f2c6ae35399"
+        },
+        {
+          "file": "SLB-ADM2.geojson.gz",
+          "sha256": "80d9e0395b06eed5b783c2c902250004bf38fdcfa567be6d06c93448d3e53c69",
+          "content_sha256": "f12e8a50dabbbcd9a61453949489eae2879245abea1cde39f2005b2597df00e4",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/SLB/ADM2/geoBoundaries-SLB-ADM2.geojson"
+        },
+        {
+          "file": "SLB-ADM2.metadata.json",
+          "sha256": "fe4c5ad1c2dedef72496cabfb4fcc532994dd00a1c00ba77750ec8278b272dd1"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。"
+    },
+    "VUT": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 65,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "VUT-ADM2-77236927",
+        "boundaryISO": "VUT",
+        "boundaryYear": "2019",
+        "boundaryType": "ADM2",
+        "boundarySource": "Secretarial of the Pacific Community (SPC), Statistics for Development Division, OCHA ROP",
+        "boundaryCanonical": "Municipalities",
+        "boundaryLicense": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "licenseDetail": "",
+        "licenseSource": "https//data.humdata.org/dataset/vanuatu-administrative-level-0-1-and-2-boundaries",
+        "boundarySourceURL": "https//data.humdata.org/dataset/vanuatu-administrative-level-0-1-and-2-boundaries",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "65",
+        "meanVertices": "1239.0",
+        "minVertices": "92",
+        "maxVertices": "4883",
+        "meanPerimeterLengthKM": "82.13166140151512",
+        "maxPerimeterLengthKM": "307.77051508248496",
+        "minPerimeterLengthKM": "6.167021677929168",
+        "meanAreaSqKM": "186.2020738640812",
+        "minAreaSqKM": "0.9456631002298431",
+        "maxAreaSqKM": "1023.4557226730657"
+      },
+      "adm1": {
+        "boundaryID": "VUT-ADM1-32282491",
+        "boundaryISO": "VUT",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "6",
+        "meanVertices": "5712.0",
+        "minVertices": "4350",
+        "maxVertices": "8115",
+        "meanPerimeterLengthKM": "525.5495250747332",
+        "maxPerimeterLengthKM": "652.9354297732799",
+        "minPerimeterLengthKM": "423.1063385710548",
+        "meanAreaSqKM": "2033.6513465002142",
+        "minAreaSqKM": "856.0279950551419",
+        "maxAreaSqKM": "4229.803725625912"
+      },
+      "source_count": 65,
+      "metadata_count": 65,
+      "count_difference": 0,
+      "adm1_source_count": 6,
+      "adm1_metadata_count": 6,
+      "source_admin_level": "ADM2",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/VUT/ADM2/geoBoundaries-VUT-ADM2.geojson",
+      "pinned_source_sha256": "ded2d5edb8028b0aec08acdae625acc6fd817cd5ec50b296e1370e68582cd4dc",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; Secretarial of the Pacific Community (SPC), Statistics for Development Division, OCHA ROP",
+      "license_evidence": [
+        {
+          "file": "VUT-ADM0.metadata.json",
+          "sha256": "93b41da718fd072c962a0ab6cefe2ff9737e09070297b4331f4a20a2a55d5f44"
+        },
+        {
+          "file": "VUT-ADM1.geojson.gz",
+          "sha256": "da22bc51b8a746f607151892912830e9c837c01f41e9f0f2cd3261ca6e4da327",
+          "content_sha256": "69f44b96d0690310c67a4a430488fb7a02d028bdec8bbc755436cdfb90962c8d",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/VUT/ADM1/geoBoundaries-VUT-ADM1.geojson"
+        },
+        {
+          "file": "VUT-ADM1.metadata.json",
+          "sha256": "a66ec067f87d2326da5e5401a0742811ca68f54f12d139aa47082288fbb12248"
+        },
+        {
+          "file": "VUT-ADM2.geojson.gz",
+          "sha256": "ded2d5edb8028b0aec08acdae625acc6fd817cd5ec50b296e1370e68582cd4dc",
+          "content_sha256": "56beab1ff40e196d32327ee66fa9ae64f99127073d1e6904413c404497d68c0a",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/VUT/ADM2/geoBoundaries-VUT-ADM2.geojson"
+        },
+        {
+          "file": "VUT-ADM2.metadata.json",
+          "sha256": "f2a6ebc1fcc5b2675b626e49d0fd04acc87bb990ac46bf6e3d49d49a2bfeb980"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。"
+    },
+    "WSM": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 43,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "WSM-ADM2-51752279",
+        "boundaryISO": "WSM",
+        "boundaryYear": "2011",
+        "boundaryType": "ADM2",
+        "boundarySource": "Pacific Data Hub, SPC Statistics for Development Division (SDD)",
+        "boundaryCanonical": "Districts",
+        "boundaryLicense": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//pacificdata.org/data/dataset/2011_wsm_phc_admin_boundaries",
+        "boundarySourceURL": "https//pacificdata.org/data/geographic_data/2011_wsm_phc_admin_boundaries/resource/d5aee425-5e46-41f1-929e-3b7413ff1d4a",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "43",
+        "meanVertices": "285.0",
+        "minVertices": "105",
+        "maxVertices": "583",
+        "meanPerimeterLengthKM": "42.77965764639933",
+        "maxPerimeterLengthKM": "91.56229025036589",
+        "minPerimeterLengthKM": "13.640395123698408",
+        "meanAreaSqKM": "65.8935324253815",
+        "minAreaSqKM": "5.538893437005729",
+        "maxAreaSqKM": "290.23152411633873"
+      },
+      "adm1": {
+        "boundaryID": "WSM-ADM1-40696546",
+        "boundaryISO": "WSM",
+        "boundaryYear": "2018",
+        "boundaryType": "ADM1",
+        "boundarySource": "Wikipedia",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Creative Commons Attribution-ShareAlike 3.0 Unported",
+        "licenseDetail": "",
+        "licenseSource": "https//en.wikipedia.org/wiki/File",
+        "boundarySourceURL": "https//en.wikipedia.org/wiki/File",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "11",
+        "meanVertices": "1460.0",
+        "minVertices": "486",
+        "maxVertices": "3180",
+        "meanPerimeterLengthKM": "98.13757132046958",
+        "maxPerimeterLengthKM": "153.50423824487615",
+        "minPerimeterLengthKM": "40.75484566167647",
+        "meanAreaSqKM": "257.7129816422354",
+        "minAreaSqKM": "22.800186350921724",
+        "maxAreaSqKM": "538.1853095479607"
+      },
+      "source_count": 43,
+      "metadata_count": 43,
+      "count_difference": 0,
+      "adm1_source_count": 11,
+      "adm1_metadata_count": 11,
+      "source_admin_level": "ADM2",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/WSM/ADM2/geoBoundaries-WSM-ADM2.geojson",
+      "pinned_source_sha256": "c5765bae9b6ea5dfcd3a3fb7948e319b54d8988d3a74edc41a85329094c5e80f",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; Pacific Data Hub, SPC Statistics for Development Division (SDD)",
+      "license_evidence": [
+        {
+          "file": "WSM-ADM0.metadata.json",
+          "sha256": "dee4bc15654c1fe4d2fc6b5ff6f9ed5e22c2762ae804e6bd57d1e6b514b594e3"
+        },
+        {
+          "file": "WSM-ADM1.geojson.gz",
+          "sha256": "8438bb4543b31a0d112928f9498a4aec709d8afcaf7bf96c31c93a4eaf16627f",
+          "content_sha256": "cbcb8c6b492f63f3a8bfe820eefeee3882288e31a629c5a5880298ddf256aaf7",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/WSM/ADM1/geoBoundaries-WSM-ADM1.geojson"
+        },
+        {
+          "file": "WSM-ADM1.metadata.json",
+          "sha256": "cb776562b222eeadad267d6b0e20c0b226ca97c450bc75c6780f941cbd8cc21b"
+        },
+        {
+          "file": "WSM-ADM2.geojson.gz",
+          "sha256": "c5765bae9b6ea5dfcd3a3fb7948e319b54d8988d3a74edc41a85329094c5e80f",
+          "content_sha256": "550e955e8a70df9555cf1947036fa62e75e1fd1e8fb9460d4c7f4753b6bf6447",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/WSM/ADM2/geoBoundaries-WSM-ADM2.geojson"
+        },
+        {
+          "file": "WSM-ADM2.metadata.json",
+          "sha256": "40b754d3e96c5250805c6199da99d4b09a0e9d5d884b81b69819617311b15fad"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。"
+    },
+    "TON": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 23,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "TON-ADM2-48082658",
+        "boundaryISO": "TON",
+        "boundaryYear": "2020",
+        "boundaryType": "ADM2",
+        "boundarySource": "Pacific Data Hub",
+        "boundaryCanonical": "district",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//pacificdata.org/data/geographic_data/2016_ton_phc_admin_boundaries/resource/a825b058-0932-48ac-a3e2-9ec316e89372",
+        "boundarySourceURL": "https//pacificdata.org/data/geographic_data/2016_ton_phc_admin_boundaries/resource/a825b058-0932-48ac-a3e2-9ec316e89372",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "23",
+        "meanVertices": "337.0",
+        "minVertices": "69",
+        "maxVertices": "1460",
+        "meanPerimeterLengthKM": "35.514650843175126",
+        "maxPerimeterLengthKM": "90.84000306088632",
+        "minPerimeterLengthKM": "9.996886207986398",
+        "meanAreaSqKM": "22.75235746835579",
+        "minAreaSqKM": "1.5535462597677685",
+        "maxAreaSqKM": "79.40559072732871"
+      },
+      "adm1": {
+        "boundaryID": "TON-ADM1-12702645",
+        "boundaryISO": "TON",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "5",
+        "meanVertices": "7304.0",
+        "minVertices": "1528",
+        "maxVertices": "12579",
+        "meanPerimeterLengthKM": "157.35251218046216",
+        "maxPerimeterLengthKM": "270.764365532939",
+        "minPerimeterLengthKM": "50.880775656471975",
+        "meanAreaSqKM": "136.4545006727083",
+        "minAreaSqKM": "70.45206131120199",
+        "maxAreaSqKM": "258.9750149175184"
+      },
+      "source_count": 23,
+      "metadata_count": 23,
+      "count_difference": 0,
+      "adm1_source_count": 5,
+      "adm1_metadata_count": 5,
+      "source_admin_level": "ADM2",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/TON/ADM2/geoBoundaries-TON-ADM2.geojson",
+      "pinned_source_sha256": "a3f7964086c7b24f09bf85bc2ecd33490d708b8bfc92524b89b4bdef88c3cd25",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; Pacific Data Hub",
+      "license_evidence": [
+        {
+          "file": "TON-ADM0.metadata.json",
+          "sha256": "4c8f0014dbaafedc7b8b62b9b5d7baae661bdfa6c0faadca17158a3f5b5e3092"
+        },
+        {
+          "file": "TON-ADM1.geojson.gz",
+          "sha256": "0b59e9e6e2d7c0ab1fa8baa437eca4fcb56901e3868a47b6b0189865ecc16195",
+          "content_sha256": "c879101306e56a83d5efc5cae56b5c92f02d1e3485ea6ac64bd3f94a67b7e24a",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/TON/ADM1/geoBoundaries-TON-ADM1.geojson"
+        },
+        {
+          "file": "TON-ADM1.metadata.json",
+          "sha256": "b838c88c03410c69802cca9b7e80660270c8ddffe9761ea22b2b619f60748056"
+        },
+        {
+          "file": "TON-ADM2.geojson.gz",
+          "sha256": "a3f7964086c7b24f09bf85bc2ecd33490d708b8bfc92524b89b4bdef88c3cd25",
+          "content_sha256": "2ae224412bf25b0da5cda4b3565e82cb8e891330d1185d4eb5098e8e7c05b383",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/TON/ADM2/geoBoundaries-TON-ADM2.geojson"
+        },
+        {
+          "file": "TON-ADM2.metadata.json",
+          "sha256": "1bb768f4d8e23330eb5b113fb4baab7663444f1c02613aec557bcfae64230a87"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。"
+    },
+    "TUV": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 34,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "TUV-ADM2-33948139",
+        "boundaryISO": "TUV",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM2",
+        "boundarySource": "Pacific Data Hub",
+        "boundaryCanonical": "village",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//pacificdata.org/data/geographic_data/2017_tuv_phc_admin_boundaries/resource/9eefabe8-d129-44ee-a3a4-7f93a24b2349",
+        "boundarySourceURL": "https//pacificdata.org/data/geographic_data/2017_tuv_phc_admin_boundaries/resource/9eefabe8-d129-44ee-a3a4-7f93a24b2349",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "34",
+        "meanVertices": "75.0",
+        "minVertices": "5",
+        "maxVertices": "241",
+        "meanPerimeterLengthKM": "3.9381380174553025",
+        "maxPerimeterLengthKM": "19.485419183121653",
+        "minPerimeterLengthKM": "0.8652775434439117",
+        "meanAreaSqKM": "0.495429686402903",
+        "minAreaSqKM": "0.03437415639261444",
+        "maxAreaSqKM": "2.4003796332456475"
+      },
+      "adm1": {
+        "boundaryID": "TUV-ADM1-17741764",
+        "boundaryISO": "TUV",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "8",
+        "meanVertices": "314.0",
+        "minVertices": "46",
+        "maxVertices": "950",
+        "meanPerimeterLengthKM": "16.76360957194263",
+        "maxPerimeterLengthKM": "30.220842226044553",
+        "minPerimeterLengthKM": "6.3769815586419805",
+        "meanAreaSqKM": "2.734941338672972",
+        "minAreaSqKM": "1.358869398052547",
+        "maxAreaSqKM": "5.4994814168196715"
+      },
+      "source_count": 34,
+      "metadata_count": 34,
+      "count_difference": 0,
+      "adm1_source_count": 8,
+      "adm1_metadata_count": 8,
+      "source_admin_level": "ADM2",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/TUV/ADM2/geoBoundaries-TUV-ADM2.geojson",
+      "pinned_source_sha256": "0ad6ad2f782cceb9265dacd9e5d63ed139f881181c90da3919b866f1a10bcef3",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; Pacific Data Hub",
+      "license_evidence": [
+        {
+          "file": "TUV-ADM0.metadata.json",
+          "sha256": "e9406e7b7d1c41de32d76f6f98446f4b6f8adb378966147a112e687359d744ed"
+        },
+        {
+          "file": "TUV-ADM1.geojson.gz",
+          "sha256": "8f7cd86daf3811d06e62981c5d6a596f3b1663cdb165afec7100af7c7f4d72ab",
+          "content_sha256": "3c06779be3173360c9a2927729798eacb5533c745e31313f11940041585030aa",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/TUV/ADM1/geoBoundaries-TUV-ADM1.geojson"
+        },
+        {
+          "file": "TUV-ADM1.metadata.json",
+          "sha256": "ef3474d8b744a6cf19b969f1dc9200ac2c30dd5fedbed6d3d6bd1b21766b9d18"
+        },
+        {
+          "file": "TUV-ADM2.geojson.gz",
+          "sha256": "0ad6ad2f782cceb9265dacd9e5d63ed139f881181c90da3919b866f1a10bcef3",
+          "content_sha256": "1da154acb668b9e683719614fa602bf100e6a04e7f5faffe73516af9137e03a2",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/TUV/ADM2/geoBoundaries-TUV-ADM2.geojson"
+        },
+        {
+          "file": "TUV-ADM2.metadata.json",
+          "sha256": "7092e3ed37fef28ec7368728ba8ab784071be0fba95790b6dee36c1a04f189ca"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。"
+    },
+    "KIR": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 24,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "KIR-ADM2-32618148",
+        "boundaryISO": "KIR",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM2",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "24",
+        "meanVertices": "855.0",
+        "minVertices": "39",
+        "maxVertices": "3303",
+        "meanPerimeterLengthKM": "64.32812737129713",
+        "maxPerimeterLengthKM": "222.72683301257757",
+        "minPerimeterLengthKM": "10.426136651887036",
+        "meanAreaSqKM": "36.992264769016124",
+        "minAreaSqKM": "1.6739095346533017",
+        "maxAreaSqKM": "539.1421361844693"
+      },
+      "adm1": {
+        "boundaryID": "KIR-ADM1-97431129",
+        "boundaryISO": "KIR",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "3",
+        "meanVertices": "6838.0",
+        "minVertices": "2619",
+        "maxVertices": "11438",
+        "meanPerimeterLengthKM": "514.6250189703134",
+        "maxPerimeterLengthKM": "926.1135272949379",
+        "minPerimeterLengthKM": "269.0362385198351",
+        "meanAreaSqKM": "295.9381181521306",
+        "minAreaSqKM": "47.415476966716064",
+        "maxAreaSqKM": "591.1267548990664"
+      },
+      "source_count": 24,
+      "metadata_count": 24,
+      "count_difference": 0,
+      "adm1_source_count": 3,
+      "adm1_metadata_count": 3,
+      "source_admin_level": "ADM2",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/KIR/ADM2/geoBoundaries-KIR-ADM2.geojson",
+      "pinned_source_sha256": "d646974cae3414afdc9bb530361e538418a5bd9876d09fccb8e2fc403bd38dfd",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; OpenStreetMap, Wambacher",
+      "license_evidence": [
+        {
+          "file": "KIR-ADM0.metadata.json",
+          "sha256": "a1f12df0e88d33abd962bba851d8a21928e5e26784fa15d2d79a3d678188cda7"
+        },
+        {
+          "file": "KIR-ADM1.geojson.gz",
+          "sha256": "6f325fbd9d9f9219f650ac7d2e35baf12e08e6cce8a9aec801baeffa146a7cfc",
+          "content_sha256": "93a0914dc2572951a72cae1aef5145bc056180d75b96812c770bff06e8d8e86f",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/KIR/ADM1/geoBoundaries-KIR-ADM1.geojson"
+        },
+        {
+          "file": "KIR-ADM1.metadata.json",
+          "sha256": "e611d682fb3eb7e64176ac9753942321819a847443c1d3c87f8885e1b981211c"
+        },
+        {
+          "file": "KIR-ADM2.geojson.gz",
+          "sha256": "d646974cae3414afdc9bb530361e538418a5bd9876d09fccb8e2fc403bd38dfd",
+          "content_sha256": "97c5b87cfbac364d718ad87373c7b4afc52bbbaf4712ee2fc5b98c9ed84e909a",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/KIR/ADM2/geoBoundaries-KIR-ADM2.geojson"
+        },
+        {
+          "file": "KIR-ADM2.metadata.json",
+          "sha256": "1085176e9d14e97e912aee7f82c755ba35ebae5f7968f67acd069b6b1061246e"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。"
+    },
+    "NRU": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 14,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "NRU-ADM1-42797286",
+        "boundaryISO": "NRU",
+        "boundaryYear": "2005",
+        "boundaryType": "ADM1",
+        "boundarySource": "geoBoundaries, FreeMapViewer",
+        "boundaryCanonical": "District",
+        "boundaryLicense": "Public Domain",
+        "licenseDetail": "",
+        "licenseSource": "https//creativecommons.org/share-your-work/public-domain/",
+        "boundarySourceURL": "http//www.freemapviewer.org/en/map/Map-World_331.html",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "14",
+        "meanVertices": "239.0",
+        "minVertices": "76",
+        "maxVertices": "349",
+        "meanPerimeterLengthKM": "6.312059843259378",
+        "maxPerimeterLengthKM": "9.291956199833571",
+        "minPerimeterLengthKM": "2.9810515739825116",
+        "meanAreaSqKM": "1.5322481024254864",
+        "minAreaSqKM": "0.3892124509077251",
+        "maxAreaSqKM": "3.1712763436477567"
+      },
+      "adm1": {
+        "boundaryID": "NRU-ADM1-42797286",
+        "boundaryISO": "NRU",
+        "boundaryYear": "2005",
+        "boundaryType": "ADM1",
+        "boundarySource": "geoBoundaries, FreeMapViewer",
+        "boundaryCanonical": "District",
+        "boundaryLicense": "Public Domain",
+        "licenseDetail": "",
+        "licenseSource": "https//creativecommons.org/share-your-work/public-domain/",
+        "boundarySourceURL": "http//www.freemapviewer.org/en/map/Map-World_331.html",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "14",
+        "meanVertices": "239.0",
+        "minVertices": "76",
+        "maxVertices": "349",
+        "meanPerimeterLengthKM": "6.312059843259378",
+        "maxPerimeterLengthKM": "9.291956199833571",
+        "minPerimeterLengthKM": "2.9810515739825116",
+        "meanAreaSqKM": "1.5322481024254864",
+        "minAreaSqKM": "0.3892124509077251",
+        "maxAreaSqKM": "3.1712763436477567"
+      },
+      "source_count": 14,
+      "metadata_count": 14,
+      "count_difference": 0,
+      "adm1_source_count": 14,
+      "adm1_metadata_count": 14,
+      "source_admin_level": "ADM1",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/NRU/ADM1/geoBoundaries-NRU-ADM1.geojson",
+      "pinned_source_sha256": "7f74cebec65ab6ef078d704f6dd2a09309f3014a4a84fa2b5398136576b71b01",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; geoBoundaries, FreeMapViewer",
+      "license_evidence": [
+        {
+          "file": "NRU-ADM0.metadata.json",
+          "sha256": "cd6f89164daf7fd342634b152d71a66c5950ed67ff1bed680b27c231771ae891"
+        },
+        {
+          "file": "NRU-ADM1.geojson.gz",
+          "sha256": "7f74cebec65ab6ef078d704f6dd2a09309f3014a4a84fa2b5398136576b71b01",
+          "content_sha256": "afb3d32bd9c6ec0fc04e5feb4a943cdf0db71a83f7f25d8f0f12b1270d1617fe",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/NRU/ADM1/geoBoundaries-NRU-ADM1.geojson"
+        },
+        {
+          "file": "NRU-ADM1.metadata.json",
+          "sha256": "b78be7729af40d485d28d1a22d9482362f39080d9c67b7c5a8d5866c1758dad7"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。"
+    },
+    "PLW": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 77,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "PLW-ADM2-81905179",
+        "boundaryISO": "PLW",
+        "boundaryYear": "2015",
+        "boundaryType": "ADM2",
+        "boundarySource": "Pacific Data Hub, SPC Statistics for Development Division (SDD)",
+        "boundaryCanonical": "Hamlets",
+        "boundaryLicense": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//pacificdata.org/data/dataset/2015_plw_phc_admin_boundaries",
+        "boundarySourceURL": "https//pacificdata.org/data/geographic_data/2015_plw_phc_admin_boundaries/resource/fe6dd29b-6ec5-4a06-9aac-e8d84d895b21",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "77",
+        "meanVertices": "503.0",
+        "minVertices": "27",
+        "maxVertices": "18446",
+        "meanPerimeterLengthKM": "17.267833242382334",
+        "maxPerimeterLengthKM": "490.57830052363437",
+        "minPerimeterLengthKM": "1.9886948931374895",
+        "meanAreaSqKM": "5.918016185322255",
+        "minAreaSqKM": "0.11559672547336965",
+        "maxAreaSqKM": "54.46504074779281"
+      },
+      "adm1": {
+        "boundaryID": "PLW-ADM1-51375826",
+        "boundaryISO": "PLW",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "16",
+        "meanVertices": "691.0",
+        "minVertices": "43",
+        "maxVertices": "5201",
+        "meanPerimeterLengthKM": "51.05119988949136",
+        "maxPerimeterLengthKM": "227.41844789113068",
+        "minPerimeterLengthKM": "4.946346908057114",
+        "meanAreaSqKM": "72.54301980177901",
+        "minAreaSqKM": "1.2028310166368026",
+        "maxAreaSqKM": "720.9921508926587"
+      },
+      "source_count": 77,
+      "metadata_count": 77,
+      "count_difference": 0,
+      "adm1_source_count": 16,
+      "adm1_metadata_count": 16,
+      "source_admin_level": "ADM2",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/PLW/ADM2/geoBoundaries-PLW-ADM2.geojson",
+      "pinned_source_sha256": "b314ed46fa254b138bd05bbbfe0de1eaf522fbad3cbdb60322cf767d0c8bfd4f",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; Pacific Data Hub, SPC Statistics for Development Division (SDD)",
+      "license_evidence": [
+        {
+          "file": "PLW-ADM0.metadata.json",
+          "sha256": "85b91f602c2387931a07dc0d9565cba595360fb92a3d93b34f93d8c1e97ba0bb"
+        },
+        {
+          "file": "PLW-ADM1.geojson.gz",
+          "sha256": "844e8f49074298b1bfc02b50936097047859b557ce1818e0b27b7f88ad5308b7",
+          "content_sha256": "6e9940fe651dcb9ad9a6f0b4274068f6bb2966bbf035a0a41421d30bfb9e946d",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/PLW/ADM1/geoBoundaries-PLW-ADM1.geojson"
+        },
+        {
+          "file": "PLW-ADM1.metadata.json",
+          "sha256": "e6b1d8f62fb7456f7cd1e2b8861fecbc44137d39bda8e13ef236c83d35defc0f"
+        },
+        {
+          "file": "PLW-ADM2.geojson.gz",
+          "sha256": "b314ed46fa254b138bd05bbbfe0de1eaf522fbad3cbdb60322cf767d0c8bfd4f",
+          "content_sha256": "edc7e34454cec63cea2dd7a68240bf3ec38f3186b3662543ac0ce7e11f3e4b49",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/PLW/ADM2/geoBoundaries-PLW-ADM2.geojson"
+        },
+        {
+          "file": "PLW-ADM2.metadata.json",
+          "sha256": "e4438493ee30bdcd50e29aa071593e80f647e9f46372dade230e9a8ab2e48d56"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。"
+    },
+    "FSM": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 75,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "FSM-ADM2-79324940",
+        "boundaryISO": "FSM",
+        "boundaryYear": "2019",
+        "boundaryType": "ADM2",
+        "boundarySource": "OCHA ROP, Federated States of Micronesia Division of Statistics, 2010 Census of Population and Housing and Secretariat of the Pacific Community, Statistics for Development Division",
+        "boundaryCanonical": "Municipality",
+        "boundaryLicense": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "licenseDetail": "",
+        "licenseSource": "Data https",
+        "boundarySourceURL": "https//data.humdata.org/dataset/fsm-2010-administrative-level-0-2-boundaries",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "75",
+        "meanVertices": "657.0",
+        "minVertices": "20",
+        "maxVertices": "5835",
+        "meanPerimeterLengthKM": "17.7399757091146",
+        "maxPerimeterLengthKM": "108.6634288591981",
+        "minPerimeterLengthKM": "1.3801545237615773",
+        "meanAreaSqKM": "9.17281721780657",
+        "minAreaSqKM": "0.10330331588420343",
+        "maxAreaSqKM": "118.45231308360775"
+      },
+      "adm1": {
+        "boundaryID": "FSM-ADM1-64989084",
+        "boundaryISO": "FSM",
+        "boundaryYear": "2019",
+        "boundaryType": "ADM1",
+        "boundarySource": "OCHA ROP, Federated States of Micronesia Division of Statistics, 2010 Census of Population and Housing and Secretariat of the Pacific Community, Statistics for Development Division",
+        "boundaryCanonical": "State",
+        "boundaryLicense": "Creative Commons Attribution 3.0 Intergovernmental Organisations (CC BY 3.0 IGO)",
+        "licenseDetail": "",
+        "licenseSource": "Data https",
+        "boundarySourceURL": "https//data.humdata.org/dataset/fsm-2010-administrative-level-0-2-boundaries",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "4",
+        "meanVertices": "11606.0",
+        "minVertices": "8074",
+        "maxVertices": "22103",
+        "meanPerimeterLengthKM": "273.14439391620095",
+        "maxPerimeterLengthKM": "414.59682292687046",
+        "minPerimeterLengthKM": "76.12013159900636",
+        "meanAreaSqKM": "171.9903228273526",
+        "minAreaSqKM": "106.80676560136939",
+        "maxAreaSqKM": "364.4798016277505"
+      },
+      "source_count": 75,
+      "metadata_count": 75,
+      "count_difference": 0,
+      "adm1_source_count": 4,
+      "adm1_metadata_count": 4,
+      "source_admin_level": "ADM2",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/FSM/ADM2/geoBoundaries-FSM-ADM2.geojson",
+      "pinned_source_sha256": "edc6eec7fe8bab345207d487affecea66aba0fc7c3574ce7c36c131257123b37",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; OCHA ROP, Federated States of Micronesia Division of Statistics, 2010 Census of Population and Housing and Secretariat of the Pacific Community, Statistics for Development Division",
+      "license_evidence": [
+        {
+          "file": "FSM-ADM0.metadata.json",
+          "sha256": "3dc165c1fa8f8d5379c201ed88d827d93405ebe7e5aa95c2c756fdef7ddb9597"
+        },
+        {
+          "file": "FSM-ADM1.geojson.gz",
+          "sha256": "c304cff5851286f8606bb61671ef6e78e8e87bdb6194de7929bbd7b161e5c2b6",
+          "content_sha256": "a30e5bc26f291a7f286090782361154263ad603e4de451b23a77e346f63327e0",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/FSM/ADM1/geoBoundaries-FSM-ADM1.geojson"
+        },
+        {
+          "file": "FSM-ADM1.metadata.json",
+          "sha256": "b7eadce3f4cc6b4a3359ac2b277920ea6f6d82d4cbbe8ab7eb6afbbe184942e3"
+        },
+        {
+          "file": "FSM-ADM2.geojson.gz",
+          "sha256": "edc6eec7fe8bab345207d487affecea66aba0fc7c3574ce7c36c131257123b37",
+          "content_sha256": "f12bf7e5119120062f1258db98a676cb400e4582f6206202265971cd10ae5bbc",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/FSM/ADM2/geoBoundaries-FSM-ADM2.geojson"
+        },
+        {
+          "file": "FSM-ADM2.metadata.json",
+          "sha256": "09e05ad8e3a2efeaa10305a6cf1c27dad985807b6faca1d29b3a8f1a8f92d1e5"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。"
+    },
+    "MHL": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 24,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "MHL-ADM1-77969171",
+        "boundaryISO": "MHL",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "24",
+        "meanVertices": "450.0",
+        "minVertices": "14",
+        "maxVertices": "1542",
+        "meanPerimeterLengthKM": "60.92077059266271",
+        "maxPerimeterLengthKM": "211.70888729457369",
+        "minPerimeterLengthKM": "4.941839247494807",
+        "meanAreaSqKM": "271.7274708301637",
+        "minAreaSqKM": "1.0450133487041195",
+        "maxAreaSqKM": "3302.569408363614"
+      },
+      "adm1": {
+        "boundaryID": "MHL-ADM1-77969171",
+        "boundaryISO": "MHL",
+        "boundaryYear": "2017",
+        "boundaryType": "ADM1",
+        "boundarySource": "OpenStreetMap, Wambacher",
+        "boundaryCanonical": "",
+        "boundaryLicense": "Open Data Commons Open Database License 1.0",
+        "licenseDetail": "Open Data Commons Open Database License 1.0",
+        "licenseSource": "https//www.openstreetmap.org/copyright",
+        "boundarySourceURL": "https//wambachers-osm.website/boundaries/",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "24",
+        "meanVertices": "450.0",
+        "minVertices": "14",
+        "maxVertices": "1542",
+        "meanPerimeterLengthKM": "60.92077059266271",
+        "maxPerimeterLengthKM": "211.70888729457369",
+        "minPerimeterLengthKM": "4.941839247494807",
+        "meanAreaSqKM": "271.7274708301637",
+        "minAreaSqKM": "1.0450133487041195",
+        "maxAreaSqKM": "3302.569408363614"
+      },
+      "source_count": 24,
+      "metadata_count": 24,
+      "count_difference": 0,
+      "adm1_source_count": 24,
+      "adm1_metadata_count": 24,
+      "source_admin_level": "ADM1",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/MHL/ADM1/geoBoundaries-MHL-ADM1.geojson",
+      "pinned_source_sha256": "44f138c76782cc8ff1747aac2518be8357dbd8c4d4eb258a659b818d8908027f",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; OpenStreetMap, Wambacher",
+      "license_evidence": [
+        {
+          "file": "MHL-ADM0.metadata.json",
+          "sha256": "8bfe6e73ca2e80d1404591cde49fb6907e59660c791fb738cf5d911734280b2b"
+        },
+        {
+          "file": "MHL-ADM1.geojson.gz",
+          "sha256": "44f138c76782cc8ff1747aac2518be8357dbd8c4d4eb258a659b818d8908027f",
+          "content_sha256": "148cca24be2a9c92476d915409bdc5b222812237a89dabe58daf95b5243c9c9b",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/MHL/ADM1/geoBoundaries-MHL-ADM1.geojson"
+        },
+        {
+          "file": "MHL-ADM1.metadata.json",
+          "sha256": "11ece0ff6069f052cf38662413d8c0aa0575cc509d6c98580b59c29191879e7a"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。"
+    },
+    "NCL": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 1,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "NCL-ADM0-60653274",
+        "boundaryISO": "NCL",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM0",
+        "boundarySource": "raster2polygon from Sentinel-2 10m Land Cover where Image Year = 2021 / exclude gridcode = 1 (water) / dissolve / processed by IMB",
+        "boundaryCanonical": "New Caledonia",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
+        "boundarySourceURL": "https//env1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "1",
+        "meanVertices": "91578.0",
+        "minVertices": "91578",
+        "maxVertices": "91578",
+        "meanPerimeterLengthKM": "7122.208104589538",
+        "maxPerimeterLengthKM": "7122.208104589538",
+        "minPerimeterLengthKM": "7122.208104589538",
+        "meanAreaSqKM": "18545.33029596669",
+        "minAreaSqKM": "18545.33029596669",
+        "maxAreaSqKM": "18545.33029596669"
+      },
+      "adm1": {
+        "boundaryID": "NCL-ADM0-60653274",
+        "boundaryISO": "NCL",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM0",
+        "boundarySource": "raster2polygon from Sentinel-2 10m Land Cover where Image Year = 2021 / exclude gridcode = 1 (water) / dissolve / processed by IMB",
+        "boundaryCanonical": "New Caledonia",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
+        "boundarySourceURL": "https//env1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "1",
+        "meanVertices": "91578.0",
+        "minVertices": "91578",
+        "maxVertices": "91578",
+        "meanPerimeterLengthKM": "7122.208104589538",
+        "maxPerimeterLengthKM": "7122.208104589538",
+        "minPerimeterLengthKM": "7122.208104589538",
+        "meanAreaSqKM": "18545.33029596669",
+        "minAreaSqKM": "18545.33029596669",
+        "maxAreaSqKM": "18545.33029596669"
+      },
+      "source_count": 1,
+      "metadata_count": 1,
+      "count_difference": 0,
+      "adm1_source_count": 1,
+      "adm1_metadata_count": 1,
+      "source_admin_level": "ADM0",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/NCL/ADM0/geoBoundaries-NCL-ADM0.geojson",
+      "pinned_source_sha256": "7669b189bc0e921e690622eb3ee8ebcb6ea499bb9c1d4cae8ee0408d8e860524",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; raster2polygon from Sentinel-2 10m Land Cover where Image Year = 2021 / exclude gridcode = 1 (water) / dissolve / processed by IMB",
+      "license_evidence": [
+        {
+          "file": "NCL-ADM0.geojson.gz",
+          "sha256": "7669b189bc0e921e690622eb3ee8ebcb6ea499bb9c1d4cae8ee0408d8e860524",
+          "content_sha256": "fe84a4f9846296fff7bc2270f976b6e7f39e6dcc51cd266f7b183b72ba3d55d0",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/NCL/ADM0/geoBoundaries-NCL-ADM0.geojson"
+        },
+        {
+          "file": "NCL-ADM0.metadata.json",
+          "sha256": "ecf0d27f293f2781324eaa95fdeeec1d612253bc6b94846a413ce8bc8813c667"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。",
+      "known_gaps": [
+        "没有可用更细开放行政源，仅交付全域/地理参考；不声称完成地方细分。"
+      ]
+    },
+    "PYF": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 1,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "PYF-ADM0-99418368",
+        "boundaryISO": "PYF",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM0",
+        "boundarySource": "raster2polygon from Sentinel-2 10m Land Cover where Image Year = 2021 / exclude gridcode = 1 (water) / dissolve / processed by IMB",
+        "boundaryCanonical": "French Polynesia",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
+        "boundarySourceURL": "https//env1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "1",
+        "meanVertices": "206454.0",
+        "minVertices": "206454",
+        "maxVertices": "206454",
+        "meanPerimeterLengthKM": "9061.239857096232",
+        "maxPerimeterLengthKM": "9061.239857096232",
+        "minPerimeterLengthKM": "9061.239857096232",
+        "meanAreaSqKM": "3492.0154053831207",
+        "minAreaSqKM": "3492.0154053831207",
+        "maxAreaSqKM": "3492.0154053831207"
+      },
+      "adm1": {
+        "boundaryID": "PYF-ADM0-99418368",
+        "boundaryISO": "PYF",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM0",
+        "boundarySource": "raster2polygon from Sentinel-2 10m Land Cover where Image Year = 2021 / exclude gridcode = 1 (water) / dissolve / processed by IMB",
+        "boundaryCanonical": "French Polynesia",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
+        "boundarySourceURL": "https//env1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "1",
+        "meanVertices": "206454.0",
+        "minVertices": "206454",
+        "maxVertices": "206454",
+        "meanPerimeterLengthKM": "9061.239857096232",
+        "maxPerimeterLengthKM": "9061.239857096232",
+        "minPerimeterLengthKM": "9061.239857096232",
+        "meanAreaSqKM": "3492.0154053831207",
+        "minAreaSqKM": "3492.0154053831207",
+        "maxAreaSqKM": "3492.0154053831207"
+      },
+      "source_count": 1,
+      "metadata_count": 1,
+      "count_difference": 0,
+      "adm1_source_count": 1,
+      "adm1_metadata_count": 1,
+      "source_admin_level": "ADM0",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/PYF/ADM0/geoBoundaries-PYF-ADM0.geojson",
+      "pinned_source_sha256": "9b44ff8eb6d8e995d2e665d874db75f94ba9c334f4b3af437a18e37ed8f7f126",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; raster2polygon from Sentinel-2 10m Land Cover where Image Year = 2021 / exclude gridcode = 1 (water) / dissolve / processed by IMB",
+      "license_evidence": [
+        {
+          "file": "PYF-ADM0.geojson.gz",
+          "sha256": "9b44ff8eb6d8e995d2e665d874db75f94ba9c334f4b3af437a18e37ed8f7f126",
+          "content_sha256": "fa5ca0f40b281e9aba3848f3fe7459d751e3e35e0f8dd53a0435bb46ad320bc3",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/PYF/ADM0/geoBoundaries-PYF-ADM0.geojson"
+        },
+        {
+          "file": "PYF-ADM0.metadata.json",
+          "sha256": "0cf2cea1cb5431ad74d950533945855713e35e9ade20b31903c2619b4995cd44"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。",
+      "known_gaps": [
+        "没有可用更细开放行政源，仅交付全域/地理参考；不声称完成地方细分。"
+      ]
+    },
+    "GUM": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 19,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "GUM-ADM2-77769853",
+        "boundaryISO": "GUM",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM2",
+        "boundarySource": "United States Census Bureau, MAF/TIGER",
+        "boundaryCanonical": "Village",
+        "boundaryLicense": "Public Domain",
+        "licenseDetail": "",
+        "licenseSource": "https//www.census.gov/about/policies/open-gov/open-data.html",
+        "boundarySourceURL": "https//www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "19",
+        "meanVertices": "78.0",
+        "minVertices": "27",
+        "maxVertices": "153",
+        "meanPerimeterLengthKM": "26.292975918541003",
+        "maxPerimeterLengthKM": "51.39748132214532",
+        "minPerimeterLengthKM": "7.102187776437186",
+        "meanAreaSqKM": "29.44134201550138",
+        "minAreaSqKM": "2.314841568385947",
+        "maxAreaSqKM": "92.18221677371584"
+      },
+      "adm1": {
+        "boundaryID": "GUM-ADM0-54299874",
+        "boundaryISO": "GUM",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM0",
+        "boundarySource": "Sentinel-2 10-Meter Land Use/LandCover",
+        "boundaryCanonical": "The Territory of Guam",
+        "boundaryLicense": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
+        "boundarySourceURL": "https//env1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "1",
+        "meanVertices": "3833.0",
+        "minVertices": "3833",
+        "maxVertices": "3833",
+        "meanPerimeterLengthKM": "227.23876989980914",
+        "maxPerimeterLengthKM": "227.23876989980914",
+        "minPerimeterLengthKM": "227.23876989980914",
+        "meanAreaSqKM": "539.4554821858088",
+        "minAreaSqKM": "539.4554821858088",
+        "maxAreaSqKM": "539.4554821858088"
+      },
+      "source_count": 19,
+      "metadata_count": 19,
+      "count_difference": 0,
+      "adm1_source_count": 1,
+      "adm1_metadata_count": 1,
+      "source_admin_level": "ADM2",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/GUM/ADM2/geoBoundaries-GUM-ADM2.geojson",
+      "pinned_source_sha256": "12bbf6e1b82928acea515db0433acc5e0aec084cb36e5f8604ef618119c5c3cd",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; United States Census Bureau, MAF/TIGER",
+      "license_evidence": [
+        {
+          "file": "GUM-ADM0.geojson.gz",
+          "sha256": "d6c5124d83043c08aa3a3676aaa4f0f8e6b4ff96756e174253cea65f48cecf13",
+          "content_sha256": "441d02c529acc049a7ef7cb0842ff1acf0eaa1bbd884a1fc55234fdcaf839400",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/GUM/ADM0/geoBoundaries-GUM-ADM0.geojson"
+        },
+        {
+          "file": "GUM-ADM0.metadata.json",
+          "sha256": "ae705f4abaa46c32d57f90b5519c541fc442b0092cd563c6b3dbbec16b6650de"
+        },
+        {
+          "file": "GUM-ADM2.geojson.gz",
+          "sha256": "12bbf6e1b82928acea515db0433acc5e0aec084cb36e5f8604ef618119c5c3cd",
+          "content_sha256": "166aed5638ccf915a8206e83cc421680c6ae9ffea10fb70c41203c8186b3daaa",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/GUM/ADM2/geoBoundaries-GUM-ADM2.geojson"
+        },
+        {
+          "file": "GUM-ADM2.metadata.json",
+          "sha256": "fd4e8e023c5b3cab3008fe67a4f977b7947c8a8ac1f6821bf9ae28c77b2335c1"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。"
+    },
+    "MNP": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 4,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "MNP-ADM2-39175420",
+        "boundaryISO": "MNP",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM2",
+        "boundarySource": "United States Census Bureau, MAF/TIGER",
+        "boundaryCanonical": "Municipality",
+        "boundaryLicense": "Public Domain",
+        "licenseDetail": "",
+        "licenseSource": "https//www.census.gov/about/policies/open-gov/open-data.html",
+        "boundarySourceURL": "https//www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "4",
+        "meanVertices": "428.0",
+        "minVertices": "273",
+        "maxVertices": "617",
+        "meanPerimeterLengthKM": "89.82939434418778",
+        "maxPerimeterLengthKM": "165.97575762222172",
+        "minPerimeterLengthKM": "51.73360201247991",
+        "meanAreaSqKM": "118.48110253355716",
+        "minAreaSqKM": "85.29861333098343",
+        "maxAreaSqKM": "160.33131663019302"
+      },
+      "adm1": {
+        "boundaryID": "MNP-ADM0-30081990",
+        "boundaryISO": "MNP",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM0",
+        "boundarySource": "Sentinel-2 10-Meter Land Use/LandCover",
+        "boundaryCanonical": "The Commonwealth of the Northern Mariana Islands",
+        "boundaryLicense": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
+        "boundarySourceURL": "https//env1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "1",
+        "meanVertices": "4150.0",
+        "minVertices": "4150",
+        "maxVertices": "4150",
+        "meanPerimeterLengthKM": "220.92563283919344",
+        "maxPerimeterLengthKM": "220.92563283919344",
+        "minPerimeterLengthKM": "220.92563283919344",
+        "meanAreaSqKM": "309.45342880815485",
+        "minAreaSqKM": "309.45342880815485",
+        "maxAreaSqKM": "309.45342880815485"
+      },
+      "source_count": 4,
+      "metadata_count": 4,
+      "count_difference": 0,
+      "adm1_source_count": 1,
+      "adm1_metadata_count": 1,
+      "source_admin_level": "ADM2",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/MNP/ADM2/geoBoundaries-MNP-ADM2.geojson",
+      "pinned_source_sha256": "e5b15a7fe422870cd8cddad3454f621f490ee242d2303a6f432d8620856c3f14",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; United States Census Bureau, MAF/TIGER",
+      "license_evidence": [
+        {
+          "file": "MNP-ADM0.geojson.gz",
+          "sha256": "1cfd8c1ed79f96990763e39a15bb59eff8ab6301004e1a2b125ad11afd05f522",
+          "content_sha256": "b6c1e4c859b6ad8ddb5d30ffe6f6edc5a25bf0b9b4bbdab7f04535ef05167e7d",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/MNP/ADM0/geoBoundaries-MNP-ADM0.geojson"
+        },
+        {
+          "file": "MNP-ADM0.metadata.json",
+          "sha256": "1e28fffb28bac1c54c09a20cf74a6283c2d076f426962ee94ff156adc079a824"
+        },
+        {
+          "file": "MNP-ADM2.geojson.gz",
+          "sha256": "e5b15a7fe422870cd8cddad3454f621f490ee242d2303a6f432d8620856c3f14",
+          "content_sha256": "303784a2c9951102d513d4813cae6907a3d2781af5e1b481b766787f5c633b86",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/MNP/ADM2/geoBoundaries-MNP-ADM2.geojson"
+        },
+        {
+          "file": "MNP-ADM2.metadata.json",
+          "sha256": "c78260e1c643a79442b0df328fae6d47029a9dc7dfc58e6c6ab88320638464bf"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。"
+    },
+    "ASM": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 1,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "ASM-ADM0-72969383",
+        "boundaryISO": "ASM",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM0",
+        "boundarySource": "Sentinel-2 10-Meter Land Use/LandCover",
+        "boundaryCanonical": "American Samoa",
+        "boundaryLicense": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//livingatlas.arcgis.com/landcover/",
+        "boundarySourceURL": "https//env1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "1",
+        "meanVertices": "3873.0",
+        "minVertices": "3873",
+        "maxVertices": "3873",
+        "meanPerimeterLengthKM": "196.5970183300231",
+        "maxPerimeterLengthKM": "196.5970183300231",
+        "minPerimeterLengthKM": "196.5970183300231",
+        "meanAreaSqKM": "192.71383356759338",
+        "minAreaSqKM": "192.71383356759338",
+        "maxAreaSqKM": "192.71383356759338"
+      },
+      "adm1": {
+        "boundaryID": "ASM-ADM0-72969383",
+        "boundaryISO": "ASM",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM0",
+        "boundarySource": "Sentinel-2 10-Meter Land Use/LandCover",
+        "boundaryCanonical": "American Samoa",
+        "boundaryLicense": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//livingatlas.arcgis.com/landcover/",
+        "boundarySourceURL": "https//env1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "1",
+        "meanVertices": "3873.0",
+        "minVertices": "3873",
+        "maxVertices": "3873",
+        "meanPerimeterLengthKM": "196.5970183300231",
+        "maxPerimeterLengthKM": "196.5970183300231",
+        "minPerimeterLengthKM": "196.5970183300231",
+        "meanAreaSqKM": "192.71383356759338",
+        "minAreaSqKM": "192.71383356759338",
+        "maxAreaSqKM": "192.71383356759338"
+      },
+      "source_count": 1,
+      "metadata_count": 1,
+      "count_difference": 0,
+      "adm1_source_count": 1,
+      "adm1_metadata_count": 1,
+      "source_admin_level": "ADM0",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/ASM/ADM0/geoBoundaries-ASM-ADM0.geojson",
+      "pinned_source_sha256": "bf8d3193e444bd3950dd61cc31872e7258152144d562d61f3fffc9b75c35a583",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; Sentinel-2 10-Meter Land Use/LandCover",
+      "license_evidence": [
+        {
+          "file": "ASM-ADM0.geojson.gz",
+          "sha256": "bf8d3193e444bd3950dd61cc31872e7258152144d562d61f3fffc9b75c35a583",
+          "content_sha256": "ec2fda26fb14a493c483cfb445f1087c0a6e75a79d68c5426e680dce5396f8ef",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/ASM/ADM0/geoBoundaries-ASM-ADM0.geojson"
+        },
+        {
+          "file": "ASM-ADM0.metadata.json",
+          "sha256": "b8cb49407b18179ab6706a3c7472465c0869183db9c440e4ca6d691406355a30"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。",
+      "known_gaps": [
+        "没有可用更细开放行政源，仅交付全域/地理参考；不声称完成地方细分。"
+      ]
+    },
+    "COK": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 1,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "COK-ADM0-34037180",
+        "boundaryISO": "COK",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM0",
+        "boundarySource": "raster2polygon from Sentinel-2 10m Land Cover where Image Year = 2021 / exclude gridcode = 1 (water) / dissolve / processed by IMB",
+        "boundaryCanonical": "Cook Islands",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
+        "boundarySourceURL": "https//env1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "1",
+        "meanVertices": "6116.0",
+        "minVertices": "6116",
+        "maxVertices": "6116",
+        "meanPerimeterLengthKM": "310.08082462813576",
+        "maxPerimeterLengthKM": "310.08082462813576",
+        "minPerimeterLengthKM": "310.08082462813576",
+        "meanAreaSqKM": "217.92577184338379",
+        "minAreaSqKM": "217.92577184338379",
+        "maxAreaSqKM": "217.92577184338379"
+      },
+      "adm1": {
+        "boundaryID": "COK-ADM0-34037180",
+        "boundaryISO": "COK",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM0",
+        "boundarySource": "raster2polygon from Sentinel-2 10m Land Cover where Image Year = 2021 / exclude gridcode = 1 (water) / dissolve / processed by IMB",
+        "boundaryCanonical": "Cook Islands",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
+        "boundarySourceURL": "https//env1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "1",
+        "meanVertices": "6116.0",
+        "minVertices": "6116",
+        "maxVertices": "6116",
+        "meanPerimeterLengthKM": "310.08082462813576",
+        "maxPerimeterLengthKM": "310.08082462813576",
+        "minPerimeterLengthKM": "310.08082462813576",
+        "meanAreaSqKM": "217.92577184338379",
+        "minAreaSqKM": "217.92577184338379",
+        "maxAreaSqKM": "217.92577184338379"
+      },
+      "source_count": 1,
+      "metadata_count": 1,
+      "count_difference": 0,
+      "adm1_source_count": 1,
+      "adm1_metadata_count": 1,
+      "source_admin_level": "ADM0",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/COK/ADM0/geoBoundaries-COK-ADM0.geojson",
+      "pinned_source_sha256": "7db5de68b88aefa4e2c0ef8bc02e1bfdcf004adca8dc04b77cdf48b8cdf3d07b",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; raster2polygon from Sentinel-2 10m Land Cover where Image Year = 2021 / exclude gridcode = 1 (water) / dissolve / processed by IMB",
+      "license_evidence": [
+        {
+          "file": "COK-ADM0.geojson.gz",
+          "sha256": "7db5de68b88aefa4e2c0ef8bc02e1bfdcf004adca8dc04b77cdf48b8cdf3d07b",
+          "content_sha256": "213972fbb83bec6c5678a7671823983633166ae032439de8903fb59b8896d05e",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/COK/ADM0/geoBoundaries-COK-ADM0.geojson"
+        },
+        {
+          "file": "COK-ADM0.metadata.json",
+          "sha256": "061d48b49be5db8147689c4eccdd6d5a465426f50274e369464ce7b3ab90bc62"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。",
+      "known_gaps": [
+        "没有可用更细开放行政源，仅交付全域/地理参考；不声称完成地方细分。"
+      ]
+    },
+    "NIU": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 14,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "NIU-ADM1-93272968",
+        "boundaryISO": "NIU",
+        "boundaryYear": "2020",
+        "boundaryType": "ADM1",
+        "boundarySource": "Pacific Data Hub",
+        "boundaryCanonical": "village",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//pacificdata.org/data/dataset/2011_niu_phc_admin_boundaries",
+        "boundarySourceURL": "https//pacificdata.org/data/dataset/2011_niu_phc_admin_boundaries",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "14",
+        "meanVertices": "165.0",
+        "minVertices": "42",
+        "maxVertices": "574",
+        "meanPerimeterLengthKM": "19.39828663680212",
+        "maxPerimeterLengthKM": "30.071386752719704",
+        "minPerimeterLengthKM": "6.40068050569573",
+        "meanAreaSqKM": "18.674243053937236",
+        "minAreaSqKM": "1.6700838908616922",
+        "maxAreaSqKM": "48.270964943073565"
+      },
+      "adm1": {
+        "boundaryID": "NIU-ADM1-93272968",
+        "boundaryISO": "NIU",
+        "boundaryYear": "2020",
+        "boundaryType": "ADM1",
+        "boundarySource": "Pacific Data Hub",
+        "boundaryCanonical": "village",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//pacificdata.org/data/dataset/2011_niu_phc_admin_boundaries",
+        "boundarySourceURL": "https//pacificdata.org/data/dataset/2011_niu_phc_admin_boundaries",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "14",
+        "meanVertices": "165.0",
+        "minVertices": "42",
+        "maxVertices": "574",
+        "meanPerimeterLengthKM": "19.39828663680212",
+        "maxPerimeterLengthKM": "30.071386752719704",
+        "minPerimeterLengthKM": "6.40068050569573",
+        "meanAreaSqKM": "18.674243053937236",
+        "minAreaSqKM": "1.6700838908616922",
+        "maxAreaSqKM": "48.270964943073565"
+      },
+      "source_count": 14,
+      "metadata_count": 14,
+      "count_difference": 0,
+      "adm1_source_count": 14,
+      "adm1_metadata_count": 14,
+      "source_admin_level": "ADM1",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/NIU/ADM1/geoBoundaries-NIU-ADM1.geojson",
+      "pinned_source_sha256": "b62bf9e653707175d39970d9d5dde92efe1295acbc92268530e9a9f8cfdfc988",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; Pacific Data Hub",
+      "license_evidence": [
+        {
+          "file": "NIU-ADM0.metadata.json",
+          "sha256": "53df6be8d498b7124c37136e8929e35e42c8586a3f2efcb76408bf4adba66179"
+        },
+        {
+          "file": "NIU-ADM1.geojson.gz",
+          "sha256": "b62bf9e653707175d39970d9d5dde92efe1295acbc92268530e9a9f8cfdfc988",
+          "content_sha256": "e944ea8ad2249b8bde9d53ce75bdd5bd44d365516c541fcb78cb80b3a47b51ea",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/NIU/ADM1/geoBoundaries-NIU-ADM1.geojson"
+        },
+        {
+          "file": "NIU-ADM1.metadata.json",
+          "sha256": "1f83dc98dba3fe6d2c327494184e7fc5c7005492ab6ce33097b682295299fabe"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。"
+    },
+    "TKL": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 1,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "TKL-ADM0-11190911",
+        "boundaryISO": "TKL",
+        "boundaryYear": "2022",
+        "boundaryType": "ADM0",
+        "boundarySource": "raster 2 polygon from Sentinel-2 10m Land Cover where Image Year = 2022 / exclude gridcode = 1 (water) / dissolve",
+        "boundaryCanonical": "Tokelau",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//livingatlas.arcgis.com/landcover/",
+        "boundarySourceURL": "https//env1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer",
+        "sourceDataUpdateDate": "Mon Sep 25 11:27:11 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "1",
+        "meanVertices": "12420.0",
+        "minVertices": "12420",
+        "maxVertices": "12420",
+        "meanPerimeterLengthKM": "195.86095986762646",
+        "maxPerimeterLengthKM": "195.86095986762646",
+        "minPerimeterLengthKM": "195.86095986762646",
+        "meanAreaSqKM": "9.802985009274524",
+        "minAreaSqKM": "9.802985009274524",
+        "maxAreaSqKM": "9.802985009274524"
+      },
+      "adm1": {
+        "boundaryID": "TKL-ADM0-11190911",
+        "boundaryISO": "TKL",
+        "boundaryYear": "2022",
+        "boundaryType": "ADM0",
+        "boundarySource": "raster 2 polygon from Sentinel-2 10m Land Cover where Image Year = 2022 / exclude gridcode = 1 (water) / dissolve",
+        "boundaryCanonical": "Tokelau",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//livingatlas.arcgis.com/landcover/",
+        "boundarySourceURL": "https//env1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer",
+        "sourceDataUpdateDate": "Mon Sep 25 11:27:11 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "1",
+        "meanVertices": "12420.0",
+        "minVertices": "12420",
+        "maxVertices": "12420",
+        "meanPerimeterLengthKM": "195.86095986762646",
+        "maxPerimeterLengthKM": "195.86095986762646",
+        "minPerimeterLengthKM": "195.86095986762646",
+        "meanAreaSqKM": "9.802985009274524",
+        "minAreaSqKM": "9.802985009274524",
+        "maxAreaSqKM": "9.802985009274524"
+      },
+      "source_count": 1,
+      "metadata_count": 1,
+      "count_difference": 0,
+      "adm1_source_count": 1,
+      "adm1_metadata_count": 1,
+      "source_admin_level": "ADM0",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/TKL/ADM0/geoBoundaries-TKL-ADM0.geojson",
+      "pinned_source_sha256": "095419807fa98e245b39a475438ebff4e1aaacb8e367afd3556bbf8bc5724d57",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; raster 2 polygon from Sentinel-2 10m Land Cover where Image Year = 2022 / exclude gridcode = 1 (water) / dissolve",
+      "license_evidence": [
+        {
+          "file": "TKL-ADM0.geojson.gz",
+          "sha256": "095419807fa98e245b39a475438ebff4e1aaacb8e367afd3556bbf8bc5724d57",
+          "content_sha256": "257b31214c1d66307a829de7441b4a91f4276fa5b2b8d3cf61f05d460d096486",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/TKL/ADM0/geoBoundaries-TKL-ADM0.geojson"
+        },
+        {
+          "file": "TKL-ADM0.metadata.json",
+          "sha256": "1ea8b60466997cfd9295e7b0710c4ee8bc6f5a4bfb6ddae47dc0c0446c610978"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。",
+      "known_gaps": [
+        "没有可用更细开放行政源，仅交付全域/地理参考；不声称完成地方细分。"
+      ]
+    },
+    "WLF": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 1,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "WLF-ADM0-48161578",
+        "boundaryISO": "WLF",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM0",
+        "boundarySource": "raster2polygon from Sentinel-2 10m Land Cover where Image Year = 2021 / exclude gridcode = 1 (water) / dissolve / processed by IMB",
+        "boundaryCanonical": "Wallis and Futuna",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
+        "boundarySourceURL": "https//env1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "1",
+        "meanVertices": "2350.0",
+        "minVertices": "2350",
+        "maxVertices": "2350",
+        "meanPerimeterLengthKM": "142.9045478987736",
+        "maxPerimeterLengthKM": "142.9045478987736",
+        "minPerimeterLengthKM": "142.9045478987736",
+        "meanAreaSqKM": "139.73515647230354",
+        "minAreaSqKM": "139.73515647230354",
+        "maxAreaSqKM": "139.73515647230354"
+      },
+      "adm1": {
+        "boundaryID": "WLF-ADM0-48161578",
+        "boundaryISO": "WLF",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM0",
+        "boundarySource": "raster2polygon from Sentinel-2 10m Land Cover where Image Year = 2021 / exclude gridcode = 1 (water) / dissolve / processed by IMB",
+        "boundaryCanonical": "Wallis and Futuna",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
+        "boundarySourceURL": "https//env1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "1",
+        "meanVertices": "2350.0",
+        "minVertices": "2350",
+        "maxVertices": "2350",
+        "meanPerimeterLengthKM": "142.9045478987736",
+        "maxPerimeterLengthKM": "142.9045478987736",
+        "minPerimeterLengthKM": "142.9045478987736",
+        "meanAreaSqKM": "139.73515647230354",
+        "minAreaSqKM": "139.73515647230354",
+        "maxAreaSqKM": "139.73515647230354"
+      },
+      "source_count": 1,
+      "metadata_count": 1,
+      "count_difference": 0,
+      "adm1_source_count": 1,
+      "adm1_metadata_count": 1,
+      "source_admin_level": "ADM0",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/WLF/ADM0/geoBoundaries-WLF-ADM0.geojson",
+      "pinned_source_sha256": "d56dae1ff49634a73bc6b450aa90ac6a8015295c59e8a88d05c09f899e46816f",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; raster2polygon from Sentinel-2 10m Land Cover where Image Year = 2021 / exclude gridcode = 1 (water) / dissolve / processed by IMB",
+      "license_evidence": [
+        {
+          "file": "WLF-ADM0.geojson.gz",
+          "sha256": "d56dae1ff49634a73bc6b450aa90ac6a8015295c59e8a88d05c09f899e46816f",
+          "content_sha256": "015702f68d17a38520a586dc10db1e8775c05fd30065594666dd2e8cca8127c5",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/WLF/ADM0/geoBoundaries-WLF-ADM0.geojson"
+        },
+        {
+          "file": "WLF-ADM0.metadata.json",
+          "sha256": "774aa03e90a44b2a8d75bf71ecd482fb7b09c95f0e7fa98cc22107de55e0ed2e"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。",
+      "known_gaps": [
+        "没有可用更细开放行政源，仅交付全域/地理参考；不声称完成地方细分。"
+      ]
+    },
+    "NFK": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 1,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "NaturalEarth-5.1.2-NFK",
+        "boundaryYear": "Natural Earth 5.1.2",
+        "boundaryType": "MAP_UNIT",
+        "boundarySource": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+        "boundaryLicense": "Public Domain",
+        "licenseSource": "https://www.naturalearthdata.com/about/terms-of-use/",
+        "admUnitCount": "1"
+      },
+      "adm1": null,
+      "source_count": 1,
+      "metadata_count": 1,
+      "count_difference": 0,
+      "adm1_source_count": 0,
+      "adm1_metadata_count": 0,
+      "source_admin_level": "MAP_UNIT",
+      "pinned_source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson",
+      "pinned_source_sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0,
+      "attribution": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+      "license_evidence": [
+        {
+          "file": "naturalearth-map-units.geojson.gz",
+          "sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+          "content_sha256": "57da82be755f4afccd8f3b14251bb2752f5df1395f47d2d86f817470c4a48862",
+          "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。",
+      "known_gaps": [
+        "没有可用更细开放行政源，仅交付全域/地理参考；不声称完成地方细分。"
+      ]
+    },
+    "PCN": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 1,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "PCN-ADM0-31937491",
+        "boundaryISO": "PCN",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM0",
+        "boundarySource": "Sentinel-2 10-Meter Land Use/LandCover",
+        "boundaryCanonical": "Pitcairn Islands",
+        "boundaryLicense": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
+        "boundarySourceURL": "https//env1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "1",
+        "meanVertices": "541.0",
+        "minVertices": "541",
+        "maxVertices": "541",
+        "meanPerimeterLengthKM": "30.27941773980771",
+        "maxPerimeterLengthKM": "30.27941773980771",
+        "minPerimeterLengthKM": "30.27941773980771",
+        "meanAreaSqKM": "42.57712353757328",
+        "minAreaSqKM": "42.57712353757328",
+        "maxAreaSqKM": "42.57712353757328"
+      },
+      "adm1": {
+        "boundaryID": "PCN-ADM0-31937491",
+        "boundaryISO": "PCN",
+        "boundaryYear": "2021",
+        "boundaryType": "ADM0",
+        "boundarySource": "Sentinel-2 10-Meter Land Use/LandCover",
+        "boundaryCanonical": "Pitcairn Islands",
+        "boundaryLicense": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//sentinel.esa.int/documents/247904/690755/Sentinel_Data_Legal_Notice",
+        "boundarySourceURL": "https//env1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "1",
+        "meanVertices": "541.0",
+        "minVertices": "541",
+        "maxVertices": "541",
+        "meanPerimeterLengthKM": "30.27941773980771",
+        "maxPerimeterLengthKM": "30.27941773980771",
+        "minPerimeterLengthKM": "30.27941773980771",
+        "meanAreaSqKM": "42.57712353757328",
+        "minAreaSqKM": "42.57712353757328",
+        "maxAreaSqKM": "42.57712353757328"
+      },
+      "source_count": 1,
+      "metadata_count": 1,
+      "count_difference": 0,
+      "adm1_source_count": 1,
+      "adm1_metadata_count": 1,
+      "source_admin_level": "ADM0",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/PCN/ADM0/geoBoundaries-PCN-ADM0.geojson",
+      "pinned_source_sha256": "698e416bfe2fae12c90a084aecfed8f5ee5f91f7370585732dfb33c951296a9e",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; Sentinel-2 10-Meter Land Use/LandCover",
+      "license_evidence": [
+        {
+          "file": "PCN-ADM0.geojson.gz",
+          "sha256": "698e416bfe2fae12c90a084aecfed8f5ee5f91f7370585732dfb33c951296a9e",
+          "content_sha256": "c2f6455f23ed54d1a33f6a0baa153a89469b32adde5943a60eda81909d8866e5",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/PCN/ADM0/geoBoundaries-PCN-ADM0.geojson"
+        },
+        {
+          "file": "PCN-ADM0.metadata.json",
+          "sha256": "12c83b3073f97be7fd06fc7b313e20be548685d207563046cc532f03e93a15e7"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。",
+      "known_gaps": [
+        "没有可用更细开放行政源，仅交付全域/地理参考；不声称完成地方细分。"
+      ]
+    },
+    "CXR": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 1,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "AUS-ADM2-25037944",
+        "boundaryISO": "AUS",
+        "boundaryYear": "2022",
+        "boundaryType": "ADM2",
+        "boundarySource": "Australian Bureau of Statistics",
+        "boundaryCanonical": "Local Government Areas",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//www.abs.gov.au/website-privacy-copyright-and-disclaimer#copyright-and-creative-commons",
+        "boundarySourceURL": "https//www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files/LGA_2022_AUST_GDA94_SHP.zip",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "547",
+        "meanVertices": "6269.0",
+        "minVertices": "17",
+        "maxVertices": "101163",
+        "meanPerimeterLengthKM": "591.5836333611597",
+        "maxPerimeterLengthKM": "8378.607221804292",
+        "minPerimeterLengthKM": "4.393080567464444",
+        "meanAreaSqKM": "14055.018375903514",
+        "minAreaSqKM": "0.7447997236174267",
+        "maxAreaSqKM": "619430.4072286466"
+      },
+      "adm1": null,
+      "source_count": 1,
+      "metadata_count": 547,
+      "count_difference": -546,
+      "adm1_source_count": 0,
+      "adm1_metadata_count": 0,
+      "source_admin_level": "ADM2",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/AUS/ADM2/geoBoundaries-AUS-ADM2.geojson",
+      "pinned_source_sha256": "fdb00a189b49500ed8f8c3656071fd2cd9abeccd7183351295f337497e312eea",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; Australian Bureau of Statistics",
+      "license_evidence": [
+        {
+          "file": "AUS-ADM0.metadata.json",
+          "sha256": "386ec54580d6f4a2a53157b354f9424ca79149fefe21d9d7f4dc39f61ec279b9"
+        },
+        {
+          "file": "AUS-ADM1.geojson.gz",
+          "sha256": "37088f87e23cc4d3a65aedc49eec0e8f8aee9bf7f0df76158ece46ff5494e851",
+          "content_sha256": "86acc9079ddd84bde1a2fce8f4d8778433cb62c29665644e31d3c23792606c5d",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/AUS/ADM1/geoBoundaries-AUS-ADM1.geojson"
+        },
+        {
+          "file": "AUS-ADM1.metadata.json",
+          "sha256": "266de2e73a2ac84809d2ba3dd6a81bec6732aac7c7df0b394b664a514e9ca0a6"
+        },
+        {
+          "file": "AUS-ADM2.geojson.gz",
+          "sha256": "fdb00a189b49500ed8f8c3656071fd2cd9abeccd7183351295f337497e312eea",
+          "content_sha256": "b70870c890477b75abab7fdad3c643d93d10d02d6928407f9eee88bd97ea963f",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/AUS/ADM2/geoBoundaries-AUS-ADM2.geojson"
+        },
+        {
+          "file": "AUS-ADM2.metadata.json",
+          "sha256": "56b182630aac11e96b934a8bb6cfdc5065f0fa89bd087ff0490158a77f80aa24"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。"
+    },
+    "CCK": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 1,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "AUS-ADM2-25037944",
+        "boundaryISO": "AUS",
+        "boundaryYear": "2022",
+        "boundaryType": "ADM2",
+        "boundarySource": "Australian Bureau of Statistics",
+        "boundaryCanonical": "Local Government Areas",
+        "boundaryLicense": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+        "licenseDetail": "",
+        "licenseSource": "https//www.abs.gov.au/website-privacy-copyright-and-disclaimer#copyright-and-creative-commons",
+        "boundarySourceURL": "https//www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files/LGA_2022_AUST_GDA94_SHP.zip",
+        "sourceDataUpdateDate": "Thu Jan 19 07:31:04 2023",
+        "buildDate": "Dec 12, 2023",
+        "admUnitCount": "547",
+        "meanVertices": "6269.0",
+        "minVertices": "17",
+        "maxVertices": "101163",
+        "meanPerimeterLengthKM": "591.5836333611597",
+        "maxPerimeterLengthKM": "8378.607221804292",
+        "minPerimeterLengthKM": "4.393080567464444",
+        "meanAreaSqKM": "14055.018375903514",
+        "minAreaSqKM": "0.7447997236174267",
+        "maxAreaSqKM": "619430.4072286466"
+      },
+      "adm1": null,
+      "source_count": 1,
+      "metadata_count": 547,
+      "count_difference": -546,
+      "adm1_source_count": 0,
+      "adm1_metadata_count": 0,
+      "source_admin_level": "ADM2",
+      "pinned_source_url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/AUS/ADM2/geoBoundaries-AUS-ADM2.geojson",
+      "pinned_source_sha256": "fdb00a189b49500ed8f8c3656071fd2cd9abeccd7183351295f337497e312eea",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0.0005,
+      "attribution": "geoBoundaries / William & Mary geoLab; Australian Bureau of Statistics",
+      "license_evidence": [
+        {
+          "file": "AUS-ADM0.metadata.json",
+          "sha256": "386ec54580d6f4a2a53157b354f9424ca79149fefe21d9d7f4dc39f61ec279b9"
+        },
+        {
+          "file": "AUS-ADM1.geojson.gz",
+          "sha256": "37088f87e23cc4d3a65aedc49eec0e8f8aee9bf7f0df76158ece46ff5494e851",
+          "content_sha256": "86acc9079ddd84bde1a2fce8f4d8778433cb62c29665644e31d3c23792606c5d",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/AUS/ADM1/geoBoundaries-AUS-ADM1.geojson"
+        },
+        {
+          "file": "AUS-ADM1.metadata.json",
+          "sha256": "266de2e73a2ac84809d2ba3dd6a81bec6732aac7c7df0b394b664a514e9ca0a6"
+        },
+        {
+          "file": "AUS-ADM2.geojson.gz",
+          "sha256": "fdb00a189b49500ed8f8c3656071fd2cd9abeccd7183351295f337497e312eea",
+          "content_sha256": "b70870c890477b75abab7fdad3c643d93d10d02d6928407f9eee88bd97ea963f",
+          "url": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09592ced973a3448cf66b6100b741b64c0d/releaseData/gbOpen/AUS/ADM2/geoBoundaries-AUS-ADM2.geojson"
+        },
+        {
+          "file": "AUS-ADM2.metadata.json",
+          "sha256": "56b182630aac11e96b934a8bb6cfdc5065f0fa89bd087ff0490158a77f80aa24"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。"
+    },
+    "CSI": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 1,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "NaturalEarth-5.1.2-CSI",
+        "boundaryYear": "Natural Earth 5.1.2",
+        "boundaryType": "MAP_UNIT",
+        "boundarySource": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+        "boundaryLicense": "Public Domain",
+        "licenseSource": "https://www.naturalearthdata.com/about/terms-of-use/",
+        "admUnitCount": "1"
+      },
+      "adm1": null,
+      "source_count": 1,
+      "metadata_count": 1,
+      "count_difference": 0,
+      "adm1_source_count": 0,
+      "adm1_metadata_count": 0,
+      "source_admin_level": "MAP_UNIT",
+      "pinned_source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson",
+      "pinned_source_sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0,
+      "attribution": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+      "license_evidence": [
+        {
+          "file": "naturalearth-map-units.geojson.gz",
+          "sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+          "content_sha256": "57da82be755f4afccd8f3b14251bb2752f5df1395f47d2d86f817470c4a48862",
+          "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。",
+      "known_gaps": [
+        "没有可用更细开放行政源，仅交付全域/地理参考；不声称完成地方细分。"
+      ]
+    },
+    "ATC": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 1,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "NaturalEarth-5.1.2-ATC",
+        "boundaryYear": "Natural Earth 5.1.2",
+        "boundaryType": "MAP_UNIT",
+        "boundarySource": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+        "boundaryLicense": "Public Domain",
+        "licenseSource": "https://www.naturalearthdata.com/about/terms-of-use/",
+        "admUnitCount": "1"
+      },
+      "adm1": null,
+      "source_count": 1,
+      "metadata_count": 1,
+      "count_difference": 0,
+      "adm1_source_count": 0,
+      "adm1_metadata_count": 0,
+      "source_admin_level": "MAP_UNIT",
+      "pinned_source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson",
+      "pinned_source_sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0,
+      "attribution": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+      "license_evidence": [
+        {
+          "file": "naturalearth-map-units.geojson.gz",
+          "sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+          "content_sha256": "57da82be755f4afccd8f3b14251bb2752f5df1395f47d2d86f817470c4a48862",
+          "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。",
+      "known_gaps": [
+        "没有可用更细开放行政源，仅交付全域/地理参考；不声称完成地方细分。"
+      ]
+    },
+    "UMI": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 9,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "NaturalEarth-5.1.2-UMI",
+        "boundaryYear": "Natural Earth 5.1.2",
+        "boundaryType": "MAP_UNIT",
+        "boundarySource": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+        "boundaryLicense": "Public Domain",
+        "licenseSource": "https://www.naturalearthdata.com/about/terms-of-use/",
+        "admUnitCount": "9"
+      },
+      "adm1": null,
+      "source_count": 9,
+      "metadata_count": 9,
+      "count_difference": 0,
+      "adm1_source_count": 0,
+      "adm1_metadata_count": 0,
+      "source_admin_level": "MAP_UNIT",
+      "pinned_source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson",
+      "pinned_source_sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0,
+      "attribution": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+      "license_evidence": [
+        {
+          "file": "naturalearth-map-units.geojson.gz",
+          "sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+          "content_sha256": "57da82be755f4afccd8f3b14251bb2752f5df1395f47d2d86f817470c4a48862",
+          "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。",
+      "known_gaps": [
+        "没有可用更细开放行政源，仅交付全域/地理参考；不声称完成地方细分。"
+      ]
+    },
+    "CLP": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 1,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "NaturalEarth-5.1.2-CLP",
+        "boundaryYear": "Natural Earth 5.1.2",
+        "boundaryType": "MAP_UNIT",
+        "boundarySource": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+        "boundaryLicense": "Public Domain",
+        "licenseSource": "https://www.naturalearthdata.com/about/terms-of-use/",
+        "admUnitCount": "1"
+      },
+      "adm1": null,
+      "source_count": 1,
+      "metadata_count": 1,
+      "count_difference": 0,
+      "adm1_source_count": 0,
+      "adm1_metadata_count": 0,
+      "source_admin_level": "MAP_UNIT",
+      "pinned_source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson",
+      "pinned_source_sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0,
+      "attribution": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+      "license_evidence": [
+        {
+          "file": "naturalearth-map-units.geojson.gz",
+          "sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+          "content_sha256": "57da82be755f4afccd8f3b14251bb2752f5df1395f47d2d86f817470c4a48862",
+          "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。",
+      "known_gaps": [
+        "没有可用更细开放行政源，仅交付全域/地理参考；不声称完成地方细分。"
+      ]
+    },
+    "ATA": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 1,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "NaturalEarth-5.1.2-ATA",
+        "boundaryYear": "Natural Earth 5.1.2",
+        "boundaryType": "MAP_UNIT",
+        "boundarySource": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+        "boundaryLicense": "Public Domain",
+        "licenseSource": "https://www.naturalearthdata.com/about/terms-of-use/",
+        "admUnitCount": "1"
+      },
+      "adm1": null,
+      "source_count": 1,
+      "metadata_count": 1,
+      "count_difference": 0,
+      "adm1_source_count": 0,
+      "adm1_metadata_count": 0,
+      "source_admin_level": "MAP_UNIT",
+      "pinned_source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson",
+      "pinned_source_sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0,
+      "attribution": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+      "license_evidence": [
+        {
+          "file": "naturalearth-map-units.geojson.gz",
+          "sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+          "content_sha256": "57da82be755f4afccd8f3b14251bb2752f5df1395f47d2d86f817470c4a48862",
+          "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。",
+      "known_gaps": [
+        "没有可用更细开放行政源，仅交付全域/地理参考；不声称完成地方细分。"
+      ]
+    },
+    "SGS": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 1,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "NaturalEarth-5.1.2-SGS",
+        "boundaryYear": "Natural Earth 5.1.2",
+        "boundaryType": "MAP_UNIT",
+        "boundarySource": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+        "boundaryLicense": "Public Domain",
+        "licenseSource": "https://www.naturalearthdata.com/about/terms-of-use/",
+        "admUnitCount": "1"
+      },
+      "adm1": null,
+      "source_count": 1,
+      "metadata_count": 1,
+      "count_difference": 0,
+      "adm1_source_count": 0,
+      "adm1_metadata_count": 0,
+      "source_admin_level": "MAP_UNIT",
+      "pinned_source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson",
+      "pinned_source_sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0,
+      "attribution": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+      "license_evidence": [
+        {
+          "file": "naturalearth-map-units.geojson.gz",
+          "sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+          "content_sha256": "57da82be755f4afccd8f3b14251bb2752f5df1395f47d2d86f817470c4a48862",
+          "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。",
+      "known_gaps": [
+        "没有可用更细开放行政源，仅交付全域/地理参考；不声称完成地方细分。"
+      ]
+    },
+    "ATF": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 1,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "NaturalEarth-5.1.2-ATF",
+        "boundaryYear": "Natural Earth 5.1.2",
+        "boundaryType": "MAP_UNIT",
+        "boundarySource": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+        "boundaryLicense": "Public Domain",
+        "licenseSource": "https://www.naturalearthdata.com/about/terms-of-use/",
+        "admUnitCount": "1"
+      },
+      "adm1": null,
+      "source_count": 1,
+      "metadata_count": 1,
+      "count_difference": 0,
+      "adm1_source_count": 0,
+      "adm1_metadata_count": 0,
+      "source_admin_level": "MAP_UNIT",
+      "pinned_source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson",
+      "pinned_source_sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0,
+      "attribution": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+      "license_evidence": [
+        {
+          "file": "naturalearth-map-units.geojson.gz",
+          "sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+          "content_sha256": "57da82be755f4afccd8f3b14251bb2752f5df1395f47d2d86f817470c4a48862",
+          "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。",
+      "known_gaps": [
+        "没有可用更细开放行政源，仅交付全域/地理参考；不声称完成地方细分。"
+      ]
+    },
+    "HMD": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 1,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "NaturalEarth-5.1.2-HMD",
+        "boundaryYear": "Natural Earth 5.1.2",
+        "boundaryType": "MAP_UNIT",
+        "boundarySource": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+        "boundaryLicense": "Public Domain",
+        "licenseSource": "https://www.naturalearthdata.com/about/terms-of-use/",
+        "admUnitCount": "1"
+      },
+      "adm1": null,
+      "source_count": 1,
+      "metadata_count": 1,
+      "count_difference": 0,
+      "adm1_source_count": 0,
+      "adm1_metadata_count": 0,
+      "source_admin_level": "MAP_UNIT",
+      "pinned_source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson",
+      "pinned_source_sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0,
+      "attribution": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+      "license_evidence": [
+        {
+          "file": "naturalearth-map-units.geojson.gz",
+          "sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+          "content_sha256": "57da82be755f4afccd8f3b14251bb2752f5df1395f47d2d86f817470c4a48862",
+          "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。",
+      "known_gaps": [
+        "没有可用更细开放行政源，仅交付全域/地理参考；不声称完成地方细分。"
+      ]
+    },
+    "BVT": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 1,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "NaturalEarth-5.1.2-BVT",
+        "boundaryYear": "Natural Earth 5.1.2",
+        "boundaryType": "MAP_UNIT",
+        "boundarySource": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+        "boundaryLicense": "Public Domain",
+        "licenseSource": "https://www.naturalearthdata.com/about/terms-of-use/",
+        "admUnitCount": "1"
+      },
+      "adm1": null,
+      "source_count": 1,
+      "metadata_count": 1,
+      "count_difference": 0,
+      "adm1_source_count": 0,
+      "adm1_metadata_count": 0,
+      "source_admin_level": "MAP_UNIT",
+      "pinned_source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson",
+      "pinned_source_sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0,
+      "attribution": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+      "license_evidence": [
+        {
+          "file": "naturalearth-map-units.geojson.gz",
+          "sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+          "content_sha256": "57da82be755f4afccd8f3b14251bb2752f5df1395f47d2d86f817470c4a48862",
+          "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。",
+      "known_gaps": [
+        "没有可用更细开放行政源，仅交付全域/地理参考；不声称完成地方细分。"
+      ]
+    },
+    "IOT": {
+      "coordinate_normalization": "Clamp only sub-1e-9-degree numerical overflow at WGS84 extrema",
+      "original_source_count": 1,
+      "excluded_source_ids": [],
+      "boundary": {
+        "boundaryID": "NaturalEarth-5.1.2-IOT",
+        "boundaryYear": "Natural Earth 5.1.2",
+        "boundaryType": "MAP_UNIT",
+        "boundarySource": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+        "boundaryLicense": "Public Domain",
+        "licenseSource": "https://www.naturalearthdata.com/about/terms-of-use/",
+        "admUnitCount": "1"
+      },
+      "adm1": null,
+      "source_count": 1,
+      "metadata_count": 1,
+      "count_difference": 0,
+      "adm1_source_count": 0,
+      "adm1_metadata_count": 0,
+      "source_admin_level": "MAP_UNIT",
+      "pinned_source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson",
+      "pinned_source_sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+      "source_coverage_valid": true,
+      "geometry_tolerance_degrees": 0,
+      "attribution": "Natural Earth / Tom Patterson / Nathaniel Vaughn Kelso and contributors",
+      "license_evidence": [
+        {
+          "file": "naturalearth-map-units.geojson.gz",
+          "sha256": "93b4e67414e1b5cb8cfa258b2547fe4a00fe90397b5e97b23fa972825480a106",
+          "content_sha256": "57da82be755f4afccd8f3b14251bb2752f5df1395f47d2d86f817470c4a48862",
+          "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_0_map_units.geojson"
+        }
+      ],
+      "license_policy": "每国按原源许可交付。OSM来源同时保留ODbL声明；原档案CC BY-SA标记不删改。特殊国家开放许可与变更署名分别记录。",
+      "known_gaps": [
+        "没有可用更细开放行政源，仅交付全域/地理参考；不声称完成地方细分。"
+      ]
+    }
+  },
+  "database_license": "按国保留：ODbL、CC BY/CC BY-SA、Public Domain/CC0，分国保留原许可及署名。",
+  "database_license_url": "大洋洲与偏远岛屿分块说明.md",
+  "attribution": "geoBoundaries / William & Mary geoLab; © OpenStreetMap contributors; 各国来源作者详见大洋洲与偏远岛屿分块说明及分国数据元信息。",
+  "editing_count": 1229,
+  "cross_source_overlaps": [
+    {
+      "countries": [
+        "AUS",
+        "NFK"
+      ],
+      "area_square_degrees": 0.0031308352946538406
+    }
+  ],
+  "geometry_policy": "覆盖有效时统一简化共享边界，容差0.0005度；若组件/孔洞或有效性受损则整国保留原几何。历史字段默认待考证，不按现代界裁切历史面。"
+}

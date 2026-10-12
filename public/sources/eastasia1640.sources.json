@@ -1,0 +1,958 @@
+{
+  "year": 1640,
+  "liaodong_revision": 1,
+  "liaodong_patch": {
+    "type": "FeatureCollection",
+    "year": 1640,
+    "precision": "schematic",
+    "notes": "史料核实城池归属；连续前线与补面外缘为概略推定，不是测绘边界。下游鸭绿江的现代河岸/海岸仅作地理参照，白头山上游旧参考线保留。",
+    "sources": [
+      "https://zh.wikisource.org/zh-hans/清實錄/太宗文皇帝實錄/卷之五十一",
+      "https://zh.wikisource.org/zh-hans/明史/卷271",
+      "https://www.dpm.org.cn/lemmas/241599.html",
+      "https://db.history.go.kr/diachronic/level.do?levelId=hn_041_0030_0040",
+      "https://db.history.go.kr/diachronic/level.do?levelId=oksr_013_0010_0010_0030"
+    ],
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "liaodong-review",
+          "role": "review_envelope",
+          "notes": "辽东腹地、半岛及辽西前线局部修补范围，向东北接入既有后金参考面；不是清国界。"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                119.7,
+                40.6
+              ],
+              [
+                120.05,
+                41.4
+              ],
+              [
+                120.7,
+                42.2
+              ],
+              [
+                123.0,
+                44.5
+              ],
+              [
+                128.0,
+                43.6
+              ],
+              [
+                128.0,
+                39.0
+              ],
+              [
+                124.0,
+                38.4
+              ],
+              [
+                120.8,
+                38.4
+              ],
+              [
+                119.7,
+                40.6
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "ningjin-ming-corridor",
+          "role": "ming_frontier_envelope",
+          "notes": "保留锦州、松山、杏山、塔山、宁远至山海关的明军沿海走廊；义州、大凌河、广宁在外。只限定局部原明参考面，不扩展关内范围。"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                119.4,
+                39.6
+              ],
+              [
+                120.9,
+                39.6
+              ],
+              [
+                121.18,
+                40.55
+              ],
+              [
+                121.27,
+                40.96
+              ],
+              [
+                121.27,
+                41.12
+              ],
+              [
+                121.16,
+                41.26
+              ],
+              [
+                120.92,
+                41.33
+              ],
+              [
+                120.63,
+                41.2
+              ],
+              [
+                120.34,
+                40.95
+              ],
+              [
+                120.02,
+                40.57
+              ],
+              [
+                119.6,
+                40.35
+              ],
+              [
+                119.4,
+                39.6
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": "lower-yalu-review",
+          "role": "river_alignment_window",
+          "notes": "校正鸭绿江下游粗轮廓把丹东涂成朝鲜的错位，并在局部修补范围内补相邻朝鲜岸漏面；现代朝鲜半岛联合陆地轮廓作河岸海岸定位，不导入南北政治分界，岛屿和1640河道未精修。"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                123.8,
+                39.5
+              ],
+              [
+                126.0,
+                39.5
+              ],
+              [
+                126.0,
+                42.1
+              ],
+              [
+                123.8,
+                42.1
+              ],
+              [
+                123.8,
+                39.5
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "regions": [
+    {
+      "id": "state-ming",
+      "name": "明 · 疆域参考",
+      "source": "ChinaX 1626 Ming/Jin；data/political1626.geojson；data/liaodong1640.patch.geojson；https://zh.wikisource.org/zh-hans/清實錄/太宗文皇帝實錄/卷之五十一；https://zh.wikisource.org/zh-hans/明史/卷271；https://www.dpm.org.cn/lemmas/241599.html",
+      "source_year": 1626,
+      "correction_year": 1640,
+      "notes": "主体沿用1626参考；辽西按1640保留锦州、松山、杏山、塔山、宁远至山海关的明军走廊，义州、大凌河、广宁改归清。连续前线为概略推定，非测绘边界。内地起义和其他边疆仍待细化。"
+    },
+    {
+      "id": "state-qing",
+      "name": "清 · 入关前",
+      "source": "ChinaX 1626 Ming/Jin；data/political1626.geojson；data/liaodong1640.patch.geojson；https://zh.wikisource.org/zh-hans/清實錄/太宗文皇帝實錄/卷之五十一；https://zh.wikisource.org/zh-hans/明史/卷271；https://www.dpm.org.cn/lemmas/241599.html",
+      "source_year": 1626,
+      "correction_year": 1640,
+      "notes": "主体继承存疑的1626后金参考；辽东腹地、半岛、鸭绿江北岸及义州等地按1640补清控制面，旅顺1633、皮岛1637失陷。沿海/河岸借现代陆地定位，不代表均匀驻治或精确1640岸线。漠南盟属及其他边疆待细分。"
+    },
+    {
+      "id": "state-joseon",
+      "name": "朝鲜王国",
+      "source": "https://github.com/aourednik/historical-basemaps；world_1650.geojson；data/liaodong1640.patch.geojson；https://db.history.go.kr/ancient/level.do?levelId=jo_024r_0010_0020_0170",
+      "source_year": 1650,
+      "correction_year": 1640,
+      "notes": "主体为1650近邻概略半岛；校正鸭绿江下游把丹东误涂朝鲜的错位，并补上局部两岸拼接中的朝鲜岸漏面。现代河岸/海岸仅作地理参照。白头山上游旧参考线未精修，不套用1712勘界结论。1640仍由朝鲜王国治理，宗藩不等于清直接控制。"
+    },
+    {
+      "id": "state-japan",
+      "name": "日本 · 德川幕府",
+      "source": "https://github.com/aourednik/historical-basemaps；world_1600.geojson；https://www.archives.go.jp/exhibition/digital/shogunnoarchives/contents/53.html",
+      "source_year": 1600,
+      "correction_year": null,
+      "notes": "仅复用1600主要岛屿轮廓；1640政治属性改为德川幕府，不沿用战国分割。诸藩边界尚未导入；松前辖域待细化；不整岛吞并北海道或琉球。"
+    },
+    {
+      "id": "state-ryukyu",
+      "name": "琉球王国",
+      "source": "Natural Earth岛屿海岸参考；https://okimu.jp/museum/permanent/general/",
+      "source_year": null,
+      "correction_year": null,
+      "notes": "1640仍保留王国体制，与明保持册封朝贡关系，同时受萨摩控制。以岛屿定位，不将宗藩关系画作明朝直接领土。"
+    },
+    {
+      "id": "area-amami",
+      "name": "奄美·萨摩直辖",
+      "source": "Natural Earth岛屿海岸参考；https://www.city.amami.lg.jp/bunka/kyoiku/bunka/kyodoshi/setsume.html",
+      "source_year": null,
+      "correction_year": null,
+      "notes": "1609后奄美归萨摩；岛屿范围仅为地理参照，不能归入1640琉球王国直辖。"
+    },
+    {
+      "id": "area-ainu",
+      "name": "阿伊努诸群体 · 概略",
+      "source": "https://github.com/aourednik/historical-basemaps；world_1600.geojson",
+      "source_year": 1600,
+      "correction_year": null,
+      "notes": "1600文化地理区域参考，不代表单一国家或统一政治边界；松前与阿伊努接触区域待细分。"
+    },
+    {
+      "id": "area-taiwan",
+      "name": "台湾 · 原住民族地区",
+      "source": "Natural Earth现代海岸参考；https://www.th.gov.tw/CP/104/176/",
+      "source_year": null,
+      "correction_year": null,
+      "notes": "岛屿轮廓只是空间底座，各原住民族领地未复原。荷兰、西班牙控制据点另示，不按南北纬度把全岛一刀切，也不标为1640明朝直辖。"
+    },
+    {
+      "id": "area-inner-asia",
+      "name": "蒙古—中亚诸势力 · 待细分",
+      "source": "https://github.com/aourednik/historical-basemaps；world_1650.geojson",
+      "source_year": 1650,
+      "correction_year": null,
+      "notes": "源图仅给中亚诸汗国宏观区域，不能当作1640蒙古国疆界。喀尔喀、卫拉特、漠南盟属及叶尔羌分别以注记保留；部界待复原。"
+    },
+    {
+      "id": "area-tibet",
+      "name": "藏地诸势力 · 待细分",
+      "source": "https://github.com/aourednik/historical-basemaps；world_1600.geojson",
+      "source_year": 1600,
+      "correction_year": null,
+      "notes": "文化地理范围，不能当作明朝内地，也不提前使用1642之后的政治重组。"
+    },
+    {
+      "id": "state-russia",
+      "name": "沙皇俄国 · 1640",
+      "source": "https://map.runivers.ru/api/resource/5481/geojson；Runivers/俄罗斯科学院历史GIS/NextGIS",
+      "source_year": 1640,
+      "correction_year": null,
+      "notes": "资源断面1640—1641；西伯利亚推进是渐进的据点与贡赋网络，不能理解成边缘内均匀驻治。仅纳入原状态1主领土；其他状态另留原始文件，未合并成直接统治区。EPSG3857转换至WGS84。原始属性保存在data/russia1640.geojson。"
+    },
+    {
+      "id": "sea-arakan",
+      "name": "阿拉干王国",
+      "source": "https://github.com/aourednik/historical-basemaps；https://82nd-and-fifth.metmuseum.org/toah/ht/09/sse.html",
+      "source_year": 1650,
+      "correction_year": null,
+      "notes": "沿海王国独立标示，不并入缅甸核心。 几何为1650近邻概略断面，不是精确1640边界。"
+    },
+    {
+      "id": "sea-toungoo",
+      "name": "缅甸·复兴东吁",
+      "source": "https://github.com/aourednik/historical-basemaps；https://82nd-and-fifth.metmuseum.org/toah/ht/09/sse.html",
+      "source_year": 1650,
+      "correction_year": null,
+      "notes": "源图Ava改标复兴东吁；1640不是16世纪东吁最大疆域。 几何为1650近邻概略断面，不是精确1640边界。"
+    },
+    {
+      "id": "sea-lanna",
+      "name": "兰纳·缅甸关系待细化",
+      "source": "https://github.com/aourednik/historical-basemaps；https://82nd-and-fifth.metmuseum.org/toah/ht/09/sse.html",
+      "source_year": 1650,
+      "correction_year": null,
+      "notes": "地方统治与对缅甸关系待校核；不沿用源ABBREVN=Ayutthaya。 几何为1650近邻概略断面，不是精确1640边界。"
+    },
+    {
+      "id": "sea-shan",
+      "name": "掸邦诸势力",
+      "source": "https://github.com/aourednik/historical-basemaps；https://82nd-and-fifth.metmuseum.org/toah/ht/09/sse.html",
+      "source_year": 1650,
+      "correction_year": null,
+      "notes": "诸邦与缅甸的臣属关系不等于统一直接控制。 几何为1650近邻概略断面，不是精确1640边界。"
+    },
+    {
+      "id": "sea-ayutthaya",
+      "name": "暹罗·阿瑜陀耶王国",
+      "source": "https://github.com/aourednik/historical-basemaps；https://82nd-and-fifth.metmuseum.org/toah/ht/09/sse.html",
+      "source_year": 1650,
+      "correction_year": null,
+      "notes": "参考1650范围；附属地区、南部马来诸国边界仍待精修。 几何为1650近邻概略断面，不是精确1640边界。"
+    },
+    {
+      "id": "sea-lanxang",
+      "name": "澜沧王国",
+      "source": "https://github.com/aourednik/historical-basemaps；https://82nd-and-fifth.metmuseum.org/toah/ht/09/sse.html",
+      "source_year": 1650,
+      "correction_year": null,
+      "notes": "1650源名称泛称老挝诸国，1640标为澜沧；不提前使用1707后分裂状态。 几何为1650近邻概略断面，不是精确1640边界。"
+    },
+    {
+      "id": "sea-cambodia",
+      "name": "柬埔寨王国",
+      "source": "https://github.com/aourednik/historical-basemaps；https://82nd-and-fifth.metmuseum.org/toah/ht/09/sse.html",
+      "source_year": 1650,
+      "correction_year": null,
+      "notes": "保留历史参考面，不以现代柬埔寨外轮廓替代；湄公河下游控制待精修。 几何为1650近邻概略断面，不是精确1640边界。"
+    },
+    {
+      "id": "sea-vietnam",
+      "name": "大越及邻接地区·郑阮范围待分",
+      "source": "https://github.com/aourednik/historical-basemaps；https://82nd-and-fifth.metmuseum.org/toah/ht/09/sse.html",
+      "source_year": 1650,
+      "correction_year": null,
+      "notes": "源图未区分郑阮、占城及山地，故不把整面视为黎朝实际控制；政权以点分别表示。 几何为1650近邻概略断面，不是精确1640边界。"
+    },
+    {
+      "id": "sea-malay",
+      "name": "马来半岛诸国·待细分",
+      "source": "Natural Earth现代海岸，仅作空间底座；https://sejarah-nusantara.anri.go.id/hartakarunmaincategory/1/",
+      "source_year": null,
+      "correction_year": null,
+      "notes": "柔佛、吉打、霹雳、北大年分别点示；底座不代表现代马来西亚国家或统一政权。"
+    },
+    {
+      "id": "sea-archipelago",
+      "name": "南洋群岛诸国·待细分",
+      "source": "Natural Earth现代海岸，仅作空间底座；https://sejarah-nusantara.anri.go.id/hartakarunmaincategory/1/",
+      "source_year": null,
+      "correction_year": null,
+      "notes": "群岛包含众多地方政权；未采用1650把大范围整体标为Dutch East Indies的属性。不把全爪哇、婆罗洲、苏拉威西、摩鹿加归VOC。"
+    },
+    {
+      "id": "sea-philippines",
+      "name": "菲律宾群岛·殖民与本地势力",
+      "source": "Natural Earth现代海岸，仅作空间底座；https://82nd-and-fifth.metmuseum.org/toah/ht/09/sse.html",
+      "source_year": null,
+      "correction_year": null,
+      "notes": "现代岛屿底座不是西班牙完整控制范围；马尼拉、苏禄、马京达瑙分别标记，内陆与其余本地势力待补。"
+    }
+  ],
+  "points": [
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "近似参考",
+      "notes": "荷兰东印度公司据点；点位为近似定位，不表示整片南台湾由荷兰均匀控制。",
+      "id": "fort-zeelandia",
+      "name": "大员·热兰遮堡（荷兰）",
+      "coordinates": [
+        120.16,
+        23.0
+      ],
+      "owner": "voc",
+      "controller": "voc",
+      "kind": "政治／历史注记",
+      "source": "https://www.ntm.gov.tw/News_Card_Content.aspx?dsn=146559&n=5567&s=146557"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "近似参考",
+      "notes": "西班牙北台湾据点，1626—1642存在；不使用1642之后荷兰接收北台湾的状态。",
+      "id": "fort-san-salvador",
+      "name": "鸡笼·圣萨尔瓦多堡（西班牙）",
+      "coordinates": [
+        121.76,
+        25.15
+      ],
+      "owner": "spain",
+      "controller": "spain",
+      "kind": "政治／历史注记",
+      "source": "https://www.th.gov.tw/Epaper_Content/241/8189/"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "近似参考",
+      "notes": "故宫记载1640清军攻锦州，祖大寿守城。前线点位不等于精确战区面。",
+      "id": "front-jinzhou",
+      "name": "锦州·明清前线",
+      "coordinates": [
+        121.13,
+        41.1
+      ],
+      "owner": "ming",
+      "controller": "ming",
+      "kind": "政治／历史注记",
+      "source": "https://www.dpm.org.cn/lemmas/241599.html"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "近似参考",
+      "notes": "1640非现代蒙古国，也尚未按1691之后并入清。地理注记，非首都或闭合部界。",
+      "id": "mongol-khalkha",
+      "name": "喀尔喀诸部",
+      "coordinates": [
+        108,
+        48
+      ],
+      "owner": "unknown",
+      "controller": "unknown",
+      "kind": "政治／历史注记",
+      "source": "https://nm.moc.gov.mn/"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "近似参考",
+      "notes": "1640喀尔喀—卫拉特会盟背景；不采用晚17世纪准噶尔扩张疆界。地理注记，内部诸部待细分。",
+      "id": "mongol-oirat",
+      "name": "卫拉特诸部",
+      "coordinates": [
+        88,
+        47
+      ],
+      "owner": "unknown",
+      "controller": "unknown",
+      "kind": "政治／历史注记",
+      "source": "https://doi.org/10.1017/CBO9781107337794.002"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "近似参考",
+      "notes": "1630年代漠南蒙古纳入清体系的概略注记；盟旗和直接驻治须区别，未绘出统一精确边界。",
+      "id": "mongol-south",
+      "name": "漠南蒙古诸部·清盟属",
+      "coordinates": [
+        113,
+        43
+      ],
+      "owner": "qing",
+      "controller": "qing",
+      "kind": "政治／历史注记",
+      "source": "https://nm.moc.gov.mn/"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "名义后黎朝，北部郑氏掌权；郑阮交战线未画面。",
+      "id": "sea-trinh",
+      "name": "大越·黎朝／郑氏（升龙）",
+      "coordinates": [
+        105.85,
+        21.03
+      ],
+      "owner": "trinh",
+      "controller": "trinh",
+      "kind": "政治／历史注记",
+      "source": "https://countrystudies.us/vietnam/12.htm",
+      "theater": "southeast_asia",
+      "map_label": "黎朝／郑氏"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "阮氏南部政权定位；点位为顺化区域现代参照，不宣称1640府邸精确城址。",
+      "id": "sea-nguyen",
+      "name": "大越·阮氏（顺化附近）",
+      "coordinates": [
+        107.58,
+        16.46
+      ],
+      "owner": "nguyen",
+      "controller": "nguyen",
+      "kind": "政治／历史注记",
+      "source": "https://countrystudies.us/vietnam/12.htm",
+      "theater": "southeast_asia",
+      "map_label": "阮氏"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "占城未在1471后立即消失；采用潘郎附近定位，1640疆界未复原。",
+      "id": "sea-champa",
+      "name": "占城·残存政权",
+      "coordinates": [
+        108.99,
+        11.57
+      ],
+      "owner": "champa",
+      "controller": "champa",
+      "kind": "政治／历史注记",
+      "source": "https://www.renincorp.org/other-publications/handbooks/chambook.pdf",
+      "theater": "southeast_asia",
+      "map_label": "占城"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "苏门答腊北端政权；不提前使用后世印尼国界。",
+      "id": "sea-aceh",
+      "name": "亚齐苏丹国",
+      "coordinates": [
+        95.32,
+        5.55
+      ],
+      "owner": "aceh",
+      "controller": "aceh",
+      "kind": "政治／历史注记",
+      "source": "https://sejarah-nusantara.anri.go.id/hartakarunmaincategory/1/",
+      "theater": "southeast_asia",
+      "map_label": "亚齐"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "柔佛河区域定位，王都迁移与海上属地待复原；非精确1640王宫位置。",
+      "id": "sea-johor",
+      "name": "柔佛苏丹国",
+      "coordinates": [
+        103.91,
+        1.56
+      ],
+      "owner": "johor",
+      "controller": "johor",
+      "kind": "政治／历史注记",
+      "source": "https://www.nhb.gov.sg/acm/-/media/nms2017/documents/aonw-resources/nms-aonw-booklet-low-res.pdf",
+      "theater": "southeast_asia",
+      "map_label": "柔佛"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "马来半岛地方政权定位；1640属地与亚齐关系待逐项核验。",
+      "id": "sea-kedah",
+      "name": "吉打苏丹国",
+      "coordinates": [
+        100.37,
+        6.12
+      ],
+      "owner": "kedah",
+      "controller": "kedah",
+      "kind": "政治／历史注记",
+      "source": "https://sejarah-nusantara.anri.go.id/hartakarunmaincategory/1/",
+      "theater": "southeast_asia",
+      "map_label": "吉打"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "霹雳河流域政权定位；非现代州界或精确1640王都。",
+      "id": "sea-perak",
+      "name": "霹雳苏丹国",
+      "coordinates": [
+        100.94,
+        4.77
+      ],
+      "owner": "perak",
+      "controller": "perak",
+      "kind": "政治／历史注记",
+      "source": "https://sejarah-nusantara.anri.go.id/hartakarunmaincategory/1/",
+      "theater": "southeast_asia",
+      "map_label": "霹雳"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "半岛东岸地方政权定位；与暹罗关系和疆界待精修。",
+      "id": "sea-patani",
+      "name": "北大年苏丹国",
+      "coordinates": [
+        101.25,
+        6.87
+      ],
+      "owner": "patani",
+      "controller": "patani",
+      "kind": "政治／历史注记",
+      "source": "https://sejarah-nusantara.anri.go.id/hartakarunmaincategory/1/",
+      "theater": "southeast_asia",
+      "map_label": "北大年"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "文莱湾定位；不把现代小国轮廓或整个婆罗洲作为1640疆域。",
+      "id": "sea-brunei",
+      "name": "文莱苏丹国",
+      "coordinates": [
+        114.94,
+        4.89
+      ],
+      "owner": "brunei",
+      "controller": "brunei",
+      "kind": "政治／历史注记",
+      "source": "https://fass.ubd.edu.bn/staff/docs/BAH/revival.pdf",
+      "theater": "southeast_asia",
+      "map_label": "文莱"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "苏禄群岛政权定位；北婆罗洲主张和与文莱关系未绘范围。",
+      "id": "sea-sulu",
+      "name": "苏禄苏丹国",
+      "coordinates": [
+        121.0,
+        6.05
+      ],
+      "owner": "sulu",
+      "controller": "sulu",
+      "kind": "政治／历史注记",
+      "source": "https://www.cortsfoundation.org/images/PDF/2014_HK16_1700_Eng.pdf",
+      "theater": "southeast_asia",
+      "map_label": "苏禄"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "棉兰老岛本地苏丹国；不标整岛为西班牙殖民地。",
+      "id": "sea-maguindanao",
+      "name": "马京达瑙苏丹国",
+      "coordinates": [
+        124.24,
+        7.22
+      ],
+      "owner": "maguindanao",
+      "controller": "maguindanao",
+      "kind": "政治／历史注记",
+      "source": "https://www.maguindanaodelsur.gov.ph/gov/images/profile/briefhistorymds.pdf",
+      "theater": "southeast_asia",
+      "map_label": "马京达瑙"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "爪哇西端地方政权；不并入VOC巴达维亚。",
+      "id": "sea-banten",
+      "name": "万丹苏丹国",
+      "coordinates": [
+        106.16,
+        -6.04
+      ],
+      "owner": "banten",
+      "controller": "banten",
+      "kind": "政治／历史注记",
+      "source": "https://sejarah-nusantara.anri.go.id/hartakarunmaincategory/1/",
+      "theater": "southeast_asia",
+      "map_label": "万丹"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "爪哇中部苏丹国，苏丹阿贡时期；1640影响范围尚未画面。",
+      "id": "sea-mataram",
+      "name": "马打兰苏丹国",
+      "coordinates": [
+        110.4,
+        -7.82
+      ],
+      "owner": "mataram",
+      "controller": "mataram",
+      "kind": "政治／历史注记",
+      "source": "https://mei.nus.edu.sg/publication/insight-55-the-spread-of-islam-in-southeast-asia-c-1275-c-1625/",
+      "theater": "southeast_asia",
+      "map_label": "马打兰"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "苏拉威西南部政权；不提前使用1667后VOC支配。",
+      "id": "sea-gowa",
+      "name": "戈瓦—塔洛·望加锡",
+      "coordinates": [
+        119.45,
+        -5.2
+      ],
+      "owner": "gowa",
+      "controller": "gowa",
+      "kind": "政治／历史注记",
+      "source": "https://sejarah-nusantara.anri.go.id/hartakarunmaincategory/1/",
+      "theater": "southeast_asia",
+      "map_label": "戈瓦—塔洛"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "摩鹿加本地政权定位；与VOC关系不等于全群岛归荷。",
+      "id": "sea-ternate",
+      "name": "特尔纳特苏丹国",
+      "coordinates": [
+        127.37,
+        0.79
+      ],
+      "owner": "ternate",
+      "controller": "ternate",
+      "kind": "政治／历史注记",
+      "source": "https://sejarah-nusantara.anri.go.id/hartakarunmaincategory/1/",
+      "theater": "southeast_asia",
+      "map_label": "特尔纳特"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "摩鹿加本地政权定位；与西班牙关系和属地待细化。",
+      "id": "sea-tidore",
+      "name": "蒂多雷苏丹国",
+      "coordinates": [
+        127.43,
+        0.68
+      ],
+      "owner": "tidore",
+      "controller": "tidore",
+      "kind": "政治／历史注记",
+      "source": "https://sejarah-nusantara.anri.go.id/hartakarunmaincategory/1/",
+      "theater": "southeast_asia",
+      "map_label": "蒂多雷"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "巴厘岛政权定位；不把全部岛屿或后世分裂王国合并。",
+      "id": "sea-gelgel",
+      "name": "巴厘·格尔格尔",
+      "coordinates": [
+        115.4,
+        -8.58
+      ],
+      "owner": "gelgel",
+      "controller": "gelgel",
+      "kind": "政治／历史注记",
+      "source": "https://sejarah-nusantara.anri.go.id/hartakarunmaincategory/1/",
+      "theater": "southeast_asia",
+      "map_label": "格尔格尔"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "帝汶空间注记；本地政权及葡萄牙商贸传教范围待核验。",
+      "id": "sea-timor",
+      "name": "帝汶诸部·待细分",
+      "coordinates": [
+        125.2,
+        -9.1
+      ],
+      "owner": "unknown",
+      "controller": "unknown",
+      "kind": "政治／历史注记",
+      "source": "https://sejarah-nusantara.anri.go.id/hartakarunmaincategory/1/",
+      "theater": "southeast_asia",
+      "map_label": "帝汶诸部"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "西班牙殖民中心点示，未把整个菲律宾涂成西班牙控制。",
+      "id": "sea-manila",
+      "name": "马尼拉·西班牙据点",
+      "coordinates": [
+        120.98,
+        14.6
+      ],
+      "owner": "spain",
+      "controller": "spain",
+      "kind": "政治／历史注记",
+      "source": "https://82nd-and-fifth.metmuseum.org/toah/ht/09/sse.html",
+      "theater": "southeast_asia",
+      "map_label": "马尼拉·西班牙"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "1619后VOC据点；不等于整个爪哇归荷。",
+      "id": "sea-batavia",
+      "name": "巴达维亚·VOC据点",
+      "coordinates": [
+        106.81,
+        -6.13
+      ],
+      "owner": "voc",
+      "controller": "voc",
+      "kind": "政治／历史注记",
+      "source": "https://www.nationaalarchief.nl/beleven/onderwijs/bronnenbox/coen-bouwt-fort-batavia-1619",
+      "theater": "southeast_asia",
+      "map_label": "巴达维亚·VOC"
+    },
+    {
+      "province": "",
+      "prefecture": "",
+      "county": "",
+      "command": "",
+      "wei": "",
+      "suo": "",
+      "status": "待考证",
+      "confidence": "政权定位；疆界未复原",
+      "notes": "1640仍为葡萄牙据点；1641荷兰攻占，不能提前套1650状态。",
+      "id": "sea-malacca",
+      "name": "马六甲·葡萄牙据点",
+      "coordinates": [
+        102.25,
+        2.2
+      ],
+      "owner": "portugal",
+      "controller": "portugal",
+      "kind": "政治／历史注记",
+      "source": "https://whc.unesco.org/document/105988",
+      "theater": "southeast_asia",
+      "map_label": "马六甲·葡萄牙"
+    }
+  ],
+  "limitations": "政权按1640标注；辽东/辽西已按1640局部修补，连续前线概略推定。其他明清范围沿用1626，朝鲜主体1650/下游鸭绿江校正，日/阿伊努1600、俄国1640；台湾殖民据点单列；蒙古部界待细分。"
+}
