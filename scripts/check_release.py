@@ -17,6 +17,7 @@ for pack in manifest['packs']:
 assert set(p.resolve() for p in (SITE/'data/maps').glob('*.gz'))==expected,'Unreferenced map data'
 for p in ROOT.rglob('*'):
     if '.git' in p.parts or not p.is_file():continue
+    if p.parent==ROOT/'docs/screenshots':continue
     assert p.suffix.lower() not in {'.png','.jpg','.jpeg','.webp','.heic','.gif','.tif','.tiff','.zip'},p
     assert p.stat().st_size<100*1024*1024,p
 assert sum(p.stat().st_size for p in SITE.rglob('*') if p.is_file())<1024*1024*1024,'Pages site too large'

@@ -1,0 +1,110 @@
+{
+  "regions": [
+    {
+      "id": "northeast-foreign-prk-82179303B10108678790042-remainder",
+      "name": "Wiwon · 边界补块",
+      "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PRK/ADM2/geoBoundaries-PRK-ADM2.geojson"
+    },
+    {
+      "id": "northeast-foreign-prk-82179303B10804861284408-remainder",
+      "name": "Usi · 边界补块",
+      "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PRK/ADM2/geoBoundaries-PRK-ADM2.geojson"
+    },
+    {
+      "id": "northeast-foreign-prk-82179303B19451054742324-remainder",
+      "name": "Kyongwon · 边界补块",
+      "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PRK/ADM2/geoBoundaries-PRK-ADM2.geojson"
+    },
+    {
+      "id": "northeast-foreign-prk-82179303B2030756807209-remainder",
+      "name": "Uiju · 边界补块",
+      "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PRK/ADM2/geoBoundaries-PRK-ADM2.geojson"
+    },
+    {
+      "id": "northeast-foreign-prk-82179303B23816821783286-remainder",
+      "name": "Musan · 边界补块",
+      "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PRK/ADM2/geoBoundaries-PRK-ADM2.geojson"
+    },
+    {
+      "id": "northeast-foreign-prk-82179303B23970649452661-remainder",
+      "name": "Changsong · 边界补块",
+      "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PRK/ADM2/geoBoundaries-PRK-ADM2.geojson"
+    },
+    {
+      "id": "northeast-foreign-prk-82179303B33326321250637-remainder",
+      "name": "Samsu · 边界补块",
+      "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PRK/ADM2/geoBoundaries-PRK-ADM2.geojson"
+    },
+    {
+      "id": "northeast-foreign-prk-82179303B38572973441712-remainder",
+      "name": "Kim Jong Suk · 边界补块",
+      "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PRK/ADM2/geoBoundaries-PRK-ADM2.geojson"
+    },
+    {
+      "id": "northeast-foreign-prk-82179303B48679015064508-remainder",
+      "name": "Pyokdong · 边界补块",
+      "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PRK/ADM2/geoBoundaries-PRK-ADM2.geojson"
+    },
+    {
+      "id": "northeast-foreign-prk-82179303B57298285068990-remainder",
+      "name": "Kim Hyong Jik · 边界补块",
+      "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PRK/ADM2/geoBoundaries-PRK-ADM2.geojson"
+    },
+    {
+      "id": "northeast-foreign-prk-82179303B62276356715792-remainder",
+      "name": "Hoeryong City · 边界补块",
+      "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PRK/ADM2/geoBoundaries-PRK-ADM2.geojson"
+    },
+    {
+      "id": "northeast-foreign-prk-82179303B65076017972610-remainder",
+      "name": "Sinuiju City · 边界补块",
+      "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PRK/ADM2/geoBoundaries-PRK-ADM2.geojson"
+    },
+    {
+      "id": "northeast-foreign-prk-82179303B68159150924260-remainder",
+      "name": "Chosan · 边界补块",
+      "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PRK/ADM2/geoBoundaries-PRK-ADM2.geojson"
+    },
+    {
+      "id": "northeast-foreign-prk-82179303B70197071761439-remainder",
+      "name": "Onsong · 边界补块",
+      "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PRK/ADM2/geoBoundaries-PRK-ADM2.geojson"
+    },
+    {
+      "id": "northeast-foreign-prk-82179303B78642437827574-remainder",
+      "name": "Junggang · 边界补块",
+      "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PRK/ADM2/geoBoundaries-PRK-ADM2.geojson"
+    },
+    {
+      "id": "northeast-foreign-prk-82179303B80718033581165-remainder",
+      "name": "Sakju · 边界补块",
+      "source": "https://github.com/wmgeolab/geoBoundaries/raw/9469f09/releaseData/gbOpen/PRK/ADM2/geoBoundaries-PRK-ADM2.geojson"
+    },
+    {
+      "id": "northeast-prk-province-3916807B5646338397672",
+      "name": "Jagang · 省界补块",
+      "source": "data/foreign-cache/korea/PRK-ADM1.geojson"
+    },
+    {
+      "id": "northeast-prk-province-3916807B66197610677259",
+      "name": "North Hamgyong · 省界补块",
+      "source": "data/foreign-cache/korea/PRK-ADM1.geojson"
+    },
+    {
+      "id": "northeast-prk-province-3916807B80386364257881",
+      "name": "North Pyongan · 省界补块",
+      "source": "data/foreign-cache/korea/PRK-ADM1.geojson"
+    },
+    {
+      "id": "northeast-prk-province-3916807B2118550659035",
+      "name": "Ryanggang · 省界补块",
+      "source": "data/foreign-cache/korea/PRK-ADM1.geojson"
+    },
+    {
+      "id": "northeast-lake-khanka",
+      "name": "兴凯湖 · 水面",
+      "source": "Natural Earth 1:10m lakes / public domain; https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-lakes/"
+    }
+  ],
+  "lake_source_sha256": "2d036f53dedec578001c5c30c2959ee7d4eebc1306900fa4367c49929ec8f2d9"
+}

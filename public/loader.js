@@ -8,7 +8,7 @@
   return new Response(stream).json();
  }
  try{
-  if(location.protocol==='file:')throw Error('请通过本地网页服务或在线体验地址打开');
+  if(location.protocol==='file:')throw Error('请通过本地网页服务打开');
   if(typeof DecompressionStream==='undefined')throw Error('请使用支持解压缩的新版 Chrome、Edge、Firefox 或 Safari');
   const response=await fetch('data/maps/manifest.json');
   if(!response.ok)throw Error('无法读取地图目录');
@@ -19,7 +19,7 @@
    status.textContent='正在加载地图 · '+pack.title;
    const data=pack.header?await readChunk(pack.header):[];
    if(pack.header)complete++;
-   const rows=pack.shape==='regions'?data.regions=[]:data;
+   const rows=pack.shape==='regions'?data.regions=[]:pack.shape==='features'?data.features=[]:data;
    // Bound both network concurrency and decompressed buffers; preserve source order.
    for(let i=0;i<pack.chunks.length;i+=4){
     const batch=await Promise.all(pack.chunks.slice(i,i+4).map(async file=>{

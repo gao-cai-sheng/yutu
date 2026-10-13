@@ -3,6 +3,65 @@
   "encoding": "gzip-json",
   "packs": [
     {
+      "global": "MODERN_COUNTRIES",
+      "title": "现代国界参考",
+      "chunks": [
+        {
+          "path": "data/maps/modern-countries-000.json.gz",
+          "bytes": 3033267,
+          "sha256": "6d864d19ae96853185f5e339b530f11d76d0953763821c5ced4675ff3bf9620a"
+        },
+        {
+          "path": "data/maps/modern-countries-001.json.gz",
+          "bytes": 403933,
+          "sha256": "7ec33d94b9190ee11f381b7db2e8d57affbc6d525eaf5b39b05841c372566fc0"
+        }
+      ],
+      "shape": "features",
+      "header": {
+        "path": "data/maps/modern-countries-header.json.gz",
+        "bytes": 22,
+        "sha256": "c14bfcf1832a180081ce0abd2061eeb1dc780074f0c2cdfd923be805f2407368"
+      },
+      "count": 258
+    },
+    {
+      "global": "NORTHEAST_GAPS",
+      "title": "外东北及中朝边界补块",
+      "chunks": [
+        {
+          "path": "data/maps/northeast-gaps-000.json.gz",
+          "bytes": 61466,
+          "sha256": "c7b50a98b514f3e9eddfaa323b10fc43a4812ea361fc377ccb130990902f588d"
+        }
+      ],
+      "shape": "regions",
+      "header": {
+        "path": "data/maps/northeast-gaps-header.json.gz",
+        "bytes": 34,
+        "sha256": "c3b75c4361d81711ab645c4fee931a89651fd9beabd905b3a8a43b7c458070b7"
+      },
+      "count": 21
+    },
+    {
+      "global": "COUNTY_REMAINDERS",
+      "title": "县块缺口补齐",
+      "chunks": [
+        {
+          "path": "data/maps/county-remainders-000.json.gz",
+          "bytes": 454032,
+          "sha256": "9b90edc78e770f663b35f5109f54d7b104150535cf46cbc0881b1c3cbdb7326b"
+        }
+      ],
+      "shape": "regions",
+      "header": {
+        "path": "data/maps/county-remainders-header.json.gz",
+        "bytes": 34,
+        "sha256": "413bea7b9f78b81415f448dbb9e4c4e6ff85ebb995906c41e9769f06835f74af"
+      },
+      "count": 201
+    },
+    {
       "global": "BASEMAP",
       "title": "地理底图",
       "chunks": [
@@ -44,17 +103,17 @@
         },
         {
           "path": "data/maps/county-sample-002.json.gz",
-          "bytes": 1518281,
-          "sha256": "e50eb0b71b5732779dd13a6aed20e63207e7ccbbc8e85a301b3cebf63e5997a6"
+          "bytes": 1535086,
+          "sha256": "b196b4532af40958891a1cd9a7a095e3bf42d6a5174b66785f777ed44653748c"
         }
       ],
       "shape": "regions",
       "header": {
         "path": "data/maps/county-sample-header.json.gz",
-        "bytes": 369,
-        "sha256": "e940a64b9a85d965bc27414ad1d5bad8f3ba1b3d3aeeee67822ed0687ad989b0"
+        "bytes": 385,
+        "sha256": "78cae3eee3c3d371a012eb8609a4617d23fe69851de20483932a4cf8bf460112"
       },
-      "count": 2840
+      "count": 2874
     },
     {
       "global": "EASTASIA1640",
@@ -72,17 +131,17 @@
         },
         {
           "path": "data/maps/eastasia1640-002.json.gz",
-          "bytes": 1388730,
-          "sha256": "f04a8fa9a61640f37a2f5839ce918c869701d4c5ea0d79a326009eac2d2c7c37"
+          "bytes": 1393032,
+          "sha256": "698a8c14d4cad5546de19d1df0af761e7d20b1f91d5f7cb030ad64fac0e59cae"
         }
       ],
       "shape": "regions",
       "header": {
         "path": "data/maps/eastasia1640-header.json.gz",
-        "bytes": 275321,
-        "sha256": "ca474a110405c9f8b33249fe0cc01d3518bf7dc1fc009e5047307417c97d651b"
+        "bytes": 275345,
+        "sha256": "3c922bb2dbabc09a5af00a464ac52fc0027c5a0ed017d7a73cfd539efcc9677d"
       },
-      "count": 2681
+      "count": 2697
     },
     {
       "global": "EASTASIA_SUBDIVISIONS",

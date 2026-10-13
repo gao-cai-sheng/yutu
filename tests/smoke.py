@@ -8,7 +8,7 @@ class QuietHandler(http.server.SimpleHTTPRequestHandler):
     def log_message(self,*args):pass
 
 def main():
-    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--url');args=parser.parse_args()
+    parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--url');parser.add_argument('--screenshots',action='store_true');args=parser.parse_args()
     server=None
     if args.url:url=args.url
     else:
@@ -19,9 +19,17 @@ def main():
             browser=p.chromium.launch(headless=True);context=browser.new_context(viewport={'width':1520,'height':1000});page=context.new_page();errors=[]
             page.on('pageerror',lambda e:errors.append(str(e)));page.set_default_timeout(30000)
             page.goto(url,timeout=180000);page.wait_for_function('typeof window.atlas !== "undefined"',timeout=900000)
-            counts=page.evaluate('({regions:state.regions.length,points:state.points.length})');assert counts==dict(regions=52799,points=54),counts
+            counts=page.evaluate('({regions:state.regions.length,points:state.points.length})');assert counts==dict(regions=53037,points=54),counts
             assert not page.locator('#saveState').inner_text().startswith('正在加载')
-            page.locator('#oceaniaCountryView').select_option('AUS');assert page.locator('path[data-country="AUS"]').count()==545
+            if args.screenshots:
+                folder=ROOT/'docs/screenshots';folder.mkdir(parents=True,exist_ok=True)
+                page.evaluate("document.querySelector('#toast').style.display='none'");page.screenshot(path=str(folder/'east-asia.png'))
+                page.evaluate('()=>{showCountyBlocks=true;setView([1080,693,32,28]);render()}')
+                page.evaluate("atlas.select(['county-469030-ming'])");page.screenshot(path=str(folder/'county-editor.png'))
+
+            page.locator('#continentNav').select_option('oceania');destination=page.locator('#destinationNav option').evaluate_all('(els)=>els.find(e=>e.textContent.startsWith("澳大利亚")).value');page.locator('#destinationNav').select_option(destination);assert page.locator('path[data-country="AUS"]').count()==545
+            if args.screenshots:
+                page.evaluate("selected.clear();render();document.querySelector('#toast').style.display='none'");page.screenshot(path=str(ROOT/'docs/screenshots/australia.png'))
             ident=page.evaluate("state.regions.find(r=>r.source_region_code==='AUS').id")
             page.evaluate("id=>{atlas.applyCommands([{op:'set',ids:[id],values:{historical_name:'体验烟雾检查',owner:'ming'}}])}",ident)
             assert page.evaluate('id=>atlas.getObject(id).historical_name',ident)=='体验烟雾检查'

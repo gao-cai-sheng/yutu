@@ -68,7 +68,48 @@ if(typeof OCEANIA_SUBDIVISIONS!=='undefined'){
  EASTASIA1640.oceania_blocks_revision=OCEANIA_SUBDIVISIONS.revision;
  if(OCEANIA_SUBDIVISIONS.revision>0)EASTASIA1640.oceania_blocks_source_metadata=oceaniaSourceMetadata();
 }
+if(typeof COUNTY_REMAINDERS!=='undefined'){
+ const ids=new Set(EASTASIA1640.regions.map(r=>r.id));
+ EASTASIA1640.regions.push(...COUNTY_REMAINDERS.regions.filter(r=>!ids.has(r.id)));
+ EASTASIA1640.county_remainders_revision=COUNTY_REMAINDERS.revision;
+}
+if(typeof NORTHEAST_GAPS!=='undefined'){
+ const ids=new Set(EASTASIA1640.regions.map(r=>r.id));EASTASIA1640.regions.push(...NORTHEAST_GAPS.regions.filter(r=>!ids.has(r.id)));EASTASIA1640.northeast_gaps_revision=NORTHEAST_GAPS.revision;
+}
 ATLAS_SAMPLES.push(COUNTY_SAMPLE,EASTASIA1640);
+function migrateNortheastGaps(s){return typeof NORTHEAST_GAPS!=='undefined'&&migrateSubdivisionPack(s,NORTHEAST_GAPS,'northeast_gaps_revision')}
+
+let showModernCountries=true;
+try{showModernCountries=localStorage.getItem(KEY+'-modern-countries')!=='false'}catch(e){}
+let showReferenceAreas=false;
+try{showReferenceAreas=localStorage.getItem(KEY+'-reference-areas')==='true'}catch(e){}
+function isReferenceArea(r){return ['historical_area','cultural_zone','historical_reference'].includes(r.unit_type)}
+function migrateCountyRemainders(s){
+ if(typeof COUNTY_REMAINDERS==='undefined')return false;
+ const previous=s.county_remainders_revision||0;
+ const pack={...COUNTY_REMAINDERS,regions:COUNTY_REMAINDERS.regions.filter(r=>(r.introduced_revision||1)>previous)};
+ return migrateSubdivisionPack(s,pack,'county_remainders_revision');
+}
+function migrateDirectCounties(s){
+ if(s.sample_id!=='county-blocks'||(s.direct_counties_revision||0)>=1)return false;
+ const codes=new Set([419001,429004,429005,429006,429021,441900,442000,620200,659001,659002,659003,659004,659005,659006,659007,659008,659009,659010]);
+ const ids=new Set([...s.regions,...s.points].map(o=>o.id));
+ s.regions.push(...COUNTY_SAMPLE.regions.filter(r=>codes.has(r.adcode)&&!ids.has(r.id)).map(cloneRegion));
+ s.direct_counties_revision=1;return true;
+}
+
+let recentFactions=[];
+try{const recent=JSON.parse(localStorage.getItem(KEY+'-recent-factions')||'[]');if(Array.isArray(recent))recentFactions=[...new Set(recent.filter(id=>typeof id==='string'))]}catch(e){console.warn('最近使用势力未加载',e)}
+function useFaction(id){
+ recentFactions=[id,...recentFactions.filter(previous=>previous!==id)].slice(0,200);
+ try{localStorage.setItem(KEY+'-recent-factions',JSON.stringify(recentFactions))}catch(e){console.warn('最近使用势力未保存',e)}
+}
+function sortedFactions(){
+ const rank=new Map(recentFactions.map((id,index)=>[id,index]));
+ return [...state.factions].sort((a,b)=>(rank.get(a.id)??Infinity)-(rank.get(b.id)??Infinity));
+}
+let spacePan=false,suppressMapClick=false;
+function updatePanCursor(){ $('#map').classList.toggle('pan-ready',spacePan||tool==='pan');$('#map').classList.toggle('panning',drag?.kind==='pan') }
 let pathCache=new WeakMap();
 const boundsCache=new WeakMap();
 let panRenderTimer=0;
@@ -234,6 +275,17 @@ function southeastSourceMetadata(){
  const p=SOUTHEAST_SUBDIVISIONS;
  return {revision:p.revision,database_license:p.database_license||'',database_license_url:p.database_license_url||'',attribution:p.attribution||'',sources:p.source_metadata||{}};
 }
+function migrateHainanBlocks(s){
+ if(!['eastasia1640','county-blocks'].includes(s.sample_id)||(s.hainan_blocks_revision||0)>=1)return false;
+ const source=s.sample_id==='eastasia1640'?EASTASIA1640:COUNTY_SAMPLE;
+ const regions=source.regions.filter(r=>r.modern_province==='海南省'&&(r.adcode===460400||r.adcode>469000&&r.adcode<470000));
+ if(regions.length!==16)return false;
+ if(s.sample_id==='eastasia1640')return migrateSubdivisionPack(s,{regions,revision:1},'hainan_blocks_revision');
+ const ids=new Set([...s.regions,...s.points].map(o=>o.id));
+ s.regions.push(...regions.filter(r=>!ids.has(r.id)).map(cloneRegion));
+ s.hainan_blocks_revision=1;
+ return true;
+}
 function migrateSubdivisionPack(s,pack,revisionKey){
  if(s.sample_id!=='eastasia1640'||(s[revisionKey]||0)>=pack.revision)return false;
  const existing=new Map(s.regions.map(r=>[r.id,r])),ids=new Set([...s.regions,...s.points].map(o=>o.id)),base=sampleObjects.get('eastasia1640'),factions=new Set(s.factions.map(f=>f.id));
@@ -267,6 +319,7 @@ function decodeSaved(s){
  if(s.format!=='atlas-workspace')return s;
  const base=ATLAS_SAMPLES.find(b=>b.sample_id===s.sample);if(!base)throw Error('缺少原始样本');
  const restored=cloneScenario(base);Object.assign(restored,s.meta);
+ restored.northeast_gaps_revision=s.meta.northeast_gaps_revision||0;restored.direct_counties_revision=s.meta.direct_counties_revision||0;restored.hainan_blocks_revision=s.meta.hainan_blocks_revision||0;restored.county_remainders_revision=s.meta.county_remainders_revision||0;
  restored.southeast_revision=s.meta.southeast_revision||0;restored.liaodong_revision=s.meta.liaodong_revision||0;restored.foreign_blocks_revision=s.meta.foreign_blocks_revision||0;restored.southeast_blocks_revision=s.meta.southeast_blocks_revision||0;restored.mongol_blocks_revision=s.meta.mongol_blocks_revision||0;if(Object.hasOwn(s.meta,'southasia_blocks_revision'))restored.southasia_blocks_revision=s.meta.southasia_blocks_revision;else delete restored.southasia_blocks_revision;if(Object.hasOwn(s.meta,'centralasia_blocks_revision'))restored.centralasia_blocks_revision=s.meta.centralasia_blocks_revision;else delete restored.centralasia_blocks_revision;if(Object.hasOwn(s.meta,'middleeast_blocks_revision'))restored.middleeast_blocks_revision=s.meta.middleeast_blocks_revision;else delete restored.middleeast_blocks_revision;if(Object.hasOwn(s.meta,'europe_blocks_revision'))restored.europe_blocks_revision=s.meta.europe_blocks_revision;else delete restored.europe_blocks_revision;if(Object.hasOwn(s.meta,'africa_blocks_revision'))restored.africa_blocks_revision=s.meta.africa_blocks_revision;else delete restored.africa_blocks_revision;if(Object.hasOwn(s.meta,'americas_blocks_revision'))restored.americas_blocks_revision=s.meta.americas_blocks_revision;else delete restored.americas_blocks_revision;if(Object.hasOwn(s.meta,'oceania_blocks_revision'))restored.oceania_blocks_revision=s.meta.oceania_blocks_revision;else delete restored.oceania_blocks_revision;if(Object.hasOwn(s.meta,'russia_blocks_revision'))restored.russia_blocks_revision=s.meta.russia_blocks_revision;else delete restored.russia_blocks_revision;
  const prior=restored.liaodong_revision<(base.liaodong_revision||0)?new Map((base.liaodong_migration?.groups||[]).flatMap(g=>g.before.map(r=>[r.id,r]))):new Map();
  const byId=new Map(base.regions.map(r=>[r.id,r]));
@@ -339,6 +392,10 @@ try{if(state.sample_id==='eastasia1640'&&(state.liaodong_revision||0)<(EASTASIA1
  if(old&&!localStorage.getItem(KEY+'-pre-liaodong-backup'))localStorage.setItem(KEY+'-pre-liaodong-backup',old);
  const repaired=cloneScenario(state);if(migrateLiaodong(repaired)){validate(repaired);state=repaired;repairedLiaodong=true}
 }}catch(e){console.warn('辽东修订未完成，原稿保留',e)}
+const introducedNortheastGaps=migrateNortheastGaps(state);
+const introducedDirectCounties=migrateDirectCounties(state);
+const introducedCountyRemainders=migrateCountyRemainders(state);
+const introducedHainanBlocks=migrateHainanBlocks(state);
 const introducedForeignBlocks=migrateForeignBlocks(state);
 const introducedSoutheastBlocks=migrateSoutheastBlocks(state);
 const introducedMongolBlocks=migrateMongolBlocks(state);
@@ -372,7 +429,7 @@ function persist(){try{
  localStorage.setItem(KEY,JSON.stringify(saved));$('#saveState').textContent='已自动保存 · '+new Date().toLocaleTimeString('zh-CN');return true;
  }catch(e){$('#saveState').textContent='自动保存失败，请导出';toast('浏览器存储不足，请导出剧本保存');return false}}
 
-function mutate(fn){const before=cloneScenario(state);try{fn();migrateForeignBlocks(state);migrateSoutheastBlocks(state);migrateMongolBlocks(state);migrateSouthasiaBlocks(state);migrateCentralasiaBlocks(state);migrateRussiaBlocks(state);migrateMiddleeastBlocks(state);migrateEuropeBlocks(state);migrateAfricaBlocks(state);migrateAmericasBlocks(state);migrateOceaniaBlocks(state);migrateNames(state);validate(state);history.push(before);if(history.length>8)history.shift();future=[];persist();render()}catch(e){state=before;render();toast(e.message)}}
+function mutate(fn){const before=cloneScenario(state);try{fn();migrateNortheastGaps(state);migrateDirectCounties(state);migrateCountyRemainders(state);migrateHainanBlocks(state);migrateForeignBlocks(state);migrateSoutheastBlocks(state);migrateMongolBlocks(state);migrateSouthasiaBlocks(state);migrateCentralasiaBlocks(state);migrateRussiaBlocks(state);migrateMiddleeastBlocks(state);migrateEuropeBlocks(state);migrateAfricaBlocks(state);migrateAmericasBlocks(state);migrateOceaniaBlocks(state);migrateNames(state);validate(state);history.push(before);if(history.length>8)history.shift();future=[];persist();render()}catch(e){state=before;render();toast(e.message)}}
 function node(tag,attrs={},text){const n=document.createElementNS(NS,tag);for(const[k,v]of Object.entries(attrs))n.setAttribute(k,v);if(text!==undefined)n.textContent=text;return n}
 function pathGeometry(g){if(pathCache.has(g))return pathCache.get(g);const ps=g.type==='Polygon'?[g.coordinates]:g.coordinates;const result=ps.map(p=>p.map(r=>'M'+r.map(c=>project(c).join(',')).join('L')+'Z').join('')).join('');pathCache.set(g,result);return result}
 function objects(){return [...state.regions,...state.points]}function chosen(){return objects().filter(o=>selected.has(o.id))}function faction(id){return state.factions.find(f=>f.id===id)}function uid(prefix){return prefix+'-'+crypto.randomUUID()}
@@ -385,9 +442,15 @@ function regionLabelVisible(r,coords,labelSize){
  const bounds=coords.reduce((b,c)=>[Math.min(b[0],c[0]),Math.min(b[1],c[1]),Math.max(b[2],c[0]),Math.max(b[3],c[1])],[Infinity,Infinity,-Infinity,-Infinity]);
  return (bounds[2]-bounds[0])*10>=objectName(r,labelMode).length*labelSize*.65&&(bounds[3]-bounds[1])*10>=labelSize*1.4;
 }
-function positionBanner(){const bar=$('.mapbar');$('#datasetBanner').style.top=Math.max(100,bar.offsetTop+bar.offsetHeight+8)+'px'}
-window.addEventListener('resize',positionBanner);
-function render(){ $('#labelMode').value=labelMode;$('#showCounties').checked=showCountyBlocks;$('#southeastCountry').value=southeastCountry;$('#northArea').value=northArea;$('#southasiaCountryView').value=southasiaCountry;$('#centralasiaCountryView').value=centralasiaCountry;$('#russiaAreaView').value=russiaArea;$('#middleeastCountryView').value=middleeastCountry;$('#europeCountryView').value=europeCountry;$('#africaCountryView').value=africaCountry;$('#americasCountryView').value=americasCountry;$('#oceaniaCountryView').value=oceaniaCountry;$('#map').classList.toggle('county-overview',view[2]>300&&!southeastCountry&&!southasiaCountry&&!centralasiaCountry&&!russiaArea&&!middleeastCountry&&!middleeastOverview&&!europeCountry&&!europeOverview&&!africaCountry&&!africaOverview&&!americasCountry&&!americasOverview&&!oceaniaCountry&&!oceaniaOverview&&!northArea);const labelSize=view[2]/($('#map').clientWidth||700)*12;activeFaction=faction(activeFaction)?activeFaction:state.factions[0]?.id;$('#mode').value=mode;$('#title').value=state.title;$('#year').value=state.year;$('.map-caption').firstChild.textContent=state.year+' · 开局工作稿 ';$('#datasetBanner').textContent=state.sample_id==='eastasia1640'?'1640 · 东亚、蒙古／女真、东南亚、南亚、中亚、俄罗斯、中东、欧洲、非洲、美洲与大洋洲分块 · 历史范围与现代定位分别编辑':state.sample_id==='county-blocks'?'现代县级空间分块 · 不代表明代县界或县名 · 历史属性独立编辑':'边界参考：'+(state.source_year||'自定义')+'年 · 卫所为文献定位，1640存续待核验';$('#sample').value=state.sample_id||'ming1626';$('#undo').disabled=!history.length;$('#redo').disabled=!future.length;$('#finish').disabled=tool!=='draw'||draft.length<3;document.querySelectorAll('[data-tool]').forEach(b=>b.classList.toggle('active',b.dataset.tool===tool));$('#toolHint').textContent=({paint:'选势力 → 点击或拖过分块即标记 · 一笔可撤销',brush:'拖过分块连续选择 · Shift 取消选择',select:'点击分块 → 选势力 → 划归 · Shift 多选',draw:'逐点绘制 · Enter 完成 · Esc 取消',vertex:'选择地区后拖动白色边界节点',point:'点击地图放置据点'})[tool];$('#factions').replaceChildren();for(const f of state.factions){const b=document.createElement('button');b.className='faction'+(activeFaction===f.id?' active':'');const c=document.createElement('i');c.className='swatch';c.style.background=f.color;b.append(c,document.createTextNode(f.name));b.onclick=()=>{activeFaction=f.id;render()};$('#factions').append(b)}$('#regions').replaceChildren();const focusedCountry=southasiaCountry||centralasiaCountry||middleeastCountry||europeCountry||africaCountry||americasCountry.split(':')[0]||oceaniaCountry||(russiaArea?'RUS':''),displayRegions=focusedCountry?[...state.regions.filter(r=>r.source_region_code!==focusedCountry),...state.regions.filter(r=>r.source_region_code===focusedCountry)]:state.regions;for(const r of displayRegions){if(!regionInView(r.geometry)){pathCache.delete(r.geometry);continue}if(state.sample_id==='eastasia1640'&&r.unit_type==='modern_county'&&!showCountyBlocks)continue;$('#regions').append(node('path',{d:pathGeometry(r.geometry),fill:faction(r[mode])?.color||'#aaa','fill-rule':'evenodd',class:'region'+(r.unit_type==='modern_county'?' county-block':r.unit_type==='cultural_zone'?' cultural-zone':' political-area')+(r.source_geometry_scope==='administrative_atoll_including_water'?' marine-block':'')+(selected.has(r.id)?' selected':''),'data-id':r.id,'data-theater':r.theater||'china','data-country':r.source_region_code||''}));if(r.unit_type==='modern_county'&&!selected.has(r.id)&&view[2]>=25)continue;const ring=r.geometry.type==='Polygon'?r.geometry.coordinates[0]:r.geometry.coordinates[0][0];const coords=ring.slice(0,-1);const [x,y]=project(coords.reduce((a,c)=>[a[0]+c[0]/coords.length,a[1]+c[1]/coords.length],[0,0]));if(regionLabelVisible(r,coords,labelSize)){$('#regions').append(node('text',{x:r.center?project(r.center)[0]:x,y:r.center?project(r.center)[1]:y,'text-anchor':'middle',style:'font-size:'+labelSize+'px;stroke-width:'+(labelSize/6)+'px'},objectName(r,labelMode)))}}$('#points').replaceChildren();for(const p of state.points){const[x,y]=project(p.coordinates);$('#points').append(node('circle',{cx:x,cy:y,r:labelSize/3,fill:selected.has(p.id)?'#f7f0cf':faction(p[mode])?.color||'#274f41',stroke:selected.has(p.id)?'#274f41':'#fff','stroke-width':labelSize/10,'data-id':p.id}));if(view[2]<160||selected.has(p.id)||(p.id.startsWith('mongol-')&&(!p.id.startsWith('mongol-detail-')||(view[2]<400&&northArea!=='amur')))||(p.id.startsWith('jurchen-')&&view[2]<400)||(p.theater==='southeast_asia'&&view[2]<650))$('#points').append(node('text',{x:x+labelSize/2,y:y+labelSize/4,style:'font-size:'+labelSize+'px;stroke-width:'+(labelSize/6)+'px'},objectName(p,labelMode)))}$('#ref').replaceChildren();if(state.reference){const r=state.reference,[w,s,e,n]=r.bounds,[x,y]=project([w,n]);$('#ref').append(node('image',{href:r.url,x,y,width:(e-w)*10,height:(n-s)*10,opacity:r.opacity,preserveAspectRatio:'none','pointer-events':'none'}))}$('#handles').replaceChildren();if(tool==='vertex'&&selected.size===1){const r=state.regions.find(r=>selected.has(r.id));if(r){const ps=r.geometry.type==='Polygon'?[r.geometry.coordinates]:r.geometry.coordinates;ps.forEach((p,pi)=>p.forEach((ring,ri)=>ring.slice(0,-1).forEach((c,vi)=>{const[x,y]=project(c);$('#handles').append(node('circle',{cx:x,cy:y,r:view[2]/180,class:'handle','data-region':r.id,'data-poly':pi,'data-ring':ri,'data-vertex':vi}))})))}}updateDraft();$('#count').textContent=state.regions.length+' 地区 · 已选 '+selected.size+' · '+state.points.length+' 据点';renderInspector();renderList();positionBanner()}
+function render(){ renderModernCountries();updatePanCursor();$('#showReferenceAreas').checked=showReferenceAreas;$('#labelMode').value=labelMode;$('#showCounties').checked=showCountyBlocks;$('#southeastCountry').value=southeastCountry;$('#northArea').value=northArea;$('#southasiaCountryView').value=southasiaCountry;$('#centralasiaCountryView').value=centralasiaCountry;$('#russiaAreaView').value=russiaArea;$('#middleeastCountryView').value=middleeastCountry;$('#europeCountryView').value=europeCountry;$('#africaCountryView').value=africaCountry;$('#americasCountryView').value=americasCountry;$('#oceaniaCountryView').value=oceaniaCountry;$('#map').classList.toggle('county-overview',view[2]>300&&!southeastCountry&&!southasiaCountry&&!centralasiaCountry&&!russiaArea&&!middleeastCountry&&!middleeastOverview&&!europeCountry&&!europeOverview&&!africaCountry&&!africaOverview&&!americasCountry&&!americasOverview&&!oceaniaCountry&&!oceaniaOverview&&!northArea);const labelSize=view[2]/($('#map').clientWidth||700)*12;activeFaction=faction(activeFaction)?activeFaction:state.factions[0]?.id;$('#mode').value=mode;$('#title').value=state.title;$('#year').value=state.year;$('.map-caption').firstChild.textContent=state.year+' · 开局工作稿 ';$('#sample').value=state.sample_id||'ming1626';$('#undo').disabled=!history.length;$('#redo').disabled=!future.length;$('#finish').hidden=tool!=='draw';$('#finish').disabled=tool!=='draw'||draft.length<3;document.querySelectorAll('[data-tool]').forEach(b=>b.classList.toggle('active',b.dataset.tool===tool));$('#toolHint').textContent=({paint:'选势力 → 点击或拖过分块即标记 · 一笔可撤销',eraser:'点击或拖过分块 → 当前着色属性改为待定 · 一笔可撤销',brush:'拖过分块连续选择 · Shift 取消选择',select:'点击分块 → 选势力 → 划归 · Shift 多选',draw:'逐点绘制 · Enter 完成 · Esc 取消',vertex:'选择地区后拖动白色边界节点',point:'点击地图放置据点',pan:'拖动任意位置平移地图 · 空格可临时拖动'})[tool];$('#factions').replaceChildren();for(const f of sortedFactions()){
+ const row=document.createElement('div');row.className='faction'+(activeFaction===f.id?' active':'');row.dataset.factionId=f.id;
+ const swatch=document.createElement('label');swatch.className='swatch';swatch.style.background=f.color;swatch.title='修改「'+f.name+'」颜色';
+ const color=document.createElement('input');color.type='color';color.value=f.color;color.setAttribute('aria-label','修改「'+f.name+'」颜色');
+ color.onchange=()=>{if(color.value===faction(f.id)?.color)return;useFaction(f.id);mutate(()=>{faction(f.id).color=color.value});toast('「'+f.name+'」颜色已更新')};
+ swatch.append(color);
+ const name=document.createElement('button');name.className='faction-name';name.textContent=f.name;name.onclick=()=>{activeFaction=f.id;useFaction(f.id);render()};
+ row.append(swatch,name);$('#factions').append(row);
+ }$('#regions').replaceChildren();const focusedCountry=southasiaCountry||centralasiaCountry||middleeastCountry||europeCountry||africaCountry||americasCountry.split(':')[0]||oceaniaCountry||(russiaArea?'RUS':''),displayRegions=focusedCountry?[...state.regions.filter(r=>r.source_region_code!==focusedCountry),...state.regions.filter(r=>r.source_region_code===focusedCountry)]:state.regions;for(const r of [...displayRegions.filter(isReferenceArea),...displayRegions.filter(r=>!isReferenceArea(r))]){if(isReferenceArea(r)&&!showReferenceAreas)continue;if(!regionInView(r.geometry)){pathCache.delete(r.geometry);continue}if(state.sample_id==='eastasia1640'&&r.unit_type==='modern_county'&&!showCountyBlocks)continue;$('#regions').append(node('path',{d:pathGeometry(r.geometry),fill:faction(r[mode])?.color||'#aaa','fill-rule':'evenodd',class:'region'+(r.unit_type==='modern_county'?' county-block':r.unit_type==='cultural_zone'?' cultural-zone':' political-area')+(r.source_geometry_scope==='administrative_atoll_including_water'?' marine-block':'')+(selected.has(r.id)?' selected':''),'pointer-events':isReferenceArea(r)?'none':'auto','data-id':r.id,'data-theater':r.theater||'china','data-country':r.source_region_code||''}));if(r.unit_type==='modern_county'&&!selected.has(r.id)&&view[2]>=25)continue;const ring=r.geometry.type==='Polygon'?r.geometry.coordinates[0]:r.geometry.coordinates[0][0];const coords=ring.slice(0,-1);const [x,y]=project(coords.reduce((a,c)=>[a[0]+c[0]/coords.length,a[1]+c[1]/coords.length],[0,0]));if(regionLabelVisible(r,coords,labelSize)){$('#regions').append(node('text',{x:r.center?project(r.center)[0]:x,y:r.center?project(r.center)[1]:y,'text-anchor':'middle',style:'font-size:'+labelSize+'px;stroke-width:'+(labelSize/6)+'px'},objectName(r,labelMode)))}}$('#points').replaceChildren();for(const p of state.points){const referencePoint=['部族范围注记','历史地域注记','历史范围注记'].includes(p.kind);if(referencePoint&&!showReferenceAreas)continue;const[x,y]=project(p.coordinates);$('#points').append(node('circle',{cx:x,cy:y,r:labelSize/3,fill:selected.has(p.id)?'#f7f0cf':faction(p[mode])?.color||'#274f41',stroke:selected.has(p.id)?'#274f41':'#fff','stroke-width':labelSize/10,'pointer-events':referencePoint?'none':'auto','data-id':p.id}));if(view[2]<160||selected.has(p.id)||(p.id.startsWith('mongol-')&&(!p.id.startsWith('mongol-detail-')||(view[2]<400&&northArea!=='amur')))||(p.id.startsWith('jurchen-')&&view[2]<400)||(p.theater==='southeast_asia'&&view[2]<650))$('#points').append(node('text',{x:x+labelSize/2,y:y+labelSize/4,style:'font-size:'+labelSize+'px;stroke-width:'+(labelSize/6)+'px'},objectName(p,labelMode)))}$('#ref').replaceChildren();if(state.reference){const r=state.reference,[w,s,e,n]=r.bounds,[x,y]=project([w,n]);$('#ref').append(node('image',{href:r.url,x,y,width:(e-w)*10,height:(n-s)*10,opacity:r.opacity,preserveAspectRatio:'none','pointer-events':'none'}))}$('#handles').replaceChildren();if(tool==='vertex'&&selected.size===1){const r=state.regions.find(r=>selected.has(r.id));if(r){const ps=r.geometry.type==='Polygon'?[r.geometry.coordinates]:r.geometry.coordinates;ps.forEach((p,pi)=>p.forEach((ring,ri)=>ring.slice(0,-1).forEach((c,vi)=>{const[x,y]=project(c);$('#handles').append(node('circle',{cx:x,cy:y,r:view[2]/180,class:'handle','data-region':r.id,'data-poly':pi,'data-ring':ri,'data-vertex':vi}))})))}}updateDraft();$('#count').textContent=state.regions.length+' 地区 · 已选 '+selected.size+' · '+state.points.length+' 据点';renderInspector();renderList()}
 function renderInspector(){
  const list=chosen(),o=list[0],multiple=list.length>1;
  $('#inspector').hidden=!o;$('#empty').hidden=!!o;
@@ -415,35 +478,40 @@ $('#inspector').onsubmit=e=>{
  mutate(()=>{for(const o of chosen()){applyNameValues(o,values);for(const k of ['owner','controller'])if(values[k])setAffiliation(o,k,values[k])}});toast('开局属性已保存');
 };
 $('#search').oninput=renderList;
+$('#showReferenceAreas').onchange=e=>{showReferenceAreas=e.target.checked;try{localStorage.setItem(KEY+'-reference-areas',String(showReferenceAreas))}catch(error){}render()};
+
 $('#labelMode').onchange=e=>{labelMode=e.target.value;try{localStorage.setItem(KEY+'-label-mode',labelMode)}catch(error){toast('地名显示已切换，偏好未能保存')}render()};
-$('#delete').onclick=()=>{mutate(()=>{state.regions=state.regions.filter(o=>!selected.has(o.id));state.points=state.points.filter(o=>!selected.has(o.id));selected.clear()})};$('#assign').onclick=()=>{if(!selected.size)return toast('先选择一个或多个地区');mutate(()=>chosen().forEach(o=>setAffiliation(o,mode,activeFaction)));toast('已划归 '+faction(activeFaction).name)};
+$('#delete').onclick=()=>{mutate(()=>{state.regions=state.regions.filter(o=>!selected.has(o.id));state.points=state.points.filter(o=>!selected.has(o.id));selected.clear()})};$('#assign').onclick=()=>{if(!selected.size)return toast('先选择一个或多个地区');useFaction(activeFaction);mutate(()=>chosen().forEach(o=>setAffiliation(o,mode,activeFaction)));toast('已划归 '+faction(activeFaction).name)};
 $('#title').onchange=e=>mutate(()=>state.title=e.target.value);$('#year').onchange=e=>mutate(()=>state.year=Number(e.target.value));$('#mode').onchange=e=>{mode=e.target.value;render()};document.querySelectorAll('[data-tool]').forEach(b=>b.onclick=()=>{tool=b.dataset.tool;draft=[];render()});
 function finish(){if(draft.length<3)return toast('至少需要三个不同的边界点');if(new Set(draft.map(c=>c.join(','))).size<3)return toast('边界点不能重复');mutate(()=>{const r=region(uid('region'),'新地区',draft,activeFaction);state.regions.push(r);selected=new Set([r.id]);draft=[];tool='select'})}$('#finish').onclick=finish;
 $('#undo').onclick=()=>{if(!history.length)return;future.push(cloneScenario(state));state=history.pop();selected.clear();persist();render()};$('#redo').onclick=()=>{if(!future.length)return;history.push(cloneScenario(state));state=future.pop();selected.clear();persist();render()};
 function mapPosition(e){const p=$('#map').createSVGPoint();p.x=e.clientX;p.y=e.clientY;const t=p.matrixTransform($('#map').getScreenCTM().inverse());return[t.x,t.y]}
 function setAffiliation(o,key,value){o[key]=value;for(const child of state.regions)if(child.parent_id===o.id)child[key]=value}
-function brushHit(id,erase=false){const o=state.regions.find(r=>r.id===id);if(!o)return;if(state.sample_id==='eastasia1640'&&o.unit_type!=='modern_county')return;if(tool==='paint'){setAffiliation(o,mode,activeFaction);selected.add(id)}else{erase?selected.delete(id):selected.add(id)}const path=document.querySelector(`path[data-id="${CSS.escape(id)}"]`);if(path){path.classList.toggle('selected',selected.has(id));path.setAttribute('fill',faction(o[mode])?.color||'#aaa')}$('#count').textContent=state.regions.length+' 地区 · 已选 '+selected.size}
+function brushHit(id,erase=false){const o=state.regions.find(r=>r.id===id);if(!o)return;if(state.sample_id==='eastasia1640'&&o.unit_type!=='modern_county')return;if(['paint','eraser'].includes(tool)){setAffiliation(o,mode,tool==='eraser'?'unknown':activeFaction);selected.add(id)}else{erase?selected.delete(id):selected.add(id)}const path=document.querySelector(`path[data-id="${CSS.escape(id)}"]`);if(path){path.classList.toggle('selected',selected.has(id));path.setAttribute('fill',faction(o[mode])?.color||'#aaa')}$('#count').textContent=state.regions.length+' 地区 · 已选 '+selected.size}
 $('#clearSelection').onclick=()=>{selected.clear();render()};
 $('#selectGroup').onclick=()=>{const o=chosen()[0];if(!o)return toast('先选一个分块');const historical=o.prefecture;const group=state.regions.filter(r=>historical?r.prefecture===historical&&r.province===o.province:r.modern_prefecture&&r.modern_prefecture===o.modern_prefecture&&r.modern_province===o.modern_province&&r.theater===o.theater&&(r.source_region_code||'')===(o.source_region_code||''));if(!group.length)return toast('该对象没有府或现代市分组');selected=new Set(group.map(r=>r.id));render();toast(historical?'已选同府地区':'已选同一现代市组；不代表明代府界')};
-$('#map').onpointerdown=e=>{if(e.button!==0)return;const id=e.target.dataset.id;const vertex=e.target.dataset.vertex;if(['paint','brush'].includes(tool)&&id&&state.regions.some(r=>r.id===id)){if(state.sample_id==='eastasia1640'&&state.regions.find(r=>r.id===id)?.unit_type!=='modern_county'){toast('此处是历史参考面；请在分块上涂标记，或用选择工具编辑参考面属性');return}drag={kind:'brush',before:tool==='paint'?cloneScenario(state):null,erase:e.shiftKey};brushHit(id,e.shiftKey);$('#map').setPointerCapture(e.pointerId);return}if(vertex!==undefined){drag={kind:'vertex',before:cloneScenario(state),id:e.target.dataset.region,pi:+e.target.dataset.poly,ri:+e.target.dataset.ring,vi:+vertex};const target=state.regions.find(r=>r.id===drag.id);target.geometry=structuredClone(target.geometry);$('#map').setPointerCapture(e.pointerId);return}if(tool==='draw'){draft.push(unproject(mapPosition(e)));render();return}if(tool==='point'){const coordinates=unproject(mapPosition(e));mutate(()=>{const p={...blankProps,id:uid('point'),name:'新据点',kind:'城池',coordinates,owner:activeFaction,controller:activeFaction};state.points.push(p);selected=new Set([p.id]);tool='select'});return}if(id&&tool==='vertex'&&state.points.some(p=>p.id===id)){selected=new Set([id]);drag={kind:'point',before:cloneScenario(state),id};$('#map').setPointerCapture(e.pointerId);render();return}if(id&&tool==='select')return;if(id){if(e.shiftKey){selected.has(id)?selected.delete(id):selected.add(id)}else selected=new Set([id]);render();return}drag={kind:'pan',start:mapPosition(e),view:[...view],sx:e.clientX,sy:e.clientY};$('#map').setPointerCapture(e.pointerId)};
+$('#map').onpointerdown=e=>{if(e.button!==0)return;suppressMapClick=false;if(spacePan||tool==='pan'){e.preventDefault();suppressMapClick=true;drag={kind:'pan',start:mapPosition(e),view:[...view],sx:e.clientX,sy:e.clientY,preserveSelection:true};$('#map').setPointerCapture(e.pointerId);updatePanCursor();return}const id=e.target.dataset.id;const vertex=e.target.dataset.vertex;if(['paint','brush','eraser'].includes(tool)&&id&&state.regions.some(r=>r.id===id)){if(state.sample_id==='eastasia1640'&&state.regions.find(r=>r.id===id)?.unit_type!=='modern_county'){toast('此处是历史参考面；请在分块上涂标记，或用选择工具编辑参考面属性');return}if(tool==='paint')useFaction(activeFaction);drag={kind:'brush',before:['paint','eraser'].includes(tool)?cloneScenario(state):null,erase:e.shiftKey};if(tool==='eraser'&&!faction('unknown'))state.factions.push({id:'unknown',name:'待定',color:'#c6c9b5'});brushHit(id,e.shiftKey);$('#map').setPointerCapture(e.pointerId);return}if(vertex!==undefined){drag={kind:'vertex',before:cloneScenario(state),id:e.target.dataset.region,pi:+e.target.dataset.poly,ri:+e.target.dataset.ring,vi:+vertex};const target=state.regions.find(r=>r.id===drag.id);target.geometry=structuredClone(target.geometry);$('#map').setPointerCapture(e.pointerId);return}if(tool==='draw'){draft.push(unproject(mapPosition(e)));render();return}if(tool==='point'){const coordinates=unproject(mapPosition(e));mutate(()=>{const p={...blankProps,id:uid('point'),name:'新据点',kind:'城池',coordinates,owner:activeFaction,controller:activeFaction};state.points.push(p);selected=new Set([p.id]);tool='select'});return}if(id&&tool==='vertex'&&state.points.some(p=>p.id===id)){selected=new Set([id]);drag={kind:'point',before:cloneScenario(state),id};$('#map').setPointerCapture(e.pointerId);render();return}if(id&&tool==='select')return;if(id){if(e.shiftKey){selected.has(id)?selected.delete(id):selected.add(id)}else selected=new Set([id]);render();return}drag={kind:'pan',start:mapPosition(e),view:[...view],sx:e.clientX,sy:e.clientY};$('#map').setPointerCapture(e.pointerId)};
 $('#map').onpointermove=e=>{const xy=mapPosition(e),[lon,lat]=unproject(xy);$('#coords').textContent=`${lon.toFixed(2)}° E / ${lat.toFixed(2)}° N`;if(!drag)return;if(drag.kind==='brush'){const hit=document.elementFromPoint(e.clientX,e.clientY);brushHit(hit?.dataset.id,drag.erase);return}if(drag.kind==='pan'){const p=$('#map').createSVGPoint();p.x=e.clientX;p.y=e.clientY;const t=p.matrixTransform($('#map').getScreenCTM().inverse());setView([view[0]+drag.start[0]-t.x,view[1]+drag.start[1]-t.y,view[2],view[3]])}else if(drag.kind==='point'){state.points.find(p=>p.id===drag.id).coordinates=[Math.max(-180,Math.min(180,lon)),Math.max(-90,Math.min(90,lat))];render()}else{const r=state.regions.find(o=>o.id===drag.id),ps=r.geometry.type==='Polygon'?[r.geometry.coordinates]:r.geometry.coordinates,ring=ps[drag.pi][drag.ri];pathCache.delete(r.geometry);boundsCache.delete(r.geometry);ring[drag.vi]=[Math.max(-180,Math.min(180,lon)),Math.max(-90,Math.min(90,lat))];if(drag.vi===0)ring[ring.length-1]=[...ring[0]];render()}};
-function endDrag(e){clearTimeout(panRenderTimer);panRenderTimer=0;if(!drag)return;if(drag.kind==='brush'){if(drag.before){history.push(drag.before);if(history.length>8)history.shift();future=[];persist()}}else if(['vertex','point'].includes(drag.kind)){history.push(drag.before);if(history.length>8)history.shift();future=[];persist()}else if(Math.hypot(e.clientX-drag.sx,e.clientY-drag.sy)<3){selected.clear()}drag=null;render()}$('#map').onpointerup=endDrag;$('#map').onpointercancel=e=>{if(drag?.before)state=drag.before;drag=null;render()};
+function endDrag(e){clearTimeout(panRenderTimer);panRenderTimer=0;if(!drag)return;if(drag.kind==='brush'){if(drag.before){history.push(drag.before);if(history.length>8)history.shift();future=[];persist()}}else if(['vertex','point'].includes(drag.kind)){history.push(drag.before);if(history.length>8)history.shift();future=[];persist()}else if(!drag.preserveSelection&&Math.hypot(e.clientX-drag.sx,e.clientY-drag.sy)<3){selected.clear()}drag=null;render()}$('#map').onpointerup=endDrag;$('#map').onpointercancel=e=>{if(drag?.before)state=drag.before;drag=null;render()};
 function zoom(f,anchor){const[x,y]=anchor||[view[0]+view[2]/2,view[1]+view[3]/2];const w=Math.max(.1,Math.min(3600,view[2]*f)),h=view[3]*w/view[2];setView([x-(x-view[0])*w/view[2],y-(y-view[1])*h/view[3],w,h]);render()}
 $('#map').addEventListener('wheel',e=>{e.preventDefault();zoom(e.deltaY>0?1.15:.87,mapPosition(e))},{passive:false});$('#zoomIn').onclick=()=>zoom(.8);$('#zoomOut').onclick=()=>zoom(1.25);$('#home').onclick=()=>{southeastCountry='';southasiaCountry='';centralasiaCountry='';russiaArea='';middleeastCountry='';middleeastOverview=false;europeCountry='';europeOverview=false;africaCountry='';africaOverview=false;americasCountry='';americasOverview=false;oceaniaCountry='';oceaniaOverview=false;northArea='';setView(state.sample_id==='eastasia1640'?[850,220,700,520]:[950,340,530,470]);render()};$('#world').onclick=()=>{southeastCountry='';southasiaCountry='';centralasiaCountry='';russiaArea='';middleeastCountry='';middleeastOverview=false;europeCountry='';europeOverview=false;africaCountry='';africaOverview=false;americasCountry='';americasOverview=false;oceaniaCountry='';oceaniaOverview=false;northArea='';setView([-1800,0,3600,1800]);render()};
-document.addEventListener('keydown',e=>{if(['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)||$('#dialog').open)return;if(e.key==='Enter'&&tool==='draw')finish();if(e.key==='Escape'){draft=[];tool='select';render()}if((e.metaKey||e.ctrlKey)&&e.key==='z'){e.preventDefault();(e.shiftKey?$('#redo'):$('#undo')).click()}});
+document.addEventListener('keydown',e=>{if(['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)||e.target.isContentEditable||$('#dialog').open)return;if(e.code==='Space'){e.preventDefault();spacePan=true;updatePanCursor();return}if(e.key==='Enter'&&tool==='draw')finish();if(e.key==='Escape'){draft=[];tool='select';render()}if((e.metaKey||e.ctrlKey)&&e.key==='z'){e.preventDefault();(e.shiftKey?$('#redo'):$('#undo')).click()}});
+document.addEventListener('keyup',e=>{if(e.code==='Space'){spacePan=false;updatePanCursor()}});
+window.addEventListener('blur',()=>{spacePan=false;if(drag?.kind==='pan'){drag=null;render()}else updatePanCursor()});
 function modal(title,build,apply){$('#dialogTitle').textContent=title;$('#dialogBody').replaceChildren();build($('#dialogBody'));$('#dialogApply').onclick=()=>{try{apply();$('#dialog').close()}catch(e){toast(e.message)}};$('#dialog').showModal()}$('#dialogClose').onclick=()=>$('#dialog').close();function field(container,label,value,type='text'){const l=document.createElement('label');l.textContent=label;const input=document.createElement('input');input.type=type;input.value=value;l.append(input);container.append(l);return input}
-$('#addFaction').onclick=()=>{let name,color;modal('添加政治势力',b=>{name=field(b,'势力名称','新势力');color=field(b,'地图颜色','#637f75','color')},()=>{if(!name.value.trim())throw Error('请输入名称');mutate(()=>{const f={id:uid('faction'),name:name.value.trim(),color:color.value};state.factions.push(f);activeFaction=f.id})})};
+$('#addFaction').onclick=()=>{let name,color;modal('添加政治势力',b=>{name=field(b,'势力名称','新势力');color=field(b,'地图颜色','#637f75','color')},()=>{if(!name.value.trim())throw Error('请输入名称');mutate(()=>{const f={id:uid('faction'),name:name.value.trim(),color:color.value};state.factions.push(f);activeFaction=f.id;useFaction(f.id)})})};
 function pickFile(accept,callback){const f=$('#file');f.value='';f.accept=accept;f.onchange=async()=>{if(!f.files[0])return;try{await callback(f.files[0])}catch(e){toast('导入失败：'+e.message)}};f.click()}
 $('#load').onclick=()=>pickFile('.json,application/json',async f=>{const s=JSON.parse(await f.text());validate(s);mutate(()=>{state=s;selected.clear();draft=[]});toast('剧本已加载')});
-async function scenarioBlob(s){
+async function scenarioBlob(s,onProgress=()=>{}){
  s=cloneScenario(s);
  // Large exports use a disk-backed browser file so geometry and the whole output
  // do not compete for the renderer heap. Small/unsupported contexts retain Blob export.
  let writer=null,handle=null,directory=null,fileName=null;
- if(s.regions.length>5000&&navigator.storage?.getDirectory){
+ if(s.regions.length>5000&&navigator.storage?.getDirectory){try{
   const root=await navigator.storage.getDirectory();directory=await root.getDirectoryHandle('atlas-exports',{create:true});
   for await(const [name,entry] of directory.entries())if(entry.kind==='file'&&name.startsWith('export-')){const previous=await entry.getFile();if(Date.now()-previous.lastModified>86400000)await directory.removeEntry(name)}
   fileName='export-'+crypto.randomUUID()+'.json';handle=await directory.getFileHandle(fileName,{create:true});writer=await handle.createWritable();
+ }catch(error){writer=null;handle=null;directory=null;fileName=null;console.warn('磁盘导出不可用，改用浏览器下载',error)}
  }
  const parts=[];const write=async value=>{if(writer)await writer.write(value);else parts.push(typeof value==='string'?new Blob([value]):value)};
  try{
@@ -453,7 +521,7 @@ async function scenarioBlob(s){
    await write((first?'':',')+JSON.stringify(key)+':');first=false;
    if((key==='regions'||key==='points')&&Array.isArray(value)){
     await write('[');
-    for(let i=0;i<value.length;i+=100){await write((i?',':'')+value.slice(i,i+100).map(o=>JSON.stringify(o)).join(','));if(i%1000===0)await new Promise(resolve=>setTimeout(resolve,0))}
+    for(let i=0;i<value.length;i+=100){await write((i?',':'')+value.slice(i,i+100).map(o=>JSON.stringify(o)).join(','));if(key==='regions')onProgress(Math.min(99,Math.round((i+100)/value.length*100)));if(i%1000===0)await new Promise(resolve=>setTimeout(resolve,0))}
     await write(']');
    }else await write(JSON.stringify(value));
   }
@@ -462,7 +530,14 @@ async function scenarioBlob(s){
   return new Blob(parts,{type:'application/json'});
  }catch(error){if(writer){await writer.abort().catch(()=>{});await directory.removeEntry(fileName).catch(()=>{})}throw error}
 }
-$('#export').onclick=async()=>{const button=$('#export'),year=state.year;button.disabled=true;toast('正在生成完整开局文件…');try{const blob=await scenarioBlob(state),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`舆图-${year}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast('已导出独立开局数据')}catch(error){toast('导出失败：'+error.message)}finally{button.disabled=false}};
+$('#export').onclick=async()=>{
+ const button=$('#export'),year=state.year,label=button.textContent;button.disabled=true;button.textContent='正在导出…';toast('正在生成剧本文件…');
+ try{
+  await new Promise(resolve=>setTimeout(resolve,0));
+  const blob=await scenarioBlob(state,percent=>{button.textContent='正在导出 '+percent+'%'}),a=document.createElement('a'),url=URL.createObjectURL(blob);
+  a.href=url;a.download=`舆图-${year}.json`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);toast('剧本文件已生成，请查看下载记录');
+ }catch(error){toast('导出失败：'+error.message)}finally{button.disabled=false;button.textContent=label}
+};
 $('#reference').onclick=()=>{let west,south,east,north,opacity;modal('参考底图 · 经纬度配准',b=>{const p=document.createElement('p');p.textContent='上传 PNG、JPEG 或 WebP 图片，并填写图片四边对应的经纬度。此版本使用矩形配准；古地图的局部畸变仍需人工判断。图片保存在剧本中。';b.append(p);const btn=document.createElement('button');btn.textContent='选择图片';let url=state.reference?.url;btn.onclick=()=>pickFile('image/png,image/jpeg,image/webp',f=>new Promise((resolve,reject)=>{if(f.size>4*1024*1024)return reject(Error('请使用小于4MB的参考图片'));const r=new FileReader();r.onload=()=>{url=r.result;btn.textContent='已选择：'+f.name;resolve()};r.onerror=reject;r.readAsDataURL(f)}));b.append(btn);b.dataset.url='';b.getUrl=()=>url;const bounds=state.reference?.bounds||[100,20,135,50];west=field(b,'西边界经度',bounds[0],'number');south=field(b,'南边界纬度',bounds[1],'number');east=field(b,'东边界经度',bounds[2],'number');north=field(b,'北边界纬度',bounds[3],'number');opacity=field(b,'透明度 0—1',state.reference?.opacity??.5,'number');const remove=document.createElement('button');remove.textContent='移除参考底图';remove.onclick=()=>{mutate(()=>state.reference=null);$('#dialog').close()};b.append(remove)},()=>{const r={url:$('#dialogBody').getUrl(),bounds:[west,south,east,north].map(i=>Number(i.value)),opacity:Number(opacity.value)};validate({...state,reference:r});mutate(()=>state.reference=r)})};
 $('#geoimport').onclick=()=>pickFile('.geojson,.json',async f=>{const g=JSON.parse(await f.text());if(g.type!=='FeatureCollection'||!Array.isArray(g.features))throw Error('需要 GeoJSON FeatureCollection');const regions=g.features.map((f,i)=>({...blankProps,...f.properties,id:String(f.properties?.id||uid('region')),name:String(f.properties?.name||'导入地区 '+(i+1)),owner:f.properties?.owner||activeFaction,controller:f.properties?.controller||activeFaction,confidence:f.properties?.confidence||'待核验',geometry:f.geometry}));validate({...state,regions:[...state.regions,...regions]});mutate(()=>state.regions.push(...regions));toast(`已导入 ${regions.length} 个地区`)});
 function applyCommands(commands){if(!Array.isArray(commands))throw Error('指令必须是数组');const next=cloneScenario(state);const allowed=new Set(['historical_name','modern_name','aliases','name_source','name_confidence','name','owner','controller','status','province','prefecture','county','command','wei','suo','source','confidence','notes','kind']);for(const c of commands){if(c.op==='set'){const list=[...next.regions,...next.points].filter(o=>(c.ids||[]).includes(o.id));if(!list.length||list.length!==new Set(c.ids).size)throw Error('指令包含不存在的对象编号');if(!c.values||Object.keys(c.values).some(k=>!allowed.has(k)))throw Error('包含不允许修改的属性');for(const o of list){applyNameValues(o,c.values);for(const key of ['owner','controller'])if(c.values[key])for(const child of next.regions)if(child.parent_id===o.id)child[key]=c.values[key]}}else if(c.op==='addRegion')next.regions.push({...blankProps,...c.region});else if(c.op==='addPoint')next.points.push({...blankProps,...c.point});else if(c.op==='addFaction')next.factions.push(c.faction);else throw Error('未知操作：'+c.op)}validate(next);mutate(()=>state=next);return next}
@@ -495,7 +570,7 @@ setView(view);
 $('#countyView').onclick=()=>{southeastCountry='';southasiaCountry='';centralasiaCountry='';russiaArea='';middleeastCountry='';middleeastOverview=false;europeCountry='';europeOverview=false;africaCountry='';africaOverview=false;americasCountry='';americasOverview=false;oceaniaCountry='';oceaniaOverview=false;northArea='';showCountyBlocks=true;setView([1080,490,130,110]);render();toast('分块编辑视野；点击选择，Shift 多选，可统一划归')};
 
 // 使用 click 完成普通选择，兼容真实指针与浏览器辅助点击。
-$('#map').onclick=e=>{const id=e.target.dataset.id;if(tool!=='select'||!id)return;if(e.shiftKey){selected.has(id)?selected.delete(id):selected.add(id)}else selected=new Set([id]);render()};
+$('#map').onclick=e=>{if(suppressMapClick||spacePan||tool==='pan'){suppressMapClick=false;return}const id=e.target.dataset.id;if(tool!=='select'||!id)return;if(e.shiftKey){selected.has(id)?selected.delete(id):selected.add(id)}else selected=new Set([id]);render()};
 
 $('#southeastView').onclick=()=>{southeastCountry='';southasiaCountry='';centralasiaCountry='';russiaArea='';middleeastCountry='';middleeastOverview=false;europeCountry='';europeOverview=false;africaCountry='';africaOverview=false;americasCountry='';americasOverview=false;oceaniaCountry='';oceaniaOverview=false;northArea='';showCountyBlocks=true;setView([880,600,580,500]);render()};
 
@@ -594,3 +669,47 @@ function oceaniaView(iso=''){
 }
 $('#oceaniaView').onclick=()=>oceaniaView();$('#oceaniaCountryView').onchange=e=>oceaniaView(e.target.value);
 if(introducedOceaniaBlocks&&persist())toast('大洋洲与偏远岛屿参考已补入；已有编辑保持原值');
+
+if(introducedHainanBlocks&&persist())toast('海南缺失的16个县级分块已补入；已有标色和编辑保持原值');
+
+if(introducedCountyRemainders&&persist())toast('缺失县块已补齐；原有标色、地名与边界编辑保留');
+
+if(introducedDirectCounties&&persist())toast("遗漏的省直辖县市已补齐；已有编辑保留");
+
+// The compact navigation reuses the existing destinations and their focus logic.
+const navigationDestinations=new Map();
+function buildDestinationNavigation(continent){
+ const select=$('#destinationNav');select.replaceChildren();navigationDestinations.clear();
+ function add(container,label,action){const option=document.createElement('option');option.value='destination-'+navigationDestinations.size;option.textContent=label;container.append(option);navigationDestinations.set(option.value,action)}
+ function group(label){const g=document.createElement('optgroup');g.label=label;select.append(g);return g}
+ function button(container,label,id){add(container,label,()=>$('#'+id).click())}
+ function oldSelect(container,id){for(const option of $('#'+id).options){if(!option.value)continue;const value=option.value;add(container,option.textContent,()=>{const source=$('#'+id);source.value=value;source.dispatchEvent(new Event('change',{bubbles:true}))})}}
+ if(continent==='asia'){
+  add(select,'亚洲总览',()=>{$('#world').click();showCountyBlocks=true;setView([250,100,1550,950]);render()});
+  const east=group('东亚');for(const [label,id] of [['东亚总览','home'],['中国 · 分块精修','countyView'],['朝鲜','koreaView'],['日本','japanView'],['台湾','taiwanView']])button(east,label,id);
+  const north=group('蒙古／女真');button(north,'蒙古／女真总览','mongolView');oldSelect(north,'northArea');
+  for(const [label,buttonId,selectId] of [['东南亚','southeastView','southeastCountry'],['南亚','southasiaView','southasiaCountryView'],['中亚','centralasiaView','centralasiaCountryView'],['中东','middleeastView','middleeastCountryView'],['俄罗斯','russiaView','russiaAreaView']]){const g=group(label);button(g,label+'总览',buttonId);oldSelect(g,selectId)}
+ }else{
+  const config={europe:['欧洲','europeView','europeCountryView'],africa:['非洲','africaView','africaCountryView'],americas:['美洲','americasView','americasCountryView'],oceania:['大洋洲／南极','oceaniaView','oceaniaCountryView']}[continent];
+  button(select,config[0]+'总览',config[1]);oldSelect(select,config[2]);
+ }
+}
+$('#continentNav').onchange=e=>{buildDestinationNavigation(e.target.value);navigationDestinations.get($('#destinationNav').value)?.()};
+$('#destinationNav').onchange=e=>navigationDestinations.get(e.target.value)?.();
+buildDestinationNavigation('asia');
+// The initial viewport remains East Asia.
+for(const [value] of navigationDestinations)if($('#destinationNav').querySelector('option[value="'+value+'"]').textContent==='东亚总览')$('#destinationNav').value=value;
+
+if(introducedNortheastGaps&&persist())toast("外东北水面与中朝边界缺块已补入；已有标色保留");
+
+function renderModernCountries(){
+ $('#showModernCountries').checked=showModernCountries;
+ const layer=$('#modernCountries');layer.replaceChildren();
+ if(!showModernCountries||typeof MODERN_COUNTRIES==='undefined')return;
+ const colors=['#9dad95','#b6a17b','#90a8ad','#b2939d','#b8b586','#93ab9f','#a69cbd','#bba289','#8eaaa9','#b0a2a2','#a2b48b','#98a5b8','#b9af8e'];
+ for(const f of MODERN_COUNTRIES.features){if(!regionInView(f.geometry))continue;
+  const path=node('path',{d:pathGeometry(f.geometry),class:'modern-country',fill:colors[((f.properties.color_index||1)-1)%colors.length],'fill-rule':'evenodd','vector-effect':'non-scaling-stroke','pointer-events':'none','data-modern-country':f.properties.code});
+  const title=document.createElementNS(NS,'title');title.textContent='现代参考：'+f.properties.name;path.append(title);layer.append(path);
+ }
+}
+$('#showModernCountries').onchange=e=>{showModernCountries=e.target.checked;try{localStorage.setItem(KEY+'-modern-countries',String(showModernCountries))}catch(error){}render()};

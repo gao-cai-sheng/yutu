@@ -17,3 +17,5 @@ node_modules/
 *.log
 downloads/
 cache/
+
+!docs/screenshots/*.png

@@ -13,7 +13,7 @@ def main():
     manifest=json.loads((ROOT/'data/maps/manifest.json').read_text());pack=next(p for p in manifest['packs'] if p['global']==args.pack)
     def read(item):return json.loads(gzip.decompress((ROOT/item['path']).read_bytes()))
     data=read(pack['header']) if pack.get('header') else []
-    rows=data.setdefault('regions',[]) if pack['shape']=='regions' else data
+    rows=data.setdefault(pack['shape'],[]) if pack['shape'] in ['regions','features'] else data
     for item in pack['chunks']:
         for row in read(item):
             if isinstance(row,dict) and 'geometry' in row:row['geometry']=decode(row['geometry'])

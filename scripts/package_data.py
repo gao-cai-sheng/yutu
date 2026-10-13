@@ -8,6 +8,9 @@ from pathlib import Path
 import re
 
 SCRIPTS = [
+    ('modern-countries.js','MODERN_COUNTRIES','现代国界参考'),
+    ('northeast-gaps.js','NORTHEAST_GAPS','外东北及中朝边界补块'),
+    ('county-remainders.js','COUNTY_REMAINDERS','县块缺口补齐'),
     ('basemap.js','BASEMAP','地理底图'), ('samples.js','ATLAS_SAMPLES','历史参考样本'),
     ('county-sample.js','COUNTY_SAMPLE','中国县块'), ('eastasia1640.js','EASTASIA1640','1640工作稿'),
     ('foreign-blocks.js','EASTASIA_SUBDIVISIONS','朝鲜、日本与台湾'),
@@ -47,6 +50,8 @@ def main():
         stem=filename.removesuffix('.js')
         if isinstance(value,dict) and 'regions' in value:
             pack['shape']='regions';rows=value.pop('regions');pack['header']=write(stem+'-header.json.gz',value)
+        elif isinstance(value,dict) and 'features' in value:
+            pack['shape']='features';rows=value.pop('features');pack['header']=write(stem+'-header.json.gz',value)
         elif isinstance(value,list):pack['shape']='array';rows=value
         else:raise ValueError('Unsupported data shape: '+filename)
         batch=[];size=2;count=0
